@@ -4,6 +4,7 @@ title: Argentinian phonenumber validator \
 autor: Agustín Bouillet
 year: 2016
 email: agustin.bouillet@gmail.com
+website: www.bouillet.com.ar
 */
 
 /**
@@ -97,12 +98,33 @@ function get_type(data) {
  * @return {string}
  */
 function format_number(data) {
-    if (data.number) {
-        number = data.number.slice(0, data.number.length - 4) +
-            ' ' +
-            data.number.slice(-4);
-
-        return number;
+    if (!data.number) {
+        return data.filter_input;
     }
-    return false;
+
+    // Defino el formato del numero
+    number = data.number.slice(0, data.number.length - 4) +
+        '-' + data.number.slice(-4);
+
+    // Defino los valores que voy a concatenar
+    space = ' ';
+    country = data.country ? data.country : '';
+    mobile = data.mobile ? data.mobile + space : '';
+    mobile_prefix = data.mobile_prefix ? data.mobile_prefix : '';
+    international = data.international ? data.international : '';
+    national_call = data.national_call ? data.national_call : '';
+    area_code = data.area_code ? data.area_code : '';
+    specific = data.specific ? data.specific : '';
+
+    formated_number = international + space + country + space + mobile 
+        + national_call + area_code + mobile_prefix + space 
+        + specific + space + number
+        ;
+
+
+    var re = /\s{2,}/g;
+    var subst = ' ';
+    var result = formated_number.replace(re, subst);
+
+    return result.trim();
 }
