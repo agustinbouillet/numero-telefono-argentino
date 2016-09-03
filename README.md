@@ -2,6 +2,7 @@
 
 ## Ejemplos válidos
 - +54 9 11 4639-1234
+- 00 5411 46392313
 - 011 4639-1234
 - 11 4639-1234
 - 15 4639-1234
@@ -15,8 +16,9 @@
 - (02966) 441200
 
 ## Demo
-- [CODEPEN](http://codepen.io)
 - https://codepen.io/agustinbouillet/pen/ozNVaP
+- [CODEPEN](http://codepen.io)
+
 
 ## Referencias
 - [ENACOM](http://www.enacom.gob.ar), Ente Nacional de Comunicaciones
