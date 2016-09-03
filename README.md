@@ -11,9 +11,9 @@
 - 0810 666 4444
 - 000
 - (54) 11 5789-1489
-(02966) 441200
+- (02966) 441200
 
 ## Demo
-[CODEPEN](https://codepen.io/agustinbouillet/pen/ozNVaP).
-https://codepen.io/agustinbouillet/pen/ozNVaP
+- [CODEPEN](http://codepen.io).
+- https://codepen.io/agustinbouillet/pen/ozNVaP
 
