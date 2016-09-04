@@ -138,9 +138,14 @@ function format_number(data) {
         national_call + area_code + mobile_prefix + space +
         specific + space + number;
 
-    var re = /\s{2,}/g;
-    var subst = ' ';
-    var result = formated_number.replace(re, subst);
-
-    return result.trim();
+    // hace un string trim e impide que haya mas de un espacio 
+    // entre palabras.
+    function cleanup(str){
+        var re = /(^\s*|\s(?=\s+)|\s*$)/g;
+        var subst = ' ';
+        var result = str.replace(re, subst);
+        return result;
+    }
+    
+    return cleanup(formated_number);
 }
