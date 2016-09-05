@@ -15,6 +15,7 @@ website: www.bouillet.com.ar
 function TelefonoArgentino(str) {
     this.input = str;
     this.data = telefono;
+    this.type = this.data().type;
     this.isValid = isValid;
     this.filterInt = filterInt(str);
     this.invalidChars = invalidChars;
@@ -90,7 +91,7 @@ function invalidChars() {
         if (m.index === re.lastIndex) {
             re.lastIndex++;
         }
-        
+
         if (chars.indexOf(m[0]) < 0) {
             chars.push(m[0]);
         }
