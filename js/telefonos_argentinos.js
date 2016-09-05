@@ -90,7 +90,10 @@ function invalidChars() {
         if (m.index === re.lastIndex) {
             re.lastIndex++;
         }
-        chars.push(m[0]);
+        
+        if (chars.indexOf(m[0]) < 0) {
+            chars.push(m[0]);
+        }
     }
 
     return chars.length > 0 ? chars : false;
