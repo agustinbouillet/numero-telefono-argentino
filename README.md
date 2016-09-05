@@ -14,7 +14,7 @@ Tipo booleano `true` | `false`.
 tel.isValid()
 ```
 
-#### invalidCharacter()
+#### invalidChars()
 
 Retorna un array con la lista de caracteres inválidos. Si no existieran caracteres inválidos el retorno es: `false`
 
@@ -29,7 +29,7 @@ Retorna array asociativo con los tipos de datos pertenecienes al número telefó
 ```
 tel.data()
 ```
-##### Return
+##### Ejemplo datos de retorno
 ```
 {
     area_code : "11",
