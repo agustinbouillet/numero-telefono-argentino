@@ -32,11 +32,11 @@ tel.getData();
     type :"mobile",
 }
 ```
-#### getGeoPolitics()
+#### getGeoPolitic()
 Retorna el nombre de la provincia y ciudad a partir del código de área.
 ```javascript
 var tel = new TelefonoArgentino('+54 3743 123456');
-tel.getGeoPolitics();
+tel.getGeoPolitic();
 
 // Retorna
 {
