@@ -32,6 +32,19 @@ tel.getData();
     type :"mobile",
 }
 ```
+#### getGeoPolitics()
+Retorna el nombre de la provincia y ciudad a partir del código de área.
+```javascript
+var tel = new TelefonoArgentino('+54 3743 123456');
+tel.getGeoPolitics();
+
+// Retorna
+{
+    area_code: 3743, 
+    province: "Misiones", 
+    city: "Puerto Rico"
+}
+```
 
 #### input()
 
