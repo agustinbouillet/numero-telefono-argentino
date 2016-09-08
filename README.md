@@ -9,7 +9,7 @@ var tel = new TelefonoArgentino('5491150716006');
 
 #### getData()
 
-Retorna array asociativo con los tipos de datos pertenecienes al número telefónico. Si el número de teléfono es incorrecto retorna: `false`
+Retorna un array asociativo con los tipos de datos pertenecienes al número telefónico. Si el número de teléfono es incorrecto retorna: `false`
 
 ```javascript
 tel.getData();
