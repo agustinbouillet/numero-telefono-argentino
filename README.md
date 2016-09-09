@@ -20,8 +20,8 @@ tel.getData();
     area_code : "11",
     country :"54",
     filter_input :"5491150716006",
-    format :"54 9 11 5071-6006",
-    htmlify :"<span class="national_call">0</span><span class="area_code">2966</span> <span class="number">44-1200</span>"
+    format :"+54 9 11 5071-6006",
+    htmlify :"<span class="country">+54</span> <span class="mobile">9</span> <span class="area_code">11</span> <span class="number">5071-6006</span>"
     input :"5491150716006",
     international : false,
     mobile :"9",
