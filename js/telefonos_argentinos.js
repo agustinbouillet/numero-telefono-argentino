@@ -258,7 +258,7 @@ function numberFormat(data) {
         '-' + data.number.slice(-4);
 
     // Defino el numero de pais con el signo +
-    country = data.country ? '+' + data.coutry : '';
+    country = data.country ? '+' + data.country : '';
 
     d = [];
     for (key in data) {
@@ -268,7 +268,7 @@ function numberFormat(data) {
     // Defino los valores que voy a concatenar
     space = ' ';
 
-    formated_number = d['international'] + space + d['country'] + space +
+    formated_number = d['international'] + space + country + space +
         d['mobile'] + space + d['national_call'] + d['area_code'] +
         d['mobile_prefix'] + space + d['specific'] + space + number;
 
@@ -291,7 +291,7 @@ function htmlify(data) {
     number = '<span class="number">' + number + '</span>';
 
     // Defino el numero de pais con el signo +
-    country = data.country ? '<span class="country">+' + data.coutry + '</span>' : '';
+    country = data.country ? '<span class="country">+' + data.country + '</span>' : '';
 
     d = [];
     for (key in data) {
@@ -301,7 +301,7 @@ function htmlify(data) {
     // Defino los valores que voy a concatenar
     space = ' ';
 
-    formated_number = d['international'] + space + d['country'] + space +
+    formated_number = d['international'] + space + country + space +
         d['mobile'] + space + d['national_call'] + d['area_code'] +
         d['mobile_prefix'] + space + d['specific'] + space + number;
 
