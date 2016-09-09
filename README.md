@@ -111,5 +111,5 @@ tel.invalidChars();
 
 ## Referencias
 - [ENACOM](http://www.enacom.gob.ar), Ente Nacional de Comunicaciones
-- (https://www.enacom.gob.ar/numeracion_p136), ENACOM, Numeración y señalización.
-- (https://es.wikipedia.org/wiki/Números_telefónicos_en_Argentina), Wikipedia, Números telefónicos en Argentina, 2016
+- https://www.enacom.gob.ar/numeracion_p136, ENACOM, Numeración y señalización.
+- https://es.wikipedia.org/wiki/Números_telefónicos_en_Argentina, Wikipedia, Números telefónicos en Argentina, 2016
