@@ -275,6 +275,11 @@ function numberFormat(data) {
     return cleanupNumberFormat(formated_number);
 }
 
+/**
+ * Retorna el numero de telefono con formato + etiquetas de wrapper por atributo
+ * @param  {object} data
+ * @return {string}
+ */
 function htmlify(data) {
     if (!data.number) {
         return data.filter_input;
