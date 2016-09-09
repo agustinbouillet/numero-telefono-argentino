@@ -64,6 +64,7 @@ function telefono() {
         data['input'] = this.input;
         data['type'] = phone_type;
         data['format'] = numberFormat(data);
+        data['htmlify'] = htmlify(data);
 
 
         return data;
@@ -256,9 +257,40 @@ function numberFormat(data) {
     number = data.number.slice(0, data.number.length - 4) +
         '-' + data.number.slice(-4);
 
+    // Defino el numero de pais con el signo +
+    country = data.country ? '+' + data.coutry : '';
+
     d = [];
     for (key in data) {
         d[key] = data[key] ? data[key] : '';
+    }
+
+    // Defino los valores que voy a concatenar
+    space = ' ';
+
+    formated_number = d['international'] + space + d['country'] + space +
+        d['mobile'] + space + d['national_call'] + d['area_code'] +
+        d['mobile_prefix'] + space + d['specific'] + space + number;
+
+    return cleanupNumberFormat(formated_number);
+}
+
+function htmlify(data) {
+    if (!data.number) {
+        return data.filter_input;
+    }
+
+    // Defino el formato del numero
+    number = data.number.slice(0, data.number.length - 4) +
+        '-' + data.number.slice(-4);
+    number = '<span class="number">' + number + '</span>';
+
+    // Defino el numero de pais con el signo +
+    country = data.country ? '<span class="country">+' + data.coutry + '</span>' : '';
+
+    d = [];
+    for (key in data) {
+        d[key] = data[key] ? '<span class="' + key + '">' + data[key] + '</span>' : '';
     }
 
     // Defino los valores que voy a concatenar
