@@ -1,5 +1,5 @@
 # Validador de números de teléfono argentinos
-===================
+
 
 ## Uso
 
@@ -42,10 +42,19 @@ tel.getGeoPolitic();
 
 // Retorna
 {
-    area_code: 3743, 
-    province: "Misiones", 
-    city: "Puerto Rico"
+    ciudad: "Puerto Rico",
+    localidades: {
+        0: "Capioví"
+        1: "Colonia Polana"
+        2: "Garuhapé"
+        3: "Garuhapé-Mi"
+        4: "Jardín América"
+        5: "Mbopicuá"
+        ...
+        }
+    provincia: "Misiones"
 }
+
 ```
 
 #### input()
