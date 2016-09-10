@@ -270,7 +270,7 @@ function numberFormat(data) {
 
     formated_number = d['international'] + space + country + space +
         d['mobile'] + space + d['national_call'] + d['area_code'] +
-        d['mobile_prefix'] + space + d['specific'] + space + number;
+        space + d['mobile_prefix'] + space + d['specific'] + space + number;
 
     return cleanupNumberFormat(formated_number);
 }
@@ -303,7 +303,7 @@ function htmlify(data) {
 
     formated_number = d['international'] + space + country + space +
         d['mobile'] + space + d['national_call'] + d['area_code'] +
-        d['mobile_prefix'] + space + d['specific'] + space + number;
+        space + d['mobile_prefix'] + space + d['specific'] + space + number;
 
     return cleanupNumberFormat(formated_number);
 }
