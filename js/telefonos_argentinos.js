@@ -25,7 +25,8 @@ function TelefonoArgentino(str) {
 
 var geo_politics;
 //https://cdn.rawgit.com/agustinbouillet/validador-de-numeros-de-telefono-argentinos/master/js/geo_politics.json
-$.getJSON('js/geo_politics.json', function(json) {
+//js/geo_politics.json
+$.getJSON('https://cdn.rawgit.com/agustinbouillet/validador-de-numeros-de-telefono-argentinos/master/js/geo_politics.json', function(json) {
     geo_politics = json;
 });
 
