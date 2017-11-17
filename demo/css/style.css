@@ -1,0 +1,110 @@
+body {
+  color: #5a5a5a;
+  font-family: 'Roboto', sans-serif;
+  padding: 1em;
+}
+
+.invalid,
+.valid {
+  font-weight: 400;
+  font-size: 2em;
+  background: #f4f4f4;
+  border-radius: 40px;
+  height: 60px;
+  min-width: 200px;
+  max-width: 30%;
+  line-height: 60px;
+  margin: auto;
+  display: block;
+  border: 0px solid #ccc;
+  text-align: center;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+  color: #fff;
+  margin: 1em auto;
+}
+
+.valid {
+  background: #3adb76;
+}
+
+.invalid {
+  background: #ec5840;
+}
+
+h1 {
+  font-size: 1.75em;
+  color: grey;
+  font-weight: 300;
+  margin-bottom: 1em;
+}
+
+h2 {
+  font-size: 1.25em;
+  color: #2199e8;
+  font-weight: 500;
+}
+
+h3 {
+  font-size: 1.1em;
+  color: #2199e8;
+  font-weight: 500;
+}
+
+/* enlaces para los ejemplos */
+.ejemplo li {
+  color: #1583cc;
+  cursor: pointer;
+}
+.ejemplo li:hover {
+  color: grey;
+  font-weight: 400;
+}
+
+table {
+  width: 100%;
+}
+
+h2 {
+  font-size: 1.15em;
+  color: tomato;
+}
+
+/* HTMLIFY */
+.country {
+  font-weight: 500;
+  color: dodgerblue;
+}
+
+.international {
+  color: dodgerblue;
+}
+
+.national_call {
+  color: slategray;
+}
+
+.mobile_prefix {
+  color: magenta;
+}
+
+.area_code {
+  color: #000;
+  font-weight: 500;
+}
+
+.mobile {
+  font-weight: 500;
+  color: #999;
+}
+
+.number {
+  color: #333;
+}
+
+.special {
+  color: tomato;
+}
+
+.specific {
+  color: orange;
+}
