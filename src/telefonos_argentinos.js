@@ -8,6 +8,7 @@ website: www.bouillet.com.ar
 gitHub: https://github.com/agustinbouillet/validador-de-numeros-de-telefono-argentinos
 */
 
+
 /**
  * Valida un numero de telefono
  * @param  {string}  str
@@ -23,9 +24,12 @@ function TelefonoArgentino(str) {
   this.getGeoPolitc = getGeoPolitc;
 }
 
-const json_url = 'https://spreadsheets.google.com/feeds/list/14H7VE3zfllDDTC73L0bL7nyjkdodPMXvqs1CH__xgFY/1/public/values?alt=json';
-var geo_politics = [];
+const json_url      = 'https://spreadsheets.google.com/feeds/list/14H7VE3zfllDDTC73L0bL7nyjkdodPMXvqs1CH__xgFY/1/public/values?alt=json';
+var geo_politics    = [];
 
+/**
+ * Retorna el JSON con las regiones.
+ */
 fetch(json_url, {
     method: "get",
     credentials: "same-origin",
@@ -40,12 +44,13 @@ fetch(json_url, {
 }).then(function(data) {
 
   data.feed.entry.forEach(function(v,k){
-
-    geo_politics.push({
-          code: v.gsx$code.$t,
-          jurisdiction: v.gsx$jurisdiction.$t,
-          localities: v.gsx$localities.$t
-    });
+    geo_politics.push(
+        {
+          code         : v.gsx$code.$t,
+          jurisdiction : v.gsx$jurisdiction.$t,
+          localities   : v.gsx$localities.$t
+        }
+    );
   });
 
 }).catch(function(ex) {
@@ -282,29 +287,33 @@ function numberFormat(data) {
   }
 
   // Defino el formato del numero
-  number = data.number.slice(0, data.number.length - 4) +
-    '-' + data.number.slice(-4);
+  var number = `${data.number.slice(0, data.number.length - 4)}-${data.number.slice(-4)}`;
+
 
   // Defino el numero de pais con el signo +
-  country = data.country ? '+' + data.country : '';
+  var country = data.country ? '+' + data.country : '';
 
-  d = [];
+  var d = [];
   for (key in data) {
     d[key] = data[key] ? data[key] : '';
   }
 
   // Defino los valores que voy a concatenar
-  space = ' ';
-
-  formated_number = d['international'] + space + country + space +
-    d['mobile'] + space + d['national_call'] + d['area_code'] +
-    space + d['mobile_prefix'] + space + d['specific'] + space + number;
+  var formated_number = [
+      d['international'],
+      country,
+      d['mobile'],
+      d['national_call'] + d['area_code'],
+      d['mobile_prefix'],
+      d['specific'],number
+  ].join(' ');
 
   return cleanupNumberFormat(formated_number);
 }
 
 /**
- * Retorna el numero de telefono con formato + etiquetas de wrapper por atributo
+ * Retorna el numero de telefono con formato + etiquetas de wrapper por
+ * atributo.
  * @param  {object} data
  * @return {string}
  */
@@ -314,24 +323,26 @@ function htmlify(data) {
   }
 
   // Defino el formato del numero
-  number = data.number.slice(0, data.number.length - 4) +
-    '-' + data.number.slice(-4);
-  number = '<span class="number">' + number + '</span>';
+  var number = `${data.number.slice(0, data.number.length - 4)}-${data.number.slice(-4)}`;
+  number     = `<span class="number">${number}</span>`;
 
   // Defino el numero de pais con el signo +
-  country = data.country ? '<span class="country">+' + data.country + '</span>' : '';
+  var country = data.country ? `<span class="country">+${data.country}</span>` : '';
 
-  d = [];
+  var d = [];
   for (key in data) {
-    d[key] = data[key] ? '<span class="' + key + '">' + data[key] + '</span>' : '';
+    d[key] = data[key] ? `<span class="${key}">${data[key]}</span>` : '';
   }
 
   // Defino los valores que voy a concatenar
-  space = ' ';
-
-  formated_number = d['international'] + space + country + space +
-    d['mobile'] + space + d['national_call'] + d['area_code'] +
-    space + d['mobile_prefix'] + space + d['specific'] + space + number;
+  var formated_number = [
+      d['international'],
+      country,
+      d['mobile'],
+      d['national_call'] + d['area_code'],
+      d['mobile_prefix'],
+      d['specific'],number
+  ].join(' ');
 
   return cleanupNumberFormat(formated_number);
 }
@@ -342,21 +353,23 @@ function htmlify(data) {
  * @return {object | false}
  */
 function getGeoPolitc(json_data) {
-  var user = this;
+  var obj = this;
   var val = null;
-  if (!user.getData().area_code) {
+  if (!obj.getData().area_code) {
     return false;
   }
 
-  var values = region_by_code(user.getData().area_code);
-  var localities = values.localities.replaceAll(/,\s*/g, ',');
-  var localities_to_list = localities.split(',');
+  var values = region_by_code(obj.getData().area_code);
 
-  val = {
-    'provincia'   : values.jurisdiction,
-    'ciudad'      : localities_to_list[0],
-    'localidades' : localities_to_list
-  };
+  if(values){
+    var localities = values.localities.replaceAll(/,\s*/g, ',');
+    var localities_to_list = localities.split(',');
 
+    val = {
+        'provincia'   : values.jurisdiction,
+        'ciudad'      : localities_to_list[0],
+        'localidades' : localities_to_list
+    };
+  }
   return val;
 }
