@@ -151,7 +151,6 @@ function invalidChars() {
 }
 
 
-
 /**
  * Prepara los datos de entrada
  * @param {array} result Resultado de la expresion regular
