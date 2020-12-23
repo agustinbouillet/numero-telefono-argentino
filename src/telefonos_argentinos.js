@@ -8,6 +8,49 @@ website: www.bouillet.com.ar
 gitHub: https://github.com/agustinbouillet/validador-de-numeros-de-telefono-argentinos
 */
 
+const json_url   = 'https://spreadsheets.google.com/feeds/list/14H7VE3zfllDDTC73L0bL7nyjkdodPMXvqs1CH__xgFY/1/public/values?alt=json';
+// const json_url   = '../data/geo.json';
+var geo_politics = [];
+
+/**
+ * Retorna el JSON con las regiones.
+ */
+fetch(json_url, {
+    method: "get",
+    credentials: "same-origin",
+    headers: {
+        "Accept"       : "application/json",
+        "Content-Type" : "application/json"
+    }
+}).then(function(response) {
+  return response.json();
+}).then(function(data) {
+  // Chequea si la data es de spreadshhets
+  if(data.hasOwnProperty('feed')){
+    data.feed.entry.forEach(function(v,k){
+      geo_politics.push(
+          {
+            code         : v.gsx$code.$t,
+            jurisdiction : v.gsx$jurisdiction.$t,
+            localities   : v.gsx$localities.$t
+          }
+      );
+    });
+  // Si se decide utilizar un JSON local o con otra url, se debe mantener
+  // la siguiente estructura:
+  //     {
+  //       code         : [str],
+  //       jurisdiction : [str]t,
+  //       localities   : [str]
+  //     }
+  } else if (data && data[0].hasOwnProperty('code')) {
+    geo_politics = data;
+  }
+
+}).catch(function(ex) {
+  console.log("parsing failed", ex);
+});
+
 
 /**
  * Valida un numero de telefono
@@ -24,40 +67,6 @@ function TelefonoArgentino(str) {
   this.getGeoPolitc = getGeoPolitc;
 }
 
-const json_url      = 'https://spreadsheets.google.com/feeds/list/14H7VE3zfllDDTC73L0bL7nyjkdodPMXvqs1CH__xgFY/1/public/values?alt=json';
-var geo_politics    = [];
-
-
-/**
- * Retorna el JSON con las regiones.
- */
-fetch(json_url, {
-    method: "get",
-    credentials: "same-origin",
-    headers: {
-        //"X-CSRFToken"  : getCookie("csrftoken"),
-        "Accept"       : "application/json",
-        "Content-Type" : "application/json"
-    }
-    // body: JSON.stringify(data_list)
-}).then(function(response) {
-  return response.json();
-}).then(function(data) {
-
-  data.feed.entry.forEach(function(v,k){
-    geo_politics.push(
-        {
-          code         : v.gsx$code.$t,
-          jurisdiction : v.gsx$jurisdiction.$t,
-          localities   : v.gsx$localities.$t
-        }
-    );
-  });
-
-}).catch(function(ex) {
-  console.log("parsing failed", ex);
-});
-
 
 /**
  * Retorna los datos regionales segun el código de área ingresado.
@@ -65,7 +74,7 @@ fetch(json_url, {
  * @return {object}
  */
 function region_by_code(code){
-    var res = [];
+    var res = false;
     geo_politics.forEach(function(v){
         if(v.code == code){
            res = v;
@@ -352,7 +361,7 @@ function htmlify(data) {
  */
 function getGeoPolitc(json_data) {
   var obj = this;
-  var val = null;
+  var val = [];
   if (!obj.getData().area_code) {
     return false;
   }
