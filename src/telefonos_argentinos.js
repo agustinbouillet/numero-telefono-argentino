@@ -158,37 +158,16 @@ function invalidChars() {
  */
 function setData(result) {
 
-  // Obtengo numero
-  number_list = [9, 15, 12, 21, 17, 19, 22, 24];
-  for (i = 0; i <= number_list.length - 1; i++) {
-    if (result[parseInt(number_list[i])] !== undefined) {
-      var number = result[parseInt(number_list[i])];
-      break;
-    } else {
-      var number = false;
-    }
-  }
+  function validate_value(list){
+    var value = false;
+    result.forEach(function(v, k){
+      if (list.includes(k) && result[k] !== undefined) {
+        value = result[k];
+        return;
+      }
+    });
 
-  // Obtengo el prefijo mobile
-  mobile_prefix_list = [8, 11, 14, 18, 20];
-  for (i = 0; i <= mobile_prefix_list.length - 1; i++) {
-    if (result[parseInt(mobile_prefix_list[i])] !== undefined) {
-      var mobile_prefix = result[parseInt(mobile_prefix_list[i])];
-      break;
-    } else {
-      var mobile_prefix = false;
-    }
-  }
-
-  // Obtengo el area code
-  area_code_list = [13, 10, 7];
-  for (i = 0; i <= area_code_list.length - 1; i++) {
-    if (result[parseInt(area_code_list[i])] !== undefined) {
-      var area_code = result[parseInt(area_code_list[i])];
-      break;
-    } else {
-      var area_code = false;
-    }
+    return value;
   }
 
   var data = {
@@ -198,12 +177,20 @@ function setData(result) {
     'national_call' : (result[3] !== undefined) ? result[3] : false,
     'mobile'        : (result[4] !== undefined) ? result[4] : false,
     'special'       : (result[25] !== undefined) ? result[25] : false,
-    'specific'      : (result[23] !== undefined) ? result[23] : false,
-    'mobile_prefix' : mobile_prefix,
-    'area_code'     : area_code,
-    'number'        : number
-  }
+    'specific'      : (result[23] !== undefined) ? result[23] : false
+  };
 
+  // Obtengo numero
+  var number_list = [9, 15, 12, 21, 17, 19, 22, 24];
+  data['number'] = validate_value(number_list);
+
+  // Obtengo el prefijo mobile
+  var mobile_prefix_list = [8, 11, 14, 18, 20];
+  data['mobile_prefix'] = validate_value(mobile_prefix_list);
+
+  // Obtengo el area code
+  var area_code_list = [13, 10, 7];
+  data['area_code'] = validate_value(area_code_list);
 
   return data;
 }
