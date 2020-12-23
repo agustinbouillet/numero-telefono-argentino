@@ -27,6 +27,7 @@ function TelefonoArgentino(str) {
 const json_url      = 'https://spreadsheets.google.com/feeds/list/14H7VE3zfllDDTC73L0bL7nyjkdodPMXvqs1CH__xgFY/1/public/values?alt=json';
 var geo_politics    = [];
 
+
 /**
  * Retorna el JSON con las regiones.
  */
@@ -58,6 +59,11 @@ fetch(json_url, {
 });
 
 
+/**
+ * Retorna los datos regionales segun el código de área ingresado.
+ * @param  {integer} code Código de área.
+ * @return {object}
+ */
 function region_by_code(code){
     var res = [];
     geo_politics.forEach(function(v){
@@ -67,7 +73,6 @@ function region_by_code(code){
     });
     return res;
 }
-
 
 
 function telefono() {
@@ -115,6 +120,7 @@ function telefono() {
   return false;
 }
 
+
 /**
  * Retorna el numero filtrando todos los caracteres o espacios del string
  * @return {boolean}
@@ -126,6 +132,7 @@ function filterInt(str) {
   result = str.replace(re, subst);
   return result;
 }
+
 
 /**
  * Verifica si el string pasado tiene caracteres validos.
@@ -157,6 +164,11 @@ function invalidChars() {
  */
 function setData(result) {
 
+  /**
+   * Retorna el valor si se encuentra en uno de los elementos de array.
+   * @param  {array} list listado de la posición de los grupos de captura
+   * @return {integer|boolean}
+   */
   function validate_value(list){
     var value = false;
     result.forEach(function(v, k){
