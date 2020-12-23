@@ -1,8 +1,7 @@
 # -*- coding: utf-8 -*-
-import urllib.request
-import ssl
 import json
-
+import ssl
+import urllib.request
 
 ssl._create_default_https_context = ssl._create_unverified_context
 url     = 'https://spreadsheets.google.com/feeds/list/14H7VE3zfllDDTC73L0bL7nyjkdodPMXvqs1CH__xgFY/1/public/values?alt=json'
