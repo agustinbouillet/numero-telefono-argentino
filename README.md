@@ -57,6 +57,10 @@ tel.getGeoPolitic();
 
 ```
 
+La información referenciada de las regiones se obtiene de un _Google spreadsheet_ en:
+[Números de teléfono Argentino](https://docs.google.com/spreadsheets/d/e/2PACX-1vREyOVZkriXt3Www9BkVxxLWGkR_vT7hD2CamyYK4VIKUAJE1_h2knRMbd2ZFIAkiUdBSlyN1_dBEA3/pubhtml?gid=0&single=true). Y se descarga en formato JSON de la siguiente URI: [https://spreadsheets.google.com/feeds/list/14H7VE3zfllDDTC73L0bL7nyjkdodPMXvqs1CH__xgFY/1/public/values?alt=json](https://spreadsheets.google.com/feeds/list/14H7VE3zfllDDTC73L0bL7nyjkdodPMXvqs1CH__xgFY/1/public/values?alt=json)
+
+
 #### input()
 
 Retorna el string ingresado para validar.
