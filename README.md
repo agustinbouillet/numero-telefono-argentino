@@ -124,3 +124,6 @@ tel.invalidChars();
 - [ENACOM](http://www.enacom.gob.ar), Ente Nacional de Comunicaciones
 - https://www.enacom.gob.ar/numeracion_p136, ENACOM, Numeración y señalización.
 - https://es.wikipedia.org/wiki/Números_telefónicos_en_Argentina, Wikipedia, Números telefónicos en Argentina, 2016
+
+---
+[![paypal](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=C5TSLQQEEE5PQ)
