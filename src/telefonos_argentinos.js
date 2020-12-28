@@ -52,20 +52,30 @@ fetch(json_url, {
 });
 
 
+
+
+
 /**
  * Valida un numero de telefono
  * @param  {string}  str
  * @return {Boolean | object}
  */
 function TelefonoArgentino(str) {
-  this.input        = str;
-  this.getData      = telefono;
-  this.getType      = getTelephoneType;
-  this.isValid      = isValid;
-  this.filterInt    = filterInt(str);
-  this.invalidChars = invalidChars;
-  this.getGeoPolitc = getGeoPolitc;
+    // this.geo_politics   = [];
+    // this.region_by_code = region_by_code;
+    // this.json_url       = 'https://spreadsheets.google.com/feeds/list/14H7VE3zfllDDTC73L0bL7nyjkdodPMXvqs1CH__xgFY/1/public/values?alt=json';
+    // this.regionData     = regionData;
+
+    this.input          = str;
+    this.getData        = telefono;
+    this.getType        = getTelephoneType;
+    this.isValid        = isValid;
+    this.filterInt      = filterInt(str);
+    this.invalidChars   = invalidChars;
+    this.getGeoPolitc   = getGeoPolitc;
 }
+
+
 
 
 /**
@@ -100,12 +110,12 @@ function telefono() {
     var result = str.replace(re, subst);
     return result;
   }
-
+  var data         = false;
   var filtered_str = cleanup(this.input);
-  var result = filtered_str.match(regex);
+  var result       = filtered_str.match(regex);
 
   if (result !== null) {
-    var data = setData(result);
+    data = setData(result);
 
     // Valida el numero y retorna el tipo
     var phone_type = getType(data);
@@ -120,13 +130,9 @@ function telefono() {
     data['type']    = phone_type;
     data['format']  = numberFormat(data);
     data['htmlify'] = htmlify(data);
-
-
-    return data;
-
   }
 
-  return false;
+  return data;
 }
 
 
@@ -144,7 +150,7 @@ function filterInt(str) {
 
 
 /**
- * Verifica si el string pasado tiene caracteres validos.
+ * Verifica si el string pasado tiene caracteres válidos.
  * @return {array | false} Array con todos los caracteres inválidos, o
  * false si no tiene caracters inapropiados.
  */

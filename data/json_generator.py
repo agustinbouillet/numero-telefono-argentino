@@ -9,7 +9,6 @@ respons = urllib.request.urlopen(url)
 data    = json.loads(respons.read())
 
 
-
 new_json = []
 
 try:
