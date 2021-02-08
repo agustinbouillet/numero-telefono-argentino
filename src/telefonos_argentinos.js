@@ -9,49 +9,60 @@ gitHub: https://github.com/agustinbouillet/validador-de-numeros-de-telefono-arge
 */
 
 const json_url   = 'https://spreadsheets.google.com/feeds/list/14H7VE3zfllDDTC73L0bL7nyjkdodPMXvqs1CH__xgFY/1/public/values?alt=json';
-// const json_url   = '../data/geo.json';
 var geo_politics = [];
 
 /**
  * Retorna el JSON con las regiones.
  */
-fetch(json_url, {
-    method: "get",
-    credentials: "same-origin",
-    headers: {
-        "Accept"       : "application/json",
-        "Content-Type" : "application/json"
-    }
-}).then(function(response) {
-  return response.json();
-}).then(function(data) {
-  // Chequea si la data es de spreadshhets
-  if(data.hasOwnProperty('feed')){
-    data.feed.entry.forEach(function(v,k){
-      geo_politics.push(
-          {
-            code         : v.gsx$code.$t,
-            jurisdiction : v.gsx$jurisdiction.$t,
-            localities   : v.gsx$localities.$t
-          }
-      );
+function geo_data(){
+
+
+  if(!localStorage.getItem('geo_data')){
+    fetch(json_url, {
+        method: "get",
+        credentials: "same-origin",
+        headers: {
+            "Accept"       : "application/json",
+            "Content-Type" : "application/json"
+        }
+    }).then(function(response) {
+      return response.json();
+    }).then(function(data) {
+      // Chequea si la data es de spreadshhets
+      if(data.hasOwnProperty('feed')){
+        data.feed.entry.forEach(function(v,k){
+          geo_politics.push(
+              {
+                code         : v.gsx$code.$t,
+                jurisdiction : v.gsx$jurisdiction.$t,
+                localities   : v.gsx$localities.$t
+              }
+          );
+        });
+
+      } else if (data && data[0].hasOwnProperty('code')) {
+        geo_politics = data;
+      }
+
+      localStorage.setItem('geo_data', JSON.stringify(geo_politics));
+
+    }).catch(function(ex) {
+      console.log("parsing failed", ex);
     });
-  // Si se decide utilizar un JSON local o con otra url, se debe mantener
-  // la siguiente estructura:
-  //     {
-  //       code         : [str],
-  //       jurisdiction : [str]t,
-  //       localities   : [str]
-  //     }
-  } else if (data && data[0].hasOwnProperty('code')) {
-    geo_politics = data;
+
+
+
+
+  } else {
+    geo_politics = localStorage.getItem('geo_data')
   }
 
-}).catch(function(ex) {
-  console.log("parsing failed", ex);
+
+}
+
+document.addEventListener('DOMContentLoaded', (event) => {
+  geo_data();
 });
-
-
 
 
 
@@ -85,6 +96,7 @@ function TelefonoArgentino(str) {
  */
 function region_by_code(code){
     var res = false;
+    geo_politics = JSON.parse(localStorage.getItem('geo_data'));
     geo_politics.forEach(function(v){
         if(v.code == code){
            res = v;
