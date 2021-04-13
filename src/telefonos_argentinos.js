@@ -7,62 +7,47 @@ email: agustin.bouillet@gmail.com
 website: www.bouillet.com.ar
 gitHub: https://github.com/agustinbouillet/validador-de-numeros-de-telefono-argentinos
 */
-
-const json_url   = 'https://spreadsheets.google.com/feeds/list/14H7VE3zfllDDTC73L0bL7nyjkdodPMXvqs1CH__xgFY/1/public/values?alt=json';
+const json_url = 'https://spreadsheets.google.com/feeds/list/14H7VE3zfllDDTC73L0bL7nyjkdodPMXvqs1CH__xgFY/1/public/values?alt=json';
 var geo_politics = [];
 
 /**
  * Retorna el JSON con las regiones.
  */
-function geo_data(){
-
-
-  if(!localStorage.getItem('geo_data')){
-    fetch(json_url, {
-        method: "get",
-        credentials: "same-origin",
-        headers: {
-            "Accept"       : "application/json",
-            "Content-Type" : "application/json"
-        }
-    }).then(function(response) {
-      return response.json();
-    }).then(function(data) {
-      // Chequea si la data es de spreadshhets
-      if(data.hasOwnProperty('feed')){
-        data.feed.entry.forEach(function(v,k){
-          geo_politics.push(
-              {
-                code         : v.gsx$code.$t,
-                jurisdiction : v.gsx$jurisdiction.$t,
-                localities   : v.gsx$localities.$t
-              }
-          );
-        });
-
-      } else if (data && data[0].hasOwnProperty('code')) {
-        geo_politics = data;
+if(!localStorage.getItem('geo_data')){
+  fetch(json_url, {
+      method: "get",
+      headers: {
+          "Accept"       : "application/json",
+          "Content-Type" : "application/json"
       }
+  }).then(function(response) {
+    return response.json();
+  }).then(function(data) {
+    // Chequea si la data es de spreadshhets
+    if(data.hasOwnProperty('feed')){
+      data.feed.entry.forEach(function(v,k){
+        geo_politics.push(
+            {
+              code         : v.gsx$code.$t,
+              jurisdiction : v.gsx$jurisdiction.$t,
+              localities   : v.gsx$localities.$t
+            }
+        );
+      });
 
-      localStorage.setItem('geo_data', JSON.stringify(geo_politics));
+    } else if (data && data[0].hasOwnProperty('code')) {
+      geo_politics = data;
+    }
 
-    }).catch(function(ex) {
-      console.log("parsing failed", ex);
-    });
+    localStorage.setItem('geo_data', JSON.stringify(geo_politics));
 
+  }).catch(function(ex) {
+    console.log("parsing failed", ex);
+  });
 
-
-
-  } else {
-    geo_politics = localStorage.getItem('geo_data')
-  }
-
-
+} else {
+  geo_politics = localStorage.getItem('geo_data')
 }
-
-document.addEventListener('DOMContentLoaded', (event) => {
-  geo_data();
-});
 
 
 
@@ -72,11 +57,6 @@ document.addEventListener('DOMContentLoaded', (event) => {
  * @return {Boolean | object}
  */
 function TelefonoArgentino(str) {
-    // this.geo_politics   = [];
-    // this.region_by_code = region_by_code;
-    // this.json_url       = 'https://spreadsheets.google.com/feeds/list/14H7VE3zfllDDTC73L0bL7nyjkdodPMXvqs1CH__xgFY/1/public/values?alt=json';
-    // this.regionData     = regionData;
-
     this.input          = str;
     this.getData        = telefono;
     this.getType        = getTelephoneType;
@@ -87,8 +67,6 @@ function TelefonoArgentino(str) {
 }
 
 
-
-
 /**
  * Retorna los datos regionales segun el código de área ingresado.
  * @param  {integer} code Código de área.
@@ -97,11 +75,15 @@ function TelefonoArgentino(str) {
 function region_by_code(code){
     var res = false;
     geo_politics = JSON.parse(localStorage.getItem('geo_data'));
-    geo_politics.forEach(function(v){
-        if(v.code == code){
-           res = v;
-        }
-    });
+
+    if(geo_politics){
+      geo_politics.forEach(function(v){
+          if(v.code == code){
+             res = v;
+          }
+      });
+    }
+
     return res;
 }
 
@@ -349,24 +331,38 @@ function htmlify(data) {
 
   // Defino el formato del numero
   var number = `${data.number.slice(0, data.number.length - 4)}-${data.number.slice(-4)}`;
-  number     = `<span class="number">${number}</span>`;
+  var span_number = document.createElement('span');
+  span_number.className = 'number';
+  span_number.textContent = number;
 
   // Defino el numero de pais con el signo +
-  var country = data.country ? `<span class="country">+${data.country}</span>` : '';
+  var span_country = document.createElement('span');
+  span_country.className = "country";
+  span_country.dataset.country = '1';
+  span_country.textContent = (data.country)? '+' + data.country : '';
 
   var d = [];
   for (key in data) {
-    d[key] = data[key] ? `<span class="${key}">${data[key]}</span>` : '';
+    var span = document.createElement('span');
+    if(data[key]){
+      span.className = key.replace('_', '-');
+      span.dataset[key.replace(/[^a-zA-Z]/g, '')] = 1;
+      span.textContent = data[key];
+      d[key] = span.outerHTML;
+    } else {
+      d[key] = '';
+    }
   }
 
   // Defino los valores que voy a concatenar
   var formated_number = [
       d['international'],
-      country,
+      span_country.outerHTML,
       d['mobile'],
       d['national_call'] + d['area_code'],
       d['mobile_prefix'],
-      d['specific'],number
+      d['specific'],
+      span_number.outerHTML
   ].join(' ');
 
   return cleanupNumberFormat(formated_number);
