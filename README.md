@@ -57,6 +57,10 @@ tel.getGeoPolitic();
 
 ```
 
+La información referenciada de las regiones se obtiene de un _Google spreadsheet_ en:
+[Números de teléfono Argentino](https://docs.google.com/spreadsheets/d/e/2PACX-1vREyOVZkriXt3Www9BkVxxLWGkR_vT7hD2CamyYK4VIKUAJE1_h2knRMbd2ZFIAkiUdBSlyN1_dBEA3/pubhtml?gid=0&single=true). Y se descarga en formato JSON de la siguiente URI: [https://spreadsheets.google.com/feeds/list/14H7VE3zfllDDTC73L0bL7nyjkdodPMXvqs1CH__xgFY/1/public/values?alt=json](https://spreadsheets.google.com/feeds/list/14H7VE3zfllDDTC73L0bL7nyjkdodPMXvqs1CH__xgFY/1/public/values?alt=json)
+
+
 #### input()
 
 Retorna el string ingresado para validar.
@@ -125,5 +129,8 @@ tel.invalidChars();
 - https://www.enacom.gob.ar/numeracion_p136, ENACOM, Numeración y señalización.
 - https://es.wikipedia.org/wiki/Números_telefónicos_en_Argentina, Wikipedia, Números telefónicos en Argentina, 2016
 
+
 ---
+
+
 [![paypal](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=C5TSLQQEEE5PQ)

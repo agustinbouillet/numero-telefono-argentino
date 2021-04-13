@@ -1,80 +1,97 @@
 <!DOCTYPE html>
-<html>
+<html lang="es_AR">
 <head>
-    <meta charset="UTF-8">
-    <title>Validador de números telefónicos argentinos</title>
-    <link rel='stylesheet prefetch' href='https://fonts.googleapis.com/css?family=Roboto:400,500'>
-    <link rel='stylesheet prefetch' href='https://cdn.jsdelivr.net/foundation/6.2.0/foundation.min.css'>
-    <link rel="stylesheet" href="css/style.css">
+  <meta charset="UTF-8">
+  <title>Validador de números telefónicos argentinos</title>
+  <link 
+      rel='stylesheet prefetch'
+      href='https://fonts.googleapis.com/css?family=Roboto:400,500'>
+  <link 
+      rel='stylesheet prefetch' 
+      href='https://cdn.jsdelivr.net/foundation/6.2.0/foundation.min.css'>
+  <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <div class="row">
-        <div class="large-12 columns">
-            <h1>Teléfonos argentinos</h1></div>
-    </div>
-    <div class="row">
-        <div class="large-8 small-6 columns">
-            <label class="hide">Número de teléfono</label>
-            <div class="input-group">
-                <input class="input-group-field" id="sample" type="text" placeholder="Número de teléfono, ej. 15 5017 6006">
-                <div class="input-group-button">
-                    <input id="ver" type="submit" class="button" value="Validar">
-                </div>
-            </div>
-            <p>
-                <small>
-                    Caracteres válidos: - . ( ) [ ] + espacio y números.
-                </small>
-            </p>
-            <div id="resultados" class="table-scroll"></div>
-            <div id="debug" class="table-scroll">
-            </div>
-            <p>
-                <small>
-                    * Los números de teléfono móvil deben tener el prefijo 15 ó
-                    9 junto al código de área (ej. 11); de otro modo serán
-                    considerados teléfonos fijos.
-                </small>
-            </p>
+  <div class="row">
+    <div class="large-12 columns">
+      <h1>Teléfonos argentinos</h1></div>
+  </div>
+  <div class="row">
+    <div class="large-8 small-6 columns">
+      <label class="hide">Número de teléfono</label>
+      <div class="input-group">
+        <input 
+            class="input-group-field" 
+            id="sample" 
+            type="text" 
+            placeholder="Número de teléfono, ej. 15 5017 6006">
+        <div class="input-group-button">
+          <input id="ver" type="submit" class="button" value="Validar">
         </div>
-        <div class="large-4 small-6 columns">
-            <ul class="accordion" data-accordion data-allow-all-closed="true">
-                <li class="accordion-item is-active" data-accordion-item>
-                    <a href="#" class="accordion-title">Formato de fecha</a>
-                    <div class="accordion-content" data-tab-content>
-                        <ul class="ejemplo">
-                            <li>+54 3585 123456</li>
-                            <li>+54 358 1234567</li>
-                            <li>+54 9 11 4639-1234</li>
-                            <li>011 4639-1234</li>
-                            <li>11 4639-1234</li>
-                            <li>15 4639-1234</li>
-                            <li>1550176006</li>
-                            <li>4639.1234</li>
-                            <li>4639-1234</li>
-                            <li>911</li>
-                            <li>0810 666 4444</li>
-                            <li>000</li>
-                            <li>(54) 11 5789-1489</li>
-                            <li>(02966) 441200</li>
-                            <li>00 5411 46392313</li>
-                        </ul>
-                    </div>
+      </div>
+      <p>
+        <small>
+          Caracteres válidos: - . ( ) [ ] + espacio y números.
+        </small>
+      </p>
+      <div id="resultados" class="table-scroll"></div>
+      <div id="debug" class="table-scroll">
+      </div>
+      <p>
+        <small>
+          * Los números de teléfono móvil deben tener el prefijo 15 ó
+          9 junto al código de área (ej. 11); de otro modo serán
+          considerados teléfonos fijos.
+        </small>
+      </p>
+    </div>
+    <div class="large-4 small-6 columns">
+      <ul class="accordion" data-accordion data-allow-all-closed="true">
+        <li class="accordion-item is-active" data-accordion-item>
+          <a href="#" class="accordion-title">Formato de teléfono</a>
+          <div class="accordion-content" data-tab-content>
+            <ul class="ejemplo">
+              <li>+54 3585 123456</li>
+              <li>+54 358 1234567</li>
+              <li>+54 9 11 4639-1234</li>
+              <li>011 4639-1234</li>
+              <li>11 4639-1234</li>
+              <li>15 4639-1234</li>
+              <li>1550176006</li>
+              <li>4639.1234</li>
+              <li>4639-1234</li>
+              <li>911</li>
+              <li>0810 666 4444</li>
+              <li>000</li>
+              <li>(54) 11 5789-1489</li>
+              <li>(02966) 441200</li>
+              <li>00 5411 46392313</li>
             </ul>
-        </div>
+          </div>
+      </ul>
     </div>
-    <hr/>
-    <div class="row">
-        <p class="small"><strong>GitHub</strong>:
-            <a href="https://github.com/agustinbouillet/validador-de-numeros-de-telefono-argentinos">https://github.com/agustinbouillet/validador-de-numeros-de-telefono-argentinos</a>
-        </p>
-    </div>
-    <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'>
-    </script>
-    <script src='https://cdn.jsdelivr.net/foundation/6.0.5/foundation.min.js'>
-    </script>
-    <script src='https://rawgit.com/agustinbouillet/validador-de-numeros-de-telefono-argentinos/master/js/telefonos_argentinos.js'>
-    </script>
-    <script src="js/index.js"></script>
+  </div>
+  <hr/>
+  <div class="row">
+    <p class="small"><strong>GitHub</strong>:
+      <a href="https://github.com/agustinbouillet/validador-de-numeros-de-telefono-argentinos">
+        Validador de números de teléfono argentinos
+      </a>
+    </p>
+  </div>
+  <!-- scripts -->
+  <script 
+      src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'>
+  </script>
+  <script 
+      src='https://cdn.jsdelivr.net/foundation/6.0.5/foundation.min.js'>
+  </script>
+  <script 
+      src='../src/telefonos_argentinos.js'>
+  </script>
+  <script src="js/index.js"></script>
+  <!-- / scripts -->
+
+
 </body>
 </html>
