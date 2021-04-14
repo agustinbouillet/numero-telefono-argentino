@@ -14,6 +14,7 @@ var geo_politics = [];
  * Retorna el JSON con las regiones.
  */
 if(!localStorage.getItem('geo_data')){
+
   fetch(json_url, {
       method: "get",
       headers: {
@@ -23,19 +24,21 @@ if(!localStorage.getItem('geo_data')){
   }).then(function(response) {
     return response.json();
   }).then(function(data) {
+    geo_politics = [];
+
     // Chequea si la data es de spreadshhets
     if(data.hasOwnProperty('feed')){
-      data.feed.entry.forEach(function(v,k){
-        geo_politics.push(
-            {
-              code         : v.gsx$code.$t,
-              jurisdiction : v.gsx$jurisdiction.$t,
-              localities   : v.gsx$localities.$t
-            }
-        );
-      });
 
-    } else if (data && data[0].hasOwnProperty('code')) {
+      for(var i = 0; i <= data.feed.entry.length - 1; i++){
+
+        geo_politics.push({
+          code         : data.feed.entry[i].gsx$code.$t,
+          jurisdiction : data.feed.entry[i].gsx$jurisdiction.$t,
+          localities   : data.feed.entry[i].gsx$localities.$t
+        });
+
+      }
+    } else if(data && data[0].hasOwnProperty('code')) {
       geo_politics = data;
     }
 
