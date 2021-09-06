@@ -7,15 +7,46 @@ email: agustin.bouillet@gmail.com
 website: www.bouillet.com.ar
 gitHub: https://github.com/agustinbouillet/validador-de-numeros-de-telefono-argentinos
 */
-const json_url = 'https://spreadsheets.google.com/feeds/list/14H7VE3zfllDDTC73L0bL7nyjkdodPMXvqs1CH__xgFY/1/public/values?alt=json';
 var geo_politics = [];
+const gapi_id = '14H7VE3zfllDDTC73L0bL7nyjkdodPMXvqs1CH__xgFY';
+const gapi_sheet_name = "db";
+const gapi_credential = "AIzaSyAll9EH1aTmZDewNSyM_CU_AIsGOiEDyZs";
+const gapi_uri = `https://sheets.googleapis.com/v4/spreadsheets/${gapi_id}/values/${gapi_sheet_name}?key=${gapi_credential}&alt=json`;
+
+
+
+var gapi_legacy = function(response){
+  if(!response.hasOwnProperty('values')){
+    return false;
+  }
+
+  const keys = response.values[0];
+  let entry = [];
+  const regex = /\s|\/|_/gi;
+
+  response.values.forEach((v, k) => {
+    if(k > 0){
+
+      let zip = {};
+      for(var i in keys){
+        var value = (v.hasOwnProperty(i))? v[i].trim() : "";
+        var key =  keys[i].toLowerCase().replace(regex, '');
+        zip[key] = value;
+      }
+      entry.push(zip);
+    }
+  });
+
+  return entry;
+}
+
 
 /**
  * Retorna el JSON con las regiones.
  */
 if(!localStorage.getItem('geo_data')){
 
-  fetch(json_url, {
+  fetch(gapi_uri, {
       method: "get",
       headers: {
           "Accept"       : "application/json",
@@ -24,24 +55,7 @@ if(!localStorage.getItem('geo_data')){
   }).then(function(response) {
     return response.json();
   }).then(function(data) {
-    geo_politics = [];
-
-    // Chequea si la data es de spreadshhets
-    if(data.hasOwnProperty('feed')){
-
-      for(var i = 0; i <= data.feed.entry.length - 1; i++){
-
-        geo_politics.push({
-          code         : data.feed.entry[i].gsx$code.$t,
-          jurisdiction : data.feed.entry[i].gsx$jurisdiction.$t,
-          localities   : data.feed.entry[i].gsx$localities.$t
-        });
-
-      }
-    } else if(data && data[0].hasOwnProperty('code')) {
-      geo_politics = data;
-    }
-
+    geo_politics = gapi_legacy(data);
     localStorage.setItem('geo_data', JSON.stringify(geo_politics));
 
   }).catch(function(ex) {
