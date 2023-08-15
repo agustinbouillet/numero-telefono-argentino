@@ -10,7 +10,8 @@ gitHub: https://github.com/agustinbouillet/validador-de-numeros-de-telefono-arge
 var geo_politics = [];
 const gapi_id = '14H7VE3zfllDDTC73L0bL7nyjkdodPMXvqs1CH__xgFY';
 const gapi_sheet_name = "db";
-const gapi_credential = "AIzaSyAll9EH1aTmZDewNSyM_CU_AIsGOiEDyZs";
+// const gapi_credential = "AIzaSyAll9EH1aTmZDewNSyM_CU_AIsGOiEDyZs";
+const gapi_credential = "AIzaSyCq2wEEKL9-6RmX-TkW23qJsrmnFHFf5tY";
 const gapi_uri = `https://sheets.googleapis.com/v4/spreadsheets/${gapi_id}/values/${gapi_sheet_name}?key=${gapi_credential}&alt=json`;
 
 
