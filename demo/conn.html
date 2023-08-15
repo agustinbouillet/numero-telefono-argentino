@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Número de teléfono argentino</title>
+</head>
+
+<body>
+    <script src='../src/telefonos_argentinos.js'>
+    </script>
+    <script>
+        const gapiId = '14H7VE3zfllDDTC73L0bL7nyjkdodPMXvqs1CH__xgFY';
+        const gapiSheetName = "db";
+        const gapiCredential = "AIzaSyCq2wEEKL9-6RmX-TkW23qJsrmnFHFf5tY";
+        const uri = new URL(
+            `/v4/spreadsheets/${gapiId}/values/${gapiSheetName}`, 
+            "https://sheets.googleapis.com"
+        );
+        uri.searchParams.set("key", gapiCredential);
+        uri.searchParams.set("alt", "json");
+
+
+        /**
+         * Retorna los datos regionales segun el código de área ingresado.
+         * 
+         * @param  {integer} code Código de área.
+         * @return {object}
+         */
+        regionByCode = (data, code) => {
+            const result = data.values.find(f => f[0] == code);
+            if(result){
+                return {
+                    code: result[0],
+                    jurisdiction: result[1],
+                    localities: result[2].split(",").map(m => m.trim()).filter(f => f)
+                };
+            }
+            return false;
+        };
+
+        /**
+         * Información de los cruces
+         * @returns {object} 
+         */
+        async function geoPolitics(uri, options={}) {
+            let data = [];
+            let response = await fetch(uri, options);
+            data = await response.json();
+            return data;
+        }
+        const tel = new TelefonoArgentino("+54911 50176006");
+        console.log(tel.getData())
+        geoPolitics(uri.href).then((data) => {
+            console.log( regionByCode(data, tel.getData().area_code ));
+        });
+
+    </script>
+</body>
+
+</html>

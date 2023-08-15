@@ -1,2 +1,5250 @@
-
-[{"area_code":11,"province":"Ciudad de Buenos Aires","city":"Buenos Aires","localidades":["Acassuso","Adrogu\u00e9","Aeropuerto Internacional Ezeiza","Aldo Bonzi","\u00c1rea de Promoci\u00f3n El Tri\u00e1ngulo","Avellaneda","Banfield","Beccar","Bella Vista","Berazategui","Bernal","Billinghurst","Bosques","Boulogne Sur Mer","Burzaco","Campo de Mayo","Canning","Caseros","Castelar","Ciudad Evita","Ciudad Jard\u00edn Lomas del Palomar","Ciudadela","Churruca","Claypole","Crucecita","Dock Sud","Don Bosco","Don Orione","Don Torcuato","El Jag\u00fcel","El Libertador","El Palomar","El Talar","Estanislao Zeballos","Ezeiza","Ezpeleta","Florencio Varela","General Pacheco","Gerli","Gobernador Julio A. Costa","GregoR\u00edode Laferrere","Haedo","Hudson","Hurlingham","Ingeniero Adolfo Sourdeaux","Ingeniero Budge","Ingeniero Pablo Nogu\u00e9s","Isidro Casanova","Ituzaing\u00f3","Jos\u00e9 Ingenieros","Jos\u00e9 Le\u00f3n Su\u00e1rez","Jos\u00e9 M\u00e1rmol","La Tablada","La Uni\u00f3n","Lan\u00fas","Llavallol","Loma Hermosa","Lomas de Zamora","Lomas del Mirador","Longchamps","Los Polvorines","Luis Guill\u00f3n","Malvinas Argentinas (Almirante Brown)","Malvinas Argentinas (Malvinas Argentinas)","Mart\u00edn Coronado","Mart\u00ednez","Ministro Rivadavia","Monte Chingolo","Monte Grande","Mor\u00f3n","Mu\u00f1iz","Nordelta","Nueve de Abril","Olivos","Once de Septiembre","Pablo Podest\u00e1","Pi\u00f1eyro","Pl\u00e1tanos","Quilmes","Rafael Calzada","Rafael Castillo","Ramos Mej\u00eda","Ranelagh","Remedios de Escalada","Rinc\u00f3n de Milberg","S\u00e1enz Pe\u00f1a","San Andr\u00e9s","San Fernando","San Francisco Solano","San Isidro","San Jos\u00e9","San Justo","San Mart\u00edn","San Miguel","Santa Mar\u00eda","Santos Lugares","Sarand\u00ed","Sourigues","Tapiales","Temperley","Tierras Altas","Tigre","Trist\u00e1n Su\u00e1rez","Troncos del Talar","Turdera","Valent\u00edn Alsina","Victoria","Villa Adelina","Villa Albertina","Villa Ballester","Villa Bosch","Villa Brown","Villa Centenario","Villa de Mayo","Villa Dom\u00ednico","Villa Espa\u00f1a","Villa Fiorito","Villa La Florida","Villa Luzuriaga","Villa Lynch","Villa Madero","Villa Maip\u00fa","Villa Raffo","Villa San Luis","Villa Sarmiento","Villa Tesei","Villa Vatteone","Virreyes","Wilde","William C. Morris"]},{"area_code":220,"province":"Buenos Aires","city":"Merlo","localidades":["General Hornos","General Las Heras","La Choza","Libertad","Marcos Paz","Mariano Acosta","Parque San Mart\u00edn","Plomer","Pontevedra","San Antonio de Padua","20 de Junio","Villars"]},{"area_code":221,"province":"Buenos Aires","city":"La Plata","localidades":["Abasto","\u00c1ngel Etcheverry","Arturo Segu\u00ed","Barrio Banco Provincia","Barrio El Carmen Este","Barrio Universitario","Berisso","City Bell","Dique N\u00ba 1","Ensenada","General Mansilla (Est. Bartolom\u00e9 Bavio)","Ignacio Correas","Isla Santiago Oeste","Joaqu\u00edn Gorina","Jos\u00e9 Hern\u00e1ndez","Lomas de Copello","Jos\u00e9 Melchor Romero","Las Golondrinas","Lisandro Olmos","Los Hornos","Los Naranjos","Los Talas","Manuel B. Gonnet","Punta Lara","Ringuelet","Tolosa","Villa Arg\u00fcello","Villa Catella","Villa Dolores","Villa Elisa","Villa Elvira","Villa Garibaldi","Villa Independencia","Villa Nueva","Villa Porte\u00f1a","Villa Zula"]},{"area_code":223,"province":"Buenos Aires","city":"Mar del Plata","localidades":["Bat\u00e1n","Camet","Chapadmalal","Estaci\u00f3n Chapadmalal","La Gloria de la Peregrina","Santa Clara del Mar","Sierra de los Padres"]},{"area_code":230,"province":"Buenos Aires","city":"Pilar","localidades":["Arroyo de La Cruz","Del Viso","Diego Gaynor","Etchegoyen","F\u00e1tima","La Lonja","Los Cardales","Manuel Alberti","Manzanares","Parada Orlando","Presidente Derqui","Villa Astolfi","Villa Rosa","Zelaya"]},{"area_code":236,"province":"Buenos Aires","city":"Jun\u00edn","localidades":["Agust\u00edn Roca","Agustina","Balneario Laguna de G\u00f3mez","Baigorrita","Fort\u00edn Tiburcio","Laplacette","Leandro N. Alem","Morse","Saforcada"]},{"area_code":237,"province":"Buenos Aires","city":"Moreno","localidades":["Cuartel V","Francisco \u00c1lvarez","General Rodr\u00edguez","La Reja","Paso del Rey","Trujui"]},{"area_code":249,"province":"Buenos Aires","city":"Tandil","localidades":["De la Canal","Desv\u00edo Aguirre","Fulton","Gardey","Mar\u00eda Ignacia (Estaci\u00f3n Vela)"]},{"area_code":260,"province":"Mendoza","city":"San Rafael","localidades":["Agua Escondida","Bardas Blancas","Barrio Echeverr\u00eda","Barrio Empleados de Comercio","Barrio Intendencia","Barrio Primavera","Capit\u00e1n Montoya","Costa El Toledano","Cuadro Benegas","Cuadro Nacional","El Nihuil","El Sosneado","El Tropez\u00f3n","Goudge","La Llave","Las Le\u00f1as","Las Malvinas","Las Paredes","Los Reyunos","Malarg\u00fce","Monte Com\u00e1n","Rama Ca\u00edda","Salto de las Rosas","Villa Veinticinco de Mayo"]},{"area_code":261,"province":"Mendoza","city":"Mendoza","localidades":["Agrelo","Alto del Olvido","Barrancas","Barrio Jes\u00fas de Nazaret","Barrio Jocol\u00ed II","Barrio La Esperanza","Barrio Los Jarilleros","Barrio Tres Olivos","Blanco Encalada","Cacheuta","Capdevilla","Carrodilla","Chacras de Coria","Colonia Segovia","Coquimbito","Costa de Araujo","Cruz de Piedra","El Carrizal","El Paramillo","El Vergel","Fray Luis Beltr\u00e1n","Godoy Cruz","Ingeniero Gustavo Andr\u00e9","Jocol\u00ed","Jocol\u00ed Viejo","La Palmera","La Pega","La Primavera","Lagunas de Bartoluzzi","Las Compuertas","Las Heras","Las Violetas","Los Corralitos","Luj\u00e1n de Cuyo","Lunlunta","Luzuriaga","Maip\u00fa","Perdriel","Puente de Hierro","Rodeo de la Cruz","Rodeo del Medio","Russell","San Roque","Tres de Mayo","Tres Esquinas","Ugarteche","Villa Nueva","Villa Teresa","Villa Tulumaya"]},{"area_code":263,"province":"Mendoza","city":"San Mart\u00edn","localidades":["Alto Salvador","Alto Verde","Andrade","Barrio Chivilcoy","Barrio Cooperativa Los Campamentos","Barrio Mar\u00eda Auxiliadora","Barrio Rivadavia","Chapanay","Cuadro Ortega","Doce de Octubre","El Central","El Marcado","El Mirador","Ingeniero Giagnoni","Jun\u00edn","La Central","La Colonia","La Dormida","La Esperanza","La Florida","La Libertad","La Reducci\u00f3n","Las Catitas","Los \u00c1rboles","Los Charabones","Los Campamentos","Medrano","Montecaseros","Mundo Nuevo","Nueva California","Palmira","Phillips","Rivadavia","Rodr\u00edguez Pe\u00f1a","Santa Mar\u00eda de Oro","Santa Rosa","Tres Porte\u00f1as","Villa Los Barriales"]},{"area_code":264,"province":"San Juan","city":"San Juan","localidades":["Alto de Sierra (Nueve de Julio)","Alto de Sierra (Santa Luc\u00eda)","Barrio Ruta 40","Barrio Sadop","Bermejo","Ca\u00f1ada Honda","Caucete","Campo Afuera","Carpinter\u00eda","Cienaguita","Colonia Fiorito","Colonia Fiscal","Colonia Guti\u00e9rrez","Divisadero","Dos Acequias","El Enc\u00f3n","El Medanito","El Rinc\u00f3n (Albard\u00f3n)","El Rinc\u00f3n (Caucete)","General San Mart\u00edn","Guanacache","La Ca\u00f1ada","La Chimbera","La Rinconada","Las Chacritas","Las Lagunas","Las Talas","Las Tapias","Los Berros","Los M\u00e9danos","Marayes","Media Agua","Nueve de Julio","Pedernal","Pie de Palo","Punta del M\u00e9dano","Quinto Cuartel","Rawson","Rivadavia","San Isidro","San Mart\u00edn","Santa Luc\u00eda","Santa Rosa","Tupel\u00ed","Vallecito","Villa Aberastain","Villa Ampacama","Villa Barboza","Villa Basilio Nievas","Villa Bola\u00f1os","Villa Borjas","Villa Centenario","Villa del Salvador","Villa Dominguito","Villa Don Bosco","Villa El Tango","Villa Ib\u00e1\u00f1ez","Villa Independencia","Villa Krause","Villa Nacusi","Villa Paula Albarrac\u00edn de Sarmiento","Villa Sefair Talacasto","Villa Tac\u00fa"]},{"area_code":266,"province":"San Luis","city":"San Luis","localidades":["Alto Pelado","Alto Pencoso","Carolina","Desaguadero (parte)","El Trapiche","El Volc\u00e1n","Juana Koslay","La Calera","La Punta","Potrero de los Funes (parte)","San Ger\u00f3nimo","Villa de la Quebrada","Zanjitas"]},{"area_code":280,"province":"Chubut","city":"Trelew","localidades":["Blancuntre","Cerro C\u00f3ndor","Dolavon","El Escorial","El Mirasol","El Sombrero","Gaiman","Gan Gan","Gastre","Lagunita Salada","Las Plumas","Los Altares","Paso de Indios","Playa Magagna","Playa Uni\u00f3n","Puerto Madryn","Puerto Pir\u00e1mides","Quinta El Mirador","Rawson","Telsen","Veintiocho de Julio","Villa Dique Florentino Ameghino","Yala Laubat"]},{"area_code":291,"province":"Buenos Aires","city":"Bah\u00eda Blanca","localidades":["Cabildo","Chasic\u00f3","General Daniel Cerri","Gr\u00fcnbein","Ingeniero White","Juan Coust\u00e9","Mayor Buratovich","Saldungaray","Sierra de la Ventana","Teniente Origone","Tornquist","Tres Picos","Villa Arcadia","Villa Bordeu","Villa Espora","Villa Serrana La Gruta","Villa Ventana"]},{"area_code":294,"province":"R\u00edo Negro Neuqu\u00e9n\/Chubut","city":"San Carlos de Bariloche","localidades":["Colonia Suiza","Dina Huapi","El Bols\u00f3n","El Foyel","El Manso","Hoyo de Epuy\u00e9n","Lago Puelo","Mamuel Choique","\u00d1irihuau","\u00d1orquinc\u00f3","Paso Flores","Pilcaniyeu","Pilquiniyeu del Limay","R\u00edo Chico R\u00edo Villegas","Villa Campanario","Villa Cerro Catedral","Villa La Angostura","Villa Llanqu\u00edn","Villa Llao Llao","Villa Los Coihues","Villa Mascardi","Villa Traful"]},{"area_code":297,"province":"Chubut\/Santa Cruz","city":"Comodoro Rivadavia","localidades":["Astra","Caleta Olivia","Camarones","Ca\u00f1ad\u00f3n Seco","Diadema Argentina","Fitz Roy","Garayalde","Jaramillo","Koluel Kayke","Las Heras","Pico Truncado","Puerto Deseado","Rada Tilly","Sarmiento","Tellier"]},{"area_code":298,"province":"R\u00edo Negro","city":"General Roca","localidades":["Aguada Guzm\u00e1n","Allen","Cerro Polic\u00eda","Cervantes","Chichinales","Coronel Juan Jos\u00e9 G\u00f3mez","El Cuy","General Enrique Godoy","Guerrico","Ingeniero Luis A. Huergo","Ingeniero Otto Krause","Mainqu\u00e9","Mencu\u00e9","Padre Stefenelli","Paso C\u00f3rdoba","Valle Azul","Villa Alberdi","Villa del Parque","Villa Regina"]},{"area_code":299,"province":"Neuqu\u00e9n\/R\u00edo Negro\/La Pampa","city":"Neuqu\u00e9n","localidades":["Aguada San Roque","A\u00f1elo","Bajo San Cayetano","Barda del Medio","Campo Grande","Casa de Piedra","Catriel","Centenario","Cinco Saltos","Cipolletti","Contralmirante Cordero","Cutral-Co","Ferri","General Fern\u00e1ndez Oro","Las Perlas","Octavio Pico","Pen\u00ednsula Ruca Co","Pe\u00f1as Blancas","Plaza Huincul","Plottier","Puel\u00e9n","Rinc\u00f3n de los Sauces","San Patricio del Cha\u00f1ar","Sargento Vidal","Senillosa","Veinticinco de Mayo","Villa El Choc\u00f3n","Villa Manzano","Villa San Isidro","Vista Alegre"]},{"area_code":336,"province":"Buenos Aires","city":"San Nicol\u00e1s de los Arroyos","localidades":["Campos Salles","Conesa","Er\u00e9zcano","General Rojo","La Emilia","Villa Campi","Villa Canto","Villa Esperanza","Villa Hermosa","Villa Riccio"]},{"area_code":341,"province":"Santa Fe","city":"Rosario","localidades":["Alvear","Arbilla","Capit\u00e1n Berm\u00fadez","Carcara\u00f1\u00e1","Coronel Arnold","El Caramelo","Fray Luis Beltr\u00e1n","Funes","Granadero Baigorria","Ibarlucea","Kil\u00f3metro 101","La Carolina","P\u00e9rez","Rold\u00e1n","San Jer\u00f3nimo Sud","Soldini","Villa del Plata","Villa Gobernador G\u00e1lvez","Zavalla"]},{"area_code":342,"province":"Santa Fe","city":"Santa Fe","localidades":["\u00c1ngel Gallardo","Arroyo Aguiar","Arroyo Leyes","Barrio Caima","Cabal","Campo Andino","Chaco Chico","Coronda","Desv\u00edo Arij\u00f3n","Empalme San Carlos","Franck","Gobernador Candioti","Laguna Paiva","Las Tunas","Matilde","Monte Vera","Nelson","Paraje La Costa","Plaza Matilde","Recreo","Rinc\u00f3n Potrero","San Agust\u00edn","San Jos\u00e9 del Rinc\u00f3n","Santa Rosa de Calchines","Santo Tom\u00e9","Sauce Viejo","Villa Laura"]},{"area_code":343,"province":"Entre R\u00edos","city":"Paran\u00e1","localidades":["Aldea Brasilera","Aldea Mar\u00eda Luisa","Aldea Protestante","Aldea Salto","Aldea Santa Mar\u00eda","Aldea Spatzenkutter","Aldea Valle Mar\u00eda","Cerrito","Colonia Avellaneda","Colonia Ensayo","Crespo","Diamante","Estaci\u00f3n Camps","El Palenque","El Pingo","General Racedo","General Ram\u00edrez","Gobernador Etchevehere","Hasenkamp","La Picada","Las Tunas","Libertador San Mart\u00edn","Mar\u00eda Grande","Oro Verde","Paso de la Arena","Pueblo Bellocq","Pueblo Brugo","Puerto Alvear","Puerto Las Cuevas","San Benito","Sauce Montrull","Sauce Pinto","Segu\u00ed","Sosa","Tabossi","Tezanos Pinto","Viale","Villa Fontana","Villa Hernandarias","Villa Urquiza"]},{"area_code":345,"province":"Entre R\u00edos","city":"Concordia","localidades":["Colonia Ayu\u00ed","Colonia Baylina","Colonia Oficial N\u00ba 5","Colonia Roca","Colonia San Justo","Clodomiro Ledesma","El Redom\u00f3n","Estancia Grande","Estaci\u00f3n Yeru\u00e1","General Campos","Hambis","La Criolla","Los Charr\u00faas","Nueva Escocia","Pedernal","Puerto Yeru\u00e1","San Salvador","Ubajay","Walter Moss"]},{"area_code":348,"province":"Buenos Aires","city":"Bel\u00e9n de Escobar","localidades":["Dique Luj\u00e1n","Gar\u00edn","Ingeniero Maschwitz","Maquinista F. Savio","Loma Verde","Matheu","Puerto Paran\u00e1"]},{"area_code":351,"province":"C\u00f3rdoba","city":"C\u00f3rdoba","localidades":["Barrio Gilbert","Bouwer","Caseros Centro","Causana","Colonia Tirolesa","Estaci\u00f3n Colonia Tirolesa","Estaci\u00f3n Ju\u00e1rez Celman","Gui\u00f1az\u00fa Norte","La Carbonada","La Perla","Malague\u00f1o","Malvinas Argentinas","Mi Granja","Monte Cristo","Santa Elena","Toledo","Villa Los Llanos","Villa Sierras de Oro","Yocsina"]},{"area_code":353,"province":"C\u00f3rdoba","city":"Villa Mar\u00eda","localidades":["Ana Zumar\u00e1n","Arroyo Algod\u00f3n","Arroyo Cabral","Ausonia","Ballesteros","Ballesteros Sud","Bengolea","Carrilobo","Chaz\u00f3n","Dalmacio V\u00e9lez Sarsfield","Etruria","Hernando","James Craik","La Laguna","La Palestina","La Playosa","Las Isletillas","Las Mojarras","Las Pe\u00f1as Sud","Las Perdices","Los Zorros","Luca","Pampayasta Norte","Pascanas","Pasco","Pozo del Molle","Punta del Agua","Ram\u00f3n J. C\u00e1rcano","Sanabria","Silvio Pellico","Ticino","T\u00edo Pujio","Ucacha","Villa Albertina","Villa Nueva","Villa Oeste"]},{"area_code":358,"province":"C\u00f3rdoba","city":"R\u00edo Cuarto","localidades":["Alcira Gigena","Alejandro Roca","Alpa Corral","Berrotar\u00e1n","Carnerillo","Charras","Chucul","Coronel Baigorria","Elena","General Cabrera","General Deheza","La Carolina","La Gilda","Las Acequias","Las Caleras","Las Higueras","Las Vertientes","Olaeta","Paso del Durazno","R\u00edo de Los Sauces","Santa Catalina","Villa El Chacay","Villa Reducci\u00f3n","Villa Santa Eugenia"]},{"area_code":362,"province":"Chaco","city":"Resistencia","localidades":["Barranqueras","Barrio San Pedro Pescador","Basail","Colonia Baranda","Colonia Ben\u00edtez","Colonia Popular","Fontana","General Obligado","General Vedia","Isla del Cerrito","La Escondida","La Leonesa","La Verde","Laguna Blanca","Lapachito","Las Palmas","Makall\u00e9","Margarita Bel\u00e9n","Puerto Bermejo","Puerto Bermejo Viejo","Puerto Eva Per\u00f3n","Puerto Tirol","Puerto Vilelas"]},{"area_code":364,"province":"Chaco","city":"Presidencia Roque S\u00e1enz Pe\u00f1a","localidades":["Avia Terai","Campo Largo","Colonia Aborigen Chaco","Concepci\u00f3n del Bermejo","Fort\u00edn Lavalle","Juan Jos\u00e9 Castelli","La Chiquita","La Tigra","Los Frentones","Miraflores","Napenay","Pampa del Infierno","Quitilipi","R\u00edo Muerto","Tres Isletas","Villa R\u00edo Bermejito","Villa Rural El Palmar","Zaparinqui"]},{"area_code":370,"province":"Formosa","city":"Formosa","localidades":["Banco Payagu\u00e1","Colonia Pastoril","El Colorado","General Lucio V. Mansilla","Gran Guardia","Herradura","Mayor Vicente Villafa\u00f1e","San Francisco de Laishi","San Hilario","Mariano Boedo","Moj\u00f3n de Fierro","Palo Santo","Piran\u00e9","Subteniente Per\u00edn","Tatan\u00e9","Villa del Carmen","Villa Dos Trece","Villa Escolar","Villa Trinidad"]},{"area_code":376,"province":"Misiones","city":"Posadas","localidades":["Barrio del Lago","Barrio Eva Per\u00f3n (Helvecia)","Bonpland","Candelaria","Cerro Azul","Cerro Cor\u00e1","Corpus","Domingo Savio","Fachinal","Garup\u00e1","General Urquiza","Gobernador Roca","Hip\u00f3lito Yrigoyen","Loreto","M\u00e1rtires","Nemesio Parma","Profundidad","Roca Chica","San Ignacio","Santa Ana","Santo Pip\u00f3"]},{"area_code":379,"province":"Corrientes","city":"Corrientes","localidades":["Barrio Esperanza","El Sombrero","Empedrado","Herlitzka","Itat\u00ed","Laguna Brava","Paso de la Patria","Ramada Paso","Riachuelo","San Cayetano","San Cosme","San Luis del Palmar","Santa Ana de los Gu\u00e1caras"]},{"area_code":380,"province":"La Rioja","city":"La Rioja","localidades":["Aman\u00e1","Patqu\u00eda","Punta de los Llanos","Tama","Villa Sanagasta"]},{"area_code":381,"province":"Tucum\u00e1n","city":"San Miguel de Tucum\u00e1n","localidades":["Alderetes","Barrio Aeropuerto","Bella Vista","Cebil Redondo","Colombres","Delf\u00edn Gallo","El Bracho","El Cadillal","El Cha\u00f1ar","El Corte","El Manantial","El Para\u00edso","Estaci\u00f3n Ar\u00e1oz","Ingenio San Pablo","La Florida","La Ramada","Lastenia","Los Guti\u00e9rrez","Lules","Manuel Garc\u00eda Fern\u00e1ndez","Pacar\u00e1","Quilmes y Los Sueldos","San Andr\u00e9s","Taf\u00ed Viejo","Villa Fiad","Villa Nougu\u00e9s","Yerba Buena"]},{"area_code":383,"province":"Catamarca","city":"San Fernando del Valle de Catamarca","localidades":["Adolfo E. Carranza","Alijil\u00e1n","Amadores","Ancasti","Anquincila","Balde de la Punta","Ba\u00f1ado de Ovanta","Barrio Bancario","Capay\u00e1n","Chuchucaruana","Chumbicha","Collagasta","Colonia del Valle","Colonia Nueva Coneta","Colpes","Concepci\u00f3n","Coneta","El Alto","El Ba\u00f1ado (Capay\u00e1n)","El Ba\u00f1ado (Valle Viejo)","El Bols\u00f3n","El Hueco","El Pantanillo","El Portezuelo","El Rodeo","El Rosario","Guayamba","Huaycama (Ambato)","Huaycama (Valle Viejo)","Huillapima","Infanz\u00f3n","La Bajada","La Candelaria","La Carrera","La Falda de San Antonio","La Higuera","La Majada","La Merced","La Puerta","La Tercena","La Vi\u00f1a","Las Ca\u00f1as","Las Chacritas","Las Juntas","Las Lajas","Las Tejas","Lavalle (parte)","Los Altos","Los \u00c1ngeles","Los Castillos","Los Corrales","Los Talas","Los Varela","Manantiales","Miraflores","Monte Potrero","Palo Labrado","Polcos","Pomancillo Este","Pomancillo Oeste","Pozo del Mistol","San Antonio (Fray Mamerto Esqui\u00fa)","San Antonio (Pacl\u00edn)","San Isidro","San Jos\u00e9","San Mart\u00edn","San Pablo","San Pedro","San Pedro de Guasay\u00e1n (parte)","Santa Cruz","Santa Rosa","Singuil","Sumalao","Tapso (parte)","Vilism\u00e1n","Villa de Balcozna","Villa Dolores","Villa Las Pirquitas"]},{"area_code":385,"province":"Santiago del Estero","city":"Santiago del Estero","localidades":["Antaj\u00e9","Ardiles","\u00c1rraga","Beltr\u00e1n","Ca\u00f1ada Escobar","Chaupi Pozo","Clodomira","Colonia El Simbolar","El De\u00e1n","El Moj\u00f3n","El Puestito de San Antonio","El Zanj\u00f3n","Estaci\u00f3n Robles","Estaci\u00f3n Simbolar","Estaci\u00f3n Taboada","Fern\u00e1ndez","Ingeniero Forres","La Aurora","La Banda","La D\u00e1rsena (San Ram\u00f3n)","Los Cardozos","Los Morales","Los N\u00fa\u00f1ez","Los Quiroga","Maco","Maquito","San Pedro","Santa Mar\u00eda","Tramo 16","Villa Robles","Vilmer","Yanda"]},{"area_code":387,"province":"Salta","city":"Salta","localidades":["Aleman\u00eda","Ampascachi","Cabra Corral","Campo Quijano","Campo Santo","Cerrillos","Chicoana","Cobos","Coronel Moldes","El Bordo","El Carril","General G\u00fcemes","Guachipas","Iruya","La Caldera","La Ci\u00e9naga","La Merced","La Silleta","La Vi\u00f1a","Las Costas","Olacapato","Rosario de Lerma","San Antonio de los Cobres","San Agust\u00edn","Santa Rosa de los Pastos Grandes","Talapampa","Tolar Grande","Vaqueros","Villa Los \u00c1lamos","Villa San Lorenzo"]},{"area_code":388,"province":"Jujuy","city":"San Salvador de Jujuy","localidades":["Aguas Calientes","Alto Comedero","Barrio La Uni\u00f3n","Carahunco","Centro Forestal","Colonia San Jos\u00e9","El Carmen","El Ceibal","El C\u00f3ndor","Guerrero","Huacalera","Juella","La Almona","La Ovejer\u00eda","Le\u00f3n","Los Alisos","Los Lapachos","Los Nogales","Maimar\u00e1","Manantiales","Mina 9 de Octubre","Monterrico","Ocloyas","Palpal\u00e1","Pampa Blanca","Perico","Posta de Hornillos","Puesto Viejo","Purmamarca","R\u00edo Blanco","San Antonio","San Isidro","San Juancito","San Pablo de Reyes","Tilcara","Tumbaya","Volc\u00e1n","Villa Palpal\u00e1","Yala"]},{"area_code":2202,"province":"Buenos Aires","city":"Gonz\u00e1lez Cat\u00e1n","localidades":["Virrey del Pino"]},{"area_code":2221,"province":"Buenos Aires","city":"Magdalena","localidades":["\u00c1lvarez Jonte","Atalaya","Pipinas","Las Tahonas","Monte Veloz","Punta del Indio","Roberto J. Payr\u00f3","Ver\u00f3nica","Vieytes"]},{"area_code":2223,"province":"Buenos Aires","city":"Brandsen","localidades":["Altamirano","G\u00f3mez","Jeppener","Las Acacias","Loma Verde"]},{"area_code":2224,"province":"Buenos Aires","city":"Glew","localidades":["Guernica"]},{"area_code":2225,"province":"Buenos Aires","city":"Alejandro Korn","localidades":["Domselaar","La Capilla","San Vicente"]},{"area_code":2226,"province":"Buenos Aires","city":"Ca\u00f1uelas","localidades":["Alejandro Peti\u00f3n","El Taladro","Gobernador Udaondo","Santa Rosa","Uribelarrea","Vicente Casares"]},{"area_code":2227,"province":"Buenos Aires","city":"Lobos","localidades":["Antonio Carboni","Carlos Beguerie","Elvira","Empalme Lobos","Roque P\u00e9rez","Salvador Mar\u00eda","Zapiola"]},{"area_code":2229,"province":"Buenos Aires","city":"Juan Mar\u00eda Guti\u00e9rrez","localidades":["El Pato","Ingeniero Juan Allan","Pereyra"]},{"area_code":2241,"province":"Buenos Aires","city":"Chascom\u00fas","localidades":["Alegre","Ranchos","Samboromb\u00f3n"]},{"area_code":2242,"province":"Buenos Aires","city":"Lezama","localidades":["Casalins","Pila"]},{"area_code":2243,"province":"Buenos Aires","city":"General Belgrano","localidades":["Barrio R\u00edo Salado","Villanueva"]},{"area_code":2244,"province":"Buenos Aires","city":"Las Flores","localidades":["Coronel Boerr","El Trigo","Pardo"]},{"area_code":2245,"province":"Buenos Aires","city":"Dolores","localidades":["Castelli","Centro Guerrero","Cerro de la Gloria","General Conesa","Sevigne","Villa Roch"]},{"area_code":2246,"province":"Buenos Aires","city":"Santa Teresita","localidades":["Costa Chica","Costa del Este","Las Toninas","Mar del Tuy\u00fa"]},{"area_code":2252,"province":"Buenos Aires","city":"San Clemente del Tuy\u00fa","localidades":["Chacras de San Clemente","General Lavalle"]},{"area_code":2254,"province":"Buenos Aires","city":"Pinamar","localidades":["Caril\u00f3","Ostende","Valeria del Mar"]},{"area_code":2255,"province":"Buenos Aires","city":"Villa Gesell","localidades":["Las Gaviotas","Mar Azul","Mar de las Pampas"]},{"area_code":2257,"province":"Buenos Aires","city":"Mar de Aj\u00f3","localidades":["Aguas Verdes","Costa Azul","Costa Esmeralda","La Lucila del Mar","Nueva Atlantis","Pav\u00f3n","San Bernardo del Tuy\u00fa"]},{"area_code":2261,"province":"Buenos Aires","city":"Lober\u00eda","localidades":["Arenas Verdes","Licenciado Matienzo","Pieres","San Manuel","Tamanguey\u00fa"]},{"area_code":2262,"province":"Buenos Aires","city":"Necochea","localidades":["Balneario Costa Bonita","Balneario Los \u00c1ngeles","Energ\u00eda","Quequ\u00e9n"]},{"area_code":2264,"province":"Buenos Aires","city":"Nicanor Olivera (Est. La Dulce)","localidades":["Claraz","Juan Fern\u00e1ndez","Ram\u00f3n Santamarina"]},{"area_code":2265,"province":"Buenos Aires","city":"Coronel Vidal","localidades":["General Pir\u00e1n","La Armon\u00eda","Mar Chiquita","Mar de Cobo","Vivorat\u00e1"]},{"area_code":2266,"province":"Buenos Aires","city":"Balcarce","localidades":["Los Pinos","Mechongu\u00e9","Napaleof\u00fa","Ramos Otero","San Agust\u00edn","Villa Laguna La Brava"]},{"area_code":2267,"province":"Buenos Aires","city":"General Juan Madariaga","localidades":[]},{"area_code":2268,"province":"Buenos Aires","city":"Maip\u00fa","localidades":["General Guido","Labard\u00e9n","Las Armas","Santo Domingo"]},{"area_code":2271,"province":"Buenos Aires","city":"San Miguel del Monte","localidades":["Abbott","Gorchs","Zen\u00f3n Videla Dorna"]},{"area_code":2272,"province":"Buenos Aires","city":"Navarro","localidades":["Jos\u00e9 Juan Almeyra","Las Marianas","Villa Moll"]},{"area_code":2273,"province":"Buenos Aires","city":"Carmen de Areco","localidades":["Pueblo Gouin","Tres Sargentos"]},{"area_code":2274,"province":"Buenos Aires","city":"Carlos Spegazzini","localidades":["M\u00e1ximo Paz"]},{"area_code":2281,"province":"Buenos Aires","city":"Azul","localidades":["Ariel","Cachar\u00ed","Chillar","Diecis\u00e9is de Julio"]},{"area_code":2283,"province":"Buenos Aires","city":"Tapalqu\u00e9","localidades":["Crotto","Velloso"]},{"area_code":2284,"province":"Buenos Aires","city":"Olavarr\u00eda","localidades":["Blanca Grande","Colonia Hinojo","Colonia Nievas","Colonia San Miguel","Espigas","Hinojo","Loma Negra","Recalde","Sierra Chica","Santa Luisa","Sierras Bayas","Villa La Serran\u00eda"]},{"area_code":2285,"province":"Buenos Aires","city":"Laprida","localidades":["Pueblo Nuevo","Pueblo San Jorge"]},{"area_code":2286,"province":"Buenos Aires","city":"General La Madrid","localidades":["La Colina","Las Martinetas","L\u00edbano"]},{"area_code":2291,"province":"Buenos Aires","city":"Miramar","localidades":["Centinela del Mar","Comandante Nicanor Otamendi","Mar del Sud"]},{"area_code":2292,"province":"Buenos Aires","city":"Benito Ju\u00e1rez","localidades":["Barker","Estaci\u00f3n L\u00f3pez","Ted\u00edn Uriburu","Villa Cacique"]},{"area_code":2296,"province":"Buenos Aires","city":"Ayacucho","localidades":["La Constancia","Solanet","Udaquiola"]},{"area_code":2297,"province":"Buenos Aires","city":"Rauch","localidades":["Ega\u00f1a","Mart\u00edn Colman","Miranda"]},{"area_code":2302,"province":"La Pampa\/Buenos Aires","city":"General Pico","localidades":["Agustoni","Alta Italia","Bernardo Larroud\u00e9","Ceballos","Coronel Hilario Lagos","Dorila","Intendente Alvear","Gonz\u00e1lez Moreno","Metileo","Speluzzi","Trebolares","Trenel","V\u00e9rtiz"]},{"area_code":2314,"province":"Buenos Aires","city":"San Carlos de Bol\u00edvar","localidades":["Coraceros","Hale","Henderson","Herrera Vegas","Juan F. Ibarra","Mar\u00eda Lucila","Mariano Unzu\u00e9","Paula","Pirovano","Urdampilleta","Villa Lynch Pueyrred\u00f3n"]},{"area_code":2316,"province":"Buenos Aires","city":"Daireaux","localidades":["Andant","Arboledas","La Larga"]},{"area_code":2317,"province":"Buenos Aires","city":"Nueve de Julio","localidades":["Alfredo Demarchi","Carlos Mar\u00eda Na\u00f3n","Doce de Octubre","Dudignac","La Aurora","Manuel B. Gonnet","Marcelino Ugarte","Morea","Norumbega","Patricios","Santos Unzu\u00e9","Villa General Fournier"]},{"area_code":2320,"province":"Buenos Aires","city":"Jos\u00e9 C. Paz","localidades":["Grand Bourg","Tortuguitas"]},{"area_code":2323,"province":"Buenos Aires","city":"Luj\u00e1n","localidades":["Capilla del Se\u00f1or","Carlos Keen","Cortines","El Remanso","Jos\u00e9 Mar\u00eda J\u00e1uregui","Lezica y Torrezuri","Olivera","Open Door","Parada Robles","Pav\u00f3n","Torres","Villa Ruiz"]},{"area_code":2324,"province":"Buenos Aires","city":"Mercedes","localidades":["Agote","General Rivas","Goldney","Gowland","Suipacha","Tom\u00e1s Jofr\u00e9"]},{"area_code":2325,"province":"Buenos Aires","city":"San Andr\u00e9s de Giles","localidades":["Azcu\u00e9naga","Cucull\u00fa","Franklin","Villa Espil"]},{"area_code":2326,"province":"Buenos Aires","city":"San Antonio de Areco","localidades":["Duggan","Sol\u00eds","Vagu\u00e9s","Villa L\u00eda"]},{"area_code":2331,"province":"La Pampa","city":"Realic\u00f3","localidades":["Adolfo Van Praet","Falucho","Maisonave","Ojeda","Parera","Quetrequ\u00e9n","Rancul"]},{"area_code":2333,"province":"La Pampa","city":"Quem\u00fa Quem\u00fa","localidades":["Colonia Bar\u00f3n","Colonia San Jos\u00e9","Miguel Can\u00e9","Relmo","Villa Mirasol","Winifreda"]},{"area_code":2334,"province":"La Pampa","city":"Eduardo Castex","localidades":["Conhelo","Monte Nievas","Rucanelo",""]},{"area_code":2335,"province":"La Pampa","city":"Caleuf\u00fa","localidades":["Arata","Embajador Martini","Ingeniero Luiggi","La Maruja","Pichi Huinca",""]},{"area_code":2336,"province":"C\u00f3rdoba","city":"Huinca Renanc\u00f3","localidades":["Pinc\u00e9n","Ranqueles","Villa Huidobro"]},{"area_code":2337,"province":"Buenos Aires","city":"Am\u00e9rica","localidades":["Fort\u00edn Olavarr\u00eda","Mira Pampa","Roosevelt","Sansinena","San Mauricio","Sundblad",""]},{"area_code":2338,"province":"La Pampa","city":"Victorica","localidades":["Algarrobo del \u00c1guila","Carro Quemado","La Humada","Loventu\u00e9","Luan Toro","Rucanelo","Santa Isabel","Tel\u00e9n",""]},{"area_code":2342,"province":"Buenos Aires","city":"Bragado","localidades":["Asamblea","Comodoro Py","General O\u2019Brien","La Limpia","M\u00e1ximo Fern\u00e1ndez","Mechita","Warnes"]},{"area_code":2343,"province":"Buenos Aires","city":"Norberto de La Riestra","localidades":["Pedernales",""]},{"area_code":2344,"province":"Buenos Aires","city":"Saladillo","localidades":["\u00c1lvarez de Toledo","Caz\u00f3n","Del Carril","Juan Jos\u00e9 Blaquier","General Alvear","Polvaredas",""]},{"area_code":2345,"province":"Buenos Aires","city":"25 de Mayo","localidades":["Agust\u00edn Mosconi","Del Valle","Lucas Monteverde","San Enrique","Vald\u00e9s"]},{"area_code":2346,"province":"Buenos Aires","city":"Chivilcoy","localidades":["Alberti","Ben\u00edtez","Coronel Segu\u00ed","Emilio Ayarza","Gobernador Ugarte","Gorostiaga","Henry Bell","Indacochea","La Rica","Moquehu\u00e1","Palemon Huergo","Pl\u00e1","Ram\u00f3n Biaus","San Sebasti\u00e1n","Villa Grisol\u00eda","Villa Mar\u00eda","Villa Ortiz"]},{"area_code":2352,"province":"Buenos Aires","city":"Chacabuco","localidades":["Castilla","Irala","Los \u00c1ngeles","O\u2019Higgins","Olascoaga","Rawson"]},{"area_code":2353,"province":"Buenos Aires\/Santa Fe","city":"General Arenales","localidades":["Arribe\u00f1os","Ascensi\u00f3n","Estaci\u00f3n Arenales","Ferr\u00e9","La Angelita","La Trinidad","Teodelina (parte)."]},{"area_code":2354,"province":"Buenos Aires","city":"Vedia","localidades":["Alberdi Viejo","Colonia San Ricardo","El Dorado","Fort\u00edn Acha","Juan Bautista Alberdi","Villa Roth"]},{"area_code":2355,"province":"Buenos Aires","city":"Lincoln","localidades":["Arenaza","Bayauca","Berm\u00fadez","Coronel Mart\u00ednez de Hoz","El Triunfo","Las Toscas","Pasteur","Roberts"]},{"area_code":2356,"province":"Buenos Aires","city":"General Pinto","localidades":["Germania","Villa Francia"]},{"area_code":2357,"province":"Buenos Aires","city":"Carlos Tejedor","localidades":["Carlos Salas","Colonia Ser\u00e9","Curar\u00fa"]},{"area_code":2358,"province":"Buenos Aires","city":"Los Toldos","localidades":["La Delfina","San Emilio","Zaval\u00eda"]},{"area_code":2392,"province":"Buenos Aires","city":"Trenque Lauquen","localidades":["Beruti","Bocayuva","De Bary","Girodias","La Carreta","Pellegrini","Treinta de Agosto"]},{"area_code":2393,"province":"Buenos Aires","city":"Salazar","localidades":[]},{"area_code":2394,"province":"Buenos Aires","city":"Tres Lomas","localidades":["Ingeniero Thompson","Quenum\u00e1","Salliquel\u00f3"]},{"area_code":2395,"province":"Buenos Aires","city":"Carlos Casares","localidades":["Bellocq","Cadret","Colonia Mauricio","Gobernador Arias","Hortensia","La Dorita","La Sof\u00eda","Mauricio Hirsch","Moctezuma","Ordoqui","Smith"]},{"area_code":2396,"province":"Buenos Aires","city":"Pehuaj\u00f3","localidades":["Abel","Capit\u00e1n Castro","Chiclana","Francisco Madero","Juan Jos\u00e9 Paso","Magdala","Mones Caz\u00f3n","Nueva Plata","San Bernardo de Pehuaj\u00f3"]},{"area_code":2473,"province":"Buenos Aires\/Santa Fe","city":"Col\u00f3n","localidades":["El Arbolito","Hughes","Juncal","Sarasa","Santa Emilia (parte)","Wheelwright"]},{"area_code":2474,"province":"Buenos Aires","city":"Salto","localidades":["Berdier","Gahan","In\u00e9s Indart","La Invencible"]},{"area_code":2475,"province":"Buenos Aires","city":"Rojas","localidades":["Las Carabelas","La Beba","Los Indios","Rafael Obligado","Roberto Cano","Sol de Mayo","Villa Manuel Pomar","Villa Parque Cecir"]},{"area_code":2477,"province":"Buenos Aires\/Santa Fe","city":"Pergamino","localidades":["Acevedo","Arroyo Dulce","Fontezuela","General Gelly","Guerrico","J. A. de la Pe\u00f1a","Juan Anchorena","Manuel Ocampo","Mariano Ben\u00edtez","Mariano H. Alfonzo","Pearson","Pinz\u00f3n","Rancagua","Villa Ang\u00e9lica","Villa San Jos\u00e9"]},{"area_code":2478,"province":"Buenos Aires","city":"Arrecifes","localidades":["Capit\u00e1n Sarmiento","La Luisa","Todd","Vi\u00f1a"]},{"area_code":2622,"province":"Mendoza","city":"Tunuy\u00e1n","localidades":["Barrio San Cayetano","Campo de los Andes","Colonia Las Rosas","Chilecito","Cord\u00f3n del Plata","El Cepillo","El Peral","Eugenio Bustos","La Arboleda","La Consulta","Los Sauces","Pareditas","San Jos\u00e9","Tupungato","Villa Bast\u00edas","Villa San Carlos","Vista Flores"]},{"area_code":2624,"province":"Mendoza","city":"Uspallata","localidades":["El Carmelo","El Salto","Las Carditas","Las Cuevas","Las Vegas","Los Penitentes","Manantiales","Piedras Blancas","Polvaredas","Potrerillos","Puente del Inca","Punta de Vacas","Valle del Sol","Villa El Refugio"]},{"area_code":2625,"province":"Mendoza","city":"General Alvear","localidades":["Barrio El Nevado","Bowen","Carmensa","Jaime Prats","Los Compartos","Punta del Agua","Real del Padre","Villa Atuel","Villa Atuel Norte"]},{"area_code":2626,"province":"Mendoza","city":"La Paz","localidades":["Desaguadero (parte)","Villa Antigua"]},{"area_code":2646,"province":"San Juan","city":"Villa San Agust\u00edn","localidades":["Astica","Baldes del Rosario","Chucuma","Los Baldecitos","Usno"]},{"area_code":2647,"province":"San Juan","city":"San Jos\u00e9 de J\u00e1chal","localidades":["Angualasto","Bella Vista","Colola","El M\u00e9dano","Gran China","Huaco","Iglesia","La Falda","Las Flores","Mogna","Niquivil","Pampa Vieja","Pismanta","Rodeo","San Isidro","Tamber\u00edas","Tudcum","Villa Malvinas Argentinas","Villa Mercedes"]},{"area_code":2648,"province":"San Juan","city":"Calingasta","localidades":["Barreal","Tamber\u00edas","Villa Pituil"]},{"area_code":2651,"province":"San Luis","city":"San Francisco del Monte de Oro","localidades":["Candelaria","Luj\u00e1n","Nogol\u00ed","Quines"]},{"area_code":2652,"province":"San Luis","city":"---","localidades":["Balde","Beazley","Cazador","Chosmes","Jarilla","La Bajada","La Majada","Las Aguadas","Las Chacras","Las Lagunas","Leandro N. Alem","Mosmota","R\u00edo Juan G\u00f3mez","Potrero de los Funes (parte)","Riocito","Salinas del Bebedero","San Mart\u00edn","Talita","Villa General Roca"]},{"area_code":2655,"province":"San Luis","city":"La Toma","localidades":["Juan Llerena","Las Vertientes","Paso Grande","Saladillo"]},{"area_code":2656,"province":"San Luis","city":"Tilisarao","localidades":["Carpinter\u00eda","Cerro de Oro","Concar\u00e1n","Cortaderas","Lafinur","Los Cajones","Los Molles","Merlo","Naschel","Papagayos","Renca","San Pablo","Santa Rosa de Conlara","Villa de Praga","Villa del Carmen","Villa Larca"]},{"area_code":2657,"province":"San Luis","city":"Villa Mercedes","localidades":["Fraga","Juan Jorba","Justo Daract","La Florida","Lavaisse","San Jos\u00e9 del Morro","Villa Reynolds","Villa Salles"]},{"area_code":2658,"province":"San Luis","city":"Buena Esperanza","localidades":["Anchorena","Arizona","Bagual","Batavia","Fort\u00edn El Patria","Fortuna","La Maroma","Mart\u00edn de Loyola","Nahuel Map\u00e1","Navia","Nueva Galia","Uni\u00f3n"]},{"area_code":2901,"province":"Tierra del Fuego","city":"Ushuaia","localidades":["Lago Escondido","Tolhuin"]},{"area_code":2902,"province":"Santa Cruz","city":"R\u00edo Turbio","localidades":["El Calafate","El Turbio","Esperanza","Julia Dufour","Mina 3","Rospentek Aike","Veintiocho de Noviembre"]},{"area_code":2903,"province":"Chubut","city":"R\u00edo Mayo","localidades":["Aldea Beleiro","Doctor Ricardo Rojas","Facundo","Lago Blanco"]},{"area_code":2920,"province":"R\u00edo Negro\/Buenos Aires","city":"Viedma","localidades":["Bah\u00eda Creek","Bah\u00eda San Blas","Balneario El C\u00f3ndor","Cardenal Cagliero","Carmen de Patagones","El Juncal","Guardia Mitre","Jos\u00e9 B. Casas","La Lober\u00eda","Los Pocitos","Loteo Costa de R\u00edo","Pozo Salado","San Javier","Stroeder","Villa Balnearia 7 de Marzo"]},{"area_code":2921,"province":"Buenos Aires","city":"Coronel Dorrego","localidades":["Aparicio","Balneario Pehuen-C\u00f3","Balneario Sauce Grande","El Perdido","Faro","Irene","Monte Hermoso","San Rom\u00e1n"]},{"area_code":2922,"province":"Buenos Aires","city":"Coronel Pringles","localidades":["El Divisorio","El Pensamiento","Frapal","Lartigau","Pontaut"]},{"area_code":2923,"province":"Buenos Aires","city":"Pig\u00fc\u00e9","localidades":["Arroyo Corto","Azopardo","Colonia San Mart\u00edn","Dufaur","Espartillar","Estela","Goyena","Puan","Saavedra","San Germ\u00e1n","Villa Castelar"]},{"area_code":2924,"province":"Buenos Aires\n        La Pampa","city":"Darregueira","localidades":["Bordenave","Guatrach\u00e9","San Miguel Arc\u00e1ngel","Santa Teresa","Rol\u00f3n","Villa Durcudoy (17 de Agosto)"]},{"area_code":2925,"province":"Buenos Aires\/La Pampa","city":"Villa Iris","localidades":["Abramo","Bernasconi","Felipe Sol\u00e1","General San Mart\u00edn","Hucal","Jacinto Ar\u00e1uz","L\u00f3pez Lecube","Per\u00fa"]},{"area_code":2926,"province":"Buenos Aires","city":"Coronel Su\u00e1rez","localidades":["Cascada","Cura Malal","D\u2019Orbigny","Pasman","San Jos\u00e9","Santa Mar\u00eda","Santa Trinidad"]},{"area_code":2927,"province":"Buenos Aires","city":"M\u00e9danos","localidades":["Balneario Chapalc\u00f3","Colonia San Adolfo","Nicol\u00e1s Levalle"]},{"area_code":2928,"province":"Buenos Aires","city":"Pedro Luro","localidades":["Balneario La Chiquita","Hilario Ascasubi","Juan A. Pradere","Villalonga"]},{"area_code":2929,"province":"Buenos Aires","city":"Guamin\u00ed","localidades":["Arroyo Venado","Casbas","Garr\u00e9","Laguna Alsina"]},{"area_code":2931,"province":"R\u00edo Negro\/La Pampa","city":"R\u00edo Colorado","localidades":["Anzoategui","Colonia Juli\u00e1 y Echarren","General Conesa","La Adela"]},{"area_code":2932,"province":"Buenos Aires","city":"Punta Alta","localidades":["Bajo Hondo","Villa del Mar","Villa General Arias"]},{"area_code":2933,"province":"Buenos Aires","city":"Huanguel\u00e9n","localidades":[]},{"area_code":2934,"province":"R\u00edo Negro","city":"San Antonio Oeste","localidades":["Aguada Cecilio","Arroyo de La Ventana","Arroyo Los Berros","Cona Niyeu","Las Grutas","Ministro Ramos Mex\u00eda","Nahuel Niyeu","Playas Doradas","Punta Colorada","San Antonio Este","Sierra Colorada","Sierra Grande","Sierra Pailem\u00e1n","Treneta","Valcheta","Yaminu\u00e9"]},{"area_code":2935,"province":"Buenos Aires","city":"Rivera","localidades":["Villa Maza"]},{"area_code":2936,"province":"Buenos Aires","city":"Carhu\u00e9","localidades":["Delf\u00edn Huergo","Esteban Agust\u00edn Gasc\u00f3n","La Pala","Thames","Yutuyaco"]},{"area_code":2940,"province":"R\u00edo Negro","city":"Ingeniero Jacobacci","localidades":["Aguada de Guerra","Clemente Onelli","Colan Conhue","Comallo","Comic\u00f3","El Ca\u00edn","Laguna Blanca","Las Bayas","Los Menucos","Maquinchao","Mina Santa Teresita","Ojos de Agua","Pilquiniyeu","Prahuaniyeu"]},{"area_code":2942,"province":"Neuqu\u00e9n\/R\u00edo Negro","city":"Zapala","localidades":["Alumin\u00e9","Arroyito","Bajada del Agrio","Covunco Abajo","La Buitrera","Las Coloradas","Las Lajas","Los Catutos","Mari Menuco","Mariano Moreno","Naupa Huen","Paso Aguerre","Pic\u00fan Leuf\u00fa","Piedra del \u00c1guila","Ram\u00f3n M. Castro","Santo Tom\u00e1s","Villa Pehuenia"]},{"area_code":2945,"province":"Chubut","city":"Esquel","localidades":["Aldea Apeleg","Aldea Epulef","Alto R\u00edo Senguer","Buen Pasto","Buenos Aires Chico","Carrenleuf\u00fa","Cholila","Colan Conhu\u00e9","Corcovado","Cushamen","Doctor Atilio Oscar Viglione","El Mait\u00e9n","Epuy\u00e9n","Gobernador Costa","Gualjaina","Jos\u00e9 de San Mart\u00edn","Lago Epuy\u00e9n","Lago Rosario","Leleque","Los Cipreses","Paso del Sapo","R\u00edo Pico","Tecka","Trevelin","Villa Futalaufquen"]},{"area_code":2946,"province":"R\u00edo Negro","city":"Choele Choel","localidades":["Barrio Uni\u00f3n","Chelfor\u00f3","Chimpay","Coronel Belisle","Darwin","Lamarque","Luis Beltr\u00e1n","Pomona"]},{"area_code":2948,"province":"Neuqu\u00e9n","city":"Chos Malal","localidades":["Andacollo","Barrancas","Buta Ranquil","Caviahue","Chorriaca","Coyuco-Cochico","El Cholar","El Huec\u00fa","Huinganco","Las Ovejas","Loncopu\u00e9","Los Miches","Manzano Amargo","Sauzal Bonito","Taquimil\u00e1n","Termas de Copahue","Tricao Malal","Varvarco","Villa Cur\u00ed Leuv\u00fa","Villa del Nahueve"]},{"area_code":2952,"province":"La Pampa","city":"General Acha","localidades":["Chacharramendi","Colonia Santa Mar\u00eda","Cuchillo-C\u00f3","Gobernador Duval","La Reforma","Limay Mahuida","Puelches","Quehu\u00e9","Unanu\u00e9"]},{"area_code":2953,"province":"La Pampa","city":"Macach\u00edn","localidades":["Alpachiri","Doblas","General Manuel Campos","Miguel Riglos","Rol\u00f3n"]},{"area_code":2954,"province":"La Pampa","city":"Santa Rosa","localidades":["Anguil","Ataliva Roca","Cachirulo","Catril\u00f3","Lonquimay","Naic\u00f3","Tom\u00e1s de Anchorena","Toay","Uriburu"]},{"area_code":2962,"province":"Santa Cruz","city":"Puerto San Juli\u00e1n","localidades":["Comandante Luis Piedrabuena","El Chalt\u00e9n","Gobernador Gregores","Puerto Santa Cruz","Tres Lagos"]},{"area_code":2963,"province":"Santa Cruz","city":"Perito Moreno","localidades":["Bajo Caracoles","Lago Posadas","Los Antiguos"]},{"area_code":2964,"province":"Tierra del Fuego","city":"R\u00edo Grande","localidades":[]},{"area_code":2966,"province":"Santa Cruz","city":"R\u00edo Gallegos","localidades":[]},{"area_code":2972,"province":"Neuqu\u00e9n","city":"San Mart\u00edn de los Andes","localidades":["Jun\u00edn de los Andes","Villa Meliquina"]},{"area_code":2982,"province":"Buenos Aires","city":"Orense","localidades":["Balneario Orense","Claromec\u00f3","San Francisco de Bellocq"]},{"area_code":2983,"province":"Buenos Aires","city":"Tres Arroyos","localidades":["Adolfo Gonzales Chaves","Balneario Marisol","Balneario San Cayetano","Barrow","Copetonas","De la Garma","Dunamar","Indio Rico","Juan Eulogio Barra","Lin Calel","Micaela Cascallares","Ochand\u00edo","Oriente","Reta","San Cayetano","San Mayol","V\u00e1squez"]},{"area_code":3327,"province":"Buenos Aires","city":"Benav\u00eddez","localidades":["Ricardo Rojas"]},{"area_code":3329,"province":"Buenos Aires","city":"San Pedro","localidades":["Baradero","Gobernador Castro","La Violeta","Obligado","P\u00e9rez Mill\u00e1n","Portela Pueblo Doyle","R\u00edo Tala","Santa Coloma","Santa Luc\u00eda","Villa Alsina"]},{"area_code":3382,"province":"Santa Fe\/Buenos Aires\/C\u00f3rdoba","city":"Rufino","localidades":["Aar\u00f3n Castellanos","Amen\u00e1bar","Ca\u00f1ada Seca","Christophersen","Diego de Alvear","La Cesira","Leguizam\u00f3n","San Gregorio","Santa Regina","Villa Saboya"]},{"area_code":3385,"province":"C\u00f3rdoba","city":"Laboulaye","localidades":["General Levalle","Jovita","Melo","R\u00edo Bamba","Rosales","San Joaqu\u00edn","Serrano","Villa Rossi"]},{"area_code":3387,"province":"C\u00f3rdoba","city":"Buchardo","localidades":["Ital\u00f3","Onagoity"]},{"area_code":3388,"province":"Buenos Aires","city":"General Villegas","localidades":["Ameghino","Banderal\u00f3","Blaquier","Coronel Charlone","Emilio V. Bunge","Massey","Pichincha","Piedritas","Porvenir","Santa Eleodora","Tres Algarrobos","Timote","Villa Sauze"]},{"area_code":3400,"province":"Santa Fe","city":"Villa Constituci\u00f3n","localidades":["Barrio Arroyo del Medio","Barrio Mitre","Empalme Villa Constituci\u00f3n","Pav\u00f3n","Rueda","Theobald"]},{"area_code":3401,"province":"Santa Fe","city":"El Tr\u00e9bol","localidades":["Ca\u00f1ada Rosqu\u00edn","Carlos Pellegrini","Casas","Centeno","Las Bandurrias","Los Cardos","Mar\u00eda Susana","Piamonte","San Genaro","San Genaro Norte",""]},{"area_code":3402,"province":"Santa Fe","city":"Arroyo Seco","localidades":["Albarellos","\u00c1lvarez","Coronel Bogado","Coronel Rodolfo S. Dom\u00ednguez","Fighiera","General Lagos","Los Muchachos - La Alborada","Monte Flores","Pi\u00f1ero","Pueblo Esther","Puerto Arroyo Seco","Villa Amelia"]},{"area_code":3404,"province":"Santa Fe","city":"San Carlos Centro","localidades":["Campo Piaggio","Colonia Belgrano","G\u00e1lvez","Gessler","Larrechea","Loma Alta","L\u00f3pez","Pilar","Sa Pereira","San Carlos Norte","San Carlos Sud","San Eugenio","San Jer\u00f3nimo del Sauce","San Jer\u00f3nimo Norte","San Mariano","Santa Clara de Buena Vista","Santa Mar\u00eda Centro","Santa Mar\u00eda Norte","Wildermuth"]},{"area_code":3405,"province":"Santa Fe","city":"San Javier","localidades":["Alejandra","Cacique Ariacaiqu\u00edn","Cayast\u00e1","Colonia Masc\u00edas","Helvecia","La Brava","Los Zapallos","Saladero Mariano Cabal"]},{"area_code":3406,"province":"Santa Fe","city":"San Jorge","localidades":["Castelar","Crispi","Garibaldi","Landeta","Las Petacas","Mar\u00eda Juana","San Mart\u00edn de las Escobas","Sastre y Ortiz","Traill"]},{"area_code":3407,"province":"Buenos Aires","city":"Ramallo","localidades":["El Para\u00edso","Las Bahamas","Villa General Savio","Villa Ramallo"]},{"area_code":3408,"province":"Santa Fe","city":"San Crist\u00f3bal","localidades":["Aguar\u00e1 Grande","Balneario La Verde","Capivara","Huanqueros","La Cabral","Las Avispas","\u00d1anducita","Santurce"]},{"area_code":3409,"province":"Santa Fe","city":"Mois\u00e9s Ville","localidades":["Constanza","Las Palmeras","Monigotes","Palacios"]},{"area_code":3435,"province":"Entre R\u00edos","city":"Nogoy\u00e1","localidades":["Betbeder","Don Crist\u00f3bal Primero","Febre","Hern\u00e1ndez","Lucas Gonz\u00e1lez","XX de Setiembre"]},{"area_code":3436,"province":"Entre R\u00edos","city":"Victoria","localidades":["Antelo","Aranguren","Chilcas","Laguna del Pescado","Molino Doll","Rinc\u00f3n de Nogoy\u00e1"]},{"area_code":3437,"province":"Entre R\u00edos","city":"La Paz","localidades":["San Gustavo","Santa Elena"]},{"area_code":3438,"province":"Entre R\u00edos","city":"Bovril","localidades":["Colonia Avigdor","El Solar","Piedras Blancas","Sauce de Luna","Sir Leonard","Villa Alcaraz"]},{"area_code":3442,"province":"Entre R\u00edos","city":"Concepci\u00f3n del Uruguay","localidades":["Caseros","Colonia El\u00eda","Herrera","Pronunciamiento","Villa San Justo"]},{"area_code":3444,"province":"Entre R\u00edos","city":"Gualeguay","localidades":["Aldea Asunci\u00f3n","Distrito Sexto Costa de Nogoy\u00e1","Enrique Carb\u00f3","Estaci\u00f3n Lazo","General Galarza"]},{"area_code":3445,"province":"Entre R\u00edos","city":"Rosario del Tala","localidades":["Altamirano Sur","Arroyo Cl\u00e9","Basavilbaso","Estaci\u00f3n Gobernador Echag\u00fce","Estaci\u00f3n Gobernador Sola","Estaci\u00f3n L\u00edbaros","Gobernador Mansilla","Guardamonte","Las Guachas","Las Moscas","Maci\u00e1","Rocamora","Santa Anita","Villa Mantero","Villa San Marcial"]},{"area_code":3446,"province":"Entre R\u00edos","city":"Gualeguaych\u00fa","localidades":["Aldea San Antonio (Gualeguaych\u00fa)","Aldea San Juan","Ceibas","Estaci\u00f3n Escri\u00f1a","Faustino M. Parera","General Almada","Gilbert","Irazusta","Larroque","M\u00e9danos","\u00d1ancay","Pastor Britos","Pueblo General Belgrano","Puerto Ibicuy","Rinc\u00f3n del Cinto","Rinc\u00f3n del Gato","Urdinarrain","Villa Paranacito"]},{"area_code":3447,"province":"Entre R\u00edos","city":"Col\u00f3n","localidades":["Arroyo Bar\u00fa","Colonia Hocker","Colonia San Anselmo y Aleda\u00f1as","La Clarita","Primero de Mayo","Pueblo Cazes","Pueblo Liebig","San Ernesto","San Jos\u00e9","Villa Elisa"]},{"area_code":3454,"province":"Entre R\u00edos","city":"Federal","localidades":["Conscripto Bernardi","El Cimarr\u00f3n","Nueva Vizcaya"]},{"area_code":3455,"province":"Entre R\u00edos","city":"Villaguay","localidades":["Durazno","Estaci\u00f3n Ra\u00edces","Ingeniero Sajaroff","Jubileo","Mojones Norte","Paso de la Laguna","Villa Clara","Villa Dom\u00ednguez"]},{"area_code":3456,"province":"Entre R\u00edos","city":"Chajar\u00ed","localidades":["Colonia Alemana","Colonia La Argentina","Colonia Pe\u00f1a","Colonia Santa Mar\u00eda","Federaci\u00f3n","La Florida","San Pedro","Santa Ana","Villa del Rosario"]},{"area_code":3458,"province":"Entre R\u00edos","city":"San Jos\u00e9 de Feliciano","localidades":["Estaci\u00f3n La Esmeralda","La Hierra","Los Conquistadores","San Jaime de la Frontera","San V\u00edctor"]},{"area_code":3460,"province":"Santa Fe","city":"Santa Teresa","localidades":["Ca\u00f1ada Rica","Cepeda","Godoy","Juan Bernab\u00e9 Molina","La Vanguardia","M\u00e1ximo Paz","Peyrano","Sargento Cabral","Stephenson"]},{"area_code":3462,"province":"Santa Fe","city":"Venado Tuerto","localidades":["Carmen","Chapuy","Elortondo","La Chispa","Lazzarino","Maggiolo","Mar\u00eda Teresa","Murphy","San Eduardo","San Francisco de Santa Fe","Sancti Spiritu","Santa Emilia (parte)","Santa Isabel","Teodelina (parte)","Villa Ca\u00f1\u00e1s"]},{"area_code":3463,"province":"C\u00f3rdoba","city":"Canals","localidades":["Aldea Santa Mar\u00eda","Gould","Colonia Bremen","Pueblo Italiano","San Severo","Viamonte"]},{"area_code":3464,"province":"Santa Fe","city":"Casilda","localidades":["Arequito","Bigand","Chab\u00e1s","Fuentes","Los Molinos","Pujato","Sanford","Villa Mugueta"]},{"area_code":3465,"province":"Santa Fe","city":"Firmat","localidades":["Alcorta","Berabev\u00fa","Bombal","Ca\u00f1ada del Ucle","Carreras","Chovet","G\u00f6deken","Labordeboy","Los Quirquinchos","Melincu\u00e9","Miguel Torres","Paraje El Jard\u00edn","Villa Estela","Villada"]},{"area_code":3466,"province":"Santa Fe","city":"Barrancas","localidades":["Arocena","Balneario Monje","Bernardo de Irigoyen","Casalegno","D\u00edaz","Monje","Paraje Comipini","Pueblo Irigoyen","Puerto Arag\u00f3n","San Fabi\u00e1n"]},{"area_code":3467,"province":"C\u00f3rdoba\/Santa Fe","city":"Cruz Alta","localidades":["Arteaga","Colonia Veinticinco","Inriville","Los Nogales","Los Surgentes","Monte Buey","Saladillo","San Jos\u00e9 de la Esquina"]},{"area_code":3468,"province":"C\u00f3rdoba\/Santa Fe","city":"Corral de Bustos","localidades":["Alejo Ledesma","Arias","Cafferata","Camilo Aldao","Cha\u00f1ar Ladeado","Colonia Barge","Capit\u00e1n General Bernardo O\u2019Higgins","Cavanagh","Colonia Bismarck","Colonia Italiana","General Baldissera","Guatimoz\u00edn","Isla Verde","Monte Ma\u00edz","Wenceslao Escalante"]},{"area_code":3469,"province":"Santa Fe","city":"Acebal","localidades":["Arminda","Carmen del Sauce","Cuatro Esquinas","Pav\u00f3n Arriba","Pueblo Mu\u00f1oz","Pueblo Uranga"]},{"area_code":3471,"province":"Santa Fe","city":"Ca\u00f1ada de G\u00f3mez","localidades":["Armstrong","Berreta","Bouquet","Bustinza","Clason","Colonia Medici","Correa","Las Parejas","Las Rosas","Montes de Oca","Tortugas","Villa Elo\u00edsa"]},{"area_code":3472,"province":"C\u00f3rdoba","city":"Marcos Ju\u00e1rez","localidades":["General Roca","Leones","Noetinger","Saira","Villa Elisa"]},{"area_code":3476,"province":"Santa Fe","city":"San Lorenzo","localidades":["Aldao","Cicarelli","Clarke","Largu\u00eda","Lucio V. L\u00f3pez","Luis Palacios","Maciel Oliveros","Pueblo Andino","Puerto Gaboto","Puerto General San Mart\u00edn","Ricardone","Salto Grande","Serodino","Timb\u00faes","Totoras","Villa Elvira","Villa La Ribera"]},{"area_code":3482,"province":"Santa Fe","city":"Reconquista","localidades":["Arroyo Ceibal","Avellaneda","Berna","Ca\u00f1ada Omb\u00fa","Colonia Dur\u00e1n","El Araz\u00e1","El Rab\u00f3n","El Sombrerito","Florencia","Garabato","Guadalupe Norte","Ingeniero Chanourdie","Intiyaco","Kil\u00f3metro 115","La Isleta","La Sarita","Las Garzas","Las Toscas","Lanteri","Los Amores","Los Laureles","Los T\u00e1banos","Malabrigo","Nicanor Molinas Paraje San Manuel","Pozo de los Indios","Romang","San Antonio de Obligado","Tacuarend\u00ed","Tartagal","Villa Ana","Villa Guillermina","Villa Ocampo"]},{"area_code":3483,"province":"Santa Fe","city":"Vera","localidades":["Calchaqu\u00ed","Colmena","Fort\u00edn Olmos","Golondrina","La Gallareta","Margarita","Pueblo Santa Luc\u00eda","Toba"]},{"area_code":3487,"province":"Buenos Aires","city":"Z\u00e1rate","localidades":["Barrio Saavedra","Escalada","Gobernador Andonaegui","Lima"]},{"area_code":3489,"province":"Buenos Aires","city":"Campana","localidades":["Alto Los Cardales","Barrio Los Pioneros","Ingeniero R\u00f3mulo Otamendi","Lomas del R\u00edo Luj\u00e1n"]},{"area_code":3491,"province":"Santa Fe\/Santiago del Estero","city":"Ceres","localidades":["Ambrosetti","Arruf\u00f3","Colonia Alpina","Colonia Ana","Colonia Bossi","Curupaity","Esteban Rams","Gato Colorado","Gregoria P\u00e9rez de Denis","Hersilia","La Rubia","Logro\u00f1o","Montefiore","Pozo Borrado","San Bernardo","Santa Margarita","Tostado","Villa Minetti","Villa Trinidad"]},{"area_code":3492,"province":"Santa Fe","city":"Rafaela","localidades":["Ang\u00e9lica","Aurelia","Bauer y Sigel","Bella Italia","Castellanos","Colonia Cello","Colonia Margarita","Coronel Fraga","Egusquiza","Esmeralda","Estaci\u00f3n Clucellas","Eustolia","Josefina","Lehmann","Nueva Lehmann","Plaza Clucellas","Plaza Saguier","Presidente Roca","Pueblo Marini","Ramona","San Antonio","San Vicente","Santa Clara de Saguier","Susana","Vila","Villa San Jos\u00e9"]},{"area_code":3493,"province":"Santa Fe","city":"Sunchales","localidades":["Aldao","Ataliva","Colonia Bicha","Colonia Raquel","Colonia Tacurales","Eusebia y Carolina","Galisteo","Humberto Primo","Tacural","Virginia"]},{"area_code":3496,"province":"Santa Fe","city":"Esperanza","localidades":["Colonia Cavour","Grutly","Humboldt","Ituzaing\u00f3","Nuevo Torino","Rivadavia"]},{"area_code":3497,"province":"Santa Fe","city":"Llambi Campbell","localidades":["Culul\u00fa","Emilia","Felicia","Hipat\u00eda","Jacinto L. Ar\u00e1uz","La Pelada","Mar\u00eda Luisa","Progreso","Providencia","Santo Domingo","Sarmiento"]},{"area_code":3498,"province":"Santa Fe","city":"San Justo","localidades":["Angeloni","Cayastacito","Colonia Esther","Colonia Dolores","Colonia Silva","Elisa","Gobernador Crespo","La Camila","La Criolla","La Penca y Caraguat\u00e1","Marcelino Escalada","Nar\u00e9","Pedro G\u00f3mez Cello","Ramay\u00f3n","San Bernardo (San Justo)","San Mart\u00edn Norte","Soledad","Vera y Pintado","Videla","Villa Saralegui"]},{"area_code":3521,"province":"C\u00f3rdoba","city":"De\u00e1n Funes","localidades":["Caminiaga","Chu\u00f1a","Copacabana","El Tuscal","Los Pozos","Lucio V. Mansilla","Quilino","San Jos\u00e9 de La Dormida","San Jos\u00e9 de Las Salinas","San Pedro de Toyos","San Pedro Norte","Villa Quilino","Villa Tulumba"]},{"area_code":3522,"province":"C\u00f3rdoba","city":"Villa de Mar\u00eda","localidades":["Cerro Colorado","Cha\u00f1ar Viejo","Chu\u00f1a Huasi","Churqui Ca\u00f1ada","El Rodeo","Eufrasio Loza","Gutemberg","La Rinconada","Las Arrias","Los Hoyos","Pozo Nuevo","Puesto de Castro","Rayo Cortado","Rosario del Saladillo","San Francisco del Cha\u00f1ar","Santa Elena","Sebastian Elcano","Villa Candelaria Norte"]},{"area_code":3524,"province":"C\u00f3rdoba","city":"Villa del Totoral","localidades":["Avellaneda","Capilla de Sit\u00f3n","Las Pe\u00f1as","Simbolar","Villa Guti\u00e9rrez"]},{"area_code":3525,"province":"C\u00f3rdoba","city":"Jes\u00fas Mar\u00eda","localidades":["Agua de Oro","Ascochinga","Candelaria Sud","Canteras El Sauce","Ca\u00f1ada de Luque","Ca\u00f1ada de R\u00edo Pinto","Colonia Caroya","Colonia Vicente Ag\u00fcero","El Manzano","Estaci\u00f3n General Paz","La Granja","La Pampa","La Paz","Los Mistoles","Los Molles","La Puerta","Santa Catalina","Sarmiento","Sinsacate","Tinoco","Villa Cerro Azul"]},{"area_code":3532,"province":"C\u00f3rdoba","city":"Oliva","localidades":["Colazo","Colonia Almada","Las Junturas","Pampayasta Sud"]},{"area_code":3533,"province":"C\u00f3rdoba","city":"Las Varillas","localidades":["Alicia","El Ara\u00f1ado","El Fort\u00edn","Las Varas","Sacanta","Saturnino Mar\u00eda Laspiur","Villa San Esteban"]},{"area_code":3537,"province":"C\u00f3rdoba","city":"Bell Ville","localidades":["Alto Alegre","Chilibroste","Cintra","Idiaz\u00e1bal","Justiniano Posse","Laborde","Monte Le\u00f1a","Morrison","Ord\u00f3\u00f1ez","San Antonio de Lit\u00edn","San Marcos Sud","Villa Los Patos"]},{"area_code":3541,"province":"C\u00f3rdoba","city":"Villa Carlos Paz","localidades":["Bialet Mass\u00e9","Cabalango","Cosqu\u00edn","Cuesta Blanca","Estancia Vieja","Las Jarillas","Mall\u00edn","Mayu Sumaj","San Antonio de Arredondo","San Jos\u00e9 de los R\u00edos","San Nicol\u00e1s","San Roque","Santa Mar\u00eda de Punilla","Tala Huasi","Tanti","Villa Flor Serrana","Villa Icho Cruz","Villa Independencia","Villa Lago Azul","Villa Parque Siquiman","Villa Santa Cruz del Lago"]},{"area_code":3542,"province":"C\u00f3rdoba","city":"Salsacate","localidades":["\u00c1mbul","Chancan\u00ed","Ci\u00e9naga del Coro","Estancia de Guadalupe","Guasapampa","La Higuera","La Playa","Las Palmas","Los Talares","Mussi","San Carlos Minas","San Ger\u00f3nimo","Tala Ca\u00f1ada","Talaini","Taninga","Tosno","Villa de Pocho"]},{"area_code":3543,"province":"C\u00f3rdoba","city":"C\u00f3rdoba (Arg\u00fcello)","localidades":["Casa Bamba","El Diquecito","La Calera","Mendiolaza","Pajas Blancas","R\u00edo Ceballos","Sald\u00e1n","Salsipuedes","Unquillo","Villa Allende"]},{"area_code":3544,"province":"C\u00f3rdoba","city":"Villa Dolores","localidades":["Arroyo de Los Patos","Conlara","Cruz Ca\u00f1a","Dos Arroyos","El Huayco","El Pantanillo","La Paz","La Poblaci\u00f3n","La Ramada","La Traves\u00eda","Las Calles","Las Rabonas","Las Tapias","Los Callejones","Los Cerrillos","Los Hornillos","Los Molles","Los Romeros","Luyaba","Mina Clavero","Nono","Panaholma","Quebrada de los Pozos","San Huberto","San Javier\/Yacanto","San Jos\u00e9","San Lorenzo","San Mart\u00edn","San Pedro","San Vicente","Sauce Arriba","Villa Cura Brochero","Villa de Las Rosas","Villa La Vi\u00f1a","Villa Sarmiento"]},{"area_code":3546,"province":"C\u00f3rdoba","city":"Santa Rosa de Calamuchita","localidades":["Amboy","Arroyo San Antonio","Ca\u00f1ada del Sauce","Capilla Vieja","El Corcovado - El Torre\u00f3n","El Durazno","La Cruz","La Cumbrecita","Los Reartes","Lutti","Parque Calmayo","San Ignacio","Villa Alpina","Villa Amancay","Villa Berna","Villa Ciudad Parque Los Reartes","Villa del Dique","Villa General Belgrano","Villa La Rivera","Villa Rumipal","Villa Quillinzo","Villa Yacanto"]},{"area_code":3547,"province":"C\u00f3rdoba","city":"Alta Gracia","localidades":["Anisacate","Costa Azul","Despe\u00f1aderos","Dique Chico","Falda del Ca\u00f1ete","Falda del Carmen Jos\u00e9 de la Quintana","La Boca del R\u00edo","La Paisanita","La Rancherita","La Serranita","Las Quintas","Los Cedros","Los Molinos","Monte Ralo","Potrero de Garay","Rafael Garc\u00eda","San Agust\u00edn","San Clemente","Solar de los Molinos","Valle Alegre","Valle de Anisacate","Villa Ciudad de Am\u00e9rica","Villa del Prado","Villa La Bolsa","Villa Los Aromos","Villa Parque Santa Ana","Villa San Isidro","Villa San Miguel"]},{"area_code":3548,"province":"C\u00f3rdoba","city":"La Falda","localidades":["Capilla del Monte","Casa Grande","Charbonier","Cruz Chica","Cruz Grande","Dolores","Huerta Grande","La Cumbre","Las Ca\u00f1adas","Los Cocos","Quebrada de Luna","San Esteban","Valle Hermoso","Villa Giardino"]},{"area_code":3549,"province":"C\u00f3rdoba","city":"Cruz del Eje","localidades":["Alto de los Quebrachos","Ba\u00f1ado de Soto","Canteras Quilpo","Cruz de Ca\u00f1a","El Brete","El Chacho","El Rinc\u00f3n","Guanaco Muerto","La Banda","La Batea","Las Playas","Los Cha\u00f1aritos","Media Naranja","Olivares de San Nicol\u00e1s","Paso Viejo","San Marcos Sierras","Serrezuela","Tuclame","Villa de Soto"]},{"area_code":3562,"province":"C\u00f3rdoba\/Santa Fe","city":"Morteros","localidades":["Altos de Chipi\u00f3n","Brinkmann","Colonia Diez de Julio","Colonia Dos Rosas y La Legua","Colonia Rosa","Colonia San Pedro","Colonia Valtelina","La Paquita","Monte Oscuridad","San Guillermo","Suardi"]},{"area_code":3563,"province":"C\u00f3rdoba","city":"Balnearia","localidades":["Marull","Miramar","Trinchera"]},{"area_code":3564,"province":"C\u00f3rdoba\/Santa Fe","city":"San Francisco","localidades":["Barrios Acapulco y Veracruz","Colonia Anita","Colonia Iturraspe","Colonia Marina","Colonia Prosperidad","Colonia San Bartolom\u00e9","Colonia Santa Mar\u00eda","Colonia Vignaud","Devoto","Estaci\u00f3n Luxardo","Freyre","Frontera","La Francia","Plaza Luxardo","Plaza San Francisco","Porte\u00f1a","Quebracho Herrado","Seeber","Villa Josefina","Zen\u00f3n Pereyra"]},{"area_code":3571,"province":"C\u00f3rdoba","city":"R\u00edo Tercero","localidades":["Almafuerte","Corralito","Embalse","General Fotheringham","Las Bajadas","Los C\u00f3ndores","Segunda Usina","Tancacha","Villa Ascasubi"]},{"area_code":3572,"province":"C\u00f3rdoba","city":"R\u00edo Segundo","localidades":["Calch\u00edn Oeste","Colonia Videla","Costa Sacate","Impira","Laguna Larga","Lozada","Manfredi","Oncativo","Pilar"]},{"area_code":3573,"province":"C\u00f3rdoba","city":"Villa del Rosario","localidades":["Calch\u00edn","Capilla del Carmen","Luque","Matorrales","Rinc\u00f3n"]},{"area_code":3574,"province":"C\u00f3rdoba","city":"R\u00edo Primero","localidades":["Ca\u00f1ada de Machado","Capilla de los Remedios","Colonia Las Cuatro Esquinas","Comechingones","El Alcalde","El Crisp\u00edn","Esquina","Kil\u00f3metro 658","Monte del Rosario","Piquill\u00edn","Sagrada Familia","Santa Rosa de R\u00edo Primero","Santiago Temple"]},{"area_code":3575,"province":"C\u00f3rdoba","city":"La Puerta","localidades":["Atahona","Chalacea","Diego de Rojas","La Para","La Posta","La Quinta","Las Saladas","Maquinista Gallini","Obispo Trejo","Plaza de Mercedes","Villa Fontana"]},{"area_code":3576,"province":"C\u00f3rdoba","city":"Arroyito","localidades":["Colonia Las Pichanas","Los Cha\u00f1aritos","El Fuertecito","El T\u00edo","La Tordilla","Las Gramillas","Tr\u00e1nsito","Toro Pujio","Villa Concepci\u00f3n del T\u00edo","Villa del Tr\u00e1nsito","Villa Vaudagna"]},{"area_code":3582,"province":"C\u00f3rdoba\/San Luis","city":"Sampacho","localidades":["Achiras","Bulnes","Chaj\u00e1n","Coronel Moldes","La Punilla","Las Albahacas","Malena","Suco"]},{"area_code":3583,"province":"C\u00f3rdoba","city":"Vicu\u00f1a Mackenna","localidades":["Del Campillo","La Cautiva","Mattaldi","Nicol\u00e1s Bruzzone","Tosquita","Villa Sarmiento","Villa Valeria","Washington"]},{"area_code":3584,"province":"C\u00f3rdoba","city":"La Carlota","localidades":["Assunta","El Rastreador","Huanchillas","Los Cisnes","Monte de Los Gauchos","Pacheco de Melo","San Basilio","Santa Eufemia"]},{"area_code":3585,"province":"C\u00f3rdoba","city":"Adelia Mar\u00eda","localidades":["Monte de Los Gauchos","San Basilio"]},{"area_code":3711,"province":"Formosa","city":"Ingeniero Ju\u00e1rez","localidades":["El Potrillo","General Mosconi","Laguna Yema","Los Chiriguanos","Pozo de Maza","Pozo del Mortero"]},{"area_code":3715,"province":"Formosa\/Chaco","city":"Las Lomitas","localidades":["El Espinillo","El Sauzal","El Sauzalito","Fuerte Esperanza","Misi\u00f3n Nueva Pompeya","Pozo del Tigre","Wich\u00ed - El Pintado"]},{"area_code":3716,"province":"Formosa","city":"Comandante Fontana","localidades":["Bartolom\u00e9 de las Casas","Colonia Sarmiento","El Recreo","Estanislao del Campo","Fort\u00edn Leyes","Fort\u00edn Lugones","General Manuel Belgrano","Ibarreta","Juan G. Baz\u00e1n","Posta Cambio Zalazar","San Mart\u00edn 1","San Mart\u00edn 2","Villa General G\u00fcemes"]},{"area_code":3718,"province":"Formosa","city":"Clorinda","localidades":["Buena Vista","El Espinillo","Laguna Blanca","Laguna Naick Neck","Misi\u00f3n Tacaagl\u00e9","Palma Sola","Port\u00f3n Negro","Puerto Pilcomayo","Riacho He-H\u00e9","Riacho Negro","Siete Palmas","Tres Lagunas"]},{"area_code":3721,"province":"Chaco","city":"Charadai","localidades":["Cote Lai","La Sabana"]},{"area_code":3725,"province":"Chaco","city":"General Jos\u00e9 de San Mart\u00edn","localidades":["Capit\u00e1n Solari","Ciervo Petiso","Colonias Unidas","La Eduvigis","Laguna Limpia","Las Garcitas","Pampa Almir\u00f3n","Pampa del Indio","Presidencia Roca","Selvas del R\u00edo de Oro"]},{"area_code":3731,"province":"Chaco","city":"Charata","localidades":["Corzuela","Fort\u00edn Las Chu\u00f1as","Gancedo","General Capdevila","General Pinedo","Las Bre\u00f1as","Mes\u00f3n de Fierro","Pampa Landriel"]},{"area_code":3734,"province":"Chaco","city":"Presidencia de la Plaza","localidades":["Colonia Elisa","Ingeniero Barbet","Machagai","Napalp\u00ed"]},{"area_code":3735,"province":"Chaco","city":"Villa \u00c1ngela","localidades":["Chorotis","Coronel Du Graty","Enrique Uri\u00e9n","Hermoso Campo","It\u00edn","La Clotilde","Pueblo Clodomiro D\u00edaz","Samuh\u00fa","San Bernardo","Santa Sylvina","Venados Grandes","Villa Berthet"]},{"area_code":3741,"province":"Misiones","city":"Bernardo de Irigoyen","localidades":["Dos Hermanas","San Antonio"]},{"area_code":3743,"province":"Misiones","city":"Puerto Rico","localidades":["Capiov\u00ed","Colonia Polana","Garuhap\u00e9","Garuhap\u00e9-Mi","Jard\u00edn Am\u00e9rica","Mbopicu\u00e1","Oasis","Puerto Leoni","Puerto Mineral","Ruiz de Montoya","San Alberto","San Gotardo","San Ignacio","Villa Akerman"]},{"area_code":3751,"province":"Misiones","city":"Eldorado","localidades":["Caraguatay","Colonia Delicia","Colonia Victoria","Cruce Caballero","El Alc\u00e1zar","Fracr\u00e1n","Laharrague","Montecarlo","Nueve de Julio","Nueve de Julio Kil\u00f3metro 20","El Alc\u00e1zar","Pi\u00f1alito Sur","Piray Kil\u00f3metro 18","Puerto Mado","Puerto Pinares","Puerto Piray","San Pedro","Santiago de Liniers","Tarum\u00e1","Tobuna","Valle Hermoso","Villa Parodi","Villa Roulet"]},{"area_code":3754,"province":"Misiones","city":"Leandro N. Alem","localidades":["Arroyo del Medio","Dos Arroyos","Gobernador L\u00f3pez","Itacaruar\u00e9","Moj\u00f3n Grande","Olegario V\u00edctor Andrade","Panamb\u00ed","Panamb\u00ed Kil\u00f3metro 8","San Javier"]},{"area_code":3755,"province":"Misiones","city":"Ober\u00e1","localidades":["Alba Posse","Almafuerte","Arist\u00f3bulo del Valle","Barrio Bernardino Rivadavia","Ca\u00e1 Yar\u00ed","Cami\u00f3n Cue","Campo Grande","Campo Ram\u00f3n","Campo Viera","Colonia Alberdi","Colonia Alicia","Colonia Aurora","Dos de Mayo","El Soberbio","El Salto Florentino Ameghino","General Alvear","Guaran\u00ed","Los Helechos","Kil\u00f3metro 17","Pueblo Illia","San Francisco de As\u00eds","San Mart\u00edn","San Vicente","Santa Rita","Torta Quemada","25 de Mayo","Villa Bonita","Villa Salto Encantado"]},{"area_code":3756,"province":"Corrientes","city":"Santo Tom\u00e9","localidades":["Garab\u00ed","Garruchos","Gobernador Virasoro"]},{"area_code":3757,"province":"Misiones","city":"Puerto Iguaz\u00fa","localidades":["Colonia Helvecia","Comandante Andresito","Gobernador Lanusse","Integraci\u00f3n","Puerto Esperanza","Puerto Libertad","Wanda"]},{"area_code":3758,"province":"Misiones\/Corrientes","city":"Ap\u00f3stoles","localidades":["Azara","Barra Concepci\u00f3n","Barrio Rural","Colonia Liebig","Concepci\u00f3n de la Sierra","La Corita","Pindapoy","Puerto Azara","San Carlos","San Jos\u00e9","Santa Mar\u00eda","Tres Capones"]},{"area_code":3772,"province":"Corrientes","city":"Paso de los Libres","localidades":["Alvear","Bonpland","Estaci\u00f3n Torrent","Guavirav\u00ed","La Cruz","Parada Pucheta","Tapebicu\u00e1","Yapey\u00fa"]},{"area_code":3773,"province":"Corrientes","city":"Mercedes","localidades":["Chavarr\u00eda","Colonia Carlos Pellegrini","Felipe Yofre","Mariano I. Loza","Perugorr\u00eda"]},{"area_code":3774,"province":"Corrientes","city":"Curuz\u00fa Cuati\u00e1","localidades":["Cazadores Correntinos","Sauce"]},{"area_code":3775,"province":"Corrientes","city":"Monte Caseros","localidades":["Colonia Libertad","Estaci\u00f3n Libertad","Juan Pujol","Labougle","Mocoret\u00e1","Parada Acu\u00f1a"]},{"area_code":3777,"province":"Corrientes","city":"Goya","localidades":["Bella Vista","Colonia Carolina","Colonia Pando","Cruz de los Milagros","Esquina","Gobernador Juan E. Mart\u00ednez","Lavalle","Nueve de Julio","Pedro R. Fern\u00e1ndez","Pueblo Libertador","San Isidro","San Roque","Santa Luc\u00eda","Tres de Abril","Villa C\u00f3rdoba","Yatay T\u00ed Calle"]},{"area_code":3781,"province":"Corrientes","city":"Ca\u00e1 Cat\u00ed","localidades":["Ber\u00f3n de Astrada","It\u00e1 Ibat\u00e9","Lomas de Vallejos","Loreto","Palmar Grande","San Miguel","Tacuaral","Yahap\u00e9"]},{"area_code":3782,"province":"Corrientes","city":"Saladas","localidades":["Colonia Santa Rosa","Concepci\u00f3n","Mburucuy\u00e1","Pago de los Deseos","San Lorenzo","Tabay","Tatacu\u00e1"]},{"area_code":3786,"province":"Corrientes","city":"Ituzaing\u00f3","localidades":["San Antonio","Villa Olivari"]},{"area_code":3821,"province":"La Rioja","city":"Chepes","localidades":["Desiderio Tello","Ulapes"]},{"area_code":3825,"province":"La Rioja","city":"Chilecito","localidades":["Aicu\u00f1a","Alto Carrizal","Anguin\u00e1n","Angulos","Antinaco","Bajo Carrizal","Banda Florida","Campanas","Cha\u00f1armuyo","Colonia Anguin\u00e1n","Colonia Catinzaco","Colonia Malligasta","Colonia Vichigasta","Famatina","Guanch\u00edn","Guandacol","Jag\u00fc\u00e9","La Cuadra","La Puntilla","Los Palacios","Los Sarmientos","Malligasta","Miranda","Nonogasta","Pagancillo","Pituil","Plaza Vieja","Punta de Agua","San Miguel","San Nicol\u00e1s","Santa Clara","Santa Cruz","Santa Florentina","Santo Domingo","Sa\u00f1ogasta","Tilimuqui","Vichigasta","Villa Castelli","Villa San Jos\u00e9 de Vinchina","Villa Uni\u00f3n"]},{"area_code":3826,"province":"La Rioja","city":"Chamical","localidades":["Ambil","Castro Barros","Cha\u00f1ar","Colonia Ortiz de Ocampo","Loma Blanca","Malanz\u00e1n","Milagro","N\u00e1cate","Olpas","Olta","Polco","Portezuelo","San Antonio","Villa Santa Rita de Catuna"]},{"area_code":3827,"province":"La Rioja","city":"Aimogasta","localidades":["Agua Blanca","Alpasinche","Aminga","Amuschinas","Andolucas","Anillaco","Anjull\u00f3n","Arauco","Ba\u00f1ado de los Pantanos","Chaupihuasi","Chuquis","Cuip\u00e1n","Estaci\u00f3n Maz\u00e1n","Las Talas","Los Molinos","Los Robles","Machigasta","Pinchas","Salicas","San Antonio","San Blas","San Pedro","Santa Vera Cruz","Shaqui","Suriyaco","Termas de Santa Teresita","Tuyubil","Villa Maz\u00e1n"]},{"area_code":3832,"province":"Catamarca\/Santiago del Estero","city":"Recreo","localidades":["Casa de Piedra","El Aybal","El Ba\u00f1ado","El Divisadero","El Quimilo","Esqui\u00fa","Ica\u00f1o","La Dorada","Las Esquinas","La Guardia","Las Palmitas","Quir\u00f3s","Ramblones","San Antonio de La Paz"]},{"area_code":3835,"province":"Catamarca","city":"Andalgal\u00e1","localidades":["Aconquija","Alto de las Juntas","Amanao","Antofagasta de la Sierra","Antofalla","Apoyaco","Barranca Larga","Bel\u00e9n","Buena Vista","Chaquiago","Choya","Colana","Colpes (Pom\u00e1n)","C\u00f3ndor Huasi","Corral Quemado","El Alamito","El Durazno","El Lindero","El Pajonal","El Pe\u00f1\u00f3n","El Potrero","Farall\u00f3n Negro","Hualf\u00edn","Jacipunco","Joyango","La Aguada","La Puntilla","Las Juntas","Londres","Los Nacimientos (Antofagasta de la Sierra)","Los Nacimientos (Bel\u00e9n)","Mutqu\u00edn","Pozo de la Piedra","Puerta de Corral Quemado","Puerta de San Jos\u00e9","Rinc\u00f3n","San Miguel","Saujil","Sij\u00e1n","Villa de Pom\u00e1n","Villa Vil"]},{"area_code":3837,"province":"Catamarca","city":"Tinogasta","localidades":["Anillaco","Antinaco","Banda de Lucero","Cerro Negro","Copacabana","Cordobita","Costa de Reyes","El Pueblito","El Puesto (Tinogasta)","El Salado","Fiambal\u00e1","La Puntilla (Tinogasta)","La Ramadita","Los Balverdi","Medanitos","Palo Blanco","Pampa Blanca","Punta del Agua","Santa Rosa","Saujil (Tinogasta)","Tat\u00f3n"]},{"area_code":3838,"province":"Catamarca","city":"Santa Mar\u00eda","localidades":["Andalhual\u00e1","Casa de Piedra","Caspichango","Cha\u00f1ar Punco","El Caj\u00f3n","El Cerrito","El Desmonte","El Puesto","Famatanca","Fuerte Quemado","La Hoyada","La Loma","La Puntilla","Lampacito","Las Mojarras","Loro Huasi","Medanitos","Ovejer\u00eda","Palo Seco","Punta de Balasto","San Jos\u00e9","San Jos\u00e9 Banda","San Jos\u00e9 Norte","San Jos\u00e9 Villa","Yapes"]},{"area_code":3841,"province":"Santiago del Estero","city":"Monte Quemado","localidades":["Coronel Rico","Los Pirpintos","Pampa de los Guanacos","Sach\u00e1yoj"]},{"area_code":3843,"province":"Santiago del Estero","city":"Quimil\u00ed","localidades":["Las Tinajas","Roversi","Weisburd"]},{"area_code":3844,"province":"Santiago del Estero","city":"A\u00f1atuya","localidades":["Aver\u00edas","Colonia Dora","Estaci\u00f3n Taca\u00f1itas","Garza","Herrera","Ica\u00f1o","Lugones","Real Sayana","Tom\u00e1s Young","Villa Salavina"]},{"area_code":3845,"province":"Santiago del Estero","city":"Loreto","localidades":["Brea Pozo","Estaci\u00f3n Atamisqui","Medell\u00edn","Nueva Francia","Sumamao","Villa Atamisqui","Villa Sil\u00edpica"]},{"area_code":3846,"province":"Santiago del Estero","city":"Tintina","localidades":["Campo Gallo","Hasse","Hern\u00e1n Mej\u00eda Miraval","Libertad","Lilo Viejo","Patay"]},{"area_code":3854,"province":"Santiago del Estero","city":"Fr\u00edas","localidades":["Ancaj\u00e1n","Choya","Estaci\u00f3n La Punta","Laprida","Lavalle (parte)","San Pedro de Choya","San Pedro de Guasay\u00e1n (parte)","Tapso (parte)","Villa La Punta"]},{"area_code":3855,"province":"Santiago del Estero","city":"Suncho Corral","localidades":["Bandera Bajada","El Cuadrado","La Ca\u00f1ada","Matar\u00e1","Vilelas"]},{"area_code":3856,"province":"Santiago del Estero","city":"Villa Ojo de Agua","localidades":["Chilca Juliana","Los Telares","Ram\u00edrez de Velazco","Sol de Julio","Sumampa","Sumampa Viejo"]},{"area_code":3857,"province":"Santiago del Estero","city":"Bandera","localidades":["Fort\u00edn Inca","Guardia Escolta","Los Jur\u00edes","Malbr\u00e1n","Palo Negro","Pinto","Selva"]},{"area_code":3858,"province":"Santiago del Estero","city":"Termas de R\u00edo Hondo","localidades":["Chauchillas","Colonia Tinco","El Charco","Gramilla","Pozo Hondo","Pozuelos","Villa R\u00edo Hondo","Vinar\u00e1"]},{"area_code":3861,"province":"Santiago del Estero","city":"Nueva Esperanza","localidades":["El Moj\u00f3n","Las Delicias","Pozo Betbeder","Rapelli"]},{"area_code":3862,"province":"Tucum\u00e1n","city":"Trancas","localidades":["Choromoro","San Pedro de Colalao"]},{"area_code":3863,"province":"Tucum\u00e1n","city":"Monteros","localidades":["Acheral","Atahona","Barrio Casa Rosada","Campo de Herrera","Capit\u00e1n C\u00e1ceres","Famaill\u00e1","Ingenio Fronterita","LA Reducci\u00f3n","Los Puestos","Monteagudo","Nueva Baviera","R\u00edo Colorado","R\u00edo Seco","Santa Luc\u00eda","Santa Rosa de Leales","Santa Rosa y Los Rojo","Sargento Moya","Simoca","Soldado Maldonado","Teniente Berdina","Villa Chicligasta","Villa de Leales","Villa Quinteros","Yerba Buena (Simoca)"]},{"area_code":3865,"province":"Tucum\u00e1n","city":"Concepci\u00f3n","localidades":["Aguilares","Alpachiri","Alto Verde","Arcadia","Ingenio La Trinidad","Juan Bautista Alberdi","La Cocha","Los Sarmientos","Medinas","Rumi Punco","San Jos\u00e9 de la Cocha","Santa Ana","Villa Belgrano"]},{"area_code":3867,"province":"Tucum\u00e1n","city":"Taf\u00ed del Valle","localidades":["El Mollar"]},{"area_code":3868,"province":"Salta","city":"Cafayate","localidades":["Angastaco","Animan\u00e1","Cachi","Cobres","El Barrial","La Poma","La Puerta","Molinos","Payogasta","San Carlos","Santa B\u00e1rbara","Seclant\u00e1s","Tolomb\u00f3n"]},{"area_code":3869,"province":"Tucum\u00e1n","city":"Ranchillos y San Miguel","localidades":["Colonia Mayo","Las Cejas","Los Ralos","Villa Rescate","Villa Tercera"]},{"area_code":3873,"province":"Salta","city":"Tartagal","localidades":["Aguaray","Alto de la Sierra","Campamento Vespucio","Campo Dur\u00e1n","Capiazuti","Coronel Cornejo","General Ballivi\u00e1n","General Mosconi","Misi\u00f3n Kil\u00f3metro 6","Pacar\u00e1","Piquirenda","Recaredo","Salvador Mazza","Santa Mar\u00eda","Santa Victoria Este","Tobantirenda","Tranquitas","Yacuy"]},{"area_code":3876,"province":"Salta","city":"San Jos\u00e9 de Met\u00e1n","localidades":["Antilla","Copo Quile","El Galp\u00f3n","El Jard\u00edn","El Naranjo","El Potrero","El Tala","El Tunal","La Candelaria","Lumbreras","Met\u00e1n Viejo","Presa El Tunal","R\u00edo Piedras","Rosario de la Frontera","San Felipe"]},{"area_code":3877,"province":"Salta\/Chaco","city":"Joaqu\u00edn V\u00edctor Gonz\u00e1lez","localidades":["Apolinario Saravia","Ceibalito","Centro 25 de Junio","Coronel Mollinedo","Coronel Olleros","El Quebrachal","Gaona","General Pizarro","Las Lajitas","Luis Burela","Macapillo","Piquete Cabado","R\u00edo del Valle","San Jos\u00e9 de la Orquera","Taco Pozo","Tolloche"]},{"area_code":3878,"province":"Salta","city":"Or\u00e1n","localidades":["Aguas Blancas","Campichuelo","Capit\u00e1n Juan Pag\u00e9","Carboncito","Colonia Santa Rosa","Coronel Juan Sol\u00e1","Dragones","Embarcaci\u00f3n","Hickman","Hip\u00f3lito Yrigoyen","Isla de Ca\u00f1as","La Misi\u00f3n","La Uni\u00f3n","Los Blancos","Los Toldos","Misi\u00f3n Chaque\u00f1a","Misi\u00f3n Tierras Fiscales","Padre Lozano","Pichanal","Pluma de Pato","Pueblo Viejo","Rivadavia","San Isidro de Iruya","Santa Rosa","Urundel"]},{"area_code":3885,"province":"Jujuy\/Salta","city":"La Quiaca","localidades":["Acoyte","Barrios","Campo La Cruz","Cusi Cusi","Lagunillas del Farall\u00f3n","Liviara","Nazareno","Poscaya","San Marcos","Santa Victoria Oeste","Yavi"]},{"area_code":3886,"province":"Jujuy","city":"Libertador General San Mart\u00edn","localidades":["Bananal","Bermejito","Caimancito","Calilegua","Chalic\u00e1n","El Talar","Fraile Pintado","Palma Sola","Paulina","Valle Grande","Vinalito","Yuto"]},{"area_code":3887,"province":"Jujuy","city":"Humahuaca","localidades":["Abra Pampa","Abd\u00f3n Castro Tolay","Abralaite","Cangrejillos","Casabindo","Caspal\u00e1","Catua","Ci\u00e9nega de Paicone","Cieneguillas","Cochinoca","Coctaca","Coranzul\u00ed","El Aguilar","El Toro","Hu\u00e1ncar","Iturbe","Mina Providencia","Olaroz Chico","Pairique Chico","Pastos Chicos","Puesto del Marqu\u00e9s","Puesto Sey","Pumahuasi","Rinconada","Rinconadillas","San Francisco de Alfarcito","San Juan de Quillaques","Santa Ana (Rinconada)","Santa Ana (Valle Grande)","Santa Catalina","Santuario de Tres Pozos","Susques","Tabladitas","Tres Cruces","Tusaquillas","Uqu\u00eda","Valle Colorado"]},{"area_code":3888,"province":"Jujuy","city":"San Pedro de Jujuy","localidades":["Arrayanal","Arroyo Colorado","Don Emilio","El Acheral","El Fuerte","El Piquete","El Puesto","El Quemado","El Sauzal","La Esperanza","La Manga","La Mendieta","Miraflores","Palos Blancos","Parapet\u00ed","Piedritas","Puente Lavay\u00e9n","Rode\u00edto","Rosario de R\u00edo Grande","San Lucas","Santa Clara"]},{"area_code":3891,"province":"Tucum\u00e1n","city":"Graneros","localidades":["Lamadrid","Taco Ralo"]},{"area_code":3892,"province":"Tucum\u00e1n","city":"Amaicha del Valle","localidades":["Anca Juli","Colalao del Valle"]},{"area_code":3894,"province":"Tucum\u00e1n","city":"Burruyac\u00fa","localidades":["Barrio San Jorge","El Naranjo","Gobernador Garmendia","Piedrabuena","San Jos\u00e9 de Macomitas","Siete de Abril","Villa Benjam\u00edn Ar\u00e1oz","Villa Padre Monti"]}]
+[
+  {
+    "area_code": 11,
+    "province": "Ciudad de Buenos Aires",
+    "city": "Buenos Aires",
+    "localidades": [
+      "Acassuso",
+      "Adrogu\u00e9",
+      "Aeropuerto Internacional Ezeiza",
+      "Aldo Bonzi",
+      "\u00c1rea de Promoci\u00f3n El Tri\u00e1ngulo",
+      "Avellaneda",
+      "Banfield",
+      "Beccar",
+      "Bella Vista",
+      "Berazategui",
+      "Bernal",
+      "Billinghurst",
+      "Bosques",
+      "Boulogne Sur Mer",
+      "Burzaco",
+      "Campo de Mayo",
+      "Canning",
+      "Caseros",
+      "Castelar",
+      "Ciudad Evita",
+      "Ciudad Jard\u00edn Lomas del Palomar",
+      "Ciudadela",
+      "Churruca",
+      "Claypole",
+      "Crucecita",
+      "Dock Sud",
+      "Don Bosco",
+      "Don Orione",
+      "Don Torcuato",
+      "El Jag\u00fcel",
+      "El Libertador",
+      "El Palomar",
+      "El Talar",
+      "Estanislao Zeballos",
+      "Ezeiza",
+      "Ezpeleta",
+      "Florencio Varela",
+      "General Pacheco",
+      "Gerli",
+      "Gobernador Julio A. Costa",
+      "GregoR\u00edode Laferrere",
+      "Haedo",
+      "Hudson",
+      "Hurlingham",
+      "Ingeniero Adolfo Sourdeaux",
+      "Ingeniero Budge",
+      "Ingeniero Pablo Nogu\u00e9s",
+      "Isidro Casanova",
+      "Ituzaing\u00f3",
+      "Jos\u00e9 Ingenieros",
+      "Jos\u00e9 Le\u00f3n Su\u00e1rez",
+      "Jos\u00e9 M\u00e1rmol",
+      "La Tablada",
+      "La Uni\u00f3n",
+      "Lan\u00fas",
+      "Llavallol",
+      "Loma Hermosa",
+      "Lomas de Zamora",
+      "Lomas del Mirador",
+      "Longchamps",
+      "Los Polvorines",
+      "Luis Guill\u00f3n",
+      "Malvinas Argentinas (Almirante Brown)",
+      "Malvinas Argentinas (Malvinas Argentinas)",
+      "Mart\u00edn Coronado",
+      "Mart\u00ednez",
+      "Ministro Rivadavia",
+      "Monte Chingolo",
+      "Monte Grande",
+      "Mor\u00f3n",
+      "Mu\u00f1iz",
+      "Nordelta",
+      "Nueve de Abril",
+      "Olivos",
+      "Once de Septiembre",
+      "Pablo Podest\u00e1",
+      "Pi\u00f1eyro",
+      "Pl\u00e1tanos",
+      "Quilmes",
+      "Rafael Calzada",
+      "Rafael Castillo",
+      "Ramos Mej\u00eda",
+      "Ranelagh",
+      "Remedios de Escalada",
+      "Rinc\u00f3n de Milberg",
+      "S\u00e1enz Pe\u00f1a",
+      "San Andr\u00e9s",
+      "San Fernando",
+      "San Francisco Solano",
+      "San Isidro",
+      "San Jos\u00e9",
+      "San Justo",
+      "San Mart\u00edn",
+      "San Miguel",
+      "Santa Mar\u00eda",
+      "Santos Lugares",
+      "Sarand\u00ed",
+      "Sourigues",
+      "Tapiales",
+      "Temperley",
+      "Tierras Altas",
+      "Tigre",
+      "Trist\u00e1n Su\u00e1rez",
+      "Troncos del Talar",
+      "Turdera",
+      "Valent\u00edn Alsina",
+      "Victoria",
+      "Villa Adelina",
+      "Villa Albertina",
+      "Villa Ballester",
+      "Villa Bosch",
+      "Villa Brown",
+      "Villa Centenario",
+      "Villa de Mayo",
+      "Villa Dom\u00ednico",
+      "Villa Espa\u00f1a",
+      "Villa Fiorito",
+      "Villa La Florida",
+      "Villa Luzuriaga",
+      "Villa Lynch",
+      "Villa Madero",
+      "Villa Maip\u00fa",
+      "Villa Raffo",
+      "Villa San Luis",
+      "Villa Sarmiento",
+      "Villa Tesei",
+      "Villa Vatteone",
+      "Virreyes",
+      "Wilde",
+      "William C. Morris"
+    ]
+  },
+  {
+    "area_code": 220,
+    "province": "Buenos Aires",
+    "city": "Merlo",
+    "localidades": [
+      "General Hornos",
+      "General Las Heras",
+      "La Choza",
+      "Libertad",
+      "Marcos Paz",
+      "Mariano Acosta",
+      "Parque San Mart\u00edn",
+      "Plomer",
+      "Pontevedra",
+      "San Antonio de Padua",
+      "20 de Junio",
+      "Villars"
+    ]
+  },
+  {
+    "area_code": 221,
+    "province": "Buenos Aires",
+    "city": "La Plata",
+    "localidades": [
+      "Abasto",
+      "\u00c1ngel Etcheverry",
+      "Arturo Segu\u00ed",
+      "Barrio Banco Provincia",
+      "Barrio El Carmen Este",
+      "Barrio Universitario",
+      "Berisso",
+      "City Bell",
+      "Dique N\u00ba 1",
+      "Ensenada",
+      "General Mansilla (Est. Bartolom\u00e9 Bavio)",
+      "Ignacio Correas",
+      "Isla Santiago Oeste",
+      "Joaqu\u00edn Gorina",
+      "Jos\u00e9 Hern\u00e1ndez",
+      "Lomas de Copello",
+      "Jos\u00e9 Melchor Romero",
+      "Las Golondrinas",
+      "Lisandro Olmos",
+      "Los Hornos",
+      "Los Naranjos",
+      "Los Talas",
+      "Manuel B. Gonnet",
+      "Punta Lara",
+      "Ringuelet",
+      "Tolosa",
+      "Villa Arg\u00fcello",
+      "Villa Catella",
+      "Villa Dolores",
+      "Villa Elisa",
+      "Villa Elvira",
+      "Villa Garibaldi",
+      "Villa Independencia",
+      "Villa Nueva",
+      "Villa Porte\u00f1a",
+      "Villa Zula"
+    ]
+  },
+  {
+    "area_code": 223,
+    "province": "Buenos Aires",
+    "city": "Mar del Plata",
+    "localidades": [
+      "Bat\u00e1n",
+      "Camet",
+      "Chapadmalal",
+      "Estaci\u00f3n Chapadmalal",
+      "La Gloria de la Peregrina",
+      "Santa Clara del Mar",
+      "Sierra de los Padres"
+    ]
+  },
+  {
+    "area_code": 230,
+    "province": "Buenos Aires",
+    "city": "Pilar",
+    "localidades": [
+      "Arroyo de La Cruz",
+      "Del Viso",
+      "Diego Gaynor",
+      "Etchegoyen",
+      "F\u00e1tima",
+      "La Lonja",
+      "Los Cardales",
+      "Manuel Alberti",
+      "Manzanares",
+      "Parada Orlando",
+      "Presidente Derqui",
+      "Villa Astolfi",
+      "Villa Rosa",
+      "Zelaya"
+    ]
+  },
+  {
+    "area_code": 236,
+    "province": "Buenos Aires",
+    "city": "Jun\u00edn",
+    "localidades": [
+      "Agust\u00edn Roca",
+      "Agustina",
+      "Balneario Laguna de G\u00f3mez",
+      "Baigorrita",
+      "Fort\u00edn Tiburcio",
+      "Laplacette",
+      "Leandro N. Alem",
+      "Morse",
+      "Saforcada"
+    ]
+  },
+  {
+    "area_code": 237,
+    "province": "Buenos Aires",
+    "city": "Moreno",
+    "localidades": [
+      "Cuartel V",
+      "Francisco \u00c1lvarez",
+      "General Rodr\u00edguez",
+      "La Reja",
+      "Paso del Rey",
+      "Trujui"
+    ]
+  },
+  {
+    "area_code": 249,
+    "province": "Buenos Aires",
+    "city": "Tandil",
+    "localidades": [
+      "De la Canal",
+      "Desv\u00edo Aguirre",
+      "Fulton",
+      "Gardey",
+      "Mar\u00eda Ignacia (Estaci\u00f3n Vela)"
+    ]
+  },
+  {
+    "area_code": 260,
+    "province": "Mendoza",
+    "city": "San Rafael",
+    "localidades": [
+      "Agua Escondida",
+      "Bardas Blancas",
+      "Barrio Echeverr\u00eda",
+      "Barrio Empleados de Comercio",
+      "Barrio Intendencia",
+      "Barrio Primavera",
+      "Capit\u00e1n Montoya",
+      "Costa El Toledano",
+      "Cuadro Benegas",
+      "Cuadro Nacional",
+      "El Nihuil",
+      "El Sosneado",
+      "El Tropez\u00f3n",
+      "Goudge",
+      "La Llave",
+      "Las Le\u00f1as",
+      "Las Malvinas",
+      "Las Paredes",
+      "Los Reyunos",
+      "Malarg\u00fce",
+      "Monte Com\u00e1n",
+      "Rama Ca\u00edda",
+      "Salto de las Rosas",
+      "Villa Veinticinco de Mayo"
+    ]
+  },
+  {
+    "area_code": 261,
+    "province": "Mendoza",
+    "city": "Mendoza",
+    "localidades": [
+      "Agrelo",
+      "Alto del Olvido",
+      "Barrancas",
+      "Barrio Jes\u00fas de Nazaret",
+      "Barrio Jocol\u00ed II",
+      "Barrio La Esperanza",
+      "Barrio Los Jarilleros",
+      "Barrio Tres Olivos",
+      "Blanco Encalada",
+      "Cacheuta",
+      "Capdevilla",
+      "Carrodilla",
+      "Chacras de Coria",
+      "Colonia Segovia",
+      "Coquimbito",
+      "Costa de Araujo",
+      "Cruz de Piedra",
+      "El Carrizal",
+      "El Paramillo",
+      "El Vergel",
+      "Fray Luis Beltr\u00e1n",
+      "Godoy Cruz",
+      "Ingeniero Gustavo Andr\u00e9",
+      "Jocol\u00ed",
+      "Jocol\u00ed Viejo",
+      "La Palmera",
+      "La Pega",
+      "La Primavera",
+      "Lagunas de Bartoluzzi",
+      "Las Compuertas",
+      "Las Heras",
+      "Las Violetas",
+      "Los Corralitos",
+      "Luj\u00e1n de Cuyo",
+      "Lunlunta",
+      "Luzuriaga",
+      "Maip\u00fa",
+      "Perdriel",
+      "Puente de Hierro",
+      "Rodeo de la Cruz",
+      "Rodeo del Medio",
+      "Russell",
+      "San Roque",
+      "Tres de Mayo",
+      "Tres Esquinas",
+      "Ugarteche",
+      "Villa Nueva",
+      "Villa Teresa",
+      "Villa Tulumaya"
+    ]
+  },
+  {
+    "area_code": 263,
+    "province": "Mendoza",
+    "city": "San Mart\u00edn",
+    "localidades": [
+      "Alto Salvador",
+      "Alto Verde",
+      "Andrade",
+      "Barrio Chivilcoy",
+      "Barrio Cooperativa Los Campamentos",
+      "Barrio Mar\u00eda Auxiliadora",
+      "Barrio Rivadavia",
+      "Chapanay",
+      "Cuadro Ortega",
+      "Doce de Octubre",
+      "El Central",
+      "El Marcado",
+      "El Mirador",
+      "Ingeniero Giagnoni",
+      "Jun\u00edn",
+      "La Central",
+      "La Colonia",
+      "La Dormida",
+      "La Esperanza",
+      "La Florida",
+      "La Libertad",
+      "La Reducci\u00f3n",
+      "Las Catitas",
+      "Los \u00c1rboles",
+      "Los Charabones",
+      "Los Campamentos",
+      "Medrano",
+      "Montecaseros",
+      "Mundo Nuevo",
+      "Nueva California",
+      "Palmira",
+      "Phillips",
+      "Rivadavia",
+      "Rodr\u00edguez Pe\u00f1a",
+      "Santa Mar\u00eda de Oro",
+      "Santa Rosa",
+      "Tres Porte\u00f1as",
+      "Villa Los Barriales"
+    ]
+  },
+  {
+    "area_code": 264,
+    "province": "San Juan",
+    "city": "San Juan",
+    "localidades": [
+      "Alto de Sierra (Nueve de Julio)",
+      "Alto de Sierra (Santa Luc\u00eda)",
+      "Barrio Ruta 40",
+      "Barrio Sadop",
+      "Bermejo",
+      "Ca\u00f1ada Honda",
+      "Caucete",
+      "Campo Afuera",
+      "Carpinter\u00eda",
+      "Cienaguita",
+      "Colonia Fiorito",
+      "Colonia Fiscal",
+      "Colonia Guti\u00e9rrez",
+      "Divisadero",
+      "Dos Acequias",
+      "El Enc\u00f3n",
+      "El Medanito",
+      "El Rinc\u00f3n (Albard\u00f3n)",
+      "El Rinc\u00f3n (Caucete)",
+      "General San Mart\u00edn",
+      "Guanacache",
+      "La Ca\u00f1ada",
+      "La Chimbera",
+      "La Rinconada",
+      "Las Chacritas",
+      "Las Lagunas",
+      "Las Talas",
+      "Las Tapias",
+      "Los Berros",
+      "Los M\u00e9danos",
+      "Marayes",
+      "Media Agua",
+      "Nueve de Julio",
+      "Pedernal",
+      "Pie de Palo",
+      "Punta del M\u00e9dano",
+      "Quinto Cuartel",
+      "Rawson",
+      "Rivadavia",
+      "San Isidro",
+      "San Mart\u00edn",
+      "Santa Luc\u00eda",
+      "Santa Rosa",
+      "Tupel\u00ed",
+      "Vallecito",
+      "Villa Aberastain",
+      "Villa Ampacama",
+      "Villa Barboza",
+      "Villa Basilio Nievas",
+      "Villa Bola\u00f1os",
+      "Villa Borjas",
+      "Villa Centenario",
+      "Villa del Salvador",
+      "Villa Dominguito",
+      "Villa Don Bosco",
+      "Villa El Tango",
+      "Villa Ib\u00e1\u00f1ez",
+      "Villa Independencia",
+      "Villa Krause",
+      "Villa Nacusi",
+      "Villa Paula Albarrac\u00edn de Sarmiento",
+      "Villa Sefair Talacasto",
+      "Villa Tac\u00fa"
+    ]
+  },
+  {
+    "area_code": 266,
+    "province": "San Luis",
+    "city": "San Luis",
+    "localidades": [
+      "Alto Pelado",
+      "Alto Pencoso",
+      "Carolina",
+      "Desaguadero (parte)",
+      "El Trapiche",
+      "El Volc\u00e1n",
+      "Juana Koslay",
+      "La Calera",
+      "La Punta",
+      "Potrero de los Funes (parte)",
+      "San Ger\u00f3nimo",
+      "Villa de la Quebrada",
+      "Zanjitas"
+    ]
+  },
+  {
+    "area_code": 280,
+    "province": "Chubut",
+    "city": "Trelew",
+    "localidades": [
+      "Blancuntre",
+      "Cerro C\u00f3ndor",
+      "Dolavon",
+      "El Escorial",
+      "El Mirasol",
+      "El Sombrero",
+      "Gaiman",
+      "Gan Gan",
+      "Gastre",
+      "Lagunita Salada",
+      "Las Plumas",
+      "Los Altares",
+      "Paso de Indios",
+      "Playa Magagna",
+      "Playa Uni\u00f3n",
+      "Puerto Madryn",
+      "Puerto Pir\u00e1mides",
+      "Quinta El Mirador",
+      "Rawson",
+      "Telsen",
+      "Veintiocho de Julio",
+      "Villa Dique Florentino Ameghino",
+      "Yala Laubat"
+    ]
+  },
+  {
+    "area_code": 291,
+    "province": "Buenos Aires",
+    "city": "Bah\u00eda Blanca",
+    "localidades": [
+      "Cabildo",
+      "Chasic\u00f3",
+      "General Daniel Cerri",
+      "Gr\u00fcnbein",
+      "Ingeniero White",
+      "Juan Coust\u00e9",
+      "Mayor Buratovich",
+      "Saldungaray",
+      "Sierra de la Ventana",
+      "Teniente Origone",
+      "Tornquist",
+      "Tres Picos",
+      "Villa Arcadia",
+      "Villa Bordeu",
+      "Villa Espora",
+      "Villa Serrana La Gruta",
+      "Villa Ventana"
+    ]
+  },
+  {
+    "area_code": 294,
+    "province": "R\u00edo Negro Neuqu\u00e9n/Chubut",
+    "city": "San Carlos de Bariloche",
+    "localidades": [
+      "Colonia Suiza",
+      "Dina Huapi",
+      "El Bols\u00f3n",
+      "El Foyel",
+      "El Manso",
+      "Hoyo de Epuy\u00e9n",
+      "Lago Puelo",
+      "Mamuel Choique",
+      "\u00d1irihuau",
+      "\u00d1orquinc\u00f3",
+      "Paso Flores",
+      "Pilcaniyeu",
+      "Pilquiniyeu del Limay",
+      "R\u00edo Chico R\u00edo Villegas",
+      "Villa Campanario",
+      "Villa Cerro Catedral",
+      "Villa La Angostura",
+      "Villa Llanqu\u00edn",
+      "Villa Llao Llao",
+      "Villa Los Coihues",
+      "Villa Mascardi",
+      "Villa Traful"
+    ]
+  },
+  {
+    "area_code": 297,
+    "province": "Chubut/Santa Cruz",
+    "city": "Comodoro Rivadavia",
+    "localidades": [
+      "Astra",
+      "Caleta Olivia",
+      "Camarones",
+      "Ca\u00f1ad\u00f3n Seco",
+      "Diadema Argentina",
+      "Fitz Roy",
+      "Garayalde",
+      "Jaramillo",
+      "Koluel Kayke",
+      "Las Heras",
+      "Pico Truncado",
+      "Puerto Deseado",
+      "Rada Tilly",
+      "Sarmiento",
+      "Tellier"
+    ]
+  },
+  {
+    "area_code": 298,
+    "province": "R\u00edo Negro",
+    "city": "General Roca",
+    "localidades": [
+      "Aguada Guzm\u00e1n",
+      "Allen",
+      "Cerro Polic\u00eda",
+      "Cervantes",
+      "Chichinales",
+      "Coronel Juan Jos\u00e9 G\u00f3mez",
+      "El Cuy",
+      "General Enrique Godoy",
+      "Guerrico",
+      "Ingeniero Luis A. Huergo",
+      "Ingeniero Otto Krause",
+      "Mainqu\u00e9",
+      "Mencu\u00e9",
+      "Padre Stefenelli",
+      "Paso C\u00f3rdoba",
+      "Valle Azul",
+      "Villa Alberdi",
+      "Villa del Parque",
+      "Villa Regina"
+    ]
+  },
+  {
+    "area_code": 299,
+    "province": "Neuqu\u00e9n/R\u00edo Negro/La Pampa",
+    "city": "Neuqu\u00e9n",
+    "localidades": [
+      "Aguada San Roque",
+      "A\u00f1elo",
+      "Bajo San Cayetano",
+      "Barda del Medio",
+      "Campo Grande",
+      "Casa de Piedra",
+      "Catriel",
+      "Centenario",
+      "Cinco Saltos",
+      "Cipolletti",
+      "Contralmirante Cordero",
+      "Cutral-Co",
+      "Ferri",
+      "General Fern\u00e1ndez Oro",
+      "Las Perlas",
+      "Octavio Pico",
+      "Pen\u00ednsula Ruca Co",
+      "Pe\u00f1as Blancas",
+      "Plaza Huincul",
+      "Plottier",
+      "Puel\u00e9n",
+      "Rinc\u00f3n de los Sauces",
+      "San Patricio del Cha\u00f1ar",
+      "Sargento Vidal",
+      "Senillosa",
+      "Veinticinco de Mayo",
+      "Villa El Choc\u00f3n",
+      "Villa Manzano",
+      "Villa San Isidro",
+      "Vista Alegre"
+    ]
+  },
+  {
+    "area_code": 336,
+    "province": "Buenos Aires",
+    "city": "San Nicol\u00e1s de los Arroyos",
+    "localidades": [
+      "Campos Salles",
+      "Conesa",
+      "Er\u00e9zcano",
+      "General Rojo",
+      "La Emilia",
+      "Villa Campi",
+      "Villa Canto",
+      "Villa Esperanza",
+      "Villa Hermosa",
+      "Villa Riccio"
+    ]
+  },
+  {
+    "area_code": 341,
+    "province": "Santa Fe",
+    "city": "Rosario",
+    "localidades": [
+      "Alvear",
+      "Arbilla",
+      "Capit\u00e1n Berm\u00fadez",
+      "Carcara\u00f1\u00e1",
+      "Coronel Arnold",
+      "El Caramelo",
+      "Fray Luis Beltr\u00e1n",
+      "Funes",
+      "Granadero Baigorria",
+      "Ibarlucea",
+      "Kil\u00f3metro 101",
+      "La Carolina",
+      "P\u00e9rez",
+      "Rold\u00e1n",
+      "San Jer\u00f3nimo Sud",
+      "Soldini",
+      "Villa del Plata",
+      "Villa Gobernador G\u00e1lvez",
+      "Zavalla"
+    ]
+  },
+  {
+    "area_code": 342,
+    "province": "Santa Fe",
+    "city": "Santa Fe",
+    "localidades": [
+      "\u00c1ngel Gallardo",
+      "Arroyo Aguiar",
+      "Arroyo Leyes",
+      "Barrio Caima",
+      "Cabal",
+      "Campo Andino",
+      "Chaco Chico",
+      "Coronda",
+      "Desv\u00edo Arij\u00f3n",
+      "Empalme San Carlos",
+      "Franck",
+      "Gobernador Candioti",
+      "Laguna Paiva",
+      "Las Tunas",
+      "Matilde",
+      "Monte Vera",
+      "Nelson",
+      "Paraje La Costa",
+      "Plaza Matilde",
+      "Recreo",
+      "Rinc\u00f3n Potrero",
+      "San Agust\u00edn",
+      "San Jos\u00e9 del Rinc\u00f3n",
+      "Santa Rosa de Calchines",
+      "Santo Tom\u00e9",
+      "Sauce Viejo",
+      "Villa Laura"
+    ]
+  },
+  {
+    "area_code": 343,
+    "province": "Entre R\u00edos",
+    "city": "Paran\u00e1",
+    "localidades": [
+      "Aldea Brasilera",
+      "Aldea Mar\u00eda Luisa",
+      "Aldea Protestante",
+      "Aldea Salto",
+      "Aldea Santa Mar\u00eda",
+      "Aldea Spatzenkutter",
+      "Aldea Valle Mar\u00eda",
+      "Cerrito",
+      "Colonia Avellaneda",
+      "Colonia Ensayo",
+      "Crespo",
+      "Diamante",
+      "Estaci\u00f3n Camps",
+      "El Palenque",
+      "El Pingo",
+      "General Racedo",
+      "General Ram\u00edrez",
+      "Gobernador Etchevehere",
+      "Hasenkamp",
+      "La Picada",
+      "Las Tunas",
+      "Libertador San Mart\u00edn",
+      "Mar\u00eda Grande",
+      "Oro Verde",
+      "Paso de la Arena",
+      "Pueblo Bellocq",
+      "Pueblo Brugo",
+      "Puerto Alvear",
+      "Puerto Las Cuevas",
+      "San Benito",
+      "Sauce Montrull",
+      "Sauce Pinto",
+      "Segu\u00ed",
+      "Sosa",
+      "Tabossi",
+      "Tezanos Pinto",
+      "Viale",
+      "Villa Fontana",
+      "Villa Hernandarias",
+      "Villa Urquiza"
+    ]
+  },
+  {
+    "area_code": 345,
+    "province": "Entre R\u00edos",
+    "city": "Concordia",
+    "localidades": [
+      "Colonia Ayu\u00ed",
+      "Colonia Baylina",
+      "Colonia Oficial N\u00ba 5",
+      "Colonia Roca",
+      "Colonia San Justo",
+      "Clodomiro Ledesma",
+      "El Redom\u00f3n",
+      "Estancia Grande",
+      "Estaci\u00f3n Yeru\u00e1",
+      "General Campos",
+      "Hambis",
+      "La Criolla",
+      "Los Charr\u00faas",
+      "Nueva Escocia",
+      "Pedernal",
+      "Puerto Yeru\u00e1",
+      "San Salvador",
+      "Ubajay",
+      "Walter Moss"
+    ]
+  },
+  {
+    "area_code": 348,
+    "province": "Buenos Aires",
+    "city": "Bel\u00e9n de Escobar",
+    "localidades": [
+      "Dique Luj\u00e1n",
+      "Gar\u00edn",
+      "Ingeniero Maschwitz",
+      "Maquinista F. Savio",
+      "Loma Verde",
+      "Matheu",
+      "Puerto Paran\u00e1"
+    ]
+  },
+  {
+    "area_code": 351,
+    "province": "C\u00f3rdoba",
+    "city": "C\u00f3rdoba",
+    "localidades": [
+      "Barrio Gilbert",
+      "Bouwer",
+      "Caseros Centro",
+      "Causana",
+      "Colonia Tirolesa",
+      "Estaci\u00f3n Colonia Tirolesa",
+      "Estaci\u00f3n Ju\u00e1rez Celman",
+      "Gui\u00f1az\u00fa Norte",
+      "La Carbonada",
+      "La Perla",
+      "Malague\u00f1o",
+      "Malvinas Argentinas",
+      "Mi Granja",
+      "Monte Cristo",
+      "Santa Elena",
+      "Toledo",
+      "Villa Los Llanos",
+      "Villa Sierras de Oro",
+      "Yocsina"
+    ]
+  },
+  {
+    "area_code": 353,
+    "province": "C\u00f3rdoba",
+    "city": "Villa Mar\u00eda",
+    "localidades": [
+      "Ana Zumar\u00e1n",
+      "Arroyo Algod\u00f3n",
+      "Arroyo Cabral",
+      "Ausonia",
+      "Ballesteros",
+      "Ballesteros Sud",
+      "Bengolea",
+      "Carrilobo",
+      "Chaz\u00f3n",
+      "Dalmacio V\u00e9lez Sarsfield",
+      "Etruria",
+      "Hernando",
+      "James Craik",
+      "La Laguna",
+      "La Palestina",
+      "La Playosa",
+      "Las Isletillas",
+      "Las Mojarras",
+      "Las Pe\u00f1as Sud",
+      "Las Perdices",
+      "Los Zorros",
+      "Luca",
+      "Pampayasta Norte",
+      "Pascanas",
+      "Pasco",
+      "Pozo del Molle",
+      "Punta del Agua",
+      "Ram\u00f3n J. C\u00e1rcano",
+      "Sanabria",
+      "Silvio Pellico",
+      "Ticino",
+      "T\u00edo Pujio",
+      "Ucacha",
+      "Villa Albertina",
+      "Villa Nueva",
+      "Villa Oeste"
+    ]
+  },
+  {
+    "area_code": 358,
+    "province": "C\u00f3rdoba",
+    "city": "R\u00edo Cuarto",
+    "localidades": [
+      "Alcira Gigena",
+      "Alejandro Roca",
+      "Alpa Corral",
+      "Berrotar\u00e1n",
+      "Carnerillo",
+      "Charras",
+      "Chucul",
+      "Coronel Baigorria",
+      "Elena",
+      "General Cabrera",
+      "General Deheza",
+      "La Carolina",
+      "La Gilda",
+      "Las Acequias",
+      "Las Caleras",
+      "Las Higueras",
+      "Las Vertientes",
+      "Olaeta",
+      "Paso del Durazno",
+      "R\u00edo de Los Sauces",
+      "Santa Catalina",
+      "Villa El Chacay",
+      "Villa Reducci\u00f3n",
+      "Villa Santa Eugenia"
+    ]
+  },
+  {
+    "area_code": 362,
+    "province": "Chaco",
+    "city": "Resistencia",
+    "localidades": [
+      "Barranqueras",
+      "Barrio San Pedro Pescador",
+      "Basail",
+      "Colonia Baranda",
+      "Colonia Ben\u00edtez",
+      "Colonia Popular",
+      "Fontana",
+      "General Obligado",
+      "General Vedia",
+      "Isla del Cerrito",
+      "La Escondida",
+      "La Leonesa",
+      "La Verde",
+      "Laguna Blanca",
+      "Lapachito",
+      "Las Palmas",
+      "Makall\u00e9",
+      "Margarita Bel\u00e9n",
+      "Puerto Bermejo",
+      "Puerto Bermejo Viejo",
+      "Puerto Eva Per\u00f3n",
+      "Puerto Tirol",
+      "Puerto Vilelas"
+    ]
+  },
+  {
+    "area_code": 364,
+    "province": "Chaco",
+    "city": "Presidencia Roque S\u00e1enz Pe\u00f1a",
+    "localidades": [
+      "Avia Terai",
+      "Campo Largo",
+      "Colonia Aborigen Chaco",
+      "Concepci\u00f3n del Bermejo",
+      "Fort\u00edn Lavalle",
+      "Juan Jos\u00e9 Castelli",
+      "La Chiquita",
+      "La Tigra",
+      "Los Frentones",
+      "Miraflores",
+      "Napenay",
+      "Pampa del Infierno",
+      "Quitilipi",
+      "R\u00edo Muerto",
+      "Tres Isletas",
+      "Villa R\u00edo Bermejito",
+      "Villa Rural El Palmar",
+      "Zaparinqui"
+    ]
+  },
+  {
+    "area_code": 370,
+    "province": "Formosa",
+    "city": "Formosa",
+    "localidades": [
+      "Banco Payagu\u00e1",
+      "Colonia Pastoril",
+      "El Colorado",
+      "General Lucio V. Mansilla",
+      "Gran Guardia",
+      "Herradura",
+      "Mayor Vicente Villafa\u00f1e",
+      "San Francisco de Laishi",
+      "San Hilario",
+      "Mariano Boedo",
+      "Moj\u00f3n de Fierro",
+      "Palo Santo",
+      "Piran\u00e9",
+      "Subteniente Per\u00edn",
+      "Tatan\u00e9",
+      "Villa del Carmen",
+      "Villa Dos Trece",
+      "Villa Escolar",
+      "Villa Trinidad"
+    ]
+  },
+  {
+    "area_code": 376,
+    "province": "Misiones",
+    "city": "Posadas",
+    "localidades": [
+      "Barrio del Lago",
+      "Barrio Eva Per\u00f3n (Helvecia)",
+      "Bonpland",
+      "Candelaria",
+      "Cerro Azul",
+      "Cerro Cor\u00e1",
+      "Corpus",
+      "Domingo Savio",
+      "Fachinal",
+      "Garup\u00e1",
+      "General Urquiza",
+      "Gobernador Roca",
+      "Hip\u00f3lito Yrigoyen",
+      "Loreto",
+      "M\u00e1rtires",
+      "Nemesio Parma",
+      "Profundidad",
+      "Roca Chica",
+      "San Ignacio",
+      "Santa Ana",
+      "Santo Pip\u00f3"
+    ]
+  },
+  {
+    "area_code": 379,
+    "province": "Corrientes",
+    "city": "Corrientes",
+    "localidades": [
+      "Barrio Esperanza",
+      "El Sombrero",
+      "Empedrado",
+      "Herlitzka",
+      "Itat\u00ed",
+      "Laguna Brava",
+      "Paso de la Patria",
+      "Ramada Paso",
+      "Riachuelo",
+      "San Cayetano",
+      "San Cosme",
+      "San Luis del Palmar",
+      "Santa Ana de los Gu\u00e1caras"
+    ]
+  },
+  {
+    "area_code": 380,
+    "province": "La Rioja",
+    "city": "La Rioja",
+    "localidades": [
+      "Aman\u00e1",
+      "Patqu\u00eda",
+      "Punta de los Llanos",
+      "Tama",
+      "Villa Sanagasta"
+    ]
+  },
+  {
+    "area_code": 381,
+    "province": "Tucum\u00e1n",
+    "city": "San Miguel de Tucum\u00e1n",
+    "localidades": [
+      "Alderetes",
+      "Barrio Aeropuerto",
+      "Bella Vista",
+      "Cebil Redondo",
+      "Colombres",
+      "Delf\u00edn Gallo",
+      "El Bracho",
+      "El Cadillal",
+      "El Cha\u00f1ar",
+      "El Corte",
+      "El Manantial",
+      "El Para\u00edso",
+      "Estaci\u00f3n Ar\u00e1oz",
+      "Ingenio San Pablo",
+      "La Florida",
+      "La Ramada",
+      "Lastenia",
+      "Los Guti\u00e9rrez",
+      "Lules",
+      "Manuel Garc\u00eda Fern\u00e1ndez",
+      "Pacar\u00e1",
+      "Quilmes y Los Sueldos",
+      "San Andr\u00e9s",
+      "Taf\u00ed Viejo",
+      "Villa Fiad",
+      "Villa Nougu\u00e9s",
+      "Yerba Buena"
+    ]
+  },
+  {
+    "area_code": 383,
+    "province": "Catamarca",
+    "city": "San Fernando del Valle de Catamarca",
+    "localidades": [
+      "Adolfo E. Carranza",
+      "Alijil\u00e1n",
+      "Amadores",
+      "Ancasti",
+      "Anquincila",
+      "Balde de la Punta",
+      "Ba\u00f1ado de Ovanta",
+      "Barrio Bancario",
+      "Capay\u00e1n",
+      "Chuchucaruana",
+      "Chumbicha",
+      "Collagasta",
+      "Colonia del Valle",
+      "Colonia Nueva Coneta",
+      "Colpes",
+      "Concepci\u00f3n",
+      "Coneta",
+      "El Alto",
+      "El Ba\u00f1ado (Capay\u00e1n)",
+      "El Ba\u00f1ado (Valle Viejo)",
+      "El Bols\u00f3n",
+      "El Hueco",
+      "El Pantanillo",
+      "El Portezuelo",
+      "El Rodeo",
+      "El Rosario",
+      "Guayamba",
+      "Huaycama (Ambato)",
+      "Huaycama (Valle Viejo)",
+      "Huillapima",
+      "Infanz\u00f3n",
+      "La Bajada",
+      "La Candelaria",
+      "La Carrera",
+      "La Falda de San Antonio",
+      "La Higuera",
+      "La Majada",
+      "La Merced",
+      "La Puerta",
+      "La Tercena",
+      "La Vi\u00f1a",
+      "Las Ca\u00f1as",
+      "Las Chacritas",
+      "Las Juntas",
+      "Las Lajas",
+      "Las Tejas",
+      "Lavalle (parte)",
+      "Los Altos",
+      "Los \u00c1ngeles",
+      "Los Castillos",
+      "Los Corrales",
+      "Los Talas",
+      "Los Varela",
+      "Manantiales",
+      "Miraflores",
+      "Monte Potrero",
+      "Palo Labrado",
+      "Polcos",
+      "Pomancillo Este",
+      "Pomancillo Oeste",
+      "Pozo del Mistol",
+      "San Antonio (Fray Mamerto Esqui\u00fa)",
+      "San Antonio (Pacl\u00edn)",
+      "San Isidro",
+      "San Jos\u00e9",
+      "San Mart\u00edn",
+      "San Pablo",
+      "San Pedro",
+      "San Pedro de Guasay\u00e1n (parte)",
+      "Santa Cruz",
+      "Santa Rosa",
+      "Singuil",
+      "Sumalao",
+      "Tapso (parte)",
+      "Vilism\u00e1n",
+      "Villa de Balcozna",
+      "Villa Dolores",
+      "Villa Las Pirquitas"
+    ]
+  },
+  {
+    "area_code": 385,
+    "province": "Santiago del Estero",
+    "city": "Santiago del Estero",
+    "localidades": [
+      "Antaj\u00e9",
+      "Ardiles",
+      "\u00c1rraga",
+      "Beltr\u00e1n",
+      "Ca\u00f1ada Escobar",
+      "Chaupi Pozo",
+      "Clodomira",
+      "Colonia El Simbolar",
+      "El De\u00e1n",
+      "El Moj\u00f3n",
+      "El Puestito de San Antonio",
+      "El Zanj\u00f3n",
+      "Estaci\u00f3n Robles",
+      "Estaci\u00f3n Simbolar",
+      "Estaci\u00f3n Taboada",
+      "Fern\u00e1ndez",
+      "Ingeniero Forres",
+      "La Aurora",
+      "La Banda",
+      "La D\u00e1rsena (San Ram\u00f3n)",
+      "Los Cardozos",
+      "Los Morales",
+      "Los N\u00fa\u00f1ez",
+      "Los Quiroga",
+      "Maco",
+      "Maquito",
+      "San Pedro",
+      "Santa Mar\u00eda",
+      "Tramo 16",
+      "Villa Robles",
+      "Vilmer",
+      "Yanda"
+    ]
+  },
+  {
+    "area_code": 387,
+    "province": "Salta",
+    "city": "Salta",
+    "localidades": [
+      "Aleman\u00eda",
+      "Ampascachi",
+      "Cabra Corral",
+      "Campo Quijano",
+      "Campo Santo",
+      "Cerrillos",
+      "Chicoana",
+      "Cobos",
+      "Coronel Moldes",
+      "El Bordo",
+      "El Carril",
+      "General G\u00fcemes",
+      "Guachipas",
+      "Iruya",
+      "La Caldera",
+      "La Ci\u00e9naga",
+      "La Merced",
+      "La Silleta",
+      "La Vi\u00f1a",
+      "Las Costas",
+      "Olacapato",
+      "Rosario de Lerma",
+      "San Antonio de los Cobres",
+      "San Agust\u00edn",
+      "Santa Rosa de los Pastos Grandes",
+      "Talapampa",
+      "Tolar Grande",
+      "Vaqueros",
+      "Villa Los \u00c1lamos",
+      "Villa San Lorenzo"
+    ]
+  },
+  {
+    "area_code": 388,
+    "province": "Jujuy",
+    "city": "San Salvador de Jujuy",
+    "localidades": [
+      "Aguas Calientes",
+      "Alto Comedero",
+      "Barrio La Uni\u00f3n",
+      "Carahunco",
+      "Centro Forestal",
+      "Colonia San Jos\u00e9",
+      "El Carmen",
+      "El Ceibal",
+      "El C\u00f3ndor",
+      "Guerrero",
+      "Huacalera",
+      "Juella",
+      "La Almona",
+      "La Ovejer\u00eda",
+      "Le\u00f3n",
+      "Los Alisos",
+      "Los Lapachos",
+      "Los Nogales",
+      "Maimar\u00e1",
+      "Manantiales",
+      "Mina 9 de Octubre",
+      "Monterrico",
+      "Ocloyas",
+      "Palpal\u00e1",
+      "Pampa Blanca",
+      "Perico",
+      "Posta de Hornillos",
+      "Puesto Viejo",
+      "Purmamarca",
+      "R\u00edo Blanco",
+      "San Antonio",
+      "San Isidro",
+      "San Juancito",
+      "San Pablo de Reyes",
+      "Tilcara",
+      "Tumbaya",
+      "Volc\u00e1n",
+      "Villa Palpal\u00e1",
+      "Yala"
+    ]
+  },
+  {
+    "area_code": 2202,
+    "province": "Buenos Aires",
+    "city": "Gonz\u00e1lez Cat\u00e1n",
+    "localidades": ["Virrey del Pino"]
+  },
+  {
+    "area_code": 2221,
+    "province": "Buenos Aires",
+    "city": "Magdalena",
+    "localidades": [
+      "\u00c1lvarez Jonte",
+      "Atalaya",
+      "Pipinas",
+      "Las Tahonas",
+      "Monte Veloz",
+      "Punta del Indio",
+      "Roberto J. Payr\u00f3",
+      "Ver\u00f3nica",
+      "Vieytes"
+    ]
+  },
+  {
+    "area_code": 2223,
+    "province": "Buenos Aires",
+    "city": "Brandsen",
+    "localidades": [
+      "Altamirano",
+      "G\u00f3mez",
+      "Jeppener",
+      "Las Acacias",
+      "Loma Verde"
+    ]
+  },
+  {
+    "area_code": 2224,
+    "province": "Buenos Aires",
+    "city": "Glew",
+    "localidades": ["Guernica"]
+  },
+  {
+    "area_code": 2225,
+    "province": "Buenos Aires",
+    "city": "Alejandro Korn",
+    "localidades": ["Domselaar", "La Capilla", "San Vicente"]
+  },
+  {
+    "area_code": 2226,
+    "province": "Buenos Aires",
+    "city": "Ca\u00f1uelas",
+    "localidades": [
+      "Alejandro Peti\u00f3n",
+      "El Taladro",
+      "Gobernador Udaondo",
+      "Santa Rosa",
+      "Uribelarrea",
+      "Vicente Casares"
+    ]
+  },
+  {
+    "area_code": 2227,
+    "province": "Buenos Aires",
+    "city": "Lobos",
+    "localidades": [
+      "Antonio Carboni",
+      "Carlos Beguerie",
+      "Elvira",
+      "Empalme Lobos",
+      "Roque P\u00e9rez",
+      "Salvador Mar\u00eda",
+      "Zapiola"
+    ]
+  },
+  {
+    "area_code": 2229,
+    "province": "Buenos Aires",
+    "city": "Juan Mar\u00eda Guti\u00e9rrez",
+    "localidades": ["El Pato", "Ingeniero Juan Allan", "Pereyra"]
+  },
+  {
+    "area_code": 2241,
+    "province": "Buenos Aires",
+    "city": "Chascom\u00fas",
+    "localidades": ["Alegre", "Ranchos", "Samboromb\u00f3n"]
+  },
+  {
+    "area_code": 2242,
+    "province": "Buenos Aires",
+    "city": "Lezama",
+    "localidades": ["Casalins", "Pila"]
+  },
+  {
+    "area_code": 2243,
+    "province": "Buenos Aires",
+    "city": "General Belgrano",
+    "localidades": ["Barrio R\u00edo Salado", "Villanueva"]
+  },
+  {
+    "area_code": 2244,
+    "province": "Buenos Aires",
+    "city": "Las Flores",
+    "localidades": ["Coronel Boerr", "El Trigo", "Pardo"]
+  },
+  {
+    "area_code": 2245,
+    "province": "Buenos Aires",
+    "city": "Dolores",
+    "localidades": [
+      "Castelli",
+      "Centro Guerrero",
+      "Cerro de la Gloria",
+      "General Conesa",
+      "Sevigne",
+      "Villa Roch"
+    ]
+  },
+  {
+    "area_code": 2246,
+    "province": "Buenos Aires",
+    "city": "Santa Teresita",
+    "localidades": [
+      "Costa Chica",
+      "Costa del Este",
+      "Las Toninas",
+      "Mar del Tuy\u00fa"
+    ]
+  },
+  {
+    "area_code": 2252,
+    "province": "Buenos Aires",
+    "city": "San Clemente del Tuy\u00fa",
+    "localidades": ["Chacras de San Clemente", "General Lavalle"]
+  },
+  {
+    "area_code": 2254,
+    "province": "Buenos Aires",
+    "city": "Pinamar",
+    "localidades": ["Caril\u00f3", "Ostende", "Valeria del Mar"]
+  },
+  {
+    "area_code": 2255,
+    "province": "Buenos Aires",
+    "city": "Villa Gesell",
+    "localidades": ["Las Gaviotas", "Mar Azul", "Mar de las Pampas"]
+  },
+  {
+    "area_code": 2257,
+    "province": "Buenos Aires",
+    "city": "Mar de Aj\u00f3",
+    "localidades": [
+      "Aguas Verdes",
+      "Costa Azul",
+      "Costa Esmeralda",
+      "La Lucila del Mar",
+      "Nueva Atlantis",
+      "Pav\u00f3n",
+      "San Bernardo del Tuy\u00fa"
+    ]
+  },
+  {
+    "area_code": 2261,
+    "province": "Buenos Aires",
+    "city": "Lober\u00eda",
+    "localidades": [
+      "Arenas Verdes",
+      "Licenciado Matienzo",
+      "Pieres",
+      "San Manuel",
+      "Tamanguey\u00fa"
+    ]
+  },
+  {
+    "area_code": 2262,
+    "province": "Buenos Aires",
+    "city": "Necochea",
+    "localidades": [
+      "Balneario Costa Bonita",
+      "Balneario Los \u00c1ngeles",
+      "Energ\u00eda",
+      "Quequ\u00e9n"
+    ]
+  },
+  {
+    "area_code": 2264,
+    "province": "Buenos Aires",
+    "city": "Nicanor Olivera (Est. La Dulce)",
+    "localidades": ["Claraz", "Juan Fern\u00e1ndez", "Ram\u00f3n Santamarina"]
+  },
+  {
+    "area_code": 2265,
+    "province": "Buenos Aires",
+    "city": "Coronel Vidal",
+    "localidades": [
+      "General Pir\u00e1n",
+      "La Armon\u00eda",
+      "Mar Chiquita",
+      "Mar de Cobo",
+      "Vivorat\u00e1"
+    ]
+  },
+  {
+    "area_code": 2266,
+    "province": "Buenos Aires",
+    "city": "Balcarce",
+    "localidades": [
+      "Los Pinos",
+      "Mechongu\u00e9",
+      "Napaleof\u00fa",
+      "Ramos Otero",
+      "San Agust\u00edn",
+      "Villa Laguna La Brava"
+    ]
+  },
+  {
+    "area_code": 2267,
+    "province": "Buenos Aires",
+    "city": "General Juan Madariaga",
+    "localidades": []
+  },
+  {
+    "area_code": 2268,
+    "province": "Buenos Aires",
+    "city": "Maip\u00fa",
+    "localidades": [
+      "General Guido",
+      "Labard\u00e9n",
+      "Las Armas",
+      "Santo Domingo"
+    ]
+  },
+  {
+    "area_code": 2271,
+    "province": "Buenos Aires",
+    "city": "San Miguel del Monte",
+    "localidades": ["Abbott", "Gorchs", "Zen\u00f3n Videla Dorna"]
+  },
+  {
+    "area_code": 2272,
+    "province": "Buenos Aires",
+    "city": "Navarro",
+    "localidades": ["Jos\u00e9 Juan Almeyra", "Las Marianas", "Villa Moll"]
+  },
+  {
+    "area_code": 2273,
+    "province": "Buenos Aires",
+    "city": "Carmen de Areco",
+    "localidades": ["Pueblo Gouin", "Tres Sargentos"]
+  },
+  {
+    "area_code": 2274,
+    "province": "Buenos Aires",
+    "city": "Carlos Spegazzini",
+    "localidades": ["M\u00e1ximo Paz"]
+  },
+  {
+    "area_code": 2281,
+    "province": "Buenos Aires",
+    "city": "Azul",
+    "localidades": [
+      "Ariel",
+      "Cachar\u00ed",
+      "Chillar",
+      "Diecis\u00e9is de Julio"
+    ]
+  },
+  {
+    "area_code": 2283,
+    "province": "Buenos Aires",
+    "city": "Tapalqu\u00e9",
+    "localidades": ["Crotto", "Velloso"]
+  },
+  {
+    "area_code": 2284,
+    "province": "Buenos Aires",
+    "city": "Olavarr\u00eda",
+    "localidades": [
+      "Blanca Grande",
+      "Colonia Hinojo",
+      "Colonia Nievas",
+      "Colonia San Miguel",
+      "Espigas",
+      "Hinojo",
+      "Loma Negra",
+      "Recalde",
+      "Sierra Chica",
+      "Santa Luisa",
+      "Sierras Bayas",
+      "Villa La Serran\u00eda"
+    ]
+  },
+  {
+    "area_code": 2285,
+    "province": "Buenos Aires",
+    "city": "Laprida",
+    "localidades": ["Pueblo Nuevo", "Pueblo San Jorge"]
+  },
+  {
+    "area_code": 2286,
+    "province": "Buenos Aires",
+    "city": "General La Madrid",
+    "localidades": ["La Colina", "Las Martinetas", "L\u00edbano"]
+  },
+  {
+    "area_code": 2291,
+    "province": "Buenos Aires",
+    "city": "Miramar",
+    "localidades": [
+      "Centinela del Mar",
+      "Comandante Nicanor Otamendi",
+      "Mar del Sud"
+    ]
+  },
+  {
+    "area_code": 2292,
+    "province": "Buenos Aires",
+    "city": "Benito Ju\u00e1rez",
+    "localidades": [
+      "Barker",
+      "Estaci\u00f3n L\u00f3pez",
+      "Ted\u00edn Uriburu",
+      "Villa Cacique"
+    ]
+  },
+  {
+    "area_code": 2296,
+    "province": "Buenos Aires",
+    "city": "Ayacucho",
+    "localidades": ["La Constancia", "Solanet", "Udaquiola"]
+  },
+  {
+    "area_code": 2297,
+    "province": "Buenos Aires",
+    "city": "Rauch",
+    "localidades": ["Ega\u00f1a", "Mart\u00edn Colman", "Miranda"]
+  },
+  {
+    "area_code": 2302,
+    "province": "La Pampa/Buenos Aires",
+    "city": "General Pico",
+    "localidades": [
+      "Agustoni",
+      "Alta Italia",
+      "Bernardo Larroud\u00e9",
+      "Ceballos",
+      "Coronel Hilario Lagos",
+      "Dorila",
+      "Intendente Alvear",
+      "Gonz\u00e1lez Moreno",
+      "Metileo",
+      "Speluzzi",
+      "Trebolares",
+      "Trenel",
+      "V\u00e9rtiz"
+    ]
+  },
+  {
+    "area_code": 2314,
+    "province": "Buenos Aires",
+    "city": "San Carlos de Bol\u00edvar",
+    "localidades": [
+      "Coraceros",
+      "Hale",
+      "Henderson",
+      "Herrera Vegas",
+      "Juan F. Ibarra",
+      "Mar\u00eda Lucila",
+      "Mariano Unzu\u00e9",
+      "Paula",
+      "Pirovano",
+      "Urdampilleta",
+      "Villa Lynch Pueyrred\u00f3n"
+    ]
+  },
+  {
+    "area_code": 2316,
+    "province": "Buenos Aires",
+    "city": "Daireaux",
+    "localidades": ["Andant", "Arboledas", "La Larga"]
+  },
+  {
+    "area_code": 2317,
+    "province": "Buenos Aires",
+    "city": "Nueve de Julio",
+    "localidades": [
+      "Alfredo Demarchi",
+      "Carlos Mar\u00eda Na\u00f3n",
+      "Doce de Octubre",
+      "Dudignac",
+      "La Aurora",
+      "Manuel B. Gonnet",
+      "Marcelino Ugarte",
+      "Morea",
+      "Norumbega",
+      "Patricios",
+      "Santos Unzu\u00e9",
+      "Villa General Fournier"
+    ]
+  },
+  {
+    "area_code": 2320,
+    "province": "Buenos Aires",
+    "city": "Jos\u00e9 C. Paz",
+    "localidades": ["Grand Bourg", "Tortuguitas"]
+  },
+  {
+    "area_code": 2323,
+    "province": "Buenos Aires",
+    "city": "Luj\u00e1n",
+    "localidades": [
+      "Capilla del Se\u00f1or",
+      "Carlos Keen",
+      "Cortines",
+      "El Remanso",
+      "Jos\u00e9 Mar\u00eda J\u00e1uregui",
+      "Lezica y Torrezuri",
+      "Olivera",
+      "Open Door",
+      "Parada Robles",
+      "Pav\u00f3n",
+      "Torres",
+      "Villa Ruiz"
+    ]
+  },
+  {
+    "area_code": 2324,
+    "province": "Buenos Aires",
+    "city": "Mercedes",
+    "localidades": [
+      "Agote",
+      "General Rivas",
+      "Goldney",
+      "Gowland",
+      "Suipacha",
+      "Tom\u00e1s Jofr\u00e9"
+    ]
+  },
+  {
+    "area_code": 2325,
+    "province": "Buenos Aires",
+    "city": "San Andr\u00e9s de Giles",
+    "localidades": ["Azcu\u00e9naga", "Cucull\u00fa", "Franklin", "Villa Espil"]
+  },
+  {
+    "area_code": 2326,
+    "province": "Buenos Aires",
+    "city": "San Antonio de Areco",
+    "localidades": ["Duggan", "Sol\u00eds", "Vagu\u00e9s", "Villa L\u00eda"]
+  },
+  {
+    "area_code": 2331,
+    "province": "La Pampa",
+    "city": "Realic\u00f3",
+    "localidades": [
+      "Adolfo Van Praet",
+      "Falucho",
+      "Maisonave",
+      "Ojeda",
+      "Parera",
+      "Quetrequ\u00e9n",
+      "Rancul"
+    ]
+  },
+  {
+    "area_code": 2333,
+    "province": "La Pampa",
+    "city": "Quem\u00fa Quem\u00fa",
+    "localidades": [
+      "Colonia Bar\u00f3n",
+      "Colonia San Jos\u00e9",
+      "Miguel Can\u00e9",
+      "Relmo",
+      "Villa Mirasol",
+      "Winifreda"
+    ]
+  },
+  {
+    "area_code": 2334,
+    "province": "La Pampa",
+    "city": "Eduardo Castex",
+    "localidades": ["Conhelo", "Monte Nievas", "Rucanelo", ""]
+  },
+  {
+    "area_code": 2335,
+    "province": "La Pampa",
+    "city": "Caleuf\u00fa",
+    "localidades": [
+      "Arata",
+      "Embajador Martini",
+      "Ingeniero Luiggi",
+      "La Maruja",
+      "Pichi Huinca",
+      ""
+    ]
+  },
+  {
+    "area_code": 2336,
+    "province": "C\u00f3rdoba",
+    "city": "Huinca Renanc\u00f3",
+    "localidades": ["Pinc\u00e9n", "Ranqueles", "Villa Huidobro"]
+  },
+  {
+    "area_code": 2337,
+    "province": "Buenos Aires",
+    "city": "Am\u00e9rica",
+    "localidades": [
+      "Fort\u00edn Olavarr\u00eda",
+      "Mira Pampa",
+      "Roosevelt",
+      "Sansinena",
+      "San Mauricio",
+      "Sundblad",
+      ""
+    ]
+  },
+  {
+    "area_code": 2338,
+    "province": "La Pampa",
+    "city": "Victorica",
+    "localidades": [
+      "Algarrobo del \u00c1guila",
+      "Carro Quemado",
+      "La Humada",
+      "Loventu\u00e9",
+      "Luan Toro",
+      "Rucanelo",
+      "Santa Isabel",
+      "Tel\u00e9n",
+      ""
+    ]
+  },
+  {
+    "area_code": 2342,
+    "province": "Buenos Aires",
+    "city": "Bragado",
+    "localidades": [
+      "Asamblea",
+      "Comodoro Py",
+      "General O\u2019Brien",
+      "La Limpia",
+      "M\u00e1ximo Fern\u00e1ndez",
+      "Mechita",
+      "Warnes"
+    ]
+  },
+  {
+    "area_code": 2343,
+    "province": "Buenos Aires",
+    "city": "Norberto de La Riestra",
+    "localidades": ["Pedernales", ""]
+  },
+  {
+    "area_code": 2344,
+    "province": "Buenos Aires",
+    "city": "Saladillo",
+    "localidades": [
+      "\u00c1lvarez de Toledo",
+      "Caz\u00f3n",
+      "Del Carril",
+      "Juan Jos\u00e9 Blaquier",
+      "General Alvear",
+      "Polvaredas",
+      ""
+    ]
+  },
+  {
+    "area_code": 2345,
+    "province": "Buenos Aires",
+    "city": "25 de Mayo",
+    "localidades": [
+      "Agust\u00edn Mosconi",
+      "Del Valle",
+      "Lucas Monteverde",
+      "San Enrique",
+      "Vald\u00e9s"
+    ]
+  },
+  {
+    "area_code": 2346,
+    "province": "Buenos Aires",
+    "city": "Chivilcoy",
+    "localidades": [
+      "Alberti",
+      "Ben\u00edtez",
+      "Coronel Segu\u00ed",
+      "Emilio Ayarza",
+      "Gobernador Ugarte",
+      "Gorostiaga",
+      "Henry Bell",
+      "Indacochea",
+      "La Rica",
+      "Moquehu\u00e1",
+      "Palemon Huergo",
+      "Pl\u00e1",
+      "Ram\u00f3n Biaus",
+      "San Sebasti\u00e1n",
+      "Villa Grisol\u00eda",
+      "Villa Mar\u00eda",
+      "Villa Ortiz"
+    ]
+  },
+  {
+    "area_code": 2352,
+    "province": "Buenos Aires",
+    "city": "Chacabuco",
+    "localidades": [
+      "Castilla",
+      "Irala",
+      "Los \u00c1ngeles",
+      "O\u2019Higgins",
+      "Olascoaga",
+      "Rawson"
+    ]
+  },
+  {
+    "area_code": 2353,
+    "province": "Buenos Aires/Santa Fe",
+    "city": "General Arenales",
+    "localidades": [
+      "Arribe\u00f1os",
+      "Ascensi\u00f3n",
+      "Estaci\u00f3n Arenales",
+      "Ferr\u00e9",
+      "La Angelita",
+      "La Trinidad",
+      "Teodelina (parte)."
+    ]
+  },
+  {
+    "area_code": 2354,
+    "province": "Buenos Aires",
+    "city": "Vedia",
+    "localidades": [
+      "Alberdi Viejo",
+      "Colonia San Ricardo",
+      "El Dorado",
+      "Fort\u00edn Acha",
+      "Juan Bautista Alberdi",
+      "Villa Roth"
+    ]
+  },
+  {
+    "area_code": 2355,
+    "province": "Buenos Aires",
+    "city": "Lincoln",
+    "localidades": [
+      "Arenaza",
+      "Bayauca",
+      "Berm\u00fadez",
+      "Coronel Mart\u00ednez de Hoz",
+      "El Triunfo",
+      "Las Toscas",
+      "Pasteur",
+      "Roberts"
+    ]
+  },
+  {
+    "area_code": 2356,
+    "province": "Buenos Aires",
+    "city": "General Pinto",
+    "localidades": ["Germania", "Villa Francia"]
+  },
+  {
+    "area_code": 2357,
+    "province": "Buenos Aires",
+    "city": "Carlos Tejedor",
+    "localidades": ["Carlos Salas", "Colonia Ser\u00e9", "Curar\u00fa"]
+  },
+  {
+    "area_code": 2358,
+    "province": "Buenos Aires",
+    "city": "Los Toldos",
+    "localidades": ["La Delfina", "San Emilio", "Zaval\u00eda"]
+  },
+  {
+    "area_code": 2392,
+    "province": "Buenos Aires",
+    "city": "Trenque Lauquen",
+    "localidades": [
+      "Beruti",
+      "Bocayuva",
+      "De Bary",
+      "Girodias",
+      "La Carreta",
+      "Pellegrini",
+      "Treinta de Agosto"
+    ]
+  },
+  {
+    "area_code": 2393,
+    "province": "Buenos Aires",
+    "city": "Salazar",
+    "localidades": []
+  },
+  {
+    "area_code": 2394,
+    "province": "Buenos Aires",
+    "city": "Tres Lomas",
+    "localidades": ["Ingeniero Thompson", "Quenum\u00e1", "Salliquel\u00f3"]
+  },
+  {
+    "area_code": 2395,
+    "province": "Buenos Aires",
+    "city": "Carlos Casares",
+    "localidades": [
+      "Bellocq",
+      "Cadret",
+      "Colonia Mauricio",
+      "Gobernador Arias",
+      "Hortensia",
+      "La Dorita",
+      "La Sof\u00eda",
+      "Mauricio Hirsch",
+      "Moctezuma",
+      "Ordoqui",
+      "Smith"
+    ]
+  },
+  {
+    "area_code": 2396,
+    "province": "Buenos Aires",
+    "city": "Pehuaj\u00f3",
+    "localidades": [
+      "Abel",
+      "Capit\u00e1n Castro",
+      "Chiclana",
+      "Francisco Madero",
+      "Juan Jos\u00e9 Paso",
+      "Magdala",
+      "Mones Caz\u00f3n",
+      "Nueva Plata",
+      "San Bernardo de Pehuaj\u00f3"
+    ]
+  },
+  {
+    "area_code": 2473,
+    "province": "Buenos Aires/Santa Fe",
+    "city": "Col\u00f3n",
+    "localidades": [
+      "El Arbolito",
+      "Hughes",
+      "Juncal",
+      "Sarasa",
+      "Santa Emilia (parte)",
+      "Wheelwright"
+    ]
+  },
+  {
+    "area_code": 2474,
+    "province": "Buenos Aires",
+    "city": "Salto",
+    "localidades": ["Berdier", "Gahan", "In\u00e9s Indart", "La Invencible"]
+  },
+  {
+    "area_code": 2475,
+    "province": "Buenos Aires",
+    "city": "Rojas",
+    "localidades": [
+      "Las Carabelas",
+      "La Beba",
+      "Los Indios",
+      "Rafael Obligado",
+      "Roberto Cano",
+      "Sol de Mayo",
+      "Villa Manuel Pomar",
+      "Villa Parque Cecir"
+    ]
+  },
+  {
+    "area_code": 2477,
+    "province": "Buenos Aires/Santa Fe",
+    "city": "Pergamino",
+    "localidades": [
+      "Acevedo",
+      "Arroyo Dulce",
+      "Fontezuela",
+      "General Gelly",
+      "Guerrico",
+      "J. A. de la Pe\u00f1a",
+      "Juan Anchorena",
+      "Manuel Ocampo",
+      "Mariano Ben\u00edtez",
+      "Mariano H. Alfonzo",
+      "Pearson",
+      "Pinz\u00f3n",
+      "Rancagua",
+      "Villa Ang\u00e9lica",
+      "Villa San Jos\u00e9"
+    ]
+  },
+  {
+    "area_code": 2478,
+    "province": "Buenos Aires",
+    "city": "Arrecifes",
+    "localidades": ["Capit\u00e1n Sarmiento", "La Luisa", "Todd", "Vi\u00f1a"]
+  },
+  {
+    "area_code": 2622,
+    "province": "Mendoza",
+    "city": "Tunuy\u00e1n",
+    "localidades": [
+      "Barrio San Cayetano",
+      "Campo de los Andes",
+      "Colonia Las Rosas",
+      "Chilecito",
+      "Cord\u00f3n del Plata",
+      "El Cepillo",
+      "El Peral",
+      "Eugenio Bustos",
+      "La Arboleda",
+      "La Consulta",
+      "Los Sauces",
+      "Pareditas",
+      "San Jos\u00e9",
+      "Tupungato",
+      "Villa Bast\u00edas",
+      "Villa San Carlos",
+      "Vista Flores"
+    ]
+  },
+  {
+    "area_code": 2624,
+    "province": "Mendoza",
+    "city": "Uspallata",
+    "localidades": [
+      "El Carmelo",
+      "El Salto",
+      "Las Carditas",
+      "Las Cuevas",
+      "Las Vegas",
+      "Los Penitentes",
+      "Manantiales",
+      "Piedras Blancas",
+      "Polvaredas",
+      "Potrerillos",
+      "Puente del Inca",
+      "Punta de Vacas",
+      "Valle del Sol",
+      "Villa El Refugio"
+    ]
+  },
+  {
+    "area_code": 2625,
+    "province": "Mendoza",
+    "city": "General Alvear",
+    "localidades": [
+      "Barrio El Nevado",
+      "Bowen",
+      "Carmensa",
+      "Jaime Prats",
+      "Los Compartos",
+      "Punta del Agua",
+      "Real del Padre",
+      "Villa Atuel",
+      "Villa Atuel Norte"
+    ]
+  },
+  {
+    "area_code": 2626,
+    "province": "Mendoza",
+    "city": "La Paz",
+    "localidades": ["Desaguadero (parte)", "Villa Antigua"]
+  },
+  {
+    "area_code": 2646,
+    "province": "San Juan",
+    "city": "Villa San Agust\u00edn",
+    "localidades": [
+      "Astica",
+      "Baldes del Rosario",
+      "Chucuma",
+      "Los Baldecitos",
+      "Usno"
+    ]
+  },
+  {
+    "area_code": 2647,
+    "province": "San Juan",
+    "city": "San Jos\u00e9 de J\u00e1chal",
+    "localidades": [
+      "Angualasto",
+      "Bella Vista",
+      "Colola",
+      "El M\u00e9dano",
+      "Gran China",
+      "Huaco",
+      "Iglesia",
+      "La Falda",
+      "Las Flores",
+      "Mogna",
+      "Niquivil",
+      "Pampa Vieja",
+      "Pismanta",
+      "Rodeo",
+      "San Isidro",
+      "Tamber\u00edas",
+      "Tudcum",
+      "Villa Malvinas Argentinas",
+      "Villa Mercedes"
+    ]
+  },
+  {
+    "area_code": 2648,
+    "province": "San Juan",
+    "city": "Calingasta",
+    "localidades": ["Barreal", "Tamber\u00edas", "Villa Pituil"]
+  },
+  {
+    "area_code": 2651,
+    "province": "San Luis",
+    "city": "San Francisco del Monte de Oro",
+    "localidades": ["Candelaria", "Luj\u00e1n", "Nogol\u00ed", "Quines"]
+  },
+  {
+    "area_code": 2652,
+    "province": "San Luis",
+    "city": "---",
+    "localidades": [
+      "Balde",
+      "Beazley",
+      "Cazador",
+      "Chosmes",
+      "Jarilla",
+      "La Bajada",
+      "La Majada",
+      "Las Aguadas",
+      "Las Chacras",
+      "Las Lagunas",
+      "Leandro N. Alem",
+      "Mosmota",
+      "R\u00edo Juan G\u00f3mez",
+      "Potrero de los Funes (parte)",
+      "Riocito",
+      "Salinas del Bebedero",
+      "San Mart\u00edn",
+      "Talita",
+      "Villa General Roca"
+    ]
+  },
+  {
+    "area_code": 2655,
+    "province": "San Luis",
+    "city": "La Toma",
+    "localidades": [
+      "Juan Llerena",
+      "Las Vertientes",
+      "Paso Grande",
+      "Saladillo"
+    ]
+  },
+  {
+    "area_code": 2656,
+    "province": "San Luis",
+    "city": "Tilisarao",
+    "localidades": [
+      "Carpinter\u00eda",
+      "Cerro de Oro",
+      "Concar\u00e1n",
+      "Cortaderas",
+      "Lafinur",
+      "Los Cajones",
+      "Los Molles",
+      "Merlo",
+      "Naschel",
+      "Papagayos",
+      "Renca",
+      "San Pablo",
+      "Santa Rosa de Conlara",
+      "Villa de Praga",
+      "Villa del Carmen",
+      "Villa Larca"
+    ]
+  },
+  {
+    "area_code": 2657,
+    "province": "San Luis",
+    "city": "Villa Mercedes",
+    "localidades": [
+      "Fraga",
+      "Juan Jorba",
+      "Justo Daract",
+      "La Florida",
+      "Lavaisse",
+      "San Jos\u00e9 del Morro",
+      "Villa Reynolds",
+      "Villa Salles"
+    ]
+  },
+  {
+    "area_code": 2658,
+    "province": "San Luis",
+    "city": "Buena Esperanza",
+    "localidades": [
+      "Anchorena",
+      "Arizona",
+      "Bagual",
+      "Batavia",
+      "Fort\u00edn El Patria",
+      "Fortuna",
+      "La Maroma",
+      "Mart\u00edn de Loyola",
+      "Nahuel Map\u00e1",
+      "Navia",
+      "Nueva Galia",
+      "Uni\u00f3n"
+    ]
+  },
+  {
+    "area_code": 2901,
+    "province": "Tierra del Fuego",
+    "city": "Ushuaia",
+    "localidades": ["Lago Escondido", "Tolhuin"]
+  },
+  {
+    "area_code": 2902,
+    "province": "Santa Cruz",
+    "city": "R\u00edo Turbio",
+    "localidades": [
+      "El Calafate",
+      "El Turbio",
+      "Esperanza",
+      "Julia Dufour",
+      "Mina 3",
+      "Rospentek Aike",
+      "Veintiocho de Noviembre"
+    ]
+  },
+  {
+    "area_code": 2903,
+    "province": "Chubut",
+    "city": "R\u00edo Mayo",
+    "localidades": [
+      "Aldea Beleiro",
+      "Doctor Ricardo Rojas",
+      "Facundo",
+      "Lago Blanco"
+    ]
+  },
+  {
+    "area_code": 2920,
+    "province": "R\u00edo Negro/Buenos Aires",
+    "city": "Viedma",
+    "localidades": [
+      "Bah\u00eda Creek",
+      "Bah\u00eda San Blas",
+      "Balneario El C\u00f3ndor",
+      "Cardenal Cagliero",
+      "Carmen de Patagones",
+      "El Juncal",
+      "Guardia Mitre",
+      "Jos\u00e9 B. Casas",
+      "La Lober\u00eda",
+      "Los Pocitos",
+      "Loteo Costa de R\u00edo",
+      "Pozo Salado",
+      "San Javier",
+      "Stroeder",
+      "Villa Balnearia 7 de Marzo"
+    ]
+  },
+  {
+    "area_code": 2921,
+    "province": "Buenos Aires",
+    "city": "Coronel Dorrego",
+    "localidades": [
+      "Aparicio",
+      "Balneario Pehuen-C\u00f3",
+      "Balneario Sauce Grande",
+      "El Perdido",
+      "Faro",
+      "Irene",
+      "Monte Hermoso",
+      "San Rom\u00e1n"
+    ]
+  },
+  {
+    "area_code": 2922,
+    "province": "Buenos Aires",
+    "city": "Coronel Pringles",
+    "localidades": [
+      "El Divisorio",
+      "El Pensamiento",
+      "Frapal",
+      "Lartigau",
+      "Pontaut"
+    ]
+  },
+  {
+    "area_code": 2923,
+    "province": "Buenos Aires",
+    "city": "Pig\u00fc\u00e9",
+    "localidades": [
+      "Arroyo Corto",
+      "Azopardo",
+      "Colonia San Mart\u00edn",
+      "Dufaur",
+      "Espartillar",
+      "Estela",
+      "Goyena",
+      "Puan",
+      "Saavedra",
+      "San Germ\u00e1n",
+      "Villa Castelar"
+    ]
+  },
+  {
+    "area_code": 2924,
+    "province": "Buenos Aires\n        La Pampa",
+    "city": "Darregueira",
+    "localidades": [
+      "Bordenave",
+      "Guatrach\u00e9",
+      "San Miguel Arc\u00e1ngel",
+      "Santa Teresa",
+      "Rol\u00f3n",
+      "Villa Durcudoy (17 de Agosto)"
+    ]
+  },
+  {
+    "area_code": 2925,
+    "province": "Buenos Aires/La Pampa",
+    "city": "Villa Iris",
+    "localidades": [
+      "Abramo",
+      "Bernasconi",
+      "Felipe Sol\u00e1",
+      "General San Mart\u00edn",
+      "Hucal",
+      "Jacinto Ar\u00e1uz",
+      "L\u00f3pez Lecube",
+      "Per\u00fa"
+    ]
+  },
+  {
+    "area_code": 2926,
+    "province": "Buenos Aires",
+    "city": "Coronel Su\u00e1rez",
+    "localidades": [
+      "Cascada",
+      "Cura Malal",
+      "D\u2019Orbigny",
+      "Pasman",
+      "San Jos\u00e9",
+      "Santa Mar\u00eda",
+      "Santa Trinidad"
+    ]
+  },
+  {
+    "area_code": 2927,
+    "province": "Buenos Aires",
+    "city": "M\u00e9danos",
+    "localidades": [
+      "Balneario Chapalc\u00f3",
+      "Colonia San Adolfo",
+      "Nicol\u00e1s Levalle"
+    ]
+  },
+  {
+    "area_code": 2928,
+    "province": "Buenos Aires",
+    "city": "Pedro Luro",
+    "localidades": [
+      "Balneario La Chiquita",
+      "Hilario Ascasubi",
+      "Juan A. Pradere",
+      "Villalonga"
+    ]
+  },
+  {
+    "area_code": 2929,
+    "province": "Buenos Aires",
+    "city": "Guamin\u00ed",
+    "localidades": ["Arroyo Venado", "Casbas", "Garr\u00e9", "Laguna Alsina"]
+  },
+  {
+    "area_code": 2931,
+    "province": "R\u00edo Negro/La Pampa",
+    "city": "R\u00edo Colorado",
+    "localidades": [
+      "Anzoategui",
+      "Colonia Juli\u00e1 y Echarren",
+      "General Conesa",
+      "La Adela"
+    ]
+  },
+  {
+    "area_code": 2932,
+    "province": "Buenos Aires",
+    "city": "Punta Alta",
+    "localidades": ["Bajo Hondo", "Villa del Mar", "Villa General Arias"]
+  },
+  {
+    "area_code": 2933,
+    "province": "Buenos Aires",
+    "city": "Huanguel\u00e9n",
+    "localidades": []
+  },
+  {
+    "area_code": 2934,
+    "province": "R\u00edo Negro",
+    "city": "San Antonio Oeste",
+    "localidades": [
+      "Aguada Cecilio",
+      "Arroyo de La Ventana",
+      "Arroyo Los Berros",
+      "Cona Niyeu",
+      "Las Grutas",
+      "Ministro Ramos Mex\u00eda",
+      "Nahuel Niyeu",
+      "Playas Doradas",
+      "Punta Colorada",
+      "San Antonio Este",
+      "Sierra Colorada",
+      "Sierra Grande",
+      "Sierra Pailem\u00e1n",
+      "Treneta",
+      "Valcheta",
+      "Yaminu\u00e9"
+    ]
+  },
+  {
+    "area_code": 2935,
+    "province": "Buenos Aires",
+    "city": "Rivera",
+    "localidades": ["Villa Maza"]
+  },
+  {
+    "area_code": 2936,
+    "province": "Buenos Aires",
+    "city": "Carhu\u00e9",
+    "localidades": [
+      "Delf\u00edn Huergo",
+      "Esteban Agust\u00edn Gasc\u00f3n",
+      "La Pala",
+      "Thames",
+      "Yutuyaco"
+    ]
+  },
+  {
+    "area_code": 2940,
+    "province": "R\u00edo Negro",
+    "city": "Ingeniero Jacobacci",
+    "localidades": [
+      "Aguada de Guerra",
+      "Clemente Onelli",
+      "Colan Conhue",
+      "Comallo",
+      "Comic\u00f3",
+      "El Ca\u00edn",
+      "Laguna Blanca",
+      "Las Bayas",
+      "Los Menucos",
+      "Maquinchao",
+      "Mina Santa Teresita",
+      "Ojos de Agua",
+      "Pilquiniyeu",
+      "Prahuaniyeu"
+    ]
+  },
+  {
+    "area_code": 2942,
+    "province": "Neuqu\u00e9n/R\u00edo Negro",
+    "city": "Zapala",
+    "localidades": [
+      "Alumin\u00e9",
+      "Arroyito",
+      "Bajada del Agrio",
+      "Covunco Abajo",
+      "La Buitrera",
+      "Las Coloradas",
+      "Las Lajas",
+      "Los Catutos",
+      "Mari Menuco",
+      "Mariano Moreno",
+      "Naupa Huen",
+      "Paso Aguerre",
+      "Pic\u00fan Leuf\u00fa",
+      "Piedra del \u00c1guila",
+      "Ram\u00f3n M. Castro",
+      "Santo Tom\u00e1s",
+      "Villa Pehuenia"
+    ]
+  },
+  {
+    "area_code": 2945,
+    "province": "Chubut",
+    "city": "Esquel",
+    "localidades": [
+      "Aldea Apeleg",
+      "Aldea Epulef",
+      "Alto R\u00edo Senguer",
+      "Buen Pasto",
+      "Buenos Aires Chico",
+      "Carrenleuf\u00fa",
+      "Cholila",
+      "Colan Conhu\u00e9",
+      "Corcovado",
+      "Cushamen",
+      "Doctor Atilio Oscar Viglione",
+      "El Mait\u00e9n",
+      "Epuy\u00e9n",
+      "Gobernador Costa",
+      "Gualjaina",
+      "Jos\u00e9 de San Mart\u00edn",
+      "Lago Epuy\u00e9n",
+      "Lago Rosario",
+      "Leleque",
+      "Los Cipreses",
+      "Paso del Sapo",
+      "R\u00edo Pico",
+      "Tecka",
+      "Trevelin",
+      "Villa Futalaufquen"
+    ]
+  },
+  {
+    "area_code": 2946,
+    "province": "R\u00edo Negro",
+    "city": "Choele Choel",
+    "localidades": [
+      "Barrio Uni\u00f3n",
+      "Chelfor\u00f3",
+      "Chimpay",
+      "Coronel Belisle",
+      "Darwin",
+      "Lamarque",
+      "Luis Beltr\u00e1n",
+      "Pomona"
+    ]
+  },
+  {
+    "area_code": 2948,
+    "province": "Neuqu\u00e9n",
+    "city": "Chos Malal",
+    "localidades": [
+      "Andacollo",
+      "Barrancas",
+      "Buta Ranquil",
+      "Caviahue",
+      "Chorriaca",
+      "Coyuco-Cochico",
+      "El Cholar",
+      "El Huec\u00fa",
+      "Huinganco",
+      "Las Ovejas",
+      "Loncopu\u00e9",
+      "Los Miches",
+      "Manzano Amargo",
+      "Sauzal Bonito",
+      "Taquimil\u00e1n",
+      "Termas de Copahue",
+      "Tricao Malal",
+      "Varvarco",
+      "Villa Cur\u00ed Leuv\u00fa",
+      "Villa del Nahueve"
+    ]
+  },
+  {
+    "area_code": 2952,
+    "province": "La Pampa",
+    "city": "General Acha",
+    "localidades": [
+      "Chacharramendi",
+      "Colonia Santa Mar\u00eda",
+      "Cuchillo-C\u00f3",
+      "Gobernador Duval",
+      "La Reforma",
+      "Limay Mahuida",
+      "Puelches",
+      "Quehu\u00e9",
+      "Unanu\u00e9"
+    ]
+  },
+  {
+    "area_code": 2953,
+    "province": "La Pampa",
+    "city": "Macach\u00edn",
+    "localidades": [
+      "Alpachiri",
+      "Doblas",
+      "General Manuel Campos",
+      "Miguel Riglos",
+      "Rol\u00f3n"
+    ]
+  },
+  {
+    "area_code": 2954,
+    "province": "La Pampa",
+    "city": "Santa Rosa",
+    "localidades": [
+      "Anguil",
+      "Ataliva Roca",
+      "Cachirulo",
+      "Catril\u00f3",
+      "Lonquimay",
+      "Naic\u00f3",
+      "Tom\u00e1s de Anchorena",
+      "Toay",
+      "Uriburu"
+    ]
+  },
+  {
+    "area_code": 2962,
+    "province": "Santa Cruz",
+    "city": "Puerto San Juli\u00e1n",
+    "localidades": [
+      "Comandante Luis Piedrabuena",
+      "El Chalt\u00e9n",
+      "Gobernador Gregores",
+      "Puerto Santa Cruz",
+      "Tres Lagos"
+    ]
+  },
+  {
+    "area_code": 2963,
+    "province": "Santa Cruz",
+    "city": "Perito Moreno",
+    "localidades": ["Bajo Caracoles", "Lago Posadas", "Los Antiguos"]
+  },
+  {
+    "area_code": 2964,
+    "province": "Tierra del Fuego",
+    "city": "R\u00edo Grande",
+    "localidades": []
+  },
+  {
+    "area_code": 2966,
+    "province": "Santa Cruz",
+    "city": "R\u00edo Gallegos",
+    "localidades": []
+  },
+  {
+    "area_code": 2972,
+    "province": "Neuqu\u00e9n",
+    "city": "San Mart\u00edn de los Andes",
+    "localidades": ["Jun\u00edn de los Andes", "Villa Meliquina"]
+  },
+  {
+    "area_code": 2982,
+    "province": "Buenos Aires",
+    "city": "Orense",
+    "localidades": [
+      "Balneario Orense",
+      "Claromec\u00f3",
+      "San Francisco de Bellocq"
+    ]
+  },
+  {
+    "area_code": 2983,
+    "province": "Buenos Aires",
+    "city": "Tres Arroyos",
+    "localidades": [
+      "Adolfo Gonzales Chaves",
+      "Balneario Marisol",
+      "Balneario San Cayetano",
+      "Barrow",
+      "Copetonas",
+      "De la Garma",
+      "Dunamar",
+      "Indio Rico",
+      "Juan Eulogio Barra",
+      "Lin Calel",
+      "Micaela Cascallares",
+      "Ochand\u00edo",
+      "Oriente",
+      "Reta",
+      "San Cayetano",
+      "San Mayol",
+      "V\u00e1squez"
+    ]
+  },
+  {
+    "area_code": 3327,
+    "province": "Buenos Aires",
+    "city": "Benav\u00eddez",
+    "localidades": ["Ricardo Rojas"]
+  },
+  {
+    "area_code": 3329,
+    "province": "Buenos Aires",
+    "city": "San Pedro",
+    "localidades": [
+      "Baradero",
+      "Gobernador Castro",
+      "La Violeta",
+      "Obligado",
+      "P\u00e9rez Mill\u00e1n",
+      "Portela Pueblo Doyle",
+      "R\u00edo Tala",
+      "Santa Coloma",
+      "Santa Luc\u00eda",
+      "Villa Alsina"
+    ]
+  },
+  {
+    "area_code": 3382,
+    "province": "Santa Fe/Buenos Aires/C\u00f3rdoba",
+    "city": "Rufino",
+    "localidades": [
+      "Aar\u00f3n Castellanos",
+      "Amen\u00e1bar",
+      "Ca\u00f1ada Seca",
+      "Christophersen",
+      "Diego de Alvear",
+      "La Cesira",
+      "Leguizam\u00f3n",
+      "San Gregorio",
+      "Santa Regina",
+      "Villa Saboya"
+    ]
+  },
+  {
+    "area_code": 3385,
+    "province": "C\u00f3rdoba",
+    "city": "Laboulaye",
+    "localidades": [
+      "General Levalle",
+      "Jovita",
+      "Melo",
+      "R\u00edo Bamba",
+      "Rosales",
+      "San Joaqu\u00edn",
+      "Serrano",
+      "Villa Rossi"
+    ]
+  },
+  {
+    "area_code": 3387,
+    "province": "C\u00f3rdoba",
+    "city": "Buchardo",
+    "localidades": ["Ital\u00f3", "Onagoity"]
+  },
+  {
+    "area_code": 3388,
+    "province": "Buenos Aires",
+    "city": "General Villegas",
+    "localidades": [
+      "Ameghino",
+      "Banderal\u00f3",
+      "Blaquier",
+      "Coronel Charlone",
+      "Emilio V. Bunge",
+      "Massey",
+      "Pichincha",
+      "Piedritas",
+      "Porvenir",
+      "Santa Eleodora",
+      "Tres Algarrobos",
+      "Timote",
+      "Villa Sauze"
+    ]
+  },
+  {
+    "area_code": 3400,
+    "province": "Santa Fe",
+    "city": "Villa Constituci\u00f3n",
+    "localidades": [
+      "Barrio Arroyo del Medio",
+      "Barrio Mitre",
+      "Empalme Villa Constituci\u00f3n",
+      "Pav\u00f3n",
+      "Rueda",
+      "Theobald"
+    ]
+  },
+  {
+    "area_code": 3401,
+    "province": "Santa Fe",
+    "city": "El Tr\u00e9bol",
+    "localidades": [
+      "Ca\u00f1ada Rosqu\u00edn",
+      "Carlos Pellegrini",
+      "Casas",
+      "Centeno",
+      "Las Bandurrias",
+      "Los Cardos",
+      "Mar\u00eda Susana",
+      "Piamonte",
+      "San Genaro",
+      "San Genaro Norte",
+      ""
+    ]
+  },
+  {
+    "area_code": 3402,
+    "province": "Santa Fe",
+    "city": "Arroyo Seco",
+    "localidades": [
+      "Albarellos",
+      "\u00c1lvarez",
+      "Coronel Bogado",
+      "Coronel Rodolfo S. Dom\u00ednguez",
+      "Fighiera",
+      "General Lagos",
+      "Los Muchachos - La Alborada",
+      "Monte Flores",
+      "Pi\u00f1ero",
+      "Pueblo Esther",
+      "Puerto Arroyo Seco",
+      "Villa Amelia"
+    ]
+  },
+  {
+    "area_code": 3404,
+    "province": "Santa Fe",
+    "city": "San Carlos Centro",
+    "localidades": [
+      "Campo Piaggio",
+      "Colonia Belgrano",
+      "G\u00e1lvez",
+      "Gessler",
+      "Larrechea",
+      "Loma Alta",
+      "L\u00f3pez",
+      "Pilar",
+      "Sa Pereira",
+      "San Carlos Norte",
+      "San Carlos Sud",
+      "San Eugenio",
+      "San Jer\u00f3nimo del Sauce",
+      "San Jer\u00f3nimo Norte",
+      "San Mariano",
+      "Santa Clara de Buena Vista",
+      "Santa Mar\u00eda Centro",
+      "Santa Mar\u00eda Norte",
+      "Wildermuth"
+    ]
+  },
+  {
+    "area_code": 3405,
+    "province": "Santa Fe",
+    "city": "San Javier",
+    "localidades": [
+      "Alejandra",
+      "Cacique Ariacaiqu\u00edn",
+      "Cayast\u00e1",
+      "Colonia Masc\u00edas",
+      "Helvecia",
+      "La Brava",
+      "Los Zapallos",
+      "Saladero Mariano Cabal"
+    ]
+  },
+  {
+    "area_code": 3406,
+    "province": "Santa Fe",
+    "city": "San Jorge",
+    "localidades": [
+      "Castelar",
+      "Crispi",
+      "Garibaldi",
+      "Landeta",
+      "Las Petacas",
+      "Mar\u00eda Juana",
+      "San Mart\u00edn de las Escobas",
+      "Sastre y Ortiz",
+      "Traill"
+    ]
+  },
+  {
+    "area_code": 3407,
+    "province": "Buenos Aires",
+    "city": "Ramallo",
+    "localidades": [
+      "El Para\u00edso",
+      "Las Bahamas",
+      "Villa General Savio",
+      "Villa Ramallo"
+    ]
+  },
+  {
+    "area_code": 3408,
+    "province": "Santa Fe",
+    "city": "San Crist\u00f3bal",
+    "localidades": [
+      "Aguar\u00e1 Grande",
+      "Balneario La Verde",
+      "Capivara",
+      "Huanqueros",
+      "La Cabral",
+      "Las Avispas",
+      "\u00d1anducita",
+      "Santurce"
+    ]
+  },
+  {
+    "area_code": 3409,
+    "province": "Santa Fe",
+    "city": "Mois\u00e9s Ville",
+    "localidades": ["Constanza", "Las Palmeras", "Monigotes", "Palacios"]
+  },
+  {
+    "area_code": 3435,
+    "province": "Entre R\u00edos",
+    "city": "Nogoy\u00e1",
+    "localidades": [
+      "Betbeder",
+      "Don Crist\u00f3bal Primero",
+      "Febre",
+      "Hern\u00e1ndez",
+      "Lucas Gonz\u00e1lez",
+      "XX de Setiembre"
+    ]
+  },
+  {
+    "area_code": 3436,
+    "province": "Entre R\u00edos",
+    "city": "Victoria",
+    "localidades": [
+      "Antelo",
+      "Aranguren",
+      "Chilcas",
+      "Laguna del Pescado",
+      "Molino Doll",
+      "Rinc\u00f3n de Nogoy\u00e1"
+    ]
+  },
+  {
+    "area_code": 3437,
+    "province": "Entre R\u00edos",
+    "city": "La Paz",
+    "localidades": ["San Gustavo", "Santa Elena"]
+  },
+  {
+    "area_code": 3438,
+    "province": "Entre R\u00edos",
+    "city": "Bovril",
+    "localidades": [
+      "Colonia Avigdor",
+      "El Solar",
+      "Piedras Blancas",
+      "Sauce de Luna",
+      "Sir Leonard",
+      "Villa Alcaraz"
+    ]
+  },
+  {
+    "area_code": 3442,
+    "province": "Entre R\u00edos",
+    "city": "Concepci\u00f3n del Uruguay",
+    "localidades": [
+      "Caseros",
+      "Colonia El\u00eda",
+      "Herrera",
+      "Pronunciamiento",
+      "Villa San Justo"
+    ]
+  },
+  {
+    "area_code": 3444,
+    "province": "Entre R\u00edos",
+    "city": "Gualeguay",
+    "localidades": [
+      "Aldea Asunci\u00f3n",
+      "Distrito Sexto Costa de Nogoy\u00e1",
+      "Enrique Carb\u00f3",
+      "Estaci\u00f3n Lazo",
+      "General Galarza"
+    ]
+  },
+  {
+    "area_code": 3445,
+    "province": "Entre R\u00edos",
+    "city": "Rosario del Tala",
+    "localidades": [
+      "Altamirano Sur",
+      "Arroyo Cl\u00e9",
+      "Basavilbaso",
+      "Estaci\u00f3n Gobernador Echag\u00fce",
+      "Estaci\u00f3n Gobernador Sola",
+      "Estaci\u00f3n L\u00edbaros",
+      "Gobernador Mansilla",
+      "Guardamonte",
+      "Las Guachas",
+      "Las Moscas",
+      "Maci\u00e1",
+      "Rocamora",
+      "Santa Anita",
+      "Villa Mantero",
+      "Villa San Marcial"
+    ]
+  },
+  {
+    "area_code": 3446,
+    "province": "Entre R\u00edos",
+    "city": "Gualeguaych\u00fa",
+    "localidades": [
+      "Aldea San Antonio (Gualeguaych\u00fa)",
+      "Aldea San Juan",
+      "Ceibas",
+      "Estaci\u00f3n Escri\u00f1a",
+      "Faustino M. Parera",
+      "General Almada",
+      "Gilbert",
+      "Irazusta",
+      "Larroque",
+      "M\u00e9danos",
+      "\u00d1ancay",
+      "Pastor Britos",
+      "Pueblo General Belgrano",
+      "Puerto Ibicuy",
+      "Rinc\u00f3n del Cinto",
+      "Rinc\u00f3n del Gato",
+      "Urdinarrain",
+      "Villa Paranacito"
+    ]
+  },
+  {
+    "area_code": 3447,
+    "province": "Entre R\u00edos",
+    "city": "Col\u00f3n",
+    "localidades": [
+      "Arroyo Bar\u00fa",
+      "Colonia Hocker",
+      "Colonia San Anselmo y Aleda\u00f1as",
+      "La Clarita",
+      "Primero de Mayo",
+      "Pueblo Cazes",
+      "Pueblo Liebig",
+      "San Ernesto",
+      "San Jos\u00e9",
+      "Villa Elisa"
+    ]
+  },
+  {
+    "area_code": 3454,
+    "province": "Entre R\u00edos",
+    "city": "Federal",
+    "localidades": ["Conscripto Bernardi", "El Cimarr\u00f3n", "Nueva Vizcaya"]
+  },
+  {
+    "area_code": 3455,
+    "province": "Entre R\u00edos",
+    "city": "Villaguay",
+    "localidades": [
+      "Durazno",
+      "Estaci\u00f3n Ra\u00edces",
+      "Ingeniero Sajaroff",
+      "Jubileo",
+      "Mojones Norte",
+      "Paso de la Laguna",
+      "Villa Clara",
+      "Villa Dom\u00ednguez"
+    ]
+  },
+  {
+    "area_code": 3456,
+    "province": "Entre R\u00edos",
+    "city": "Chajar\u00ed",
+    "localidades": [
+      "Colonia Alemana",
+      "Colonia La Argentina",
+      "Colonia Pe\u00f1a",
+      "Colonia Santa Mar\u00eda",
+      "Federaci\u00f3n",
+      "La Florida",
+      "San Pedro",
+      "Santa Ana",
+      "Villa del Rosario"
+    ]
+  },
+  {
+    "area_code": 3458,
+    "province": "Entre R\u00edos",
+    "city": "San Jos\u00e9 de Feliciano",
+    "localidades": [
+      "Estaci\u00f3n La Esmeralda",
+      "La Hierra",
+      "Los Conquistadores",
+      "San Jaime de la Frontera",
+      "San V\u00edctor"
+    ]
+  },
+  {
+    "area_code": 3460,
+    "province": "Santa Fe",
+    "city": "Santa Teresa",
+    "localidades": [
+      "Ca\u00f1ada Rica",
+      "Cepeda",
+      "Godoy",
+      "Juan Bernab\u00e9 Molina",
+      "La Vanguardia",
+      "M\u00e1ximo Paz",
+      "Peyrano",
+      "Sargento Cabral",
+      "Stephenson"
+    ]
+  },
+  {
+    "area_code": 3462,
+    "province": "Santa Fe",
+    "city": "Venado Tuerto",
+    "localidades": [
+      "Carmen",
+      "Chapuy",
+      "Elortondo",
+      "La Chispa",
+      "Lazzarino",
+      "Maggiolo",
+      "Mar\u00eda Teresa",
+      "Murphy",
+      "San Eduardo",
+      "San Francisco de Santa Fe",
+      "Sancti Spiritu",
+      "Santa Emilia (parte)",
+      "Santa Isabel",
+      "Teodelina (parte)",
+      "Villa Ca\u00f1\u00e1s"
+    ]
+  },
+  {
+    "area_code": 3463,
+    "province": "C\u00f3rdoba",
+    "city": "Canals",
+    "localidades": [
+      "Aldea Santa Mar\u00eda",
+      "Gould",
+      "Colonia Bremen",
+      "Pueblo Italiano",
+      "San Severo",
+      "Viamonte"
+    ]
+  },
+  {
+    "area_code": 3464,
+    "province": "Santa Fe",
+    "city": "Casilda",
+    "localidades": [
+      "Arequito",
+      "Bigand",
+      "Chab\u00e1s",
+      "Fuentes",
+      "Los Molinos",
+      "Pujato",
+      "Sanford",
+      "Villa Mugueta"
+    ]
+  },
+  {
+    "area_code": 3465,
+    "province": "Santa Fe",
+    "city": "Firmat",
+    "localidades": [
+      "Alcorta",
+      "Berabev\u00fa",
+      "Bombal",
+      "Ca\u00f1ada del Ucle",
+      "Carreras",
+      "Chovet",
+      "G\u00f6deken",
+      "Labordeboy",
+      "Los Quirquinchos",
+      "Melincu\u00e9",
+      "Miguel Torres",
+      "Paraje El Jard\u00edn",
+      "Villa Estela",
+      "Villada"
+    ]
+  },
+  {
+    "area_code": 3466,
+    "province": "Santa Fe",
+    "city": "Barrancas",
+    "localidades": [
+      "Arocena",
+      "Balneario Monje",
+      "Bernardo de Irigoyen",
+      "Casalegno",
+      "D\u00edaz",
+      "Monje",
+      "Paraje Comipini",
+      "Pueblo Irigoyen",
+      "Puerto Arag\u00f3n",
+      "San Fabi\u00e1n"
+    ]
+  },
+  {
+    "area_code": 3467,
+    "province": "C\u00f3rdoba/Santa Fe",
+    "city": "Cruz Alta",
+    "localidades": [
+      "Arteaga",
+      "Colonia Veinticinco",
+      "Inriville",
+      "Los Nogales",
+      "Los Surgentes",
+      "Monte Buey",
+      "Saladillo",
+      "San Jos\u00e9 de la Esquina"
+    ]
+  },
+  {
+    "area_code": 3468,
+    "province": "C\u00f3rdoba/Santa Fe",
+    "city": "Corral de Bustos",
+    "localidades": [
+      "Alejo Ledesma",
+      "Arias",
+      "Cafferata",
+      "Camilo Aldao",
+      "Cha\u00f1ar Ladeado",
+      "Colonia Barge",
+      "Capit\u00e1n General Bernardo O\u2019Higgins",
+      "Cavanagh",
+      "Colonia Bismarck",
+      "Colonia Italiana",
+      "General Baldissera",
+      "Guatimoz\u00edn",
+      "Isla Verde",
+      "Monte Ma\u00edz",
+      "Wenceslao Escalante"
+    ]
+  },
+  {
+    "area_code": 3469,
+    "province": "Santa Fe",
+    "city": "Acebal",
+    "localidades": [
+      "Arminda",
+      "Carmen del Sauce",
+      "Cuatro Esquinas",
+      "Pav\u00f3n Arriba",
+      "Pueblo Mu\u00f1oz",
+      "Pueblo Uranga"
+    ]
+  },
+  {
+    "area_code": 3471,
+    "province": "Santa Fe",
+    "city": "Ca\u00f1ada de G\u00f3mez",
+    "localidades": [
+      "Armstrong",
+      "Berreta",
+      "Bouquet",
+      "Bustinza",
+      "Clason",
+      "Colonia Medici",
+      "Correa",
+      "Las Parejas",
+      "Las Rosas",
+      "Montes de Oca",
+      "Tortugas",
+      "Villa Elo\u00edsa"
+    ]
+  },
+  {
+    "area_code": 3472,
+    "province": "C\u00f3rdoba",
+    "city": "Marcos Ju\u00e1rez",
+    "localidades": [
+      "General Roca",
+      "Leones",
+      "Noetinger",
+      "Saira",
+      "Villa Elisa"
+    ]
+  },
+  {
+    "area_code": 3476,
+    "province": "Santa Fe",
+    "city": "San Lorenzo",
+    "localidades": [
+      "Aldao",
+      "Cicarelli",
+      "Clarke",
+      "Largu\u00eda",
+      "Lucio V. L\u00f3pez",
+      "Luis Palacios",
+      "Maciel Oliveros",
+      "Pueblo Andino",
+      "Puerto Gaboto",
+      "Puerto General San Mart\u00edn",
+      "Ricardone",
+      "Salto Grande",
+      "Serodino",
+      "Timb\u00faes",
+      "Totoras",
+      "Villa Elvira",
+      "Villa La Ribera"
+    ]
+  },
+  {
+    "area_code": 3482,
+    "province": "Santa Fe",
+    "city": "Reconquista",
+    "localidades": [
+      "Arroyo Ceibal",
+      "Avellaneda",
+      "Berna",
+      "Ca\u00f1ada Omb\u00fa",
+      "Colonia Dur\u00e1n",
+      "El Araz\u00e1",
+      "El Rab\u00f3n",
+      "El Sombrerito",
+      "Florencia",
+      "Garabato",
+      "Guadalupe Norte",
+      "Ingeniero Chanourdie",
+      "Intiyaco",
+      "Kil\u00f3metro 115",
+      "La Isleta",
+      "La Sarita",
+      "Las Garzas",
+      "Las Toscas",
+      "Lanteri",
+      "Los Amores",
+      "Los Laureles",
+      "Los T\u00e1banos",
+      "Malabrigo",
+      "Nicanor Molinas Paraje San Manuel",
+      "Pozo de los Indios",
+      "Romang",
+      "San Antonio de Obligado",
+      "Tacuarend\u00ed",
+      "Tartagal",
+      "Villa Ana",
+      "Villa Guillermina",
+      "Villa Ocampo"
+    ]
+  },
+  {
+    "area_code": 3483,
+    "province": "Santa Fe",
+    "city": "Vera",
+    "localidades": [
+      "Calchaqu\u00ed",
+      "Colmena",
+      "Fort\u00edn Olmos",
+      "Golondrina",
+      "La Gallareta",
+      "Margarita",
+      "Pueblo Santa Luc\u00eda",
+      "Toba"
+    ]
+  },
+  {
+    "area_code": 3487,
+    "province": "Buenos Aires",
+    "city": "Z\u00e1rate",
+    "localidades": [
+      "Barrio Saavedra",
+      "Escalada",
+      "Gobernador Andonaegui",
+      "Lima"
+    ]
+  },
+  {
+    "area_code": 3489,
+    "province": "Buenos Aires",
+    "city": "Campana",
+    "localidades": [
+      "Alto Los Cardales",
+      "Barrio Los Pioneros",
+      "Ingeniero R\u00f3mulo Otamendi",
+      "Lomas del R\u00edo Luj\u00e1n"
+    ]
+  },
+  {
+    "area_code": 3491,
+    "province": "Santa Fe/Santiago del Estero",
+    "city": "Ceres",
+    "localidades": [
+      "Ambrosetti",
+      "Arruf\u00f3",
+      "Colonia Alpina",
+      "Colonia Ana",
+      "Colonia Bossi",
+      "Curupaity",
+      "Esteban Rams",
+      "Gato Colorado",
+      "Gregoria P\u00e9rez de Denis",
+      "Hersilia",
+      "La Rubia",
+      "Logro\u00f1o",
+      "Montefiore",
+      "Pozo Borrado",
+      "San Bernardo",
+      "Santa Margarita",
+      "Tostado",
+      "Villa Minetti",
+      "Villa Trinidad"
+    ]
+  },
+  {
+    "area_code": 3492,
+    "province": "Santa Fe",
+    "city": "Rafaela",
+    "localidades": [
+      "Ang\u00e9lica",
+      "Aurelia",
+      "Bauer y Sigel",
+      "Bella Italia",
+      "Castellanos",
+      "Colonia Cello",
+      "Colonia Margarita",
+      "Coronel Fraga",
+      "Egusquiza",
+      "Esmeralda",
+      "Estaci\u00f3n Clucellas",
+      "Eustolia",
+      "Josefina",
+      "Lehmann",
+      "Nueva Lehmann",
+      "Plaza Clucellas",
+      "Plaza Saguier",
+      "Presidente Roca",
+      "Pueblo Marini",
+      "Ramona",
+      "San Antonio",
+      "San Vicente",
+      "Santa Clara de Saguier",
+      "Susana",
+      "Vila",
+      "Villa San Jos\u00e9"
+    ]
+  },
+  {
+    "area_code": 3493,
+    "province": "Santa Fe",
+    "city": "Sunchales",
+    "localidades": [
+      "Aldao",
+      "Ataliva",
+      "Colonia Bicha",
+      "Colonia Raquel",
+      "Colonia Tacurales",
+      "Eusebia y Carolina",
+      "Galisteo",
+      "Humberto Primo",
+      "Tacural",
+      "Virginia"
+    ]
+  },
+  {
+    "area_code": 3496,
+    "province": "Santa Fe",
+    "city": "Esperanza",
+    "localidades": [
+      "Colonia Cavour",
+      "Grutly",
+      "Humboldt",
+      "Ituzaing\u00f3",
+      "Nuevo Torino",
+      "Rivadavia"
+    ]
+  },
+  {
+    "area_code": 3497,
+    "province": "Santa Fe",
+    "city": "Llambi Campbell",
+    "localidades": [
+      "Culul\u00fa",
+      "Emilia",
+      "Felicia",
+      "Hipat\u00eda",
+      "Jacinto L. Ar\u00e1uz",
+      "La Pelada",
+      "Mar\u00eda Luisa",
+      "Progreso",
+      "Providencia",
+      "Santo Domingo",
+      "Sarmiento"
+    ]
+  },
+  {
+    "area_code": 3498,
+    "province": "Santa Fe",
+    "city": "San Justo",
+    "localidades": [
+      "Angeloni",
+      "Cayastacito",
+      "Colonia Esther",
+      "Colonia Dolores",
+      "Colonia Silva",
+      "Elisa",
+      "Gobernador Crespo",
+      "La Camila",
+      "La Criolla",
+      "La Penca y Caraguat\u00e1",
+      "Marcelino Escalada",
+      "Nar\u00e9",
+      "Pedro G\u00f3mez Cello",
+      "Ramay\u00f3n",
+      "San Bernardo (San Justo)",
+      "San Mart\u00edn Norte",
+      "Soledad",
+      "Vera y Pintado",
+      "Videla",
+      "Villa Saralegui"
+    ]
+  },
+  {
+    "area_code": 3521,
+    "province": "C\u00f3rdoba",
+    "city": "De\u00e1n Funes",
+    "localidades": [
+      "Caminiaga",
+      "Chu\u00f1a",
+      "Copacabana",
+      "El Tuscal",
+      "Los Pozos",
+      "Lucio V. Mansilla",
+      "Quilino",
+      "San Jos\u00e9 de La Dormida",
+      "San Jos\u00e9 de Las Salinas",
+      "San Pedro de Toyos",
+      "San Pedro Norte",
+      "Villa Quilino",
+      "Villa Tulumba"
+    ]
+  },
+  {
+    "area_code": 3522,
+    "province": "C\u00f3rdoba",
+    "city": "Villa de Mar\u00eda",
+    "localidades": [
+      "Cerro Colorado",
+      "Cha\u00f1ar Viejo",
+      "Chu\u00f1a Huasi",
+      "Churqui Ca\u00f1ada",
+      "El Rodeo",
+      "Eufrasio Loza",
+      "Gutemberg",
+      "La Rinconada",
+      "Las Arrias",
+      "Los Hoyos",
+      "Pozo Nuevo",
+      "Puesto de Castro",
+      "Rayo Cortado",
+      "Rosario del Saladillo",
+      "San Francisco del Cha\u00f1ar",
+      "Santa Elena",
+      "Sebastian Elcano",
+      "Villa Candelaria Norte"
+    ]
+  },
+  {
+    "area_code": 3524,
+    "province": "C\u00f3rdoba",
+    "city": "Villa del Totoral",
+    "localidades": [
+      "Avellaneda",
+      "Capilla de Sit\u00f3n",
+      "Las Pe\u00f1as",
+      "Simbolar",
+      "Villa Guti\u00e9rrez"
+    ]
+  },
+  {
+    "area_code": 3525,
+    "province": "C\u00f3rdoba",
+    "city": "Jes\u00fas Mar\u00eda",
+    "localidades": [
+      "Agua de Oro",
+      "Ascochinga",
+      "Candelaria Sud",
+      "Canteras El Sauce",
+      "Ca\u00f1ada de Luque",
+      "Ca\u00f1ada de R\u00edo Pinto",
+      "Colonia Caroya",
+      "Colonia Vicente Ag\u00fcero",
+      "El Manzano",
+      "Estaci\u00f3n General Paz",
+      "La Granja",
+      "La Pampa",
+      "La Paz",
+      "Los Mistoles",
+      "Los Molles",
+      "La Puerta",
+      "Santa Catalina",
+      "Sarmiento",
+      "Sinsacate",
+      "Tinoco",
+      "Villa Cerro Azul"
+    ]
+  },
+  {
+    "area_code": 3532,
+    "province": "C\u00f3rdoba",
+    "city": "Oliva",
+    "localidades": [
+      "Colazo",
+      "Colonia Almada",
+      "Las Junturas",
+      "Pampayasta Sud"
+    ]
+  },
+  {
+    "area_code": 3533,
+    "province": "C\u00f3rdoba",
+    "city": "Las Varillas",
+    "localidades": [
+      "Alicia",
+      "El Ara\u00f1ado",
+      "El Fort\u00edn",
+      "Las Varas",
+      "Sacanta",
+      "Saturnino Mar\u00eda Laspiur",
+      "Villa San Esteban"
+    ]
+  },
+  {
+    "area_code": 3537,
+    "province": "C\u00f3rdoba",
+    "city": "Bell Ville",
+    "localidades": [
+      "Alto Alegre",
+      "Chilibroste",
+      "Cintra",
+      "Idiaz\u00e1bal",
+      "Justiniano Posse",
+      "Laborde",
+      "Monte Le\u00f1a",
+      "Morrison",
+      "Ord\u00f3\u00f1ez",
+      "San Antonio de Lit\u00edn",
+      "San Marcos Sud",
+      "Villa Los Patos"
+    ]
+  },
+  {
+    "area_code": 3541,
+    "province": "C\u00f3rdoba",
+    "city": "Villa Carlos Paz",
+    "localidades": [
+      "Bialet Mass\u00e9",
+      "Cabalango",
+      "Cosqu\u00edn",
+      "Cuesta Blanca",
+      "Estancia Vieja",
+      "Las Jarillas",
+      "Mall\u00edn",
+      "Mayu Sumaj",
+      "San Antonio de Arredondo",
+      "San Jos\u00e9 de los R\u00edos",
+      "San Nicol\u00e1s",
+      "San Roque",
+      "Santa Mar\u00eda de Punilla",
+      "Tala Huasi",
+      "Tanti",
+      "Villa Flor Serrana",
+      "Villa Icho Cruz",
+      "Villa Independencia",
+      "Villa Lago Azul",
+      "Villa Parque Siquiman",
+      "Villa Santa Cruz del Lago"
+    ]
+  },
+  {
+    "area_code": 3542,
+    "province": "C\u00f3rdoba",
+    "city": "Salsacate",
+    "localidades": [
+      "\u00c1mbul",
+      "Chancan\u00ed",
+      "Ci\u00e9naga del Coro",
+      "Estancia de Guadalupe",
+      "Guasapampa",
+      "La Higuera",
+      "La Playa",
+      "Las Palmas",
+      "Los Talares",
+      "Mussi",
+      "San Carlos Minas",
+      "San Ger\u00f3nimo",
+      "Tala Ca\u00f1ada",
+      "Talaini",
+      "Taninga",
+      "Tosno",
+      "Villa de Pocho"
+    ]
+  },
+  {
+    "area_code": 3543,
+    "province": "C\u00f3rdoba",
+    "city": "C\u00f3rdoba (Arg\u00fcello)",
+    "localidades": [
+      "Casa Bamba",
+      "El Diquecito",
+      "La Calera",
+      "Mendiolaza",
+      "Pajas Blancas",
+      "R\u00edo Ceballos",
+      "Sald\u00e1n",
+      "Salsipuedes",
+      "Unquillo",
+      "Villa Allende"
+    ]
+  },
+  {
+    "area_code": 3544,
+    "province": "C\u00f3rdoba",
+    "city": "Villa Dolores",
+    "localidades": [
+      "Arroyo de Los Patos",
+      "Conlara",
+      "Cruz Ca\u00f1a",
+      "Dos Arroyos",
+      "El Huayco",
+      "El Pantanillo",
+      "La Paz",
+      "La Poblaci\u00f3n",
+      "La Ramada",
+      "La Traves\u00eda",
+      "Las Calles",
+      "Las Rabonas",
+      "Las Tapias",
+      "Los Callejones",
+      "Los Cerrillos",
+      "Los Hornillos",
+      "Los Molles",
+      "Los Romeros",
+      "Luyaba",
+      "Mina Clavero",
+      "Nono",
+      "Panaholma",
+      "Quebrada de los Pozos",
+      "San Huberto",
+      "San Javier/Yacanto",
+      "San Jos\u00e9",
+      "San Lorenzo",
+      "San Mart\u00edn",
+      "San Pedro",
+      "San Vicente",
+      "Sauce Arriba",
+      "Villa Cura Brochero",
+      "Villa de Las Rosas",
+      "Villa La Vi\u00f1a",
+      "Villa Sarmiento"
+    ]
+  },
+  {
+    "area_code": 3546,
+    "province": "C\u00f3rdoba",
+    "city": "Santa Rosa de Calamuchita",
+    "localidades": [
+      "Amboy",
+      "Arroyo San Antonio",
+      "Ca\u00f1ada del Sauce",
+      "Capilla Vieja",
+      "El Corcovado - El Torre\u00f3n",
+      "El Durazno",
+      "La Cruz",
+      "La Cumbrecita",
+      "Los Reartes",
+      "Lutti",
+      "Parque Calmayo",
+      "San Ignacio",
+      "Villa Alpina",
+      "Villa Amancay",
+      "Villa Berna",
+      "Villa Ciudad Parque Los Reartes",
+      "Villa del Dique",
+      "Villa General Belgrano",
+      "Villa La Rivera",
+      "Villa Rumipal",
+      "Villa Quillinzo",
+      "Villa Yacanto"
+    ]
+  },
+  {
+    "area_code": 3547,
+    "province": "C\u00f3rdoba",
+    "city": "Alta Gracia",
+    "localidades": [
+      "Anisacate",
+      "Costa Azul",
+      "Despe\u00f1aderos",
+      "Dique Chico",
+      "Falda del Ca\u00f1ete",
+      "Falda del Carmen Jos\u00e9 de la Quintana",
+      "La Boca del R\u00edo",
+      "La Paisanita",
+      "La Rancherita",
+      "La Serranita",
+      "Las Quintas",
+      "Los Cedros",
+      "Los Molinos",
+      "Monte Ralo",
+      "Potrero de Garay",
+      "Rafael Garc\u00eda",
+      "San Agust\u00edn",
+      "San Clemente",
+      "Solar de los Molinos",
+      "Valle Alegre",
+      "Valle de Anisacate",
+      "Villa Ciudad de Am\u00e9rica",
+      "Villa del Prado",
+      "Villa La Bolsa",
+      "Villa Los Aromos",
+      "Villa Parque Santa Ana",
+      "Villa San Isidro",
+      "Villa San Miguel"
+    ]
+  },
+  {
+    "area_code": 3548,
+    "province": "C\u00f3rdoba",
+    "city": "La Falda",
+    "localidades": [
+      "Capilla del Monte",
+      "Casa Grande",
+      "Charbonier",
+      "Cruz Chica",
+      "Cruz Grande",
+      "Dolores",
+      "Huerta Grande",
+      "La Cumbre",
+      "Las Ca\u00f1adas",
+      "Los Cocos",
+      "Quebrada de Luna",
+      "San Esteban",
+      "Valle Hermoso",
+      "Villa Giardino"
+    ]
+  },
+  {
+    "area_code": 3549,
+    "province": "C\u00f3rdoba",
+    "city": "Cruz del Eje",
+    "localidades": [
+      "Alto de los Quebrachos",
+      "Ba\u00f1ado de Soto",
+      "Canteras Quilpo",
+      "Cruz de Ca\u00f1a",
+      "El Brete",
+      "El Chacho",
+      "El Rinc\u00f3n",
+      "Guanaco Muerto",
+      "La Banda",
+      "La Batea",
+      "Las Playas",
+      "Los Cha\u00f1aritos",
+      "Media Naranja",
+      "Olivares de San Nicol\u00e1s",
+      "Paso Viejo",
+      "San Marcos Sierras",
+      "Serrezuela",
+      "Tuclame",
+      "Villa de Soto"
+    ]
+  },
+  {
+    "area_code": 3562,
+    "province": "C\u00f3rdoba/Santa Fe",
+    "city": "Morteros",
+    "localidades": [
+      "Altos de Chipi\u00f3n",
+      "Brinkmann",
+      "Colonia Diez de Julio",
+      "Colonia Dos Rosas y La Legua",
+      "Colonia Rosa",
+      "Colonia San Pedro",
+      "Colonia Valtelina",
+      "La Paquita",
+      "Monte Oscuridad",
+      "San Guillermo",
+      "Suardi"
+    ]
+  },
+  {
+    "area_code": 3563,
+    "province": "C\u00f3rdoba",
+    "city": "Balnearia",
+    "localidades": ["Marull", "Miramar", "Trinchera"]
+  },
+  {
+    "area_code": 3564,
+    "province": "C\u00f3rdoba/Santa Fe",
+    "city": "San Francisco",
+    "localidades": [
+      "Barrios Acapulco y Veracruz",
+      "Colonia Anita",
+      "Colonia Iturraspe",
+      "Colonia Marina",
+      "Colonia Prosperidad",
+      "Colonia San Bartolom\u00e9",
+      "Colonia Santa Mar\u00eda",
+      "Colonia Vignaud",
+      "Devoto",
+      "Estaci\u00f3n Luxardo",
+      "Freyre",
+      "Frontera",
+      "La Francia",
+      "Plaza Luxardo",
+      "Plaza San Francisco",
+      "Porte\u00f1a",
+      "Quebracho Herrado",
+      "Seeber",
+      "Villa Josefina",
+      "Zen\u00f3n Pereyra"
+    ]
+  },
+  {
+    "area_code": 3571,
+    "province": "C\u00f3rdoba",
+    "city": "R\u00edo Tercero",
+    "localidades": [
+      "Almafuerte",
+      "Corralito",
+      "Embalse",
+      "General Fotheringham",
+      "Las Bajadas",
+      "Los C\u00f3ndores",
+      "Segunda Usina",
+      "Tancacha",
+      "Villa Ascasubi"
+    ]
+  },
+  {
+    "area_code": 3572,
+    "province": "C\u00f3rdoba",
+    "city": "R\u00edo Segundo",
+    "localidades": [
+      "Calch\u00edn Oeste",
+      "Colonia Videla",
+      "Costa Sacate",
+      "Impira",
+      "Laguna Larga",
+      "Lozada",
+      "Manfredi",
+      "Oncativo",
+      "Pilar"
+    ]
+  },
+  {
+    "area_code": 3573,
+    "province": "C\u00f3rdoba",
+    "city": "Villa del Rosario",
+    "localidades": [
+      "Calch\u00edn",
+      "Capilla del Carmen",
+      "Luque",
+      "Matorrales",
+      "Rinc\u00f3n"
+    ]
+  },
+  {
+    "area_code": 3574,
+    "province": "C\u00f3rdoba",
+    "city": "R\u00edo Primero",
+    "localidades": [
+      "Ca\u00f1ada de Machado",
+      "Capilla de los Remedios",
+      "Colonia Las Cuatro Esquinas",
+      "Comechingones",
+      "El Alcalde",
+      "El Crisp\u00edn",
+      "Esquina",
+      "Kil\u00f3metro 658",
+      "Monte del Rosario",
+      "Piquill\u00edn",
+      "Sagrada Familia",
+      "Santa Rosa de R\u00edo Primero",
+      "Santiago Temple"
+    ]
+  },
+  {
+    "area_code": 3575,
+    "province": "C\u00f3rdoba",
+    "city": "La Puerta",
+    "localidades": [
+      "Atahona",
+      "Chalacea",
+      "Diego de Rojas",
+      "La Para",
+      "La Posta",
+      "La Quinta",
+      "Las Saladas",
+      "Maquinista Gallini",
+      "Obispo Trejo",
+      "Plaza de Mercedes",
+      "Villa Fontana"
+    ]
+  },
+  {
+    "area_code": 3576,
+    "province": "C\u00f3rdoba",
+    "city": "Arroyito",
+    "localidades": [
+      "Colonia Las Pichanas",
+      "Los Cha\u00f1aritos",
+      "El Fuertecito",
+      "El T\u00edo",
+      "La Tordilla",
+      "Las Gramillas",
+      "Tr\u00e1nsito",
+      "Toro Pujio",
+      "Villa Concepci\u00f3n del T\u00edo",
+      "Villa del Tr\u00e1nsito",
+      "Villa Vaudagna"
+    ]
+  },
+  {
+    "area_code": 3582,
+    "province": "C\u00f3rdoba/San Luis",
+    "city": "Sampacho",
+    "localidades": [
+      "Achiras",
+      "Bulnes",
+      "Chaj\u00e1n",
+      "Coronel Moldes",
+      "La Punilla",
+      "Las Albahacas",
+      "Malena",
+      "Suco"
+    ]
+  },
+  {
+    "area_code": 3583,
+    "province": "C\u00f3rdoba",
+    "city": "Vicu\u00f1a Mackenna",
+    "localidades": [
+      "Del Campillo",
+      "La Cautiva",
+      "Mattaldi",
+      "Nicol\u00e1s Bruzzone",
+      "Tosquita",
+      "Villa Sarmiento",
+      "Villa Valeria",
+      "Washington"
+    ]
+  },
+  {
+    "area_code": 3584,
+    "province": "C\u00f3rdoba",
+    "city": "La Carlota",
+    "localidades": [
+      "Assunta",
+      "El Rastreador",
+      "Huanchillas",
+      "Los Cisnes",
+      "Monte de Los Gauchos",
+      "Pacheco de Melo",
+      "San Basilio",
+      "Santa Eufemia"
+    ]
+  },
+  {
+    "area_code": 3585,
+    "province": "C\u00f3rdoba",
+    "city": "Adelia Mar\u00eda",
+    "localidades": ["Monte de Los Gauchos", "San Basilio"]
+  },
+  {
+    "area_code": 3711,
+    "province": "Formosa",
+    "city": "Ingeniero Ju\u00e1rez",
+    "localidades": [
+      "El Potrillo",
+      "General Mosconi",
+      "Laguna Yema",
+      "Los Chiriguanos",
+      "Pozo de Maza",
+      "Pozo del Mortero"
+    ]
+  },
+  {
+    "area_code": 3715,
+    "province": "Formosa/Chaco",
+    "city": "Las Lomitas",
+    "localidades": [
+      "El Espinillo",
+      "El Sauzal",
+      "El Sauzalito",
+      "Fuerte Esperanza",
+      "Misi\u00f3n Nueva Pompeya",
+      "Pozo del Tigre",
+      "Wich\u00ed - El Pintado"
+    ]
+  },
+  {
+    "area_code": 3716,
+    "province": "Formosa",
+    "city": "Comandante Fontana",
+    "localidades": [
+      "Bartolom\u00e9 de las Casas",
+      "Colonia Sarmiento",
+      "El Recreo",
+      "Estanislao del Campo",
+      "Fort\u00edn Leyes",
+      "Fort\u00edn Lugones",
+      "General Manuel Belgrano",
+      "Ibarreta",
+      "Juan G. Baz\u00e1n",
+      "Posta Cambio Zalazar",
+      "San Mart\u00edn 1",
+      "San Mart\u00edn 2",
+      "Villa General G\u00fcemes"
+    ]
+  },
+  {
+    "area_code": 3718,
+    "province": "Formosa",
+    "city": "Clorinda",
+    "localidades": [
+      "Buena Vista",
+      "El Espinillo",
+      "Laguna Blanca",
+      "Laguna Naick Neck",
+      "Misi\u00f3n Tacaagl\u00e9",
+      "Palma Sola",
+      "Port\u00f3n Negro",
+      "Puerto Pilcomayo",
+      "Riacho He-H\u00e9",
+      "Riacho Negro",
+      "Siete Palmas",
+      "Tres Lagunas"
+    ]
+  },
+  {
+    "area_code": 3721,
+    "province": "Chaco",
+    "city": "Charadai",
+    "localidades": ["Cote Lai", "La Sabana"]
+  },
+  {
+    "area_code": 3725,
+    "province": "Chaco",
+    "city": "General Jos\u00e9 de San Mart\u00edn",
+    "localidades": [
+      "Capit\u00e1n Solari",
+      "Ciervo Petiso",
+      "Colonias Unidas",
+      "La Eduvigis",
+      "Laguna Limpia",
+      "Las Garcitas",
+      "Pampa Almir\u00f3n",
+      "Pampa del Indio",
+      "Presidencia Roca",
+      "Selvas del R\u00edo de Oro"
+    ]
+  },
+  {
+    "area_code": 3731,
+    "province": "Chaco",
+    "city": "Charata",
+    "localidades": [
+      "Corzuela",
+      "Fort\u00edn Las Chu\u00f1as",
+      "Gancedo",
+      "General Capdevila",
+      "General Pinedo",
+      "Las Bre\u00f1as",
+      "Mes\u00f3n de Fierro",
+      "Pampa Landriel"
+    ]
+  },
+  {
+    "area_code": 3734,
+    "province": "Chaco",
+    "city": "Presidencia de la Plaza",
+    "localidades": [
+      "Colonia Elisa",
+      "Ingeniero Barbet",
+      "Machagai",
+      "Napalp\u00ed"
+    ]
+  },
+  {
+    "area_code": 3735,
+    "province": "Chaco",
+    "city": "Villa \u00c1ngela",
+    "localidades": [
+      "Chorotis",
+      "Coronel Du Graty",
+      "Enrique Uri\u00e9n",
+      "Hermoso Campo",
+      "It\u00edn",
+      "La Clotilde",
+      "Pueblo Clodomiro D\u00edaz",
+      "Samuh\u00fa",
+      "San Bernardo",
+      "Santa Sylvina",
+      "Venados Grandes",
+      "Villa Berthet"
+    ]
+  },
+  {
+    "area_code": 3741,
+    "province": "Misiones",
+    "city": "Bernardo de Irigoyen",
+    "localidades": ["Dos Hermanas", "San Antonio"]
+  },
+  {
+    "area_code": 3743,
+    "province": "Misiones",
+    "city": "Puerto Rico",
+    "localidades": [
+      "Capiov\u00ed",
+      "Colonia Polana",
+      "Garuhap\u00e9",
+      "Garuhap\u00e9-Mi",
+      "Jard\u00edn Am\u00e9rica",
+      "Mbopicu\u00e1",
+      "Oasis",
+      "Puerto Leoni",
+      "Puerto Mineral",
+      "Ruiz de Montoya",
+      "San Alberto",
+      "San Gotardo",
+      "San Ignacio",
+      "Villa Akerman"
+    ]
+  },
+  {
+    "area_code": 3751,
+    "province": "Misiones",
+    "city": "Eldorado",
+    "localidades": [
+      "Caraguatay",
+      "Colonia Delicia",
+      "Colonia Victoria",
+      "Cruce Caballero",
+      "El Alc\u00e1zar",
+      "Fracr\u00e1n",
+      "Laharrague",
+      "Montecarlo",
+      "Nueve de Julio",
+      "Nueve de Julio Kil\u00f3metro 20",
+      "El Alc\u00e1zar",
+      "Pi\u00f1alito Sur",
+      "Piray Kil\u00f3metro 18",
+      "Puerto Mado",
+      "Puerto Pinares",
+      "Puerto Piray",
+      "San Pedro",
+      "Santiago de Liniers",
+      "Tarum\u00e1",
+      "Tobuna",
+      "Valle Hermoso",
+      "Villa Parodi",
+      "Villa Roulet"
+    ]
+  },
+  {
+    "area_code": 3754,
+    "province": "Misiones",
+    "city": "Leandro N. Alem",
+    "localidades": [
+      "Arroyo del Medio",
+      "Dos Arroyos",
+      "Gobernador L\u00f3pez",
+      "Itacaruar\u00e9",
+      "Moj\u00f3n Grande",
+      "Olegario V\u00edctor Andrade",
+      "Panamb\u00ed",
+      "Panamb\u00ed Kil\u00f3metro 8",
+      "San Javier"
+    ]
+  },
+  {
+    "area_code": 3755,
+    "province": "Misiones",
+    "city": "Ober\u00e1",
+    "localidades": [
+      "Alba Posse",
+      "Almafuerte",
+      "Arist\u00f3bulo del Valle",
+      "Barrio Bernardino Rivadavia",
+      "Ca\u00e1 Yar\u00ed",
+      "Cami\u00f3n Cue",
+      "Campo Grande",
+      "Campo Ram\u00f3n",
+      "Campo Viera",
+      "Colonia Alberdi",
+      "Colonia Alicia",
+      "Colonia Aurora",
+      "Dos de Mayo",
+      "El Soberbio",
+      "El Salto Florentino Ameghino",
+      "General Alvear",
+      "Guaran\u00ed",
+      "Los Helechos",
+      "Kil\u00f3metro 17",
+      "Pueblo Illia",
+      "San Francisco de As\u00eds",
+      "San Mart\u00edn",
+      "San Vicente",
+      "Santa Rita",
+      "Torta Quemada",
+      "25 de Mayo",
+      "Villa Bonita",
+      "Villa Salto Encantado"
+    ]
+  },
+  {
+    "area_code": 3756,
+    "province": "Corrientes",
+    "city": "Santo Tom\u00e9",
+    "localidades": ["Garab\u00ed", "Garruchos", "Gobernador Virasoro"]
+  },
+  {
+    "area_code": 3757,
+    "province": "Misiones",
+    "city": "Puerto Iguaz\u00fa",
+    "localidades": [
+      "Colonia Helvecia",
+      "Comandante Andresito",
+      "Gobernador Lanusse",
+      "Integraci\u00f3n",
+      "Puerto Esperanza",
+      "Puerto Libertad",
+      "Wanda"
+    ]
+  },
+  {
+    "area_code": 3758,
+    "province": "Misiones/Corrientes",
+    "city": "Ap\u00f3stoles",
+    "localidades": [
+      "Azara",
+      "Barra Concepci\u00f3n",
+      "Barrio Rural",
+      "Colonia Liebig",
+      "Concepci\u00f3n de la Sierra",
+      "La Corita",
+      "Pindapoy",
+      "Puerto Azara",
+      "San Carlos",
+      "San Jos\u00e9",
+      "Santa Mar\u00eda",
+      "Tres Capones"
+    ]
+  },
+  {
+    "area_code": 3772,
+    "province": "Corrientes",
+    "city": "Paso de los Libres",
+    "localidades": [
+      "Alvear",
+      "Bonpland",
+      "Estaci\u00f3n Torrent",
+      "Guavirav\u00ed",
+      "La Cruz",
+      "Parada Pucheta",
+      "Tapebicu\u00e1",
+      "Yapey\u00fa"
+    ]
+  },
+  {
+    "area_code": 3773,
+    "province": "Corrientes",
+    "city": "Mercedes",
+    "localidades": [
+      "Chavarr\u00eda",
+      "Colonia Carlos Pellegrini",
+      "Felipe Yofre",
+      "Mariano I. Loza",
+      "Perugorr\u00eda"
+    ]
+  },
+  {
+    "area_code": 3774,
+    "province": "Corrientes",
+    "city": "Curuz\u00fa Cuati\u00e1",
+    "localidades": ["Cazadores Correntinos", "Sauce"]
+  },
+  {
+    "area_code": 3775,
+    "province": "Corrientes",
+    "city": "Monte Caseros",
+    "localidades": [
+      "Colonia Libertad",
+      "Estaci\u00f3n Libertad",
+      "Juan Pujol",
+      "Labougle",
+      "Mocoret\u00e1",
+      "Parada Acu\u00f1a"
+    ]
+  },
+  {
+    "area_code": 3777,
+    "province": "Corrientes",
+    "city": "Goya",
+    "localidades": [
+      "Bella Vista",
+      "Colonia Carolina",
+      "Colonia Pando",
+      "Cruz de los Milagros",
+      "Esquina",
+      "Gobernador Juan E. Mart\u00ednez",
+      "Lavalle",
+      "Nueve de Julio",
+      "Pedro R. Fern\u00e1ndez",
+      "Pueblo Libertador",
+      "San Isidro",
+      "San Roque",
+      "Santa Luc\u00eda",
+      "Tres de Abril",
+      "Villa C\u00f3rdoba",
+      "Yatay T\u00ed Calle"
+    ]
+  },
+  {
+    "area_code": 3781,
+    "province": "Corrientes",
+    "city": "Ca\u00e1 Cat\u00ed",
+    "localidades": [
+      "Ber\u00f3n de Astrada",
+      "It\u00e1 Ibat\u00e9",
+      "Lomas de Vallejos",
+      "Loreto",
+      "Palmar Grande",
+      "San Miguel",
+      "Tacuaral",
+      "Yahap\u00e9"
+    ]
+  },
+  {
+    "area_code": 3782,
+    "province": "Corrientes",
+    "city": "Saladas",
+    "localidades": [
+      "Colonia Santa Rosa",
+      "Concepci\u00f3n",
+      "Mburucuy\u00e1",
+      "Pago de los Deseos",
+      "San Lorenzo",
+      "Tabay",
+      "Tatacu\u00e1"
+    ]
+  },
+  {
+    "area_code": 3786,
+    "province": "Corrientes",
+    "city": "Ituzaing\u00f3",
+    "localidades": ["San Antonio", "Villa Olivari"]
+  },
+  {
+    "area_code": 3821,
+    "province": "La Rioja",
+    "city": "Chepes",
+    "localidades": ["Desiderio Tello", "Ulapes"]
+  },
+  {
+    "area_code": 3825,
+    "province": "La Rioja",
+    "city": "Chilecito",
+    "localidades": [
+      "Aicu\u00f1a",
+      "Alto Carrizal",
+      "Anguin\u00e1n",
+      "Angulos",
+      "Antinaco",
+      "Bajo Carrizal",
+      "Banda Florida",
+      "Campanas",
+      "Cha\u00f1armuyo",
+      "Colonia Anguin\u00e1n",
+      "Colonia Catinzaco",
+      "Colonia Malligasta",
+      "Colonia Vichigasta",
+      "Famatina",
+      "Guanch\u00edn",
+      "Guandacol",
+      "Jag\u00fc\u00e9",
+      "La Cuadra",
+      "La Puntilla",
+      "Los Palacios",
+      "Los Sarmientos",
+      "Malligasta",
+      "Miranda",
+      "Nonogasta",
+      "Pagancillo",
+      "Pituil",
+      "Plaza Vieja",
+      "Punta de Agua",
+      "San Miguel",
+      "San Nicol\u00e1s",
+      "Santa Clara",
+      "Santa Cruz",
+      "Santa Florentina",
+      "Santo Domingo",
+      "Sa\u00f1ogasta",
+      "Tilimuqui",
+      "Vichigasta",
+      "Villa Castelli",
+      "Villa San Jos\u00e9 de Vinchina",
+      "Villa Uni\u00f3n"
+    ]
+  },
+  {
+    "area_code": 3826,
+    "province": "La Rioja",
+    "city": "Chamical",
+    "localidades": [
+      "Ambil",
+      "Castro Barros",
+      "Cha\u00f1ar",
+      "Colonia Ortiz de Ocampo",
+      "Loma Blanca",
+      "Malanz\u00e1n",
+      "Milagro",
+      "N\u00e1cate",
+      "Olpas",
+      "Olta",
+      "Polco",
+      "Portezuelo",
+      "San Antonio",
+      "Villa Santa Rita de Catuna"
+    ]
+  },
+  {
+    "area_code": 3827,
+    "province": "La Rioja",
+    "city": "Aimogasta",
+    "localidades": [
+      "Agua Blanca",
+      "Alpasinche",
+      "Aminga",
+      "Amuschinas",
+      "Andolucas",
+      "Anillaco",
+      "Anjull\u00f3n",
+      "Arauco",
+      "Ba\u00f1ado de los Pantanos",
+      "Chaupihuasi",
+      "Chuquis",
+      "Cuip\u00e1n",
+      "Estaci\u00f3n Maz\u00e1n",
+      "Las Talas",
+      "Los Molinos",
+      "Los Robles",
+      "Machigasta",
+      "Pinchas",
+      "Salicas",
+      "San Antonio",
+      "San Blas",
+      "San Pedro",
+      "Santa Vera Cruz",
+      "Shaqui",
+      "Suriyaco",
+      "Termas de Santa Teresita",
+      "Tuyubil",
+      "Villa Maz\u00e1n"
+    ]
+  },
+  {
+    "area_code": 3832,
+    "province": "Catamarca/Santiago del Estero",
+    "city": "Recreo",
+    "localidades": [
+      "Casa de Piedra",
+      "El Aybal",
+      "El Ba\u00f1ado",
+      "El Divisadero",
+      "El Quimilo",
+      "Esqui\u00fa",
+      "Ica\u00f1o",
+      "La Dorada",
+      "Las Esquinas",
+      "La Guardia",
+      "Las Palmitas",
+      "Quir\u00f3s",
+      "Ramblones",
+      "San Antonio de La Paz"
+    ]
+  },
+  {
+    "area_code": 3835,
+    "province": "Catamarca",
+    "city": "Andalgal\u00e1",
+    "localidades": [
+      "Aconquija",
+      "Alto de las Juntas",
+      "Amanao",
+      "Antofagasta de la Sierra",
+      "Antofalla",
+      "Apoyaco",
+      "Barranca Larga",
+      "Bel\u00e9n",
+      "Buena Vista",
+      "Chaquiago",
+      "Choya",
+      "Colana",
+      "Colpes (Pom\u00e1n)",
+      "C\u00f3ndor Huasi",
+      "Corral Quemado",
+      "El Alamito",
+      "El Durazno",
+      "El Lindero",
+      "El Pajonal",
+      "El Pe\u00f1\u00f3n",
+      "El Potrero",
+      "Farall\u00f3n Negro",
+      "Hualf\u00edn",
+      "Jacipunco",
+      "Joyango",
+      "La Aguada",
+      "La Puntilla",
+      "Las Juntas",
+      "Londres",
+      "Los Nacimientos (Antofagasta de la Sierra)",
+      "Los Nacimientos (Bel\u00e9n)",
+      "Mutqu\u00edn",
+      "Pozo de la Piedra",
+      "Puerta de Corral Quemado",
+      "Puerta de San Jos\u00e9",
+      "Rinc\u00f3n",
+      "San Miguel",
+      "Saujil",
+      "Sij\u00e1n",
+      "Villa de Pom\u00e1n",
+      "Villa Vil"
+    ]
+  },
+  {
+    "area_code": 3837,
+    "province": "Catamarca",
+    "city": "Tinogasta",
+    "localidades": [
+      "Anillaco",
+      "Antinaco",
+      "Banda de Lucero",
+      "Cerro Negro",
+      "Copacabana",
+      "Cordobita",
+      "Costa de Reyes",
+      "El Pueblito",
+      "El Puesto (Tinogasta)",
+      "El Salado",
+      "Fiambal\u00e1",
+      "La Puntilla (Tinogasta)",
+      "La Ramadita",
+      "Los Balverdi",
+      "Medanitos",
+      "Palo Blanco",
+      "Pampa Blanca",
+      "Punta del Agua",
+      "Santa Rosa",
+      "Saujil (Tinogasta)",
+      "Tat\u00f3n"
+    ]
+  },
+  {
+    "area_code": 3838,
+    "province": "Catamarca",
+    "city": "Santa Mar\u00eda",
+    "localidades": [
+      "Andalhual\u00e1",
+      "Casa de Piedra",
+      "Caspichango",
+      "Cha\u00f1ar Punco",
+      "El Caj\u00f3n",
+      "El Cerrito",
+      "El Desmonte",
+      "El Puesto",
+      "Famatanca",
+      "Fuerte Quemado",
+      "La Hoyada",
+      "La Loma",
+      "La Puntilla",
+      "Lampacito",
+      "Las Mojarras",
+      "Loro Huasi",
+      "Medanitos",
+      "Ovejer\u00eda",
+      "Palo Seco",
+      "Punta de Balasto",
+      "San Jos\u00e9",
+      "San Jos\u00e9 Banda",
+      "San Jos\u00e9 Norte",
+      "San Jos\u00e9 Villa",
+      "Yapes"
+    ]
+  },
+  {
+    "area_code": 3841,
+    "province": "Santiago del Estero",
+    "city": "Monte Quemado",
+    "localidades": [
+      "Coronel Rico",
+      "Los Pirpintos",
+      "Pampa de los Guanacos",
+      "Sach\u00e1yoj"
+    ]
+  },
+  {
+    "area_code": 3843,
+    "province": "Santiago del Estero",
+    "city": "Quimil\u00ed",
+    "localidades": ["Las Tinajas", "Roversi", "Weisburd"]
+  },
+  {
+    "area_code": 3844,
+    "province": "Santiago del Estero",
+    "city": "A\u00f1atuya",
+    "localidades": [
+      "Aver\u00edas",
+      "Colonia Dora",
+      "Estaci\u00f3n Taca\u00f1itas",
+      "Garza",
+      "Herrera",
+      "Ica\u00f1o",
+      "Lugones",
+      "Real Sayana",
+      "Tom\u00e1s Young",
+      "Villa Salavina"
+    ]
+  },
+  {
+    "area_code": 3845,
+    "province": "Santiago del Estero",
+    "city": "Loreto",
+    "localidades": [
+      "Brea Pozo",
+      "Estaci\u00f3n Atamisqui",
+      "Medell\u00edn",
+      "Nueva Francia",
+      "Sumamao",
+      "Villa Atamisqui",
+      "Villa Sil\u00edpica"
+    ]
+  },
+  {
+    "area_code": 3846,
+    "province": "Santiago del Estero",
+    "city": "Tintina",
+    "localidades": [
+      "Campo Gallo",
+      "Hasse",
+      "Hern\u00e1n Mej\u00eda Miraval",
+      "Libertad",
+      "Lilo Viejo",
+      "Patay"
+    ]
+  },
+  {
+    "area_code": 3854,
+    "province": "Santiago del Estero",
+    "city": "Fr\u00edas",
+    "localidades": [
+      "Ancaj\u00e1n",
+      "Choya",
+      "Estaci\u00f3n La Punta",
+      "Laprida",
+      "Lavalle (parte)",
+      "San Pedro de Choya",
+      "San Pedro de Guasay\u00e1n (parte)",
+      "Tapso (parte)",
+      "Villa La Punta"
+    ]
+  },
+  {
+    "area_code": 3855,
+    "province": "Santiago del Estero",
+    "city": "Suncho Corral",
+    "localidades": [
+      "Bandera Bajada",
+      "El Cuadrado",
+      "La Ca\u00f1ada",
+      "Matar\u00e1",
+      "Vilelas"
+    ]
+  },
+  {
+    "area_code": 3856,
+    "province": "Santiago del Estero",
+    "city": "Villa Ojo de Agua",
+    "localidades": [
+      "Chilca Juliana",
+      "Los Telares",
+      "Ram\u00edrez de Velazco",
+      "Sol de Julio",
+      "Sumampa",
+      "Sumampa Viejo"
+    ]
+  },
+  {
+    "area_code": 3857,
+    "province": "Santiago del Estero",
+    "city": "Bandera",
+    "localidades": [
+      "Fort\u00edn Inca",
+      "Guardia Escolta",
+      "Los Jur\u00edes",
+      "Malbr\u00e1n",
+      "Palo Negro",
+      "Pinto",
+      "Selva"
+    ]
+  },
+  {
+    "area_code": 3858,
+    "province": "Santiago del Estero",
+    "city": "Termas de R\u00edo Hondo",
+    "localidades": [
+      "Chauchillas",
+      "Colonia Tinco",
+      "El Charco",
+      "Gramilla",
+      "Pozo Hondo",
+      "Pozuelos",
+      "Villa R\u00edo Hondo",
+      "Vinar\u00e1"
+    ]
+  },
+  {
+    "area_code": 3861,
+    "province": "Santiago del Estero",
+    "city": "Nueva Esperanza",
+    "localidades": ["El Moj\u00f3n", "Las Delicias", "Pozo Betbeder", "Rapelli"]
+  },
+  {
+    "area_code": 3862,
+    "province": "Tucum\u00e1n",
+    "city": "Trancas",
+    "localidades": ["Choromoro", "San Pedro de Colalao"]
+  },
+  {
+    "area_code": 3863,
+    "province": "Tucum\u00e1n",
+    "city": "Monteros",
+    "localidades": [
+      "Acheral",
+      "Atahona",
+      "Barrio Casa Rosada",
+      "Campo de Herrera",
+      "Capit\u00e1n C\u00e1ceres",
+      "Famaill\u00e1",
+      "Ingenio Fronterita",
+      "LA Reducci\u00f3n",
+      "Los Puestos",
+      "Monteagudo",
+      "Nueva Baviera",
+      "R\u00edo Colorado",
+      "R\u00edo Seco",
+      "Santa Luc\u00eda",
+      "Santa Rosa de Leales",
+      "Santa Rosa y Los Rojo",
+      "Sargento Moya",
+      "Simoca",
+      "Soldado Maldonado",
+      "Teniente Berdina",
+      "Villa Chicligasta",
+      "Villa de Leales",
+      "Villa Quinteros",
+      "Yerba Buena (Simoca)"
+    ]
+  },
+  {
+    "area_code": 3865,
+    "province": "Tucum\u00e1n",
+    "city": "Concepci\u00f3n",
+    "localidades": [
+      "Aguilares",
+      "Alpachiri",
+      "Alto Verde",
+      "Arcadia",
+      "Ingenio La Trinidad",
+      "Juan Bautista Alberdi",
+      "La Cocha",
+      "Los Sarmientos",
+      "Medinas",
+      "Rumi Punco",
+      "San Jos\u00e9 de la Cocha",
+      "Santa Ana",
+      "Villa Belgrano"
+    ]
+  },
+  {
+    "area_code": 3867,
+    "province": "Tucum\u00e1n",
+    "city": "Taf\u00ed del Valle",
+    "localidades": ["El Mollar"]
+  },
+  {
+    "area_code": 3868,
+    "province": "Salta",
+    "city": "Cafayate",
+    "localidades": [
+      "Angastaco",
+      "Animan\u00e1",
+      "Cachi",
+      "Cobres",
+      "El Barrial",
+      "La Poma",
+      "La Puerta",
+      "Molinos",
+      "Payogasta",
+      "San Carlos",
+      "Santa B\u00e1rbara",
+      "Seclant\u00e1s",
+      "Tolomb\u00f3n"
+    ]
+  },
+  {
+    "area_code": 3869,
+    "province": "Tucum\u00e1n",
+    "city": "Ranchillos y San Miguel",
+    "localidades": [
+      "Colonia Mayo",
+      "Las Cejas",
+      "Los Ralos",
+      "Villa Rescate",
+      "Villa Tercera"
+    ]
+  },
+  {
+    "area_code": 3873,
+    "province": "Salta",
+    "city": "Tartagal",
+    "localidades": [
+      "Aguaray",
+      "Alto de la Sierra",
+      "Campamento Vespucio",
+      "Campo Dur\u00e1n",
+      "Capiazuti",
+      "Coronel Cornejo",
+      "General Ballivi\u00e1n",
+      "General Mosconi",
+      "Misi\u00f3n Kil\u00f3metro 6",
+      "Pacar\u00e1",
+      "Piquirenda",
+      "Recaredo",
+      "Salvador Mazza",
+      "Santa Mar\u00eda",
+      "Santa Victoria Este",
+      "Tobantirenda",
+      "Tranquitas",
+      "Yacuy"
+    ]
+  },
+  {
+    "area_code": 3876,
+    "province": "Salta",
+    "city": "San Jos\u00e9 de Met\u00e1n",
+    "localidades": [
+      "Antilla",
+      "Copo Quile",
+      "El Galp\u00f3n",
+      "El Jard\u00edn",
+      "El Naranjo",
+      "El Potrero",
+      "El Tala",
+      "El Tunal",
+      "La Candelaria",
+      "Lumbreras",
+      "Met\u00e1n Viejo",
+      "Presa El Tunal",
+      "R\u00edo Piedras",
+      "Rosario de la Frontera",
+      "San Felipe"
+    ]
+  },
+  {
+    "area_code": 3877,
+    "province": "Salta/Chaco",
+    "city": "Joaqu\u00edn V\u00edctor Gonz\u00e1lez",
+    "localidades": [
+      "Apolinario Saravia",
+      "Ceibalito",
+      "Centro 25 de Junio",
+      "Coronel Mollinedo",
+      "Coronel Olleros",
+      "El Quebrachal",
+      "Gaona",
+      "General Pizarro",
+      "Las Lajitas",
+      "Luis Burela",
+      "Macapillo",
+      "Piquete Cabado",
+      "R\u00edo del Valle",
+      "San Jos\u00e9 de la Orquera",
+      "Taco Pozo",
+      "Tolloche"
+    ]
+  },
+  {
+    "area_code": 3878,
+    "province": "Salta",
+    "city": "Or\u00e1n",
+    "localidades": [
+      "Aguas Blancas",
+      "Campichuelo",
+      "Capit\u00e1n Juan Pag\u00e9",
+      "Carboncito",
+      "Colonia Santa Rosa",
+      "Coronel Juan Sol\u00e1",
+      "Dragones",
+      "Embarcaci\u00f3n",
+      "Hickman",
+      "Hip\u00f3lito Yrigoyen",
+      "Isla de Ca\u00f1as",
+      "La Misi\u00f3n",
+      "La Uni\u00f3n",
+      "Los Blancos",
+      "Los Toldos",
+      "Misi\u00f3n Chaque\u00f1a",
+      "Misi\u00f3n Tierras Fiscales",
+      "Padre Lozano",
+      "Pichanal",
+      "Pluma de Pato",
+      "Pueblo Viejo",
+      "Rivadavia",
+      "San Isidro de Iruya",
+      "Santa Rosa",
+      "Urundel"
+    ]
+  },
+  {
+    "area_code": 3885,
+    "province": "Jujuy/Salta",
+    "city": "La Quiaca",
+    "localidades": [
+      "Acoyte",
+      "Barrios",
+      "Campo La Cruz",
+      "Cusi Cusi",
+      "Lagunillas del Farall\u00f3n",
+      "Liviara",
+      "Nazareno",
+      "Poscaya",
+      "San Marcos",
+      "Santa Victoria Oeste",
+      "Yavi"
+    ]
+  },
+  {
+    "area_code": 3886,
+    "province": "Jujuy",
+    "city": "Libertador General San Mart\u00edn",
+    "localidades": [
+      "Bananal",
+      "Bermejito",
+      "Caimancito",
+      "Calilegua",
+      "Chalic\u00e1n",
+      "El Talar",
+      "Fraile Pintado",
+      "Palma Sola",
+      "Paulina",
+      "Valle Grande",
+      "Vinalito",
+      "Yuto"
+    ]
+  },
+  {
+    "area_code": 3887,
+    "province": "Jujuy",
+    "city": "Humahuaca",
+    "localidades": [
+      "Abra Pampa",
+      "Abd\u00f3n Castro Tolay",
+      "Abralaite",
+      "Cangrejillos",
+      "Casabindo",
+      "Caspal\u00e1",
+      "Catua",
+      "Ci\u00e9nega de Paicone",
+      "Cieneguillas",
+      "Cochinoca",
+      "Coctaca",
+      "Coranzul\u00ed",
+      "El Aguilar",
+      "El Toro",
+      "Hu\u00e1ncar",
+      "Iturbe",
+      "Mina Providencia",
+      "Olaroz Chico",
+      "Pairique Chico",
+      "Pastos Chicos",
+      "Puesto del Marqu\u00e9s",
+      "Puesto Sey",
+      "Pumahuasi",
+      "Rinconada",
+      "Rinconadillas",
+      "San Francisco de Alfarcito",
+      "San Juan de Quillaques",
+      "Santa Ana (Rinconada)",
+      "Santa Ana (Valle Grande)",
+      "Santa Catalina",
+      "Santuario de Tres Pozos",
+      "Susques",
+      "Tabladitas",
+      "Tres Cruces",
+      "Tusaquillas",
+      "Uqu\u00eda",
+      "Valle Colorado"
+    ]
+  },
+  {
+    "area_code": 3888,
+    "province": "Jujuy",
+    "city": "San Pedro de Jujuy",
+    "localidades": [
+      "Arrayanal",
+      "Arroyo Colorado",
+      "Don Emilio",
+      "El Acheral",
+      "El Fuerte",
+      "El Piquete",
+      "El Puesto",
+      "El Quemado",
+      "El Sauzal",
+      "La Esperanza",
+      "La Manga",
+      "La Mendieta",
+      "Miraflores",
+      "Palos Blancos",
+      "Parapet\u00ed",
+      "Piedritas",
+      "Puente Lavay\u00e9n",
+      "Rode\u00edto",
+      "Rosario de R\u00edo Grande",
+      "San Lucas",
+      "Santa Clara"
+    ]
+  },
+  {
+    "area_code": 3891,
+    "province": "Tucum\u00e1n",
+    "city": "Graneros",
+    "localidades": ["Lamadrid", "Taco Ralo"]
+  },
+  {
+    "area_code": 3892,
+    "province": "Tucum\u00e1n",
+    "city": "Amaicha del Valle",
+    "localidades": ["Anca Juli", "Colalao del Valle"]
+  },
+  {
+    "area_code": 3894,
+    "province": "Tucum\u00e1n",
+    "city": "Burruyac\u00fa",
+    "localidades": [
+      "Barrio San Jorge",
+      "El Naranjo",
+      "Gobernador Garmendia",
+      "Piedrabuena",
+      "San Jos\u00e9 de Macomitas",
+      "Siete de Abril",
+      "Villa Benjam\u00edn Ar\u00e1oz",
+      "Villa Padre Monti"
+    ]
+  }
+]

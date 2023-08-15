@@ -24,16 +24,16 @@ function draw(str) {
     });
 
 
-  if (tel.getGeoPolitc()) {
-      geo = tel.getGeoPolitc();
+//   if (tel.getGeoPolitc()) {
+//       geo = tel.getGeoPolitc();
 
-      $.each(geo, function(k, v) {
-        $('#debug_results')
-          .append('<tr><th>' + k + '</th><td>' + v + '</td></tr>');
-      });
-      //tooltip
-      $('.area_code').attr('title', geo.ciudad + ', ' + geo.provincia);
-    }
+//       $.each(geo, function(k, v) {
+//         $('#debug_results')
+//           .append('<tr><th>' + k + '</th><td>' + v + '</td></tr>');
+//       });
+//       //tooltip
+//       $('.area_code').attr('title', geo.ciudad + ', ' + geo.provincia);
+//     }
 
     a.html('<span class="valid">Válido</i>').fadeIn();
 
