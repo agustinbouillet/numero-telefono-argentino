@@ -1,80 +1,77 @@
-$(document).foundation();
+/**
+ * 
+ * @param {*} data 
+ */
+const renderTable = data => {
+    const table = document.createElement("table");
+    table.classList.add("table", "table-striped");
+    table.id = "id_table";
 
+    Object.entries(data).forEach(entry => {
+        const tr = table.insertRow();
+        const cell1 = tr.insertCell();
+        const cell2 = tr.insertCell();
 
-
-// PRESENTATION ///////////////////////////////////////////////////////////////
-// NO FORMA PARTE DE SCRIPT ///////////////////////////////////////////////////
-
-function draw(str) {
-  $('#debug').empty();
-  var a = $('#resultados');
-
-  tel = new TelefonoArgentino(str);
-
-
-  if (tel.isValid()) {
-    $('<table/>', {
-      id: 'debug_results',
-      class: 'debug',
-    }).appendTo('#debug');
-
-    $.each(tel.getData(), function(k, v) {
-      $('#debug_results')
-        .append('<tr><th>' + k + '</th><td>' + v + '</td></tr>');
+        cell1.textContent = entry[0];
+        cell2.textContent = entry[1];
     });
 
-
-//   if (tel.getGeoPolitc()) {
-//       geo = tel.getGeoPolitc();
-
-//       $.each(geo, function(k, v) {
-//         $('#debug_results')
-//           .append('<tr><th>' + k + '</th><td>' + v + '</td></tr>');
-//       });
-//       //tooltip
-//       $('.area_code').attr('title', geo.ciudad + ', ' + geo.provincia);
-//     }
-
-    a.html('<span class="valid">Válido</i>').fadeIn();
-
-  } else {
-    $('#debug').append('<p>False</p>');
-    a.html('<span class="invalid">Inválido</i>').fadeIn();
-
-    if (tel.invalidChars().length > 0) {
-      $('#debug').append('<h3>Caracteres inválidos</h3>');
-      $('<table/>', {
-        id: 'debug_results',
-        class: 'debug',
-      }).appendTo('#debug');
-
-      $.each(tel.invalidChars(), function(k, v) {
-        $('#debug_results').append('<tr><td>' + v + '</td></tr>');
-      });
-
-    }
-  }
-}
-
-
+    const tableContainer = document.querySelector("#id_table_container");
+    tableContainer.innerHTML = "";
+    tableContainer.appendChild(table);
+};
 
 
 /**
- * Resetea el input.
+ * 
+ * @param {*} data 
  */
-$('#sample').keydown(function() {
-  $('#resultados').fadeOut();
-  $('#debug').empty();
-});
+const regionByAreaCode = (data) => {
+    const table = document.querySelector("#id_table tbody");
 
-$('#ver').click(function() {
-  draw($('#sample').val());
-});
+    Object.entries(data).forEach(entry => {
+        const tr = document.createElement("tr");
+        const cell1 = tr.insertCell();
+        const cell2 = tr.insertCell();
 
-$('.ejemplo li').click(function(e) {
-  e.preventDefault();
-  $('.alert').fadeOut();
-  var valor = $(this).text();
-  $('#sample').val(valor);
-  draw($('#sample').val());
+        cell1.textContent = entry[0];
+        cell2.textContent = entry[1];
+        table.appendChild(tr);
+    });
+};
+
+
+/**
+ * Render de resultados
+ * @param {string} number Número de teléfono
+ */
+const render = number => {
+    const tel = new TelefonoArgentino(number);
+    renderTable(tel.data);
+    if(tel.data.area_code){
+        const region = regionByCode(response, tel.data.area_code);
+        regionByAreaCode(region);
+    }
+};
+
+
+// Listeners
+document.addEventListener("DOMContentLoaded", function() {
+    // Validador
+    phoneNumber = document.querySelector("#id_phone_number");
+    validate = document.querySelector("#id_validate");
+    validate.addEventListener("click", event => {
+        event.preventDefault();
+        render(phoneNumber.value);
+    });
+
+    // Ejemplos
+    const example = document.querySelectorAll(".js-validate");
+    example.forEach(element => {
+        element.addEventListener("click", event => {
+            event.preventDefault();
+            phoneNumber.value = element.textContent;
+            render(element.textContent);
+        });
+    })
 });

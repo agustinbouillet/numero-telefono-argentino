@@ -1,62 +1,68 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Número de teléfono argentino</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
 </head>
-
 <body>
-    <script src='../src/telefonos_argentinos.js'>
-    </script>
-    <script>
-        const gapiId = '14H7VE3zfllDDTC73L0bL7nyjkdodPMXvqs1CH__xgFY';
-        const gapiSheetName = "db";
-        const gapiCredential = "AIzaSyCq2wEEKL9-6RmX-TkW23qJsrmnFHFf5tY";
-        const uri = new URL(
-            `/v4/spreadsheets/${gapiId}/values/${gapiSheetName}`, 
-            "https://sheets.googleapis.com"
-        );
-        uri.searchParams.set("key", gapiCredential);
-        uri.searchParams.set("alt", "json");
+    <div class="container my-5">
+        <div class="row g-3">
+            <div class="col-md-12">
+                <h1 class="h3 text-secondary">Validador de números de teléfono argentino</h1>
+            </div>
+            <div class="col-md-8 px-4">
+                <form action="" id="validator">
+                    <div class="input-group mb-2">
+                        <input type="text" class="form-control form-control-lg" id="id_phone_number"
+                            placeholder="Número de teléfono" aria-label="Número de teléfono"
+                            aria-describedby="passwordHelpBlock">
+                        <button class="btn btn-primary btn-lg" type="button" id="id_validate">Validar</button>
+                    </div>
+                </form>
+                <div id="passwordHelpBlock" class="form-text">
+                    <p>Caracteres válidos: - . ( ) [ ] + espacio y números.</p>
+                </div>
+                <div class="pt-3" id="id_table_container">
+                </div>
+                <p class="small">
+                    * Los números de teléfono móvil deben tener el prefijo
+                    15 ó 9 junto al código de área (ej. 11); de otro modo
+                    serán considerados teléfonos fijos.
+                </p>
+            </div>
 
+            <div class="col-md-4 px-4">
+                <div class="list-group small">
+                    <button type="button" class="list-group-item list-group-item-action js-validate">+54 3585 123456</button>
+                    <button type="button" class="list-group-item list-group-item-action js-validate">+54 358 1234567</button>
+                    <button type="button" class="list-group-item list-group-item-action js-validate">+54 9 11 4639-1234</button>
+                    <button type="button" class="list-group-item list-group-item-action js-validate">011 4639-1234</button>
+                    <button type="button" class="list-group-item list-group-item-action js-validate">11 4639-1234</button>
+                    <button type="button" class="list-group-item list-group-item-action js-validate">15 4639-1234</button>
+                    <button type="button" class="list-group-item list-group-item-action js-validate">1550176006</button>
+                    <button type="button" class="list-group-item list-group-item-action js-validate">4639.1234</button>
+                    <button type="button" class="list-group-item list-group-item-action js-validate">4639-1234</button>
+                    <button type="button" class="list-group-item list-group-item-action js-validate">911</button>
+                    <button type="button" class="list-group-item list-group-item-action js-validate">0810 666 4444</button>
+                    <button type="button" class="list-group-item list-group-item-action js-validate">000</button>
+                    <button type="button" class="list-group-item list-group-item-action js-validate">(54) 11 5789-1489</button>
+                    <button type="button" class="list-group-item list-group-item-action js-validate">(02966) 441200</button>
+                    <button type="button" class="list-group-item list-group-item-action js-validate">00 5411 46392313</button>
+                    <button type="button" class="list-group-item list-group-item-action js-validate">(0362) 445-6470</button>
+                    <button type="button" class="list-group-item list-group-item-action js-validate">+54.3624448012</button>
+                    <button type="button" class="list-group-item list-group-item-action js-validate">3755-699556</button>
+                    <button type="button" class="list-group-item list-group-item-action js-validate">0388-4237105</button>
+                    <button type="button" class="list-group-item list-group-item-action js-validate">0266 4452000</button>
+                </div>
+            </div>
+        </div>
+    </div>
 
-        /**
-         * Retorna los datos regionales segun el código de área ingresado.
-         * 
-         * @param  {integer} code Código de área.
-         * @return {object}
-         */
-        regionByCode = (data, code) => {
-            const result = data.values.find(f => f[0] == code);
-            if(result){
-                return {
-                    code: result[0],
-                    jurisdiction: result[1],
-                    localities: result[2].split(",").map(m => m.trim()).filter(f => f)
-                };
-            }
-            return false;
-        };
-
-        /**
-         * Información de los cruces
-         * @returns {object} 
-         */
-        async function geoPolitics(uri, options={}) {
-            let data = [];
-            let response = await fetch(uri, options);
-            data = await response.json();
-            return data;
-        }
-        const tel = new TelefonoArgentino("+54911 50176006");
-        console.log(tel.getData())
-        geoPolitics(uri.href).then((data) => {
-            console.log( regionByCode(data, tel.getData().area_code ));
-        });
-
-    </script>
+    <script src='../src/telefonos_argentinos.js'></script>
+    <script src='./data/response.js'></script>
+    <script src='./js/index.js'></script>
 </body>
-
 </html>

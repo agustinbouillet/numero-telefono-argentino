@@ -1,0 +1,72 @@
+{
+	"info": {
+		"_postman_id": "07d83c86-7924-4a20-9fb4-b0c7d28715cd",
+		"name": "Número de teléfono argentino",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "84062",
+		"_collection_link": "https://gold-space-815059.postman.co/workspace/Surtidor-Workspace~f51a23db-96d8-4438-8ff8-d46eb11cef97/collection/84062-07d83c86-7924-4a20-9fb4-b0c7d28715cd?action=share&creator=84062&source=collection_link"
+	},
+	"item": [
+		{
+			"name": "phone-codes",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://sheets.googleapis.com/v4/spreadsheets/14H7VE3zfllDDTC73L0bL7nyjkdodPMXvqs1CH__xgFY/values/db?key={{key}}&alt=json",
+					"protocol": "https",
+					"host": [
+						"sheets",
+						"googleapis",
+						"com"
+					],
+					"path": [
+						"v4",
+						"spreadsheets",
+						"14H7VE3zfllDDTC73L0bL7nyjkdodPMXvqs1CH__xgFY",
+						"values",
+						"db"
+					],
+					"query": [
+						{
+							"key": "key",
+							"value": "{{key}}"
+						},
+						{
+							"key": "alt",
+							"value": "json"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"key": "key",
+			"value": "[YOUR-API-KEY]",
+			"type": "string"
+		}
+	]
+}
