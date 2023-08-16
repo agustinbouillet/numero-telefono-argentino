@@ -34,32 +34,6 @@ tel.getData();
     type :"mobile",
 }
 ```
-#### getGeoPolitc()
-Retorna el nombre de la provincia y ciudad a partir del código de área.
-```javascript
-var tel = new TelefonoArgentino('+54 3743 123456');
-tel.getGeoPolitc();
-
-// Retorna
-{
-    ciudad: "Puerto Rico",
-    localidades: {
-        0: "Capioví"
-        1: "Colonia Polana"
-        2: "Garuhapé"
-        3: "Garuhapé-Mi"
-        4: "Jardín América"
-        5: "Mbopicuá"
-        ...
-        }
-    provincia: "Misiones"
-}
-
-```
-
-La información referenciada de las regiones se obtiene de un _Google spreadsheet_ en:
-[Números de teléfono Argentino](https://docs.google.com/spreadsheets/d/e/2PACX-1vREyOVZkriXt3Www9BkVxxLWGkR_vT7hD2CamyYK4VIKUAJE1_h2knRMbd2ZFIAkiUdBSlyN1_dBEA3/pubhtml?gid=0&single=true). Y se descarga en formato JSON de la siguiente URI: [https://sheets.googleapis.com/v4/spreadsheets/14H7VE3zfllDDTC73L0bL7nyjkdodPMXvqs1CH__xgFY/values/db?key=AIzaSyAll9EH1aTmZDewNSyM_CU_AIsGOiEDyZs&alt=json](https://sheets.googleapis.com/v4/spreadsheets/14H7VE3zfllDDTC73L0bL7nyjkdodPMXvqs1CH__xgFY/values/db?key=AIzaSyAll9EH1aTmZDewNSyM_CU_AIsGOiEDyZs&alt=json)
-
 
 #### input()
 
@@ -118,6 +92,43 @@ tel.invalidChars();
 - 000
 - (54) 11 5789-1489
 - (02966) 441200
+
+
+## Información geográfica
+
+La información referenciada de las regiones se obtiene de un _Google spreadsheet_ en:
+
+```
+https://sheets.googleapis.com/v4/spreadsheets/14H7VE3zfllDDTC73L0bL7nyjkdodPMXvqs1CH__xgFY/values/db?key={{your-google-api-key}}&alt=json
+```
+
+O usar el archivo response.json ubicado dentro del directorio _data_, dentro del repositorio.
+
+### Ejemplo de conexión con google sheet
+
+```javascript
+/**
+ * Fetch data by area code
+ */
+async function regionByAreaCode(options = {}) {
+    let data = [];
+    const uri = "https://sheets.googleapis.com/v4/spreadsheets/14H7VE3zfllDDTC73L0bL7nyjkdodPMXvqs1CH__xgFY/values/db?key={{your-google-api-key}}&alt=json";
+    let response = await fetch(uri, options);
+    data = await response.json();
+    return data;
+}
+
+
+// Validate
+const tel = new TelefonoArgentino("+54 9 11 5017-6006");
+console.log(tel.getData());
+
+regionByAreaCode().then((data) => {
+    const values = data.values.find((f) => f[0] == tel.getData().area_code);
+    console.log(values);
+});
+```
+
 
 ## Demo
 - https://codepen.io/agustinbouillet/pen/ozNVaP
