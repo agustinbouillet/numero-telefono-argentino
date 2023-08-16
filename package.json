@@ -1,10 +1,14 @@
 {
   "devDependencies": {
+    "gulp": "^4.0.2",
     "jest": "^29.6.2",
-    
     "jest-environment-jsdom": "^29.6.2"
   },
   "jest": {
     "testEnvironment": "jsdom"
-}
+  },
+  "dependencies": {
+    "gulp-concat": "^2.6.1",
+    "gulp-uglify": "^3.0.2"
+  }
 }
