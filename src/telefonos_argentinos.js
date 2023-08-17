@@ -42,7 +42,7 @@ class TelefonoArgentino {
         if(!str){
             throw new Error("Debe ingresar un número de teléfono.");
         }
-
+        this.validCharacters = ["-", "(", ")", "[", "]", "+", "."];
         this.input = str;
         this.data = this._phone(str);
     };
@@ -169,19 +169,20 @@ class TelefonoArgentino {
      * o false si no tiene caracters inapropiados.
      */
     invalidChars = () => {
-        const re = /([^\d\-\(\)\[\]\s\+\.])/g;
+        const validCharacters = this.validCharacters.join("\\");
+        const re = new RegExp(`([^0-9\\s\\${validCharacters}])`, "g");
         let m;
         let chars = new Array();
-
+        
         while ((m = re.exec(this.input)) !== null) {
             if (m.index === re.lastIndex) {
                 re.lastIndex++;
             }
+
             if (chars.indexOf(m[0]) < 0) {
                 chars.push(m[0]);
             }
         }
-
         return (chars.length > 0 ? chars : false);
     };
 
@@ -319,14 +320,14 @@ class TelefonoArgentino {
             return filter_input;
         }
 
-        const span_number = document.createElement("span");
-        span_number.className = "number";
-        span_number.textContent = this._numberFormat(data.number);
+        const spanNumber = document.createElement("span");
+        spanNumber.className = "number";
+        spanNumber.textContent = this._numberFormat(data.number);
 
-        const span_country = document.createElement("span");
-        span_country.className = "country";
-        span_country.dataset.country = "1";
-        span_country.textContent = this._countryFormat(country);
+        const spanCountry = document.createElement("span");
+        spanCountry.className = "country";
+        spanCountry.dataset.country = "1";
+        spanCountry.textContent = this._countryFormat(country);
 
         let d = [];
         for (const key in data) {
@@ -343,16 +344,20 @@ class TelefonoArgentino {
 
         const numberData = [
             d.international,
-            span_country.outerHTML,
+            spanCountry.outerHTML,
             d.mobile,
-            d.national_call + d.area_code,
+            // d.national_call + d.area_code,
+            this._nationalCodePlusAreaCode(d.national_call, d.area_code),
             d.mobile_prefix,
             d.specific,
-            span_number.outerHTML
+            spanNumber.outerHTML
         ];
         return this._cleanupNumberFormat(numberData);
     };
 }
 
 
-module.exports = TelefonoArgentino;
+
+// if (process.env['NODE_DEV'] == 'TEST') {
+//     module.exports = TelefonoArgentino;
+// }
