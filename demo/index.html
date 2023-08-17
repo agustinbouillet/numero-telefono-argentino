@@ -4,27 +4,58 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Número de teléfono argentino</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
-        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+    <link 
+        rel="stylesheet" 
+        href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" 
+        crossorigin="anonymous">
 </head>
+<style>
+    :root {
+    --bs-primary: crimson !important;
+    }
+    body {
+        color: #5a5a5a;
+        font-family: 'Open Sans', sans-serif;
+        padding: 1em
+    }
+
+    .h2, .h3, .h5 { 
+        color: var(--bs-primary) !important
+    }
+</style>
 <body>
-    <div class="container my-5">
+    <div class="container my-5 validador">
         <div class="row g-3">
             <div class="col-md-12">
-                <h1 class="h3 text-secondary px-4">Validador de números de teléfono argentino</h1>
+                <h1 class="h3 text-secondary pe-md-4">
+                    Validador de números de teléfono argentino</h1>
             </div>
-            <div class="col-md-8 px-4">
+            <div class="col-md-8 pr-4">
                 <form action="" id="validator">
                     <div class="input-group mb-2">
-                        <input type="text" class="form-control form-control-lg text-primary" id="id_phone_number"
-                            placeholder="Número de teléfono" aria-label="Número de teléfono"
+                        <input 
+                            type="search"
+                            class="form-control form-control-lg text-secondary"
+                            id="id_phone_number"
+                            name="phone_number"
+                            placeholder="Número de teléfono"
+                            aria-label="Número de teléfono"
                             aria-describedby="passwordHelpBlock">
-                        <button class="btn btn-primary btn-lg" type="button" id="id_validate">Validar</button>
+                        <input 
+                            class="btn btn-secondary btn-lg" 
+                            type="submit" 
+                            id="id_validate"
+                            value="Validar">
                     </div>
                 </form>
                 <div id="passwordHelpBlock" class="form-text">
                     <p>Caracteres válidos: - . ( ) [ ] + espacio y números.</p>
                 </div>
+                <div id="id_invalid_chars"></div>
                 <div class="mt-5" id="id_table_container"></div>
                 <div class="mt-3" id="id_table_region_container"></div>
                 <p class="small mt-4">
@@ -33,34 +64,130 @@
                     serán considerados teléfonos fijos.
                 </p>
             </div>
-
-            <div class="col-md-4 px-4">
+            <div class="col-md-4 ps-md-4">
                 <div class="list-group small">
-                    <button type="button" class="list-group-item list-group-item-action js-validate">+54 3585 123456</button>
-                    <button type="button" class="list-group-item list-group-item-action js-validate">+54 358 1234567</button>
-                    <button type="button" class="list-group-item list-group-item-action js-validate">+54 9 11 4639-1234</button>
-                    <button type="button" class="list-group-item list-group-item-action js-validate">011 4639-1234</button>
-                    <button type="button" class="list-group-item list-group-item-action js-validate">11 4639-1234</button>
-                    <button type="button" class="list-group-item list-group-item-action js-validate">15 4639-1234</button>
-                    <button type="button" class="list-group-item list-group-item-action js-validate">1550176006</button>
-                    <button type="button" class="list-group-item list-group-item-action js-validate">4639.1234</button>
-                    <button type="button" class="list-group-item list-group-item-action js-validate">4639-1234</button>
-                    <button type="button" class="list-group-item list-group-item-action js-validate">911</button>
-                    <button type="button" class="list-group-item list-group-item-action js-validate">0810 666 4444</button>
-                    <button type="button" class="list-group-item list-group-item-action js-validate">000</button>
-                    <button type="button" class="list-group-item list-group-item-action js-validate">(54) 11 5789-1489</button>
-                    <button type="button" class="list-group-item list-group-item-action js-validate">(02966) 441200</button>
-                    <button type="button" class="list-group-item list-group-item-action js-validate">00 5411 46392313</button>
-                    <button type="button" class="list-group-item list-group-item-action js-validate">(0362) 445-6470</button>
-                    <button type="button" class="list-group-item list-group-item-action js-validate">+54.3624448012</button>
-                    <button type="button" class="list-group-item list-group-item-action js-validate">3755-699556</button>
-                    <button type="button" class="list-group-item list-group-item-action js-validate">0388-4237105</button>
-                    <button type="button" class="list-group-item list-group-item-action js-validate">0266 4452000</button>
+                    <button 
+                        type="button" 
+                        class="list-group-item list-group-item-action js-validate">
+                        +54 3585 123456</button>
+                    <button 
+                        type="button" 
+                        class="list-group-item list-group-item-action js-validate">
+                        +54 358 1234567</button>
+                    <button 
+                        type="button" 
+                        class="list-group-item list-group-item-action js-validate">
+                        +54 9 11 4639-1234</button>
+                    <button 
+                        type="button" 
+                        class="list-group-item list-group-item-action js-validate">
+                        011 4639-1234</button>
+                    <button 
+                        type="button" 
+                        class="list-group-item list-group-item-action js-validate">
+                        11 4639-1234</button>
+                    <button 
+                        type="button" 
+                        class="list-group-item list-group-item-action js-validate">
+                        15 4639-1234</button>
+                    <button 
+                        type="button" 
+                        class="list-group-item list-group-item-action js-validate">
+                        1550176006</button>
+                    <button 
+                        type="button" 
+                        class="list-group-item list-group-item-action js-validate">
+                        4639.1234</button>
+                    <button 
+                        type="button" 
+                        class="list-group-item list-group-item-action js-validate">
+                        4639-1234</button>
+                    <button 
+                        type="button" 
+                        class="list-group-item list-group-item-action js-validate">
+                        911</button>
+                    <button 
+                        type="button" 
+                        class="list-group-item list-group-item-action js-validate">
+                        0810 666 4444</button>
+                    <button 
+                        type="button" 
+                        class="list-group-item list-group-item-action js-validate">
+                        000</button>
+                    <button 
+                        type="button" 
+                        class="list-group-item list-group-item-action js-validate">
+                        (54) 11 5789-1489</button>
+                    <button 
+                        type="button" 
+                        class="list-group-item list-group-item-action js-validate">
+                        (02966) 441200</button>
+                    <button 
+                        type="button" 
+                        class="list-group-item list-group-item-action js-validate">
+                        00 5411 46392313</button>
+                    <button 
+                        type="button" 
+                        class="list-group-item list-group-item-action js-validate">
+                        (0362) 445-6470</button>
+                    <button 
+                        type="button" 
+                        class="list-group-item list-group-item-action js-validate">
+                        +54.3624448012</button>
+                    <button 
+                        type="button" 
+                        class="list-group-item list-group-item-action js-validate">
+                        3755-699556</button>
+                    <button 
+                        type="button" 
+                        class="list-group-item list-group-item-action js-validate">
+                        0388-4237105</button>
+                    <button 
+                        type="button" 
+                        class="list-group-item list-group-item-action js-validate">
+                        0266 4452000</button>
                 </div>
             </div>
         </div>
+        <div class="row mt-5">
+            <hr>
+            <ul class="nav nav-pills">
+                <li class="nav-item">
+                    <a 
+                        class="nav-link" 
+                        href="https://github.com/agustinbouillet/numero-telefono-argentino" 
+                        target="_blank">
+                        <svg 
+                            height="22" 
+                            aria-hidden="true" 
+                            viewBox="0 0 16 16" 
+                            version="1.1" 
+                            width="32" 
+                            data-view-component="true" 
+                            class="octicon octicon-mark-github v-align-middle color-fg-default">
+                            <path d="M8 0c4.42 0 8 3.58 8 8a8.013 8.013 0 0 1-5.45 7.59c-.4.08-.55-.17-.55-.38 0-.27.01-1.13.01-2.2 0-.75-.25-1.23-.54-1.48 1.78-.2 3.65-.88 3.65-3.95 0-.88-.31-1.59-.82-2.15.08-.2.36-1.02-.08-2.12 0 0-.67-.22-2.2.82-.64-.18-1.32-.27-2-.27-.68 0-1.36.09-2 .27-1.53-1.03-2.2-.82-2.2-.82-.44 1.1-.16 1.92-.08 2.12-.51.56-.82 1.28-.82 2.15 0 3.06 1.86 3.75 3.64 3.95-.23.2-.44.55-.51 1.07-.46.21-1.61.55-2.33-.66-.15-.24-.6-.83-1.23-.82-.67.01-.27.38.01.53.34.19.73.9.82 1.13.16.45.68 1.31 2.69.94 0 .67.01 1.3.01 1.49 0 .21-.15.45-.55.38A7.995 7.995 0 0 1 0 8c0-4.42 3.58-8 8-8Z"></path>
+                        </svg>
+                        Github/agustinbouillet/numero-telefono-argentino
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a 
+                        class="nav-link" 
+                        href="https://linktr.ee/bouillet" 
+                        target="_blank">
+                        <svg 
+                            height="22" 
+                            xmlns="http://www.w3.org/2000/svg" 
+                            viewBox="0 0 24 24" 
+                            xml:space="preserve">
+                            <path d="m13.511 5.853 4.005-4.117 2.325 2.381-4.201 4.005h5.909v3.305h-5.937l4.229 4.108-2.325 2.334-5.741-5.769-5.741 5.769-2.325-2.325 4.229-4.108H2V8.122h5.909L3.708 4.117l2.325-2.381 4.005 4.117V0h3.473v5.853zM10.038 16.16h3.473v7.842h-3.473V16.16z"></path>
+                        </svg>
+                        linktr.ee/bouillet
+                    </a>
+                </li>
+            </ul>
+        </div>
     </div>
-
     <script src='../src/telefonos_argentinos.js'></script>
     <script src='./data/response.js'></script>
     <script src='./js/index.js'></script>

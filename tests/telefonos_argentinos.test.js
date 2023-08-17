@@ -1,3 +1,4 @@
+process.env['NODE_DEV'] = 'TEST';
 const TelefonoArgentino = require('../src/telefonos_argentinos.js');
 
 test('Valid', () => {
@@ -5,6 +6,7 @@ test('Valid', () => {
     expect(new TelefonoArgentino("OLIVIA").isValid()).toBeFalsy();
     // expect(new TelefonoArgentino()).toThrow(new Error("Debe ingresar un número de teléfono."));
 });
+
 
 test('Chars', () => {
     const expected1 = ['E', 'M', 'I', 'L', 'A', '$', '%', '&'];
