@@ -48,13 +48,222 @@ class TelefonoArgentino {
         }
         
         const defaults = {
-            validCharacters: ["-", "(", ")", "[", "]", "+", "."],
+            validCharacters: ["-", "–", "—", "(", ")", "[", "]", "+", "."],
+            format: '{{specific}}{{special}}{{international|add_after:" "}}'
+                    + '{{country|add_after:" "}}{{mobile|add_after:" "}}'
+                    + '{{national_call}}{{area_code|add_after:" "}}'
+                    + '{{mobile_prefix|add_after:" "}} {{number}}',
+            numberFormat: "#-####",
+            numberFormatSeparator: "-",
+            countryPrefix: "+"
         };
         let opts = Object.assign({}, defaults, options);
         this.validCharacters = opts.validCharacters;
+        this.numberFormat = opts.numberFormat;
+        this.numberFormatSeparator = opts.numberFormatSeparator;
+        this.format = opts.format;
         this.input = str;
         this.data = this._phone(str);
     };
+
+
+    /**
+     * Etiqueta html para el fragmento de número de teléfono.
+     * 
+     * @param {string} key Nombre del parámetro, ej. _area_code_.
+     * @param {string} value Valor o fragmento del formato de número de teléfono.
+     * @returns {string} Etiqueta span con el valor y el dataset con el key
+     */
+    _spanTag = (key, value) => {
+        const element = document.createElement("span");
+        element.className = key.replace("_", "-");
+        element.dataset[key] = 1;
+        element.textContent = value;
+        return element.outerHTML;
+    }; 
+
+
+    /**
+     * Evalúa un fragmento del formato de teléfono
+     * 
+     * @summary Verifica que uno de los elementos evaluados con la 
+     * expresión regular que valida el teléfono esté presente y, a su vez
+     * obtiene el parámetro de agregado de string, antes o después del
+     * valor.
+     * @example
+     * // {
+     * //    key: "area_code",
+     * //    param: "add_after",
+     * //    element: "-"
+     * // }
+     * _fragment('{{area_code|add_after: "-"}}')
+     * @param {object} data Objeto `this.data`
+     * @param {string} str Cadena de texto a evaluar.
+     * @returns {object}
+     */
+    _fragment = (data, str) => {
+        const regex = (str, re) => {
+            let result = [];
+            let m;
+            if ((m = re.exec(str)) !== null) {
+                m.forEach(match => result.push(match));
+            }
+            return result;
+        }
+
+        const re1 = /\{\{\s?([^\{\}]+)\s?\}\}/;
+        const re2 = new RegExp(
+            `^(${Object.keys(data).join("\|")})\\s?`
+            + `(\\|\\s?(add_after|add_before):\\s?(\\"|\\')([^\\4\\|]+)\\4)?$`);
+        const res = regex(str, re1);
+
+        const result = res[1].split(",").map(m => {
+            const re = regex(m.trim(), re2);
+            if(re.length < 1){
+                return
+            }
+            const [,key,,param=false,,element=false] = re;
+            return {key, param, element};
+        }).filter(f => f);
+
+        return result;
+    }
+
+
+    /**
+     * Limpia el resultado del parseo de template.
+     * @summary
+     * 1. Si hay inicio o finales de llave, corchetes o paréntesis con
+     *    espacios, los remueve.
+     * 2. Si encuentra llaves, corchetes o paréntesis vacíos; los borra.
+     * 3. Si hay más de un espacio consecutivo, lo reduce a uno.
+     * @param {string} str Cadena de texto a limpiar 
+     * @returns {string}
+     */
+    _sanitizeFormatResult = (str) => {
+        const result = str
+            .replace(/(?:(\[|\{|\()\s)|(?:\s(\]|\}|\)))/g, "$1$2")
+            .replace(/(\{\}|\[\]|\(\))/g, "")
+            .replace(/\s{2,}/g, " ")
+            .trim();
+        return result;
+    };
+
+
+    /**
+     * Parsea el template de formato de número de teléfono
+     * 
+     * @param {object} data Objeto `this.data`
+     * @param {boolean} htmlify True retorna todolos valors separados 
+     * por un tag span
+     * @returns {string}
+     */
+    _format = (data, htmlify=false) => {
+        let str = this.format;
+
+        const regex = /(\{\{(?:[^\{\}]+)\}\})/g;
+        const match = str.match(regex);
+        match.forEach(ele => {
+            const fragments = this._fragment(data, ele);
+            if(fragments.length < 1){
+                return;
+            }
+
+            const compile = fragments.reduce((collect, e) => {
+                const {key, param, element} = e;
+                const value = data[key];
+                let item = "";
+
+                if(key === "number" && value){
+                    item = this._numberFormat(
+                        value, this.numberFormat, this.numberFormatSeparator);
+                } else if (key === "country" && value) {
+                    item = this._countryFormat(value);
+                } else if (value) {
+                    item = value;
+                }
+
+                const addBefore = (param === "add_before" ? element : "");
+                const addAfter = (param === "add_after" ? element : "");
+                const la = (htmlify ? this._spanTag(key, item) : item);
+                
+                collect += (value ? `${addBefore}${la}${addAfter}` : "");
+                return collect;
+            }, "");
+
+            str = str.replace(ele, compile);
+        });
+
+        return this._sanitizeFormatResult(str) || false;
+    }
+
+
+    /**
+     * Limpia caracteres y algunos erroes en el patron para el formato
+     * del número.
+     * @summary
+     * 1. Remueve cualquier caracter que _no_ sea guión (-) o numeral (#).
+     * 2. Si hay más de un guión pegado, lo reduce a uno.
+     * 3. Si hay un guión solo en el final del patron, lo quita.
+     * @param {string} pattern Patrón
+     * @returns {string}
+     */
+    _sanitizeNumberFormatPattern = pattern => pattern
+        .replace(/[^\-\#]*/g, "") 
+        .replace(/-{2,}/g, "-")
+        .replace(/-$/g, "");
+
+
+    /**
+     * Dá formato al número
+     * 
+     * @param {string} number Número a formatear
+     * @param {string} format Formato siguiendo un patrón `#-####`.
+     * @param {string} separator Separador numérico. Guión (-), por defecto.
+     * @example
+     * // 1234.5678
+     * _numberFormat("12345678", "#-####", ".")
+     * 
+     * // 123-45-678
+     * _numberFormat("12345678", "#-##-###")
+     * @returns {string}
+     */
+    _numberFormat = (number, format, separator="-") => {
+        format = this._sanitizeNumberFormatPattern(format);
+        const chunks = format.split("-").map(e => e.length);
+
+        let collect = [];
+        let reducer = number.length;
+        let total = 0;
+        chunks.reverse().forEach((i, k) => {
+            if (total > number.length) {
+                return;
+            }
+
+            if (k === 0) {
+                collect.push(number.slice(-i));
+            } else if (chunks.length - 1 === k) {
+                collect.push(number.slice(0, reducer));
+            } else {
+                collect.push(number.slice(reducer - i, reducer));
+            }
+
+            total += i;
+            reducer -= i;
+        });
+        const result = collect
+            .reverse()
+            .filter(f => f)
+            .join(separator);
+        return result;
+    };
+    
+
+    /**
+     * Retorna el número en formato html
+     * @returns {string}
+     */
+    htmlify = () => this._format(this.data, true);
 
 
     /**
@@ -97,7 +306,8 @@ class TelefonoArgentino {
      */
     _cleanup = str => {
         str = str.toString();
-        var re = /([\-\.\(\)\[\]\s\+]+)/g;
+        const validCharacters = this.validCharacters.join("\\");
+        const re = new RegExp(`([\\s\\${validCharacters}]*)`, "g");
         var subst = "";
         var result = str.replace(re, subst);
         return result;
@@ -158,8 +368,7 @@ class TelefonoArgentino {
             }
 
             data.type = phoneType;
-            data.format = this._phoneNumberFormat(data);
-            data.htmlify = this._htmlify(data);
+            data.format = this._format(data);
         }
         return data;
     };
@@ -219,49 +428,23 @@ class TelefonoArgentino {
         const numberList = [9, 15, 12, 21, 17, 19, 22, 24];
         const mobilePrefixList = [8, 11, 14, 18, 20];
         const areaCodeList = [13, 10, 7];
+
         const data = {
             filter_input: (result[0] ? result[0] : false),
             international: (result[1] ? result[1] : false),
             country: (result[2] ? result[2] : false),
             national_call: (result[3] ? result[3] : false),
             mobile: (result[4] ? result[4] : false),
-            special: (result[25] ? result[25] : false),
             specific: (result[23] ? result[23] : false),
+            special: (result[25] ? result[25] : false),
+
             number: this._validateValue(numberList, result),
             mobile_prefix: this._validateValue(mobilePrefixList, result),
             area_code: this._validateValue(areaCodeList, result),
+            
             input: this.input
         };
         return data;
-    };
-
-
-    /**
-     * hace un string trim e impide que haya mas de un 
-     * espacio entre palabras.
-     * 
-     * @param  {string} str
-     * @return {string}
-     */
-    _cleanupNumberFormat = data => {
-        const result = data.filter(f => f).join(" ");
-        return result || null;
-    };
-
-
-    /**
-     * Formato para el número
-     * @param {string} number Número de telefono 
-     * @example
-     * // '1234-5678'
-     * this._numberFormat("12345678");
-     * 
-     * @returns {string}
-     */
-    _numberFormat = number => {
-        const result = `${number.slice(0, number.length - 4)}`
-                + `-${number.slice(-4)}`;
-        return result;
     };
 
 
@@ -288,81 +471,6 @@ class TelefonoArgentino {
      */
     _countryFormat = country => (country ? `+${country}` : "");
 
-
-    /**
-     * Retorna el número de teléfono con un formato estandard.
-     * @param  {object} data
-     * @return {string}
-     */
-    _phoneNumberFormat = data => {
-        const {
-            number, filter_input, country, mobile_prefix, international, 
-            mobile, national_call, area_code, specific} = data;
-
-        if (!number) {
-            return filter_input;
-        }
-
-        const numberData = [
-            international,
-            this._countryFormat(country),
-            mobile,
-            this._nationalCodePlusAreaCode(national_call, area_code),
-            mobile_prefix,
-            specific,
-            this._numberFormat(number)
-        ];
-        return this._cleanupNumberFormat(numberData);
-    };
-
-
-    /**
-     * Retorna el numero de telefono con formato + etiquetas de wrapper por
-     * atributo.
-     * @param  {object} data
-     * @return {string}
-     */
-    _htmlify = data => {
-        const {number, filter_input, country} = data;
-
-        if (!number) {
-            return filter_input;
-        }
-
-        const spanNumber = document.createElement("span");
-        spanNumber.className = "number";
-        spanNumber.textContent = this._numberFormat(data.number);
-
-        const spanCountry = document.createElement("span");
-        spanCountry.className = "country";
-        spanCountry.dataset.country = "1";
-        spanCountry.textContent = this._countryFormat(country);
-
-        let d = [];
-        for (const key in data) {
-            if(data[key]){
-                const span = document.createElement("span");
-                span.className = key.replace("_", "-");
-                span.dataset[key.replace(/[^a-zA-Z]/g, "")] = 1;
-                span.textContent = data[key];
-                d[key] = span.outerHTML;
-            } else {
-                d[key] = "";
-            }
-        }
-
-        const numberData = [
-            d.international,
-            spanCountry.outerHTML,
-            d.mobile,
-            // d.national_call + d.area_code,
-            this._nationalCodePlusAreaCode(d.national_call, d.area_code),
-            d.mobile_prefix,
-            d.specific,
-            spanNumber.outerHTML
-        ];
-        return this._cleanupNumberFormat(numberData);
-    };
 }
 
 
