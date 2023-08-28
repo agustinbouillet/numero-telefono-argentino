@@ -136,7 +136,7 @@ Es importante tener en cuanta que si la clave no tiene valor, si éste es `false
 ###### Ejemplos
 
 Caso con número, código de área y código país. 
-`
+`****
 ```javascript
 const tel = new TelefonoArgentino(
     "54.3624448012",
