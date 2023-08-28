@@ -40,11 +40,11 @@ class TelefonoArgentino {
 
     constructor(str, options){
         if(!str){
-            try {
+            // try {
                 throw new Error("Debe ingresar un número de teléfono.");
-            } catch (e) {
-                console.error(`${e.name}: ${e.message}`);
-            }
+            // } catch (e) {
+            //     console.error(`${e.name}: ${e.message}`);
+            // }
         }
         
         const defaults = {
@@ -132,6 +132,7 @@ class TelefonoArgentino {
 
     /**
      * Limpia el resultado del parseo de template.
+     * 
      * @summary
      * 1. Si hay inicio o finales de llave, corchetes o paréntesis con
      *    espacios, los remueve.
@@ -201,10 +202,11 @@ class TelefonoArgentino {
     /**
      * Limpia caracteres y algunos erroes en el patron para el formato
      * del número.
+     * 
      * @summary
-     * 1. Remueve cualquier caracter que _no_ sea guión (-) o numeral (#).
-     * 2. Si hay más de un guión pegado, lo reduce a uno.
-     * 3. Si hay un guión solo en el final del patron, lo quita.
+     * 1. Remueve cualquier caracter que **no** sea guión (-) o numeral (#).
+     * 2. Si hay más de un guión pegado, los reduce a uno.
+     * 3. Si hay un guión solo en el final del patrón, lo quita.
      * @param {string} pattern Patrón
      * @returns {string}
      */
@@ -260,7 +262,8 @@ class TelefonoArgentino {
     
 
     /**
-     * Retorna el número en formato html
+     * Retorna el número en formato HTML.
+     * 
      * @returns {string}
      */
     htmlify = () => this._format(this.data, true);
@@ -283,6 +286,7 @@ class TelefonoArgentino {
 
     /**
      * Teléfono válido o inválido.
+     * 
      * @example
      * // false
      * new TelefonoArgentino("OLIVIA").isValid();
@@ -474,7 +478,6 @@ class TelefonoArgentino {
 }
 
 
-
-// if (process.env['NODE_DEV'] == 'TEST') {
-//     module.exports = TelefonoArgentino;
-// }
+if (typeof exports !== "undefined") {
+    module.exports = TelefonoArgentino;
+}
