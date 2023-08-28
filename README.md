@@ -78,6 +78,141 @@ tel.invalidChars();
 [";", ">", "<", "^", "%", "$"]
 ```
 
+#### htmlify()
+
+Retorna el número de teléfono con cada una de sus partes encapsuladas en una etiqueta `<span\/>``
+
+##### Ejemplo
+
+```javascript
+new TelefonoArgentino("+54 9 11 4639-1234").htmlify();
+```
+Retorna
+
+```html
+<span class="country" data-country="1">+54</span> <span class="mobile" data-mobile="1">9</span> <span class="area-code" data-area_code="1">11</span> <span class="number" data-number="1">4639-1234</span>
+```
+
+### Opciones
+
+#### Formatos de salida
+
+##### Formato
+
+Para darle formato al número de teléfono puede configurarse un template y pasarlo al parámetro opciones usando la clave: `format`.
+
+El formato por defecto contempla todos los formatos y tipo de teléfono que valida el script.
+
+```javascript
+{****
+    format: '{{specific}}{{special}}{{international|add_after:" "}}{{country|add_after:" "}}{{mobile|add_after:" "}}{{national_call}}{{area_code|add_after:" "}}{{mobile_prefix|add_after:" "}} {{number}}'
+}
+```
+
+El formato solo acepta las claves de retorno del script, ejemplo: `area_code`, `country`, etc. Y para parsear la clave con el valor se debe encerrar la clave entre _doble llave_, así: {{ `clave` }}.
+
+Las claves pueden ir separadsas o concatenadas por una coma, de este modo: `{{ area_code,number }}`.
+
+Para agregar un elemento antes o después del valor, se puede incorporar un solo parámetro con el elemento a agregar, antes o después (before, after en inglés); del siguiente modo: 
+
+```
+'{{ area_code|add_after:"-" }}'
+// 11-
+```
+
+```
+'{{ area_code|add_after:"+",number|add_before:"=" }}'
+// 11+=4639-2313
+```
+
+También se pueden utilizar las claves por separado; sin usar la concatenación.
+```
+'{{ area_code|add_after:"+" }}{{ number|add_before:"=" }}'
+// 11+=4639-2313
+```
+
+Es importante tener en cuanta que si la clave no tiene valor, si éste es `false`. No va a imprimir nada, y esto incluye el separador. 
+
+###### Ejemplos
+
+Caso con número, código de área y código país. 
+`****
+```javascript
+const tel = new TelefonoArgentino(
+    "54.3624448012",
+    {
+        format: '({{ country|add_after:"-" }}{{ area_code }}){{ number|add_before:" " }}'
+    }
+);
+tel.getData().format;
+
+// '(+54-362) 444-8012'
+```
+
+Sin código de país
+
+```javascript
+const tel = new TelefonoArgentino(
+    "11 4639-1234",
+    {
+        format: '({{ country|add_after:"-" }}{{ area_code }}){{ number|add_before:" " }}'
+    }
+);
+tel.getData().format;
+
+// '(11) 4639-1234'
+```
+
+Sin código de pais y código de área. Cómo el paréntesis queda vacío, se remueve. Los espacios y elementos agregados antes y después, no se imprimen.
+
+```javascript
+const tel = new TelefonoArgentino(
+    "4639-1234",
+    {
+        format: '({{ country|add_after:"-" }}{{ area_code }}){{ number|add_before:" " }}'
+    }
+);
+tel.getData().format;
+
+// '4639-1234'
+```
+****
+
+
+##### Formato de número
+
+El número puede estar segmentado en la cantidad de partes que se desee utilizando la combinación del caracter numeral y guión. El formato se debe pensar de derecha a izquierda. Por ejemplo. Para que un número de ocho dígitos se divida en miles, el formato sería este:
+`##-###-###`. El número `12345678`, qudaría de este modo: `12-345-678`.
+
+**Algunos casos**
+
+```javascript
+const tel = new TelefonoArgentino("+54.3624448012", {numberFormat: "##-###-###"});
+tel.getData().format;
+
+// '+54 362 4-448-012'
+``````
+
+```javascript
+const tel = new TelefonoArgentino("+54.3624448012", {numberFormat: "##-##-##-##"});
+tel.getData().format;
+
+// '+54 362 4-44-80-12'
+```
+
+Se puede incorporar el parámetro `numberFormatSeparator`, para cambiar el separador de dígitos.
+
+```javascript
+const tel = new TelefonoArgentino(
+    "54.3624448012",
+    {numberFormat: "##-###-###", numberFormatSeparator: "."}
+);
+tel.getData().format;
+
+// '+54 362 4.448.012'
+```
+
+
 ## Ejemplos válidos
 - +54 9 11 4639-1234
 - 00 5411 46392313
@@ -89,14 +224,15 @@ tel.invalidChars();
 - 4639-1234
 - 911
 - 0810 666 4444
-- 000
 - (54) 11 5789-1489
 - (02966) 441200
 
 
+---- 
+
 ## Información geográfica
 
-La información referenciada de las regiones se obtiene de un _Google spreadsheet_ en:
+La información referenciada de las regiones se puede obtener de un _Google spreadsheet_ en:
 
 ```
 https://sheets.googleapis.com/v4/spreadsheets/14H7VE3zfllDDTC73L0bL7nyjkdodPMXvqs1CH__xgFY/values/db?key={{your-google-api-key}}&alt=json

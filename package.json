@@ -5,7 +5,8 @@
     "jest-environment-jsdom": "^29.6.2"
   },
   "jest": {
-    "testEnvironment": "jsdom"
+    "testEnvironment": "jsdom",
+    "verbose": true
   },
   "dependencies": {
     "gulp-concat": "^2.6.1",
