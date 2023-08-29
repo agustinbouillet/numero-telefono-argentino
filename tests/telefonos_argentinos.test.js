@@ -54,5 +54,23 @@ test("Output", () => {
             param: "add_after"
         },
     ]);
+});
 
+
+test("Format", () => {
+    const tpl = "Mi número es: ( {{ international|add_after:' ', country | add_after:'-' }}"
+            + "{{ area_code}} ) {{number}}.";
+
+    const tel = new TelefonoArgentino("00 5411 46392313", {format: tpl});
+    expect(tel.getData().format).toBe("Mi número es: (00 +54-11) 4639-2313.");
+
+    const tel2 = new TelefonoArgentino(
+        "00 5411 46392313",
+        {
+            format: tpl,
+            numberFormat: "----##-## # ---# # # ",
+            numberFormatSeparator:"."
+        }
+    );
+    expect(tel2.getData().format).toBe("Mi número es: (00 +54-11) 46.392.313.");
 });
