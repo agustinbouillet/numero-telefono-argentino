@@ -3,9 +3,10 @@
 
 ## Uso
 
-```
+```js
 var tel = new TelefonoArgentino('5491150716006');
 ```
+
 ### Métodos
 
 #### getData()
@@ -54,12 +55,13 @@ tel.isValid();
 #### getType()
 Retorna el tipo de teléfono.
 Los tipos puenden ser:
+
 - `landline` Teléfono fijo.
 - `mobile` Teléfono móvil.
 - `special` Comprendido por los números como: 911, 112, 113, 114, etc.
 - `specific` Comprendido por los números como: 0800, 0810, etc.
 
-```
+```js
 tel.getType();
 ```
 
@@ -70,10 +72,13 @@ Retorna un array con la lista de caracteres inválidos. Si no existieran caracte
 ```javascript
 tel.invalidChars();
 ```
+
 ##### Ejemplo
+
 ```javascript
 var tel = new TelefonoArgentino('54911501;><76006^%$^%$^');
 tel.invalidChars();
+
 // Resultado
 [";", ">", "<", "^", "%", "$"]
 ```
@@ -99,44 +104,48 @@ Retorna
 
 ##### Formato
 
-Para darle formato al número de teléfono puede configurarse un template y pasarlo al parámetro opciones usando la clave: `format`.
+Para darle formato al número de teléfono puede configurarse un _template_ y pasarlo al parámetro opciones usando la clave: `format`.
 
-El formato por defecto contempla todos los formatos y tipo de teléfono que valida el script.
+El formato por defecto contempla todos los formatos y tipos de teléfono que valida el _script_.
 
 ```javascript
-{****
+{
     format: '{{specific}}{{special}}{{international|add_after:" "}}{{country|add_after:" "}}{{mobile|add_after:" "}}{{national_call}}{{area_code|add_after:" "}}{{mobile_prefix|add_after:" "}} {{number}}'
 }
 ```
 
-El formato solo acepta las claves de retorno del script, ejemplo: `area_code`, `country`, etc. Y para parsear la clave con el valor se debe encerrar la clave entre _doble llave_, así: {{ `clave` }}.
+El formato solo acepta las claves de retorno del _script_; ejemplo: `area_code`, `country`, etc. Para _parsear_ la clave con el valor se debe encerrar la clave entre _doble llave_, así: {{ `clave` }}.
 
 Las claves pueden ir separadsas o concatenadas por una coma, de este modo: `{{ area_code,number }}`.
 
 Para agregar un elemento antes o después del valor, se puede incorporar un solo parámetro con el elemento a agregar, antes o después (before, after en inglés); del siguiente modo: 
 
-```
+```js
 '{{ area_code|add_after:"-" }}'
+
 // 11-
 ```
 
-```
+```javascript
 '{{ area_code|add_after:"+",number|add_before:"=" }}'
+
 // 11+=4639-2313
 ```
 
 También se pueden utilizar las claves por separado; sin usar la concatenación.
-```
+
+```js
 '{{ area_code|add_after:"+" }}{{ number|add_before:"=" }}'
+
 // 11+=4639-2313
 ```
 
-Es importante tener en cuanta que si la clave no tiene valor, si éste es `false`. No va a imprimir nada, y esto incluye el separador. 
+Es importante tener en cuenta que si la clave no tiene valor, si éste es `false`; no va a imprimir nada, y esto incluye el separador.
 
 ###### Ejemplos
 
-Caso con número, código de área y código país. 
-`****
+Caso con número, código de área y código país.
+
 ```javascript
 const tel = new TelefonoArgentino(
     "54.3624448012",
@@ -149,7 +158,7 @@ tel.getData().format;
 // '(+54-362) 444-8012'
 ```
 
-Sin código de país
+Sin código de país.
 
 ```javascript
 const tel = new TelefonoArgentino(
@@ -176,12 +185,12 @@ tel.getData().format;
 
 // '4639-1234'
 ```
-****
 
+****
 
 ##### Formato de número
 
-El número puede estar segmentado en la cantidad de partes que se desee utilizando la combinación del caracter numeral y guión. El formato se debe pensar de derecha a izquierda. Por ejemplo. Para que un número de ocho dígitos se divida en miles, el formato sería este:
+El número puede estar segmentado en la cantidad de partes que se desee utilizando la combinación del caracter _numeral_ y _guión_. El formato se debe pensar de derecha a izquierda. Por ejemplo; para que un número de ocho dígitos se divida en _miles_, el formato sería este:
 `##-###-###`. El número `12345678`, qudaría de este modo: `12-345-678`.
 
 **Algunos casos**
@@ -200,32 +209,21 @@ tel.getData().format;
 // '+54 362 4-44-80-12'
 ```
 
+
 Se puede incorporar el parámetro `numberFormatSeparator`, para cambiar el separador de dígitos.
 
 ```javascript
 const tel = new TelefonoArgentino(
     "54.3624448012",
-    {numberFormat: "##-###-###", numberFormatSeparator: "."}
+    {
+        numberFormat: "##-###-###", 
+        numberFormatSeparator: "."
+    }
 );
 tel.getData().format;
 
 // '+54 362 4.448.012'
 ```
-
-
-## Ejemplos válidos
-- +54 9 11 4639-1234
-- 00 5411 46392313
-- 011 4639-1234
-- 11 4639-1234
-- 15 4639-1234
-- 1550176006
-- 4639.1234
-- 4639-1234
-- 911
-- 0810 666 4444
-- (54) 11 5789-1489
-- (02966) 441200
 
 
 ---- 
