@@ -10,49 +10,49 @@ const response = {
     ],
     [
       "11",
-      "Ciudad Autónoma de Buenos Aires,  Provincia de Buenos Aires (dentro del área metropolitana)",
-      "Buenos Aires , Acassuso, Adrogué, Aeropuerto Internacional Ezeiza, Aldo Bonzi, Área de Promoción El Triángulo, Avellaneda, Banfield, Beccar, Bella Vista, Berazategui, Bernal, Billinghurst, Bosques, Boulogne Sur Mer, Burzaco, Campo de Mayo, Canning, Caseros, Castelar, Ciudad Evita, Ciudad Jardín Lomas del Palomar, Ciudadela, Churruca, Claypole, Crucecita, Dock Sud, Don Bosco, Don Orione, Don Torcuato, El Jagüel, El Libertador, El Palomar, El Talar, Estanislao Zeballos, Ezeiza, Ezpeleta, Florencio Varela, General Pacheco, Gerli, Gobernador Julio A. Costa, Gregorio de Laferrere, Haedo, Hudson, Hurlingham, Ingeniero Adolfo Sourdeaux, Ingeniero Budge, Ingeniero Pablo Nogués, Isidro Casanova, Ituzaingó, José Ingenieros, José León Suárez, José Mármol, La Tablada, La Unión, Lanús, Llavallol, Loma Hermosa, Lomas de Zamora, Lomas del Mirador, Longchamps, Los Polvorines, Luis Guillón, Malvinas Argentinas (Almirante Brown), Malvinas Argentinas (Malvinas Argentinas), Martín Coronado, Martínez, Ministro Rivadavia, Monte Chingolo, Monte Grande, Morón, Munro, Muñiz, Nordelta, Nueve de Abril, Olivos, Once de Septiembre, Pablo Podestá, Piñeyro, Plátanos, Quilmes, Rafael Calzada, Rafael Castillo, Ramos Mejía, Ranelagh, Remedios de Escalada, Rincón de Milberg, Sáenz Peña, San Andrés, San Fernando, San Francisco Solano, San Isidro, San José, San Justo, San Martín, San Miguel, Santa María, Santos Lugares, Sarandí, Sourigues, Tapiales, Temperley, Tierras Altas, Tigre, Tristán Suárez, Troncos del Talar, Turdera, Valentín Alsina, Victoria, Villa Adelina, Villa Albertina, Villa Ballester, Villa Bosch, Villa Brown, Villa Centenario, Villa de Mayo, Villa Domínico, Villa España, Villa Fiorito, Villa La Florida, Villa Luzuriaga, Villa Lynch, Villa Madero, Villa Maipú, Villa Raffo, Villa San Luis, Villa Sarmiento, Villa Tesei, Villa Vatteone, Virreyes, Wilde, William C. Morris",
-      "Buenos Aires "
+      "Ciudad Autónoma de Buenos Aires / Área metropolitana de Buenos Aires",
+      "Buenos Aires, Acassuso, Adrogué, Aeropuerto Internacional Ezeiza, Aldo Bonzi, Área de Promoción El Triángulo, Avellaneda, Banfield, Beccar, Bella Vista, Berazategui, Bernal, Billinghurst, Bosques, Boulogne Sur Mer, Burzaco, Campo de Mayo, Canning, Caseros, Castelar, Ciudad Evita, Ciudad Jardín Lomas del Palomar, Ciudadela, Churruca, Claypole, Crucecita, Dock Sud, Don Bosco, Don Orione, Don Torcuato, El Jagüel, El Libertador, El Palomar, El Talar, Estanislao Zeballos, Ezeiza, Ezpeleta, Florencio Varela, General Pacheco, Gerli, Gobernador Julio A. Costa, Gregorio de Laferrere, Haedo, Hudson, Hurlingham, Ingeniero Adolfo Sourdeaux, Ingeniero Budge, Ingeniero Pablo Nogués, Isidro Casanova, Ituzaingó, José Ingenieros, José León Suárez, José Mármol, La Tablada, La Unión, Lanús, Llavallol, Loma Hermosa, Lomas de Zamora, Lomas del Mirador, Longchamps, Los Polvorines, Luis Guillón, Malvinas Argentinas (Almirante Brown), Malvinas Argentinas (Malvinas Argentinas), Martín Coronado, Martínez, Ministro Rivadavia, Monte Chingolo, Monte Grande, Morón, Munro, Muñiz, Nordelta, Nueve de Abril, Olivos, Once de Septiembre, Pablo Podestá, Piñeyro, Plátanos, Quilmes, Rafael Calzada, Rafael Castillo, Ramos Mejía, Ranelagh, Remedios de Escalada, Rincón de Milberg, Sáenz Peña, San Andrés, San Fernando, San Francisco Solano, San Isidro, San José, San Justo, San Martín, San Miguel, Santa María, Santos Lugares, Sarandí, Sourigues, Tapiales, Temperley, Tierras Altas, Tigre, Tristán Suárez, Troncos del Talar, Turdera, Valentín Alsina, Victoria, Villa Adelina, Villa Albertina, Villa Ballester, Villa Bosch, Villa Brown, Villa Centenario, Villa de Mayo, Villa Domínico, Villa España, Villa Fiorito, Villa La Florida, Villa Luzuriaga, Villa Lynch, Villa Madero, Villa Maipú, Villa Raffo, Villa San Luis, Villa Sarmiento, Villa Tesei, Villa Vatteone, Virreyes, Wilde, William C. Morris",
+      "Buenos Aires"
     ],
     [
       "220",
-      "Buenos Aires",
+      "Área metropolitana de Buenos Aires",
       "Merlo, General Hornos, General Las Heras, La Choza, Libertad, Marcos Paz, Mariano Acosta, Parque San Martín, Plomer, Pontevedra, San Antonio de Padua, 20 de Junio, Villars",
       "Merlo"
     ],
     [
       "221",
-      "Buenos Aires",
-      "La Plata, Abasto, Ángel Etcheverry, Arturo Seguí, Barrio Banco Provincia, Barrio El Carmen Este, Barrio Universitario, Berisso, City Bell, Dique N.º 1, Ensenada, General Mansilla (Est. Bartolomé Bavio), Ignacio Correas, Isla Santiago Oeste, Joaquín Gorina, José Hernández, Lomas de Copello, José Melchor Romero, Las Golondrinas, Lisandro Olmos, Los Hornos, Los Naranjos, Los Talas, Manuel B. Gonnet, Punta Lara, Ringuelet, Tolosa, Villa Argüello, Villa Catella, Villa Dolores, Villa Elisa, Villa Elvira, Villa Garibaldi, Villa Independencia, Villa Nueva, Villa Porteña, Villa Zula",
+      "Área metropolitana de Buenos Aires-Gran La Plata",
+      "La Plata, Abasto, Ángel Etcheverry, Arturo Seguí, Barrio Banco Provincia, Barrio El Carmen Este, Barrio Universitario, Berisso, City Bell, Dique Número 1, Ensenada, General Mansilla, Ignacio Correas, Isla Santiago Oeste, Joaquín Gorina, José Hernández, Lomas de Copello, José Melchor Romero, Las Golondrinas, Lisandro Olmos, Los Hornos, Los Naranjos, Los Talas, Manuel B. Gonnet, Punta Lara, Ringuelet, Tolosa, Villa Argüello, Villa Catella, Villa Dolores, Villa Elisa, Villa Elvira, Villa Garibaldi, Villa Independencia, Villa Nueva, Villa Porteña, Villa Zula",
       "La Plata"
     ],
     [
       "223",
-      "Buenos Aires",
+      "Provincia de Buenos Aires (interior)",
       "Mar del Plata, Batán, Camet, Chapadmalal, Estación Chapadmalal, La Gloria de la Peregrina, Santa Clara del Mar, Sierra de los Padres",
       "Mar del Plata"
     ],
     [
       "230",
-      "Buenos Aires",
-      "Pilar , Arroyo de La Cruz, Del Viso, Diego Gaynor, Etchegoyen, Fátima, La Lonja, Los Cardales, Manuel Alberti, Manzanares, Parada Orlando, Presidente Derqui, Villa Astolfi, Villa Rosa, Zelaya",
-      "Pilar "
+      "Área metropolitana de Buenos Aires",
+      "Pilar, Arroyo de La Cruz, Del Viso, Diego Gaynor, Etchegoyen, Fátima, La Lonja, Los Cardales, Manuel Alberti, Manzanares, Parada Orlando, Presidente Derqui, Villa Astolfi, Villa Rosa, Zelaya",
+      "Pilar"
     ],
     [
       "236",
-      "Buenos Aires",
+      "Provincia de Buenos Aires (interior)",
       "Junín, Agustín Roca, Agustina, Balneario Laguna de Gómez, Baigorrita, Fortín Tiburcio, Laplacette, Leandro N. Alem, Morse, Saforcada",
       "Junín"
     ],
     [
       "237",
-      "Buenos Aires",
+      "Área metropolitana de Buenos Aires",
       "Moreno, Cuartel V, Francisco Álvarez, General Rodríguez, La Reja, Paso del Rey, Trujui",
       "Moreno"
     ],
     [
       "249",
-      "Buenos Aires",
+      "Provincia de Buenos Aires (interior)",
       "Tandil, De la Canal, Desvío Aguirre, Fulton, Gardey, María Ignacia (Estación Vela)",
       "Tandil"
     ],
@@ -94,19 +94,19 @@ const response = {
     ],
     [
       "291",
-      "Buenos Aires",
+      "Provincia de Buenos Aires (interior)",
       "Bahía Blanca, Balneario La Chiquita, Cabildo, Chasicó, Colonia Monte La Plata, Colonia San Adolfo, General Daniel Cerri, Grünbein, Ingeniero White, Juan Cousté, Mayor Buratovich, Saldungaray, Sierra de la Ventana, Teniente Origone, Tornquist, Tres Picos, Villa Arcadia, Villa Bordeu, Villa Espora, Villa Serrana La Gruta, Villa Ventana",
       "Bahía Blanca"
     ],
     [
       "294",
-      "Río Negro,  Neuquén,  Chubut",
+      "Río Negro / Neuquén / Chubut",
       "San Carlos de Bariloche, Colonia Suiza, Dina Huapi, El Bolsón, El Foyel, El Manso, Hoyo de Epuyén, Lago Puelo, Mamuel Choique, Ñirihuau, Ñorquincó, Paso Flores, Pilcaniyeu, Pilquiniyeu del Limay, Río Chico Río Villegas, Villa Campanario, Villa Cerro Catedral, Villa La Angostura, Villa Llanquín, Villa Llao Llao, Villa Los Coihues, Villa Mascardi, Villa Traful",
       "San Carlos de Bariloche"
     ],
     [
       "297",
-      "Chubut,  Santa Cruz",
+      "Chubut / Santa Cruz",
       "Comodoro Rivadavia, Astra, Caleta Olivia, Camarones, Cañadón Seco, Diadema Argentina, Fitz Roy, Garayalde, Jaramillo, Koluel Kayke, Las Heras, Pico Truncado, Puerto Deseado, Rada Tilly, Sarmiento, Tellier",
       "Comodoro Rivadavia"
     ],
@@ -118,21 +118,21 @@ const response = {
     ],
     [
       "299",
-      "Neuquén,  Río Negro,  La Pampa",
+      "Neuquén / Río Negro / La Pampa",
       "Neuquén, Aguada San Roque, Añelo, Bajo San Cayetano, Barda del Medio, Campo Grande, Casa de Piedra, Catriel, Centenario, Cinco Saltos, Cipolletti, Contralmirante Cordero, Cutral-Co, Ferri, General Fernández Oro, Las Perlas, Octavio Pico, Península Ruca Co, Peñas Blancas, Plaza Huincul, Plottier, Puelén, Rincón de los Sauces, San Patricio del Chañar, Sargento Vidal, Senillosa, Veinticinco de Mayo, Villa El Chocón, Villa Manzano, Villa San Isidro, Vista Alegre|",
       "Neuquén"
     ],
     [
       "336",
-      "Buenos Aires",
-      "San Nicolás de los Arroyos , Campos Salles, Conesa, Erézcano, General Rojo, La Emilia, Villa Campi, Villa Canto, Villa Esperanza, Villa Hermosa, Villa Riccio",
-      "San Nicolás de los Arroyos "
+      "Provincia de Buenos Aires (interior)",
+      "San Nicolás de los Arroyos, Campos Salles, Conesa, Erézcano, General Rojo, La Emilia, Villa Campi, Villa Canto, Villa Esperanza, Villa Hermosa, Villa Riccio",
+      "San Nicolás de los Arroyos"
     ],
     [
       "341",
       "Santa Fe",
-      "Rosario , Alvear, Arbilla, Capitán Bermúdez, Carcarañá, Coronel Arnold, El Caramelo, Fray Luis Beltrán, Funes, Granadero Baigorria, Ibarlucea, Kilómetro 101, La Carolina, Pérez, Roldán, San Jerónimo Sud, Soldini, Villa del Plata, Villa Gobernador Gálvez, Zavalla, San Lorenzo,",
-      "Rosario "
+      "Rosario, Alvear, Arbilla, Capitán Bermúdez, Carcarañá, Coronel Arnold, El Caramelo, Fray Luis Beltrán, Funes, Granadero Baigorria, Ibarlucea, Kilómetro 101, La Carolina, Pérez, Roldán, San Jerónimo Sud, Soldini, Villa del Plata, Villa Gobernador Gálvez, Zavalla, San Lorenzo,",
+      "Rosario"
     ],
     [
       "342",
@@ -154,9 +154,9 @@ const response = {
     ],
     [
       "348",
-      "Buenos Aires",
-      "Belén de Escobar , Dique Luján, Garín, Ingeniero Maschwitz, Maquinista F. Savio, Loma Verde, Matheu, Puerto Paraná",
-      "Belén de Escobar "
+      "Área metropolitana de Buenos Aires",
+      "Belén de Escobar, Dique Luján, Garín, Ingeniero Maschwitz, Maquinista F. Savio, Loma Verde, Matheu, Puerto Paraná",
+      "Belén de Escobar"
     ],
     [
       "351",
@@ -244,283 +244,283 @@ const response = {
     ],
     [
       "2202",
-      "Buenos Aires",
+      "Área metropolitana de Buenos Aires",
       "González Catán, Virrey del Pino",
       "González Catán"
     ],
     [
       "2221",
-      "Buenos Aires",
-      "Magdalena , Álvarez Jonte, Atalaya, Pipinas, Las Tahonas, Monte Veloz, Punta del Indio, Roberto J. Payró, Verónica, Vieytes",
-      "Magdalena "
+      "Provincia de Buenos Aires (interior)",
+      "Magdalena, Álvarez Jonte, Atalaya, Pipinas, Las Tahonas, Monte Veloz, Punta del Indio, Roberto J. Payró, Verónica, Vieytes",
+      "Magdalena"
     ],
     [
       "2223",
-      "Buenos Aires",
-      "Brandsen , Altamirano, Gómez, Jeppener, Las Acacias, Loma Verde",
-      "Brandsen "
+      "Área metropolitana de Buenos Aires",
+      "Brandsen, Altamirano, Gómez, Jeppener, Las Acacias, Loma Verde",
+      "Brandsen"
     ],
     [
       "2224",
-      "Buenos Aires",
-      "Glew , Guernica",
-      "Glew "
+      "Área metropolitana de Buenos Aires",
+      "Glew, Guernica",
+      "Glew"
     ],
     [
       "2225",
-      "Buenos Aires",
+      "Área metropolitana de Buenos Aires",
       "Alejandro Korn, Domselaar, La Capilla, San Vicente",
       "Alejandro Korn"
     ],
     [
       "2226",
-      "Buenos Aires",
+      "Área metropolitana de Buenos Aires",
       "Cañuelas, Alejandro Petión, El Taladro, Gobernador Udaondo, Santa Rosa, Uribelarrea, Vicente Casares",
       "Cañuelas"
     ],
     [
       "2227",
       "Buenos Aires",
-      "Lobos , Navarro, Antonio Carboni, Carlos Beguerie, Elvira, Empalme Lobos, Roque Pérez, Salvador María, Zapiola",
-      "Lobos "
+      "Lobos, Navarro, Antonio Carboni, Carlos Beguerie, Elvira, Empalme Lobos, Juan Tronconi, La Reforma, Roque Pérez, Salvador María, Santiago Larre, Zapiola",
+      "Lobos"
     ],
     [
       "2229",
-      "Buenos Aires",
-      "Juan María Gutiérrez , El Pato, Ingeniero Juan Allan, Pereyra",
-      "Juan María Gutiérrez "
+      "Área metropolitana de Buenos Aires",
+      "Juan María Gutiérrez, El Pato, Ingeniero Juan Allan, Pereyra",
+      "Juan María Gutiérrez"
     ],
     [
       "2241",
-      "Buenos Aires",
-      "Chascomús, Alegre, Ranchos, Samborombón",
+      "Provincia de Buenos Aires (interior)",
+      "Chascomús, Alegre, Comandante Giribone, Don Cipriano, Gándara, Libres del Sud, Pedro Nicolás Escribano, Ranchos, Samborombón",
       "Chascomús"
     ],
     [
       "2242",
-      "Buenos Aires",
-      "Lezama, Casalins, Pila",
+      "Provincia de Buenos Aires (interior)",
+      "Lezama, Atilio Pessagno, Casalins, Monasterio, Pila, Real Audiencia",
       "Lezama"
     ],
     [
       "2243",
-      "Buenos Aires",
+      "Provincia de Buenos Aires (interior)",
       "General Belgrano, Barrio Río Salado, Villanueva",
       "General Belgrano"
     ],
     [
       "2244",
-      "Buenos Aires",
-      "Las Flores, Coronel Boerr, El Trigo, Pardo",
+      "Provincia de Buenos Aires (interior)",
+      "Las Flores, Coronel Boerr, El Trigo, Estrugamou, Pardo, Rosas",
       "Las Flores"
     ],
     [
       "2245",
-      "Buenos Aires",
-      "Dolores, Castelli, Centro Guerrero, Cerro de la Gloria, General Conesa, Sevigne, Villa Roch",
+      "Provincia de Buenos Aires (interior)",
+      "Dolores, Castelli, Centro Guerrero, Cerro de la Gloria, Esquina de Crotto, General Conesa, Guerrero, Sevigne, Villa Roch",
       "Dolores"
     ],
     [
       "2246",
-      "Buenos Aires",
+      "Provincia de Buenos Aires (interior)",
       "Santa Teresita, Costa Chica, Costa del Este, Las Toninas, Mar del Tuyú",
       "Santa Teresita"
     ],
     [
       "2252",
-      "Buenos Aires",
+      "Provincia de Buenos Aires (interior)",
       "San Clemente del Tuyú, Chacras de San Clemente, General Lavalle",
       "San Clemente del Tuyú"
     ],
     [
       "2254",
-      "Buenos Aires",
-      "Pinamar, Cariló, Ostende, Valeria del Mar",
+      "Provincia de Buenos Aires (interior)",
+      "Pinamar, Cariló, Mar de Ostende, Montecarlo, Ostende, Valeria del Mar",
       "Pinamar"
     ],
     [
       "2255",
-      "Buenos Aires",
+      "Provincia de Buenos Aires (interior)",
       "Villa Gesell, Las Gaviotas, Mar Azul, Mar de las Pampas",
       "Villa Gesell"
     ],
     [
       "2257",
-      "Buenos Aires",
-      "Mar de Ajó, Aguas Verdes, Costa Azul, Costa Esmeralda, La Lucila del Mar, Nueva Atlantis, Pavón, San Bernardo del Tuyú",
+      "Provincia de Buenos Aires (interior)",
+      "Mar de Ajó, Aguas Verdes, Costa Azul, Costa Esmeralda, La Lucila del Mar, Nueva Atlantis, Paraje Pavón, San Bernardo del Tuyú",
       "Mar de Ajó"
     ],
     [
       "2261",
-      "Buenos Aires",
-      "Lobería, Arenas Verdes, Licenciado Matienzo, Pieres, San Manuel, Tamangueyú",
+      "Provincia de Buenos Aires (interior)",
+      "Lobería, Arenas Verdes, Dos Naciones, El Lenguaraz, El Moro, Las Nutrias, Las Toscas, Licenciado Matienzo, Pieres, San Manuel, Tamangueyú",
       "Lobería"
     ],
     [
       "2262",
-      "Buenos Aires",
+      "Provincia de Buenos Aires (interior)",
       "Necochea, Balneario Costa Bonita, Balneario Los Ángeles, Energía, Quequén",
       "Necochea"
     ],
     [
       "2264",
-      "Buenos Aires",
+      "Provincia de Buenos Aires (interior)",
       "Nicanor Olivera (Est. La Dulce), Claraz, Juan Fernández, Ramón Santamarina",
       "Nicanor Olivera (Est. La Dulce)"
     ],
     [
       "2265",
-      "Buenos Aires",
+      "Provincia de Buenos Aires (interior)",
       "Coronel Vidal, General Pirán, La Armonía, Mar Chiquita, Mar de Cobo, Vivoratá",
       "Coronel Vidal"
     ],
     [
       "2266",
-      "Buenos Aires",
+      "Provincia de Buenos Aires (interior)",
       "Balcarce, Los Pinos, Mechongué, Napaleofú, Ramos Otero, San Agustín, Villa Laguna La Brava",
       "Balcarce"
     ],
     [
       "2267",
-      "Buenos Aires",
-      "General Juan Madariaga",
+      "Provincia de Buenos Aires (interior)",
+      "General Juan Madariaga, Invernadas, Juancho, Macedo",
       "General Juan Madariaga"
     ],
     [
       "2268",
-      "Buenos Aires",
-      "Maipú, General Guido, Labardén, Las Armas, Santo Domingo",
+      "Provincia de Buenos Aires (interior)",
+      "Maipú, General Guido, Labardén, Las Armas, Monsalvo, Santo Domingo, Segurola",
       "Maipú"
     ],
     [
       "2271",
-      "Buenos Aires",
+      "Provincia de Buenos Aires (interior)",
       "San Miguel del Monte, Abbott, Gorchs, Zenón Videla Dorna",
       "San Miguel del Monte"
     ],
     [
       "2272",
-      "Buenos Aires",
+      "Provincia de Buenos Aires (interior)",
       "José Juan Almeyra, Las Marianas, Villa Moll",
       "José Juan Almeyra"
     ],
     [
       "2273",
-      "Buenos Aires",
-      "Carmen de Areco, Pueblo Gouin, Tres Sargentos",
+      "Provincia de Buenos Aires (interior)",
+      "Carmen de Areco, Gouin, Tres Sargentos",
       "Carmen de Areco"
     ],
     [
       "2274",
-      "Buenos Aires",
+      "Área metropolitana de Buenos Aires",
       "Carlos Spegazzini, Máximo Paz",
       "Carlos Spegazzini"
     ],
     [
       "2281",
-      "Buenos Aires",
-      "Azul, Ariel, Cacharí, Chillar, Dieciséis de Julio",
+      "Provincia de Buenos Aires (interior)",
+      "Azul, Ariel, Cacharí, Chillar, Dieciséis de Julio, Lazzarino, Martín Fierro, Miramonte, Nieves, Pablo Acosta, Parish, Shaw, Vicente Pereda",
       "Azul"
     ],
     [
       "2283",
-      "Buenos Aires",
-      "Tapalqué, Crotto, Velloso",
+      "Provincia de Buenos Aires (interior)",
+      "Tapalqué, Altona, Covello, Crotto, Eufemio Uballes, San Bernardo, Velloso, Yerbas",
       "Tapalqué"
     ],
     [
       "2284",
-      "Buenos Aires",
+      "Provincia de Buenos Aires (interior)",
       "Olavarría, Blanca Grande, Colonia Hinojo, Colonia Nievas, Colonia San Miguel, Espigas, Hinojo, Loma Negra, Recalde, Sierra Chica, Santa Luisa, Sierras Bayas, Villa La Serranía",
       "Olavarría"
     ],
     [
       "2285",
-      "Buenos Aires",
-      "Laprida, Pueblo Nuevo, Pueblo San Jorge",
+      "Provincia de Buenos Aires (interior)",
+      "Laprida, Las Hermanas, Paragüil, Pueblo Nuevo, Pueblo San Jorge, Santa Elena, Voluntad",
       "Laprida"
     ],
     [
       "2286",
-      "Buenos Aires",
+      "Provincia de Buenos Aires (interior)",
       "General La Madrid, La Colina, Las Martinetas, Líbano",
       "General La Madrid"
     ],
     [
       "2291",
-      "Buenos Aires",
+      "Provincia de Buenos Aires (interior)",
       "Miramar, Centinela del Mar, Comandante Nicanor Otamendi, Mar del Sud",
       "Miramar"
     ],
     [
       "2292",
-      "Buenos Aires",
+      "Provincia de Buenos Aires (interior)",
       "Benito Juárez, Barker, Estación López, Tedín Uriburu, Villa Cacique",
       "Benito Juárez"
     ],
     [
       "2296",
-      "Buenos Aires",
-      "Ayacucho, La Constancia, Solanet, Udaquiola",
+      "Provincia de Buenos Aires (interior)",
+      "Ayacucho, Cangallo, Fair, La Constancia, Solanet, Udaquiola",
       "Ayacucho"
     ],
     [
       "2297",
-      "Buenos Aires",
-      "Rauch, Egaña, Martín Colman, Miranda",
+      "Provincia de Buenos Aires (interior)",
+      "Rauch, Chapaleofú, Egaña, Martín Colman, Miranda",
       "Rauch"
     ],
     [
       "2302",
-      "La Pampa,  Buenos Aires",
+      "La Pampa  / Buenos Aires",
       "General Pico, Agustoni, Alta Italia, Bernardo Larroudé, Ceballos, Coronel Hilario Lagos, Dorila, Intendente Alvear, González Moreno, Metileo, Speluzzi, Trebolares, Trenel, Vértiz",
       "General Pico"
     ],
     [
       "2314",
-      "Buenos Aires",
+      "Provincia de Buenos Aires (interior)",
       "San Carlos de Bolívar, Coraceros, Hale, Henderson, Herrera Vegas, Juan F. Ibarra, María Lucila, Mariano Unzué, Paula, Pirovano, Urdampilleta, Villa Lynch Pueyrredón",
       "San Carlos de Bolívar"
     ],
     [
       "2316",
-      "Buenos Aires",
+      "Provincia de Buenos Aires (interior)",
       "Daireaux, Andant, Arboledas, La Larga",
       "Daireaux"
     ],
     [
       "2317",
-      "Buenos Aires",
+      "Provincia de Buenos Aires (interior)",
       "Nueve de Julio, Alfredo Demarchi, Carlos María Naón, Doce de Octubre, Dudignac, La Aurora, Manuel B. Gonnet, Marcelino Ugarte, Morea, Norumbega, Patricios, Santos Unzué, Villa General Fournier",
       "Nueve de Julio"
     ],
     [
       "2320",
-      "Buenos Aires",
+      "Área metropolitana de Buenos Aires",
       "José C. Paz, Grand Bourg, Tortuguitas",
       "José C. Paz"
     ],
     [
       "2323",
-      "Buenos Aires",
+      "Provincia de Buenos Aires (interior)",
       "Luján, Capilla del Señor, Carlos Keen, Cortines, El Remanso, José María Jáuregui, Lezica y Torrezuri, Olivera, Open Door, Parada Robles, Pavón, Torres, Villa Ruiz",
       "Luján"
     ],
     [
       "2324",
-      "Buenos Aires",
+      "Provincia de Buenos Aires (interior)",
       "Mercedes, Agote, General Rivas, Goldney, Gowland, Suipacha, Tomás Jofré",
       "Mercedes"
     ],
     [
       "2325",
-      "Buenos Aires",
+      "Provincia de Buenos Aires (interior)",
       "San Andrés de Giles, Azcuénaga, Cucullú, Franklin, Villa Espil",
       "San Andrés de Giles"
     ],
     [
       "2326",
-      "Buenos Aires",
+      "Provincia de Buenos Aires (interior)",
       "San Antonio de Areco, Duggan, Solís, Vagués, Villa Lía",
       "San Antonio de Areco"
     ],
@@ -556,7 +556,7 @@ const response = {
     ],
     [
       "2337",
-      "Buenos Aires",
+      "Provincia de Buenos Aires (interior)",
       "América, Fortín Olavarría, Mira Pampa, Roosevelt, Sansinena, San Mauricio, Sundblad,",
       "América"
     ],
@@ -568,133 +568,133 @@ const response = {
     ],
     [
       "2342",
-      "Buenos Aires",
+      "Provincia de Buenos Aires (interior)",
       "Bragado, Asamblea, Comodoro Py, Eduardo O'Brien, La Limpia, Máximo Fernández, Mechita, Warnes",
       "Bragado"
     ],
     [
       "2343",
-      "Buenos Aires",
+      "Provincia de Buenos Aires (interior)",
       "Norberto de La Riestra, Pedernales,",
       "Norberto de La Riestra"
     ],
     [
       "2344",
-      "Buenos Aires",
+      "Provincia de Buenos Aires (interior)",
       "Saladillo, Álvarez de Toledo, Cazón, Del Carril, Juan José Blaquier, General Alvear, Polvaredas,",
       "Saladillo"
     ],
     [
       "2345",
-      "Buenos Aires",
+      "Provincia de Buenos Aires (interior)",
       "25 de Mayo, Agustín Mosconi, Del Valle, Lucas Monteverde, San Enrique, Valdés",
       "25 de Mayo"
     ],
     [
       "2346",
-      "Buenos Aires",
+      "Provincia de Buenos Aires (interior)",
       "Chivilcoy, Alberti, Benítez, Coronel Seguí, Emilio Ayarza, Gobernador Ugarte, Gorostiaga, Henry Bell, Indacochea, La Rica, Moquehuá, Palemon Huergo, Plá, Ramón Biaus, San Sebastián, Villa Grisolía, Villa María, Villa Ortiz",
       "Chivilcoy"
     ],
     [
       "2352",
-      "Buenos Aires",
+      "Provincia de Buenos Aires (interior)",
       "Chacabuco, Castilla, Irala, Los Ángeles, O'Higgins, Olascoaga, Rawson",
       "Chacabuco"
     ],
     [
       "2353",
-      "Buenos Aires,  Santa Fe",
+      "Buenos Aires / Santa Fe",
       "General Arenales, Arribeños, Ascensión, Estación Arenales, Ferré, La Angelita, La Trinidad, Teodelina (parte).",
       "General Arenales"
     ],
     [
       "2354",
-      "Buenos Aires",
-      "Vedia, Alberdi Viejo, Colonia San Ricardo, El Dorado, Fortín Acha, Juan Bautista Alberdi, Villa Roth",
+      "Provincia de Buenos Aires (interior)",
+      "Vedia, Alberdi Viejo, Colonia San Ricardo, El Dorado, Fortín Acha, Juan Bautista Alberdi, Leandro N. Alem, Perkins, Trigales, Villa Roth",
       "Vedia"
     ],
     [
       "2355",
-      "Buenos Aires",
-      "Lincoln, Arenaza, Bayauca, Bermúdez, Coronel Martínez de Hoz, El Triunfo, Las Toscas, Pasteur, Roberts",
+      "Provincia de Buenos Aires (interior)",
+      "Lincoln, Arenaza, Balsa, Bayauca, Bermúdez, Carlos Salas, Coronel Martínez de Hoz, El Triunfo, Fortín Vigilancia, Las Toscas, Pasteur, Roberts, Triunvirato",
       "Lincoln"
     ],
     [
       "2356",
-      "Buenos Aires",
-      "General Pinto, Germania, Villa Francia",
+      "Provincia de Buenos Aires (interior)",
+      "General Pinto, Dos Hermanos, Dussaud, El Peregrino, Germania, Günther, Los Callejones, Pazos Kanki, Villa Francia",
       "General Pinto"
     ],
     [
       "2357",
-      "Buenos Aires",
+      "Provincia de Buenos Aires (interior)",
       "Carlos Tejedor, Carlos Salas, Colonia Seré, Curarú",
       "Carlos Tejedor"
     ],
     [
       "2358",
-      "Buenos Aires",
+      "Provincia de Buenos Aires (interior)",
       "Los Toldos, La Delfina, San Emilio, Zavalía",
       "Los Toldos"
     ],
     [
       "2392",
-      "Buenos Aires",
+      "Provincia de Buenos Aires (interior)",
       "Trenque Lauquen, Beruti, Bocayuva, De Bary, Girodias, La Carreta, Pellegrini, Treinta de Agosto",
       "Trenque Lauquen"
     ],
     [
       "2393",
-      "Buenos Aires",
+      "Provincia de Buenos Aires (interior)",
       "Salazar",
       "Salazar"
     ],
     [
       "2394",
-      "Buenos Aires",
+      "Provincia de Buenos Aires (interior)",
       "Tres Lomas, Ingeniero Thompson, Quenumá, Salliqueló",
       "Tres Lomas"
     ],
     [
       "2395",
-      "Buenos Aires",
+      "Provincia de Buenos Aires (interior)",
       "Carlos Casares, Bellocq, Cadret, Colonia Mauricio, Gobernador Arias, Hortensia, La Dorita, La Sofía, Mauricio Hirsch, Moctezuma, Ordoqui, Smith",
       "Carlos Casares"
     ],
     [
       "2396",
-      "Buenos Aires",
+      "Provincia de Buenos Aires (interior)",
       "Pehuajó, Abel, Capitán Castro, Chiclana, Francisco Madero, Juan José Paso, Magdala, Mones Cazón, Nueva Plata, San Bernardo de Pehuajó",
       "Pehuajó"
     ],
     [
       "2473",
-      "Buenos Aires,  Santa Fe",
+      "Provincia de Buenos Aires (interior) / Santa Fe",
       "Colón, El Arbolito, Hughes, Juncal, Sarasa, Santa Emilia (parte), Wheelwright",
       "Colón"
     ],
     [
       "2474",
-      "Buenos Aires",
+      "Provincia de Buenos Aires (interior)",
       "Salto, Berdier, Gahan, Inés Indart, La Invencible",
       "Salto"
     ],
     [
       "2475",
-      "Buenos Aires",
+      "Provincia de Buenos Aires (interior)",
       "Rojas, Las Carabelas, La Beba, Los Indios, Rafael Obligado, Roberto Cano, Sol de Mayo, Villa Manuel Pomar, Villa Parque Cecir",
       "Rojas"
     ],
     [
       "2477",
-      "Buenos Aires,  Santa Fe",
+      "Provincia de Buenos Aires (interior) / Santa Fe",
       "Pergamino, Acevedo, Arroyo Dulce, Fontezuela, General Gelly, Guerrico, J. A. de la Peña, Juan Anchorena, Manuel Ocampo, Mariano Benítez, Mariano H. Alfonzo, Pearson, Pinzón, Rancagua, Villa Angélica, Villa San José",
       "Pergamino"
     ],
     [
       "2478",
-      "Buenos Aires",
+      "Provincia de Buenos Aires (interior)",
       "Arrecifes, Capitán Sarmiento, La Luisa, Todd, Viña",
       "Arrecifes"
     ],
@@ -778,7 +778,7 @@ const response = {
     ],
     [
       "2901",
-      "Tierra del Fuego",
+      "Tierra del Fuego, Antártida e Islas del Atlántico Sur",
       "Ushuaia, Lago Escondido, Tolhuin",
       "Ushuaia"
     ],
@@ -796,79 +796,79 @@ const response = {
     ],
     [
       "2920",
-      "Río Negro,  Buenos Aires",
+      "Río Negro / Buenos Aires",
       "Viedma, Bahía Creek, Bahía San Blas, Balneario El Cóndor, Cardenal Cagliero, Carmen de Patagones, El Juncal, Guardia Mitre, José B. Casas, La Lobería, Los Pocitos, Loteo Costa de Río, Pozo Salado, San Javier, Stroeder, Villa Balnearia 7 de Marzo",
       "Viedma"
     ],
     [
       "2921",
-      "Buenos Aires",
+      "Provincia de Buenos Aires (interior)",
       "Coronel Dorrego, Aparicio, Balneario Pehuen-Có, Balneario Sauce Grande, El Perdido, Faro, Irene, Monte Hermoso, San Román",
       "Coronel Dorrego"
     ],
     [
       "2922",
-      "Buenos Aires",
+      "Provincia de Buenos Aires (interior)",
       "Coronel Pringles, El Divisorio, El Pensamiento, Frapal, Lartigau, Pontaut",
       "Coronel Pringles"
     ],
     [
       "2923",
-      "Buenos Aires",
+      "Provincia de Buenos Aires (interior)",
       "Pigüé, Arroyo Corto, Azopardo, Colonia San Martín, Dufaur, Espartillar, Estela, Goyena, Puan, Saavedra, San Germán, Villa Castelar",
       "Pigüé"
     ],
     [
       "2924",
-      "Buenos Aires,  La Pampa",
+      "Provincia de Buenos Aires (interior) / La Pampa",
       "Darregueira, Bordenave, Guatraché, San Miguel Arcángel, Santa Teresa, Villa Durcudoy (17 de Agosto)",
       "Darregueira"
     ],
     [
       "2925",
-      "Buenos Aires,  La Pampa",
+      "Provincia de Buenos Aires (interior) / La Pampa",
       "Villa Iris, Abramo, Bernasconi, Felipe Solá, General San Martín, Hucal, Jacinto Aráuz, López Lecube, Perú",
       "Villa Iris"
     ],
     [
       "2926",
-      "Buenos Aires",
+      "Provincia de Buenos Aires (interior)",
       "Coronel Suárez, Cascada, Cura Malal, D'Orbigny, Pasman, San José, Santa María, Santa Trinidad",
       "Coronel Suárez"
     ],
     [
       "2927",
-      "Buenos Aires",
+      "Provincia de Buenos Aires (interior)",
       "Médanos, Argerich, Balneario Chapalcó, La Mascota, Nicolás Levalle",
       "Médanos"
     ],
     [
       "2928",
-      "Buenos Aires",
-      "Pedro Luro , Hilario Ascasubi, Juan A. Pradere, Villalonga",
-      "Pedro Luro "
+      "Provincia de Buenos Aires (interior)",
+      "Pedro Luro, Hilario Ascasubi, Juan A. Pradere, Villalonga",
+      "Pedro Luro"
     ],
     [
       "2929",
-      "Buenos Aires",
+      "Provincia de Buenos Aires (interior)",
       "Guaminí, Arroyo Venado, Casbas, Garré, Laguna Alsina",
       "Guaminí"
     ],
     [
       "2931",
-      "Río Negro, La Pampa",
+      "Río Negro / La Pampa",
       "Río Colorado, Anzoategui, Colonia Juliá y Echarren, General Conesa, La Adela",
       "Río Colorado"
     ],
     [
       "2932",
-      "Buenos Aires",
+      "Provincia de Buenos Aires (interior)",
       "Punta Alta, Bajo Hondo, Villa del Mar, Villa General Arias",
       "Punta Alta"
     ],
     [
       "2933",
-      "Buenos Aires",
+      "Provincia de Buenos Aires (interior)",
       "Huanguelén",
       "Huanguelén"
     ],
@@ -880,15 +880,15 @@ const response = {
     ],
     [
       "2935",
-      "Buenos Aires",
+      "Provincia de Buenos Aires (interior)",
       "Rivera, Villa Maza",
       "Rivera"
     ],
     [
       "2936",
-      "Buenos Aires",
-      "Carhué , Delfín Huergo, Esteban Agustín Gascón, La Pala, Thames, Yutuyaco",
-      "Carhué "
+      "Provincia de Buenos Aires (interior)",
+      "Carhué, Delfín Huergo, Esteban Agustín Gascón, La Pala, Thames, Yutuyaco",
+      "Carhué"
     ],
     [
       "2940",
@@ -898,7 +898,7 @@ const response = {
     ],
     [
       "2942",
-      "Neuquén, Río Negro",
+      "Neuquén  / Río Negro",
       "Zapala, Aluminé, Arroyito, Bajada del Agrio, Covunco Abajo, La Buitrera, Las Coloradas, Las Lajas, Los Catutos, Mari Menuco, Mariano Moreno, Naupa Huen, Paso Aguerre, Picún Leufú, Piedra del Águila, Ramón M. Castro, Santo Tomás, Villa Pehuenia",
       "Zapala"
     ],
@@ -952,7 +952,7 @@ const response = {
     ],
     [
       "2964",
-      "Tierra del Fuego",
+      "Tierra del Fuego, Antártida e Islas del Atlántico Sur",
       "Río Grande",
       "Río Grande"
     ],
@@ -970,19 +970,19 @@ const response = {
     ],
     [
       "2982",
-      "Buenos Aires",
+      "Provincia de Buenos Aires (interior)",
       "Orense, Balneario Orense, Claromecó, San Francisco de Bellocq",
       "Orense"
     ],
     [
       "2983",
-      "Buenos Aires",
-      "Tres Arroyos, Adolfo Gonzales Chaves, Balneario Marisol, Balneario San Cayetano, Barrow, Copetonas, De la Garma, Dunamar, Indio Rico, Juan Eulogio Barra, Lin Calel, Micaela Cascallares, Ochandío, Oriente, Reta, San Cayetano, San Mayol, Vásquez",
+      "Provincia de Buenos Aires (interior)",
+      "Tres Arroyos, Adolfo Gonzales Chaves, Balneario Marisol, Balneario San Cayetano, Barrow, Claudio Molina, Copetonas, Cristiano Muerto, De la Garma, Defferrari, Dunamar, Indio Rico, Juan Eulogio Barra, La Sortija, Las Vaquerías, Lin Calel, Lumb, Micaela Cascallares, Ochandío, Oriente, Reta, San Cayetano, San Mayol, Vásquez",
       "Tres Arroyos"
     ],
     [
       "3327",
-      "Buenos Aires",
+      "Área metropolitana de Buenos Aires",
       "Benavídez, Ricardo Rojas",
       "Benavídez"
     ],
@@ -994,7 +994,7 @@ const response = {
     ],
     [
       "3382",
-      "Santa Fe, Buenos Aires, Córdoba",
+      "Santa Fe  / Buenos Aires / Córdoba",
       "Rufino, Aarón Castellanos, Amenábar, Cañada Seca, Christophersen, Diego de Alvear, La Cesira, Leguizamón, San Gregorio, Santa Regina, Villa Saboya",
       "Rufino"
     ],
@@ -1012,7 +1012,7 @@ const response = {
     ],
     [
       "3388",
-      "Buenos Aires",
+      "Provincia de Buenos Aires (interior)",
       "General Villegas, Ameghino, Banderaló, Blaquier, Coronel Charlone, Emilio V. Bunge, Massey, Pichincha, Piedritas, Porvenir, Santa Eleodora, Tres Algarrobos, Timote, Villa Sauze",
       "General Villegas"
     ],
@@ -1054,7 +1054,7 @@ const response = {
     ],
     [
       "3407",
-      "Buenos Aires",
+      "Provincia de Buenos Aires (interior)",
       "Ramallo, El Paraíso, Las Bahamas, Villa General Savio, Villa Ramallo",
       "Ramallo"
     ],
@@ -1151,8 +1151,8 @@ const response = {
     [
       "3460",
       "Santa Fe",
-      "Santa Teresa , Cañada Rica, Cepeda, Godoy, Juan Bernabé Molina, La Vanguardia, Máximo Paz, Peyrano, Sargento Cabral, Stephenson",
-      "Santa Teresa "
+      "Santa Teresa, Cañada Rica, Cepeda, Godoy, Juan Bernabé Molina, La Vanguardia, Máximo Paz, Peyrano, Sargento Cabral, Stephenson",
+      "Santa Teresa"
     ],
     [
       "3462",
@@ -1186,13 +1186,13 @@ const response = {
     ],
     [
       "3467",
-      "Córdoba, Santa Fe",
+      "Córdoba / Santa Fe",
       "Cruz Alta, Arteaga, Colonia Veinticinco, Inriville, Los Nogales, Los Surgentes, Monte Buey, Saladillo, San José de la Esquina",
       "Cruz Alta"
     ],
     [
       "3468",
-      "Córdoba, Santa Fe",
+      "Córdoba  / Santa Fe",
       "Corral de Bustos, Alejo Ledesma, Arias, Cafferata, Camilo Aldao, Chañar Ladeado, Colonia Barge, Capitán General Bernardo O'Higgins, Cavanagh, Colonia Bismarck, Colonia Italiana, General Baldissera, Guatimozín, Isla Verde, Monte Maíz, Wenceslao Escalante",
       "Corral de Bustos"
     ],
@@ -1234,19 +1234,19 @@ const response = {
     ],
     [
       "3487",
-      "Buenos Aires",
+      "Área metropolitana de Buenos Aires",
       "Zárate, Barrio Saavedra, Escalada, Gobernador Andonaegui, Lima",
       "Zárate"
     ],
     [
       "3489",
-      "Buenos Aires",
+      "Área metropolitana de Buenos Aires",
       "Campana, Alto Los Cardales, Barrio Los Pioneros, Ingeniero Rómulo Otamendi, Lomas del Río Luján",
       "Campana"
     ],
     [
       "3491",
-      "Santa Fe, Santiago del Estero",
+      "Santa Fe / Santiago del Estero",
       "Ceres, Ambrosetti, Arrufó, Colonia Alpina, Colonia Ana, Curupaity, Esteban Rams, Gato Colorado, Gregoria Pérez de Denis, Hersilia, La Rubia, Logroño, Montefiore, Pozo Borrado, San Bernardo, Santa Margarita, Tostado, Villa Minetti, Villa Trinidad",
       "Ceres"
     ],
@@ -1283,8 +1283,8 @@ const response = {
     [
       "3521",
       "Córdoba",
-      "Deán Funes , Caminiaga, Chuña, Copacabana, El Tuscal, Los Pozos, Lucio V. Mansilla, Quilino, San José de La Dormida, San José de Las Salinas, San Pedro de Toyos, San Pedro Norte, Villa Quilino, Villa Tulumba",
-      "Deán Funes "
+      "Deán Funes, Caminiaga, Chuña, Copacabana, El Tuscal, Los Pozos, Lucio V. Mansilla, Quilino, San José de La Dormida, San José de Las Salinas, San Pedro de Toyos, San Pedro Norte, Villa Quilino, Villa Tulumba",
+      "Deán Funes"
     ],
     [
       "3522",
@@ -1372,7 +1372,7 @@ const response = {
     ],
     [
       "3562",
-      "Córdoba, Santa Fe",
+      "Córdoba  / Santa Fe",
       "Morteros, Altos de Chipión, Brinkmann, Colonia Diez de Julio, Colonia Dos Rosas y La Legua, Colonia Rosa, Colonia San Pedro, Colonia Valtelina, La Paquita, Monte Oscuridad, San Guillermo, Suardi",
       "Morteros"
     ],
@@ -1384,7 +1384,7 @@ const response = {
     ],
     [
       "3564",
-      "Córdoba, Santa Fe",
+      "Córdoba / Santa Fe",
       "San Francisco, Barrios Acapulco y Veracruz, Colonia Anita, Colonia Iturraspe, Colonia Marina, Colonia Prosperidad, Colonia San Bartolomé, Colonia Santa María, Colonia Vignaud, Devoto, Estación Luxardo, Freyre, Frontera, La Francia, Plaza Luxardo, Plaza San Francisco, Porteña, Quebracho Herrado, Seeber, Villa Josefina, Zenón Pereyra",
       "San Francisco"
     ],
@@ -1426,7 +1426,7 @@ const response = {
     ],
     [
       "3582",
-      "Córdoba, San Luis",
+      "Córdoba / San Luis",
       "Sampacho, Achiras, Bulnes, Chaján, Coronel Moldes, La Punilla, Malena, Suco",
       "Sampacho"
     ],
@@ -1456,7 +1456,7 @@ const response = {
     ],
     [
       "3715",
-      "Formosa, Chaco",
+      "Formosa / Chaco",
       "Las Lomitas, El Espinillo, El Sauzal, El Sauzalito, Fuerte Esperanza, Misión Nueva Pompeya, Pozo del Tigre, Wichí - El Pintado",
       "Las Lomitas"
     ],
@@ -1487,8 +1487,8 @@ const response = {
     [
       "3731",
       "Chaco",
-      "Charata , Corzuela, Fortín Las Chuñas, Gancedo, General Capdevila, General Pinedo, Las Breñas, Mesón de Fierro, Pampa Landriel",
-      "Charata "
+      "Charata, Corzuela, Fortín Las Chuñas, Gancedo, General Capdevila, General Pinedo, Las Breñas, Mesón de Fierro, Pampa Landriel",
+      "Charata"
     ],
     [
       "3734",
@@ -1546,7 +1546,7 @@ const response = {
     ],
     [
       "3758",
-      "Misiones, Corrientes",
+      "Misiones  / Corrientes",
       "Apóstoles, Azara, Barra Concepción, Barrio Rural, Colonia Liebig, Concepción de la Sierra, La Corita, Pindapoy, Puerto Azara, San Carlos, San José, Santa María, Tres Capones",
       "Apóstoles"
     ],
@@ -1624,7 +1624,7 @@ const response = {
     ],
     [
       "3832",
-      "Catamarca, Santiago del Estero",
+      "Catamarca / Santiago del Estero",
       "Recreo, Casa de Piedra, El Aybal, El Bañado, El Divisadero, El Quimilo, Esquiú, Icaño, La Dorada, Las Esquinas, La Guardia, Las Palmitas, Quirós, Ramblones, San Antonio de La Paz",
       "Recreo"
     ],
@@ -1637,8 +1637,8 @@ const response = {
     [
       "3837",
       "Catamarca",
-      "Tinogasta , Anillaco, Antinaco, Banda de Lucero, Cerro Negro, Copacabana, Cordobita, Costa de Reyes, El Pueblito, El Puesto (Tinogasta), El Salado, Fiambalá, La Puntilla (Tinogasta), La Ramadita, Los Balverdi, Medanitos, Palo Blanco, Pampa Blanca, Punta del Agua, Santa Rosa, Saujil (Tinogasta), Tatón",
-      "Tinogasta "
+      "Tinogasta, Anillaco, Antinaco, Banda de Lucero, Cerro Negro, Copacabana, Cordobita, Costa de Reyes, El Pueblito, El Puesto, El Salado, Fiambalá, La Puntilla, La Ramadita, Los Balverdi, Medanitos, Palo Blanco, Pampa Blanca, Punta del Agua, Santa Rosa, Saujil, Tatón",
+      "Tinogasta"
     ],
     [
       "3838",
@@ -1745,8 +1745,8 @@ const response = {
     [
       "3869",
       "Tucumán",
-      "Ranchillos y San Miguel , Colonia Mayo, Las Cejas, Los Ralos, Villa Rescate, Villa Tercera",
-      "Ranchillos y San Miguel "
+      "Ranchillos y San Miguel, Colonia Mayo, Las Cejas, Los Ralos, Villa Rescate, Villa Tercera",
+      "Ranchillos y San Miguel"
     ],
     [
       "3873",
@@ -1762,7 +1762,7 @@ const response = {
     ],
     [
       "3877",
-      "Salta, Chaco",
+      "Salta  / Chaco",
       "Joaquín Víctor González, Apolinario Saravia, Ceibalito, Centro 25 de Junio, Coronel Mollinedo, Coronel Olleros, El Quebrachal, Gaona, General Pizarro, Las Lajitas, Luis Burela, Macapillo, Piquete Cabado, Río del Valle, San José de la Orquera, Taco Pozo, Tolloche",
       "Joaquín Víctor González"
     ],
@@ -1774,7 +1774,7 @@ const response = {
     ],
     [
       "3885",
-      "Jujuy,  Salta",
+      "Jujuy   / Salta",
       "La Quiaca, Acoyte, Barrios, Campo La Cruz, Cusi Cusi, Lagunillas del Farallón, Liviara, Nazareno, Poscaya, San Marcos, Santa Victoria Oeste, Yavi",
       "La Quiaca"
     ],
