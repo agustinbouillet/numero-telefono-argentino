@@ -434,13 +434,13 @@ class TelefonoArgentino {
         const areaCodeList = [13, 10, 7];
 
         const data = {
-            filter_input: (result[0] ? result[0] : false),
-            international: (result[1] ? result[1] : false),
-            country: (result[2] ? result[2] : false),
-            national_call: (result[3] ? result[3] : false),
-            mobile: (result[4] ? result[4] : false),
-            specific: (result[23] ? result[23] : false),
-            special: (result[25] ? result[25] : false),
+            filter_input: (result[0] ?? false),
+            international: (result[1] ?? false),
+            country: (result[2] ?? false),
+            national_call: (result[3] ?? false),
+            mobile: (result[4] ?? false),
+            specific: (result[23] ?? false),
+            special: (result[25] ?? false),
 
             number: this._validateValue(numberList, result),
             mobile_prefix: this._validateValue(mobilePrefixList, result),
