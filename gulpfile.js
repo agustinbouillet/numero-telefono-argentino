@@ -13,16 +13,16 @@ var generalCompressOptions = {
  * Monitor
  * Mapa
  */
-gulp.task('js__telefonos_argentinos', function(){
+gulp.task('js__telefono-argentino', function(){
     return gulp.src([
-            'src/telefonos_argentinos.js'
+            'src/telefono-argentino.js'
         ])
-        .pipe(concat('telefonos_argentinos.js'))
+        .pipe(concat('telefono-argentino.js'))
         .pipe(uglify(generalCompressOptions))
         .pipe(gulp.dest('dist/'));
 });
 
 // Execute
 gulp.task('default', gulp.series(
-    'js__telefonos_argentinos'
+    'js__telefono-argentino'
 ));
