@@ -1,6 +1,6 @@
 {
   "name": "numero-telefono-argentino",
-  "version": "1.2.1",
+  "version": "1.2.2",
   "description": "Validador de números de teléfono argentinos",
   "main": "./dist/telefonos_argentinos.js",
   "directories": {
@@ -17,11 +17,12 @@
     "argentinianTelephoneNumberValidator",
     "validator",
     "telephoneNumberFormat",
+    "telephoneNumberValidator",
     "enacom",
     "numeroDeTelefono"
   ],
-  "author": "Agustín Bouillet",
-  "license": "ISC",
+  "author": "Agustín Bouillet <agustin.bouillet@gmail.com> (https://www.bouillet.com.ar)",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/agustinbouillet/numero-telefono-argentino/issues"
   },
