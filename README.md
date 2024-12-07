@@ -5,23 +5,23 @@
 ### NPM
 
 ```bash
-npm i numero-telefono-argentino
+npm i telefono-argentino
 ```
 
 ### Yarn
 
 ```bash
-yarn add numero-telefono-argentino
+yarn add telefono-argentino
 ```
 
 ### CDN 
 
 #### jsDelivr
 
-[https://www.jsdelivr.com/package/npm/numero-telefono-argentino](https://www.jsdelivr.com/package/npm/numero-telefono-argentino)
+[https://www.jsdelivr.com/package/npm/telefono-argentino](https://www.jsdelivr.com/package/npm/telefono-argentino)
 
 ```bash
-https://cdn.jsdelivr.net/npm/numero-telefono-argentino@1.2.1/dist/telefono-argentino.js
+https://cdn.jsdelivr.net/npm/telefono-argentino@1.2.1/dist/telefono-argentino.js
 ```
 
 
