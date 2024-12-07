@@ -5,7 +5,7 @@
 ### NPM
 
 ```bash
-npm -i numero-telefono-argentino
+npm i numero-telefono-argentino
 ```
 
 ### Yarn
