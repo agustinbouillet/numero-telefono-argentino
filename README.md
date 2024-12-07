@@ -1,5 +1,29 @@
 # Validador de números de teléfono argentinos
 
+## Instalación
+
+### NPM
+
+```bash
+npm -i numero-telefono-argentino
+```
+
+### Yarn
+
+```bash
+yarn add numero-telefono-argentino
+```
+
+### CDN 
+
+#### jsDelivr
+
+[https://www.jsdelivr.com/package/npm/numero-telefono-argentino](https://www.jsdelivr.com/package/npm/numero-telefono-argentino)
+
+```bash
+https://cdn.jsdelivr.net/npm/numero-telefono-argentino@1.2.1/dist/telefono-argentino.js
+```
+
 
 ## Uso
 
