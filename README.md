@@ -14,12 +14,11 @@ npm i telefono-argentino
 yarn add telefono-argentino
 ```
 
-### CDN 
+### CDN
 
 #### jsDelivr
 
 [https://www.jsdelivr.com/package/npm/telefono-argentino](https://www.jsdelivr.com/package/npm/telefono-argentino)
-
 
 
 ## Uso
@@ -37,7 +36,9 @@ Retorna un array asociativo con los tipos de datos pertenecienes al número tele
 ```javascript
 tel.getData();
 ```
+
 ##### Ejemplo datos de retorno
+
 ```javascript
 {
     area_code : "11",
@@ -193,7 +194,7 @@ tel.getData().format;
 // '(11) 4639-1234'
 ```
 
-Sin código de pais y código de área. Cómo el paréntesis queda vacío, se remueve. Los espacios y elementos agregados antes y después, no se imprimen.
+Sin código de país y código de área. Cómo el paréntesis queda vacío, se remueve. Los espacios y elementos agregados antes y después, no se imprimen.
 
 ```javascript
 const tel = new TelefonoArgentino(
@@ -246,8 +247,7 @@ tel.getData().format;
 // '+54 362 4.448.012'
 ```
 
-
----- 
+----
 
 ## Información geográfica
 
@@ -296,7 +296,7 @@ regionByAreaCode().then((data) => {
 - https://es.wikipedia.org/wiki/Números_telefónicos_en_Argentina, Wikipedia, Números telefónicos en Argentina, 2016
 
 
----
+----
 
 
 [![paypal](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=C5TSLQQEEE5PQ)
