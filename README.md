@@ -20,9 +20,6 @@ yarn add telefono-argentino
 
 [https://www.jsdelivr.com/package/npm/telefono-argentino](https://www.jsdelivr.com/package/npm/telefono-argentino)
 
-```bash
-https://cdn.jsdelivr.net/npm/telefono-argentino@1.2.1/dist/telefono-argentino.js
-```
 
 
 ## Uso
