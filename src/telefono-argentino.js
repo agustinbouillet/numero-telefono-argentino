@@ -40,11 +40,7 @@ class TelefonoArgentino {
 
     constructor(str, options){
         if(!str){
-            // try {
-                throw new Error("Debe ingresar un número de teléfono.");
-            // } catch (e) {
-            //     console.error(`${e.name}: ${e.message}`);
-            // }
+            throw new Error("Debe ingresar un número de teléfono.");
         }
         
         const defaults = {
@@ -477,7 +473,6 @@ class TelefonoArgentino {
 
 }
 
-
 if (typeof exports !== "undefined") {
     module.exports = TelefonoArgentino;
-}
+} 
