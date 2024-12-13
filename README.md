@@ -1,5 +1,8 @@
 # Validador de números de teléfono argentinos
 
+[![GitHub version](https://badge.fury.io/gh/agustinbouillet%2Ftelefono-argentino.svg)](https://badge.fury.io/gh/agustinbouillet%2Ftelefono-argentino) [![npm version](https://badge.fury.io/js/telefono-argentino.svg)](https://badge.fury.io/js/telefono-argentino) [![](https://data.jsdelivr.com/v1/package/npm/telefono-argentino/badge?style=rounded)](https://www.jsdelivr.com/package/npm/telefono-argentino)
+
+
 ## Instalación
 
 ### NPM
