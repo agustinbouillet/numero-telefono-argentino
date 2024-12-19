@@ -50,8 +50,16 @@ const render = number => {
         "#id_table_region_container"
     ];
     selectors.forEach(e => document.querySelector(e).innerHTML = "");
-
+    const isValid = document.querySelector('.is-valid');
+    isValid.innerHTML = "";
     const tel = new TelefonoArgentino(number);
+
+    if(tel.isValid()){
+        isValid.innerHTML = `<p class="py-2 alert alert-success" role="alert">Número válido</p>`;
+    } else {
+        isValid.innerHTML = `<p class="py-2 alert alert-danger" role="alert">Número inválido</p>`;
+    }
+
     
     if(tel.invalidChars()){
         renderTable(

@@ -1,6 +1,17 @@
-# Validador de números de teléfono argentinos
 
 [![GitHub version](https://badge.fury.io/gh/agustinbouillet%2Ftelefono-argentino.svg)](https://badge.fury.io/gh/agustinbouillet%2Ftelefono-argentino) [![npm version](https://badge.fury.io/js/telefono-argentino.svg)](https://badge.fury.io/js/telefono-argentino) [![](https://data.jsdelivr.com/v1/package/npm/telefono-argentino/badge?style=rounded)](https://www.jsdelivr.com/package/npm/telefono-argentino) [![Colaborá con el script: telefono-argentino.js, haciéndo una donación por PayPal](https://raw.githubusercontent.com/k4m4/donations/refs/heads/master/images/badge.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=C5TSLQQEEE5PQ)
+
+
+# Validador de números de teléfono argentinos
+
+Este _script_ valida números de teléfono argentinos utilizando el listado oficial de [numeración geográfoca publicada por ENACOM](https://www.enacom.gob.ar/asignaciones-a-la-fecha_p445) (Ente Nacional de Comunicaciones).
+
+La validación, para números no específicos, se basa en comparar el código de área y el bloque numérico asignado a cada una de las operadoras. Si estas condiciones se cumplen, se considera que los números subsiguientes podrían pertenecer a un abonado.
+
+Actualmente, no existe un servicio que permita verificar si un número completo (código de área, bloque y número asignado), pertenece efectivamente a un abonado en servicio. Por lo tanto, este _script_ asume esa posibilidad, quedando su interpretación y uso a criterio del usuario.
+
+
+**Versión numeración geográfica (ENACOM)**: 22 de octubre de 2024.
 
 
 
@@ -28,7 +39,7 @@ yarn add telefono-argentino
 ## Uso
 
 ```js
-var tel = new TelefonoArgentino('5491150716006');
+var tel = new TelefonoArgentino('5491150176006');
 ```
 
 ### Métodos
@@ -47,18 +58,20 @@ tel.getData();
 {
     area_code : "11",
     country :"54",
-    filter_input :"5491150716006",
-    format :"+54 9 11 5071-6006",
+    filter_input :"5491150176006",
+    format :"+54 9 11 5017-6006",
     htmlify :"<span class="country">+54</span> <span class="mobile">9</span> <span class="area_code">11</span> <span class="number">5071-6006</span>"
-    input :"5491150716006",
+    input :"5491150176006",
     international : false,
     mobile :"9",
     mobile_prefix : false,
     national_call : false,
-    number :"50716006",
+    number :"50176006",
     special : false,
     specific : false,
     type :"mobile",
+    block_number: "5017",
+    given_number: "6006"
 }
 ```
 
@@ -124,11 +137,11 @@ Retorna
 <span class="country" data-country="1">+54</span> <span class="mobile" data-mobile="1">9</span> <span class="area-code" data-area_code="1">11</span> <span class="number" data-number="1">4639-1234</span>
 ```
 
-### Opciones
+## Opciones
 
-#### Formatos de salida
+### Formatos de salida
 
-##### Formato
+#### Formato
 
 Para darle formato al número de teléfono puede configurarse un _template_ y pasarlo al parámetro opciones usando la clave: `format`.
 
@@ -168,7 +181,7 @@ También se pueden utilizar las claves por separado; sin usar la concatenación.
 
 Es importante tener en cuenta que si la clave no tiene valor, si éste es `false`; no va a imprimir nada, y esto incluye el separador.
 
-###### Ejemplos
+##### Ejemplos
 
 Caso con número, código de área y código país.
 
@@ -214,7 +227,7 @@ tel.getData().format;
 
 ****
 
-##### Formato de número
+#### Formato de número
 
 El número puede estar segmentado en la cantidad de partes que se desee utilizando la combinación del caracter _numeral_ y _guión_. El formato se debe pensar de derecha a izquierda. Por ejemplo; para que un número de ocho dígitos se divida en _miles_, el formato sería este:
 `##-###-###`. El número `12345678`, qudaría de este modo: `12-345-678`.
@@ -226,7 +239,7 @@ const tel = new TelefonoArgentino("+54.3624448012", {numberFormat: "##-###-###"}
 tel.getData().format;
 
 // '+54 362 4-448-012'
-``````
+```
 
 ```javascript
 const tel = new TelefonoArgentino("+54.3624448012", {numberFormat: "##-##-##-##"});
@@ -234,7 +247,6 @@ tel.getData().format;
 
 // '+54 362 4-44-80-12'
 ```
-
 
 Se puede incorporar el parámetro `numberFormatSeparator`, para cambiar el separador de dígitos.
 
@@ -257,13 +269,14 @@ tel.getData().format;
 
 La información referenciada de las regiones se puede obtener de un _Google spreadsheet_ en:
 
+
 ```
 https://sheets.googleapis.com/v4/spreadsheets/14H7VE3zfllDDTC73L0bL7nyjkdodPMXvqs1CH__xgFY/values/db?key={{your-google-api-key}}&alt=json
 ```
 
 O usar el archivo response.json ubicado dentro del directorio _data_, dentro del repositorio.
 
-### Ejemplo de conexión con google sheet
+## Ejemplo de conexión con google sheet
 
 ```javascript
 /**
