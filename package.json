@@ -1,6 +1,6 @@
 {
   "name": "telefono-argentino",
-  "version": "1.2.9",
+  "version": "2.0.0",
   "description": "Validador de números de teléfono argentinos",
   "main": "./dist/telefono-argentino.js",
   "directories": {
