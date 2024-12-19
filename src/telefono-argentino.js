@@ -293,7 +293,18 @@ class TelefonoArgentino {
      * new TelefonoArgentino(911).isValid();
      * @return {Boolean}
      */
-    isValid = () => (this.getData() ? true : false);
+    isValid = () => {
+        // (this.getData() ? true : false)
+        const {specific, special, block_number} = this.getData();
+
+        if(specific || special){
+            return true;
+        } else if(specific == false && special == false && block_number){
+            return true;
+        }
+
+        return false;
+    };
 
 
     /**
@@ -393,7 +404,7 @@ class TelefonoArgentino {
             return false;
         }
 
-        areaCode = (areaCode == false && value.length == 8 ? "11" : areaCode);
+        // areaCode = (areaCode == false && value.length == 8 ? "11" : areaCode);
 
         if(!this.BLOCK_RANGES.hasOwnProperty(areaCode)){
             return false;
@@ -473,7 +484,9 @@ class TelefonoArgentino {
 
         const number = this._validateValue(numberList, result);
         const areaCode = this._validateValue(areaCodeList, result);
-        const blockNumber = this._blockNumber(areaCode, number);
+        const areaCodeRefactor = (areaCode == false && number.length == 8 ? 
+                "11" : areaCode);
+        const blockNumber = this._blockNumber(areaCodeRefactor, number);
 
         const data = {
             filter_input: (result[0] ?? false),
